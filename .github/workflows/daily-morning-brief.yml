@@ -2,11 +2,71 @@ name: Send daily morning brief
 
 on:
   workflow_dispatch:
+  schedule:
+    # 12:05 UTC = 7:05 AM Central during daylight saving time
+    - cron: "5 12 * * *"
 
 jobs:
-  test:
+  brief:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Confirm workflow
-        run: echo "Daily morning brief workflow is registered."
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install ffmpeg for audio joining
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Collect a final pre-brief refresh
+        env:
+          LEXOLOGY_NEWSFEED_URL: ${{ secrets.LEXOLOGY_NEWSFEED_URL }}
+          IMAP_HOST: ${{ secrets.IMAP_HOST }}
+          IMAP_USER: ${{ secrets.IMAP_USER }}
+          IMAP_APP_PASSWORD: ${{ secrets.IMAP_APP_PASSWORD }}
+          ELINFONET_SENDER: update@elinfonet.com
+        run: python scraper.py
+
+      - name: Create written briefing
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+          LOOKBACK_HOURS: "30"
+          MAX_STORIES_FOR_AI: "120"
+        run: python daily_digest.py
+
+      - name: Create optional audio briefing
+        continue-on-error: true
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TTS_MODEL: gpt-4o-mini-tts
+          TTS_VOICE: marin
+        run: python audio_brief.py
+
+      - name: Email the briefing through Brevo
+        continue-on-error: true
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BRIEF_TO_EMAIL: ${{ secrets.BRIEF_TO_EMAIL }}
+          BRIEF_TO_NAME: ${{ vars.BRIEF_TO_NAME }}
+          BRIEF_FROM_EMAIL: ${{ secrets.BRIEF_FROM_EMAIL }}
+          BRIEF_FROM_NAME: JAM Morning Brief
+        run: python send_email.py
+
+      - name: Upload today's brief as a workflow artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jam-morning-brief-${{ github.run_id }}
+          path: output/
+          retention-days: 14
