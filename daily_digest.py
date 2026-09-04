@@ -10,6 +10,7 @@ import requests
 from dateutil import parser as dateparser
 
 from dedupe import dedupe_exact, dedupe_near, normalize_title, canonical_url
+from rapidfuzz.fuzz import ratio
 
 ROOT = Path(__file__).resolve().parent
 DATA_FILE = ROOT / "data" / "news.json"
@@ -105,6 +106,43 @@ def is_employment_relevant(item):
     return any(term in text for term in EMPLOYMENT_TERMS)
 
 
+STRONG_EMPLOYMENT_TERMS = [
+    "eeoc", "nlrb", "department of labor", "dol ", "wage", "overtime",
+    "minimum wage", "discrimination", "harassment", "retaliation",
+    "ada", "fmla", "paid leave", "sick leave", "pregnan", "lactation",
+    "union", "collective bargaining", "worker classification",
+    "independent contractor", "noncompete", "restrictive covenant",
+    "paga", "cal/osha", "dlse", "civil rights department",
+    "employment law", "labor law", "workplace law", "pay transparency",
+]
+
+LEGAL_SIGNAL_TERMS = [
+    "court", "circuit", "supreme court", "district court", "lawsuit", "sued",
+    "ruling", "decision", "holding", "opinion", "statute", "legislation",
+    "bill", "law", "regulation", "rule", "guidance", "agency", "enforcement",
+    "settlement", "injunction", "appeal", "administrative",
+]
+
+
+def is_strong_employment_legal(item):
+    text = " ".join([
+        item.get("title", ""),
+        item.get("summary", ""),
+        item.get("category_hint", ""),
+    ]).lower()
+
+    if any(term in text for term in STRONG_EMPLOYMENT_TERMS):
+        return True
+
+    employment_signal = any(term in text for term in [
+        "employment", "employee", "employer", "labor", "workplace",
+        "worker", "workers", "hiring", "termination", "layoff",
+        "human resources", "personnel",
+    ])
+    legal_signal = any(term in text for term in LEGAL_SIGNAL_TERMS)
+    return employment_signal and legal_signal
+
+
 def item_rank(item):
     return (
         2 if item.get("source") in TRUSTED_LEGAL_SOURCES else 0,
@@ -148,24 +186,36 @@ def select_general_candidates(items, max_items):
 def select_legal_candidates(items, max_items):
     selected, seen = [], set()
 
-    # 1. Review specialist legal feeds broadly. The legal editor, not a keyword filter,
-    # decides which of these are substantively useful employment/labor developments.
+    # 1. Specialist sources are always reviewed broadly.
     for source_name in ("Lexology Daily Newsfeed", "ELINfonet Daily Employment Law Update"):
         source_items = [i for i in items if i.get("source") == source_name]
-        for item in sorted(source_items, key=item_rank, reverse=True)[:60]:
+        for item in sorted(source_items, key=item_rank, reverse=True)[:80]:
             unique_append(selected, seen, item)
 
-    # 2. Other feeds must have an employment/labor connection before they enter the legal pool.
-    practice_items = [
+    # 2. Dedicated legal feeds/searches: only keep items with a genuine employment/labor signal.
+    dedicated = [
         i for i in items
         if i.get("source") not in TRUSTED_LEGAL_SOURCES
-        and (
-            i.get("category_hint") in LEGAL_CATEGORIES
-            or is_employment_relevant(i)
-        )
-        and is_employment_relevant(i)
+        and i.get("category_hint") in LEGAL_CATEGORIES
+        and is_strong_employment_legal(i)
     ]
-    for item in sorted(practice_items, key=item_rank, reverse=True):
+    for item in sorted(dedicated, key=item_rank, reverse=True):
+        if len(selected) >= max_items:
+            break
+        unique_append(selected, seen, item)
+
+    # 3. General-news sources may enter only for unmistakable employment/labor legal developments.
+    spillover = [
+        i for i in items
+        if i.get("source") not in TRUSTED_LEGAL_SOURCES
+        and i.get("category_hint") not in LEGAL_CATEGORIES
+        and is_strong_employment_legal(i)
+        and any(term in (" " + i.get("title", "") + " " + i.get("summary", "")).lower()
+                for term in ("eeoc", "nlrb", "department of labor", "employment law",
+                             "labor law", "wage", "overtime", "discrimination",
+                             "retaliation", "fmla", "ada ", "paga", "cal/osha", "dlse"))
+    ]
+    for item in sorted(spillover, key=item_rank, reverse=True):
         if len(selected) >= max_items:
             break
         unique_append(selected, seen, item)
@@ -255,13 +305,15 @@ STRICT COUNTS:
 - good_news: 1 or 2
 
 HARD EDITORIAL RULES:
-- A story may appear in only ONE section.
-- Never reuse a Global story as Good News.
+- A story may appear in only ONE section, including when different outlets use different headlines for the same underlying event.
+- Never reuse a National, Global, Minnesota, Tech, or Entertainment story as Good News.
+- Exclude roundup/newsletter items that combine multiple unrelated stories into one candidate; never merge unrelated events into one headline.
+- Top National must be genuinely nationally consequential. Do not use a primarily local criminal case merely because it is high-profile.
 - Do not put foreign-company restructuring into National merely because jobs are involved.
 - Do not add employer/compliance implications to ordinary news.
 - Tech should actually be technology/AI news.
 - Entertainment may be fun but should not be trivial clickbait.
-- Good News must genuinely be positive and should close the edition.
+- Good News must be genuinely uplifting, not merely technically interesting or mildly positive.
 - No What to Watch section.
 - Use only facts supported by the supplied candidates.
 """
@@ -295,11 +347,22 @@ Return VALID JSON ONLY:
       "source": "...",
       "url": "..."
     }}
+  ],
+  "specialist_source_review": [
+    {{
+      "source": "Lexology Daily Newsfeed or ELINfonet Daily Employment Law Update",
+      "title": "candidate title",
+      "decision": "included | duplicate | outside_scope | stale | too_thin",
+      "reason": "brief reason"
+    }}
   ]
 }}
 
 SELECTION RULE:
 - Usually select 4–8 meaningful notes on an active day; fewer is preferable to filler.
+- EVERY supplied Lexology and ELINfonet item must be reviewed and represented in specialist_source_review.
+- A material employment/labor-law item from Lexology or ELINfonet should ordinarily be INCLUDED unless duplicative, stale, or too thin to state accurately.
+- If specialist-source items contain meaningful employment/labor developments, DO NOT return an empty legal_notes array.
 - EXCLUDE criminal, eminent-domain, tax-procedure, generic public-pension, unrelated constitutional, unrelated commercial, and unrelated land-use cases.
 - EXCLUDE generic HR/career advice and promotional pieces without a real legal development.
 - Do not include a case just because it came from an Eighth or Ninth Circuit source.
@@ -353,14 +416,31 @@ def validate_general(d):
         if len(d.get(key, [])) not in (1, 2):
             errors.append(f"{key} must have 1 or 2, found {len(d.get(key, []))}")
 
-    seen = {}
+    all_stories = []
+    seen_exact = {}
     for section in ("national_headlines", "global_headlines", "minnesota", "tech_news", "entertainment", "good_news"):
         for s in d.get(section, []):
             k = story_key(s)
-            if k and k in seen:
-                errors.append(f"duplicate story across {seen[k]} and {section}: {s.get('headline','')}")
+            if k and k in seen_exact:
+                errors.append(f"duplicate story across {seen_exact[k]} and {section}: {s.get('headline','')}")
             if k:
-                seen[k] = section
+                seen_exact[k] = section
+            all_stories.append((section, s))
+
+    # Catch same event chosen from different outlets.
+    for i in range(len(all_stories)):
+        sec_a, a = all_stories[i]
+        title_a = normalize_title(a.get("headline", ""))
+        for j in range(i + 1, len(all_stories)):
+            sec_b, b = all_stories[j]
+            if sec_a == sec_b:
+                continue
+            title_b = normalize_title(b.get("headline", ""))
+            if title_a and title_b and ratio(title_a, title_b) >= 72:
+                errors.append(
+                    f"probable same-event duplicate across {sec_a} and {sec_b}: "
+                    f"{a.get('headline','')} / {b.get('headline','')}"
+                )
     return errors
 
 
@@ -377,6 +457,53 @@ def repair_general_if_needed(profile, candidates, digest, errors):
     )
     return parse_json_response(raw)
 
+
+
+def validate_legal(legal_digest, legal_candidates):
+    errors = []
+    notes = legal_digest.get("legal_notes", [])
+    specialist_candidates = [
+        c for c in legal_candidates if c.get("source") in TRUSTED_LEGAL_SOURCES
+    ]
+    review = legal_digest.get("specialist_source_review", [])
+
+    if specialist_candidates and not notes:
+        errors.append(
+            f"legal_notes is empty despite {len(specialist_candidates)} specialist-source candidates"
+        )
+
+    reviewed_titles = {normalize_title(r.get("title", "")) for r in review if r.get("title")}
+    missing = [
+        c.get("title", "")
+        for c in specialist_candidates
+        if normalize_title(c.get("title", "")) not in reviewed_titles
+    ]
+    if missing:
+        errors.append(
+            "specialist_source_review omitted specialist candidates: "
+            + " | ".join(missing[:12])
+        )
+    return errors
+
+
+def repair_legal_if_needed(profile, candidates, legal_digest, errors):
+    if not errors:
+        return legal_digest
+
+    prompt = build_legal_prompt(profile, candidates)
+    prompt += "\n\nYOUR PRIOR LEGAL OUTPUT FAILED VALIDATION:\n- " + "\n- ".join(errors)
+    prompt += """
+Re-review EVERY Lexology and ELINfonet item first.
+If any specialist-source item is a material employment/labor-law development, include it.
+Do not fill the section with unrelated court news.
+Return the COMPLETE corrected JSON, including specialist_source_review.
+"""
+    raw = call_openrouter(
+        prompt,
+        "You are a senior employment-and-labor-law editor. The legal practice update is mandatory when meaningful specialist-source items exist. Return valid JSON only.",
+        temperature=0.03,
+    )
+    return parse_json_response(raw)
 
 def render_general_story(s):
     headline = html.escape(s.get("headline", ""))
@@ -563,18 +690,53 @@ def main():
             "good_news": [clean_general_story(s) for s in general_digest.get("good_news", [])],
         }
 
-    # LEGAL PIPELINE
+    # LEGAL PIPELINE — separate, mandatory professional review
     legal_notes = []
+    specialist_review = []
+    legal_validation_errors = []
+
     if legal_compact:
         legal_raw = call_openrouter(
             build_legal_prompt(profile, legal_compact),
-            "You are a senior employment-and-labor-law briefing editor. Exclude unrelated court news. Return valid JSON only.",
-            temperature=0.06,
+            "You are a senior employment-and-labor-law briefing editor. Review every specialist-source item and exclude unrelated court news. Return valid JSON only.",
+            temperature=0.04,
         )
         legal_digest = parse_json_response(legal_raw)
+
+        legal_validation_errors = validate_legal(legal_digest, legal_compact)
+        if legal_validation_errors:
+            print("Legal editor validation errors; requesting repair:", legal_validation_errors)
+            legal_digest = repair_legal_if_needed(
+                profile, legal_compact, legal_digest, legal_validation_errors
+            )
+            legal_validation_errors = validate_legal(legal_digest, legal_compact)
+
         legal_notes = [clean_legal_note(n) for n in legal_digest.get("legal_notes", [])]
+        specialist_review = legal_digest.get("specialist_source_review", [])
+
+        if legal_validation_errors:
+            print("WARNING: legal validation still has issues:", legal_validation_errors)
     else:
         print("WARNING: No legal candidates available for this run.")
+
+    legal_diagnostics = {
+        "legal_candidate_count": len(legal_compact),
+        "specialist_candidate_count": sum(
+            1 for c in legal_compact if c.get("source") in TRUSTED_LEGAL_SOURCES
+        ),
+        "specialist_candidates": [
+            {"source": c.get("source"), "title": c.get("title"), "url": c.get("url")}
+            for c in legal_compact if c.get("source") in TRUSTED_LEGAL_SOURCES
+        ],
+        "specialist_source_review": specialist_review,
+        "legal_note_count": len(legal_notes),
+        "validation_errors": legal_validation_errors,
+    }
+    (OUTPUT / "legal_diagnostics.json").write_text(
+        json.dumps(legal_diagnostics, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+    print("Legal diagnostics:", json.dumps(legal_diagnostics, ensure_ascii=False))
 
     digest = {
         "date": fix_text_encoding(general_digest.get("date", datetime.now().strftime("%B %d, %Y").replace(" 0", " "))),
