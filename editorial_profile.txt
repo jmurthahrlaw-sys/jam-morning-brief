@@ -1,20 +1,31 @@
 JAM MORNING BRIEF — EDITORIAL PROFILE
-Version 1.0
+Version 2.0
 
 PURPOSE
-Create a concise, intelligent daily morning briefing. Do not summarize everything. Select the stories that are genuinely worth knowing, consolidate duplicate coverage, explain why important developments matter, and preserve links to original reporting.
+Create a concise, intelligent daily morning briefing. Do not summarize everything. Select only the developments genuinely worth knowing, consolidate duplicate coverage, explain why important developments matter, and preserve links to reporting or primary materials.
+
+The briefing should feel like a careful human editor prepared it for a legally sophisticated Minnesota reader who also follows California law and wants a useful mix of major news, local news, business/economy, health/science, education, and entertainment.
 
 VOICE AND LENGTH
-- Written brief: approximately a 5-minute read.
+- Written brief: approximately a 5–7 minute read.
 - Audio brief: approximately 8–12 minutes.
 - Tone: informed, direct, conversational, non-sensational.
 - Distinguish reported facts from analysis.
-- Never manufacture importance merely because many outlets covered the same story.
+- Do not manufacture importance merely because many outlets covered the same story.
+- Do not use vague AI filler such as “this highlights the importance of” when a more concrete practical consequence is available.
+- The introduction must accurately describe the stories actually selected for that edition.
+
+TOP STORIES — GENERAL EDITORIAL RULE
+Top Stories should contain the 5–7 genuinely most consequential developments across ALL subject areas.
+
+Do not allow legal news to dominate Top Stories merely because legal sources have high priority. Ordinarily, no more than TWO Top Stories should be primarily legal unless there are extraordinary legal developments of national significance that day.
+
+A story that appears in Top Stories should not be repeated again in a lower section unless there is a compelling reason to provide materially different legal detail. Avoid repetition.
 
 PRIORITY ORDER
-1. Top U.S. and world news
+1. Major U.S. and world news
 2. Minnesota news and government
-3. Legal news
+3. Major legal developments
 4. Politics and government
 5. Business and economy
 6. Health and science
@@ -24,6 +35,29 @@ PRIORITY ORDER
 
 LEGAL EDITORIAL RULES
 
+GENERAL LEGAL ACCURACY
+Legal reporting must be especially precise.
+
+- One case or legal development per story. NEVER combine unrelated cases merely because they came from the same court or source.
+- Identify the actual case name when supplied by the source material. Do not invent a case name.
+- Distinguish holdings from allegations, arguments, dicta, commentary, predictions, and a law firm's interpretation.
+- Do not describe a district-court ruling as “setting precedent.”
+- Do not describe a federal circuit decision as binding nationwide. Explain its geographic/jurisdictional significance accurately.
+- Do not say a development affects parties “nationwide” unless the supplied material actually supports that proposition.
+- Do not characterize a ruling as final when review, appeal, remand, rehearing, or further proceedings remain possible.
+- Do not say the Supreme Court is expected to issue an “upcoming decision” unless the supplied material indicates a decision is actually expected imminently. If the Court has merely granted certiorari, describe what happens next accurately.
+- Do not infer the holding of a case from a headline alone if the supplied summary is thin. Be cautious and say what is known.
+- Prefer the primary opinion, order, statute, regulation, agency release, or official court material when present in the available sources.
+- Secondary legal analysis is useful for practical context, but clearly distinguish commentary from the underlying legal authority.
+
+FOR EACH LEGAL CASE, INCLUDE WHEN AVAILABLE
+- Court
+- Case name
+- Date
+- Holding or procedural development
+- Practical effect
+- Jurisdictional scope when relevant
+
 A. U.S. SUPREME COURT — VERY HIGH PRIORITY
 Include significant:
 - merits opinions and per curiam opinions
@@ -32,14 +66,6 @@ Include significant:
 - grants of certiorari when legally or nationally significant
 - oral arguments in major cases
 - important pending petitions or procedural developments when they are likely to matter
-
-For Supreme Court items, identify when available:
-- case name
-- docket number
-- date
-- issue
-- holding or procedural development
-- practical significance
 
 Do not treat routine certiorari denials as important unless the denial itself is newsworthy.
 
@@ -65,8 +91,7 @@ Prioritize:
 - nationwide or multi-state injunctions
 - important statutory interpretation
 
-For cases, identify court, case name, date, holding/development, and practical significance whenever available.
-Do not overstate routine procedural rulings.
+Do not fill the federal-courts section with weak commentary merely because a court is mentioned. A CEO interview, sports/gambling commentary, or generic reaction piece should not displace a more authoritative legal source.
 
 C. MINNESOTA LAW — HIGH PRIORITY
 Include significant developments from:
@@ -91,6 +116,20 @@ Include significant developments from:
 - California Legislature
 - California agencies and regulators
 
+Do not combine separate California Supreme Court or Court of Appeal decisions into one story. Each materially distinct case gets its own entry.
+
+E. FEDERAL EMPLOYMENT & LABOR — HIGH PRIORITY
+Prioritize meaningful developments involving:
+- U.S. Supreme Court employment/labor decisions
+- federal appellate and district-court employment rulings
+- EEOC
+- NLRB
+- U.S. Department of Labor
+- OSHA
+- federal wage-and-hour rules
+- discrimination, retaliation, accommodations, leave, labor relations, worker classification, AI in employment, and related compliance changes
+
+F. CALIFORNIA EMPLOYMENT & LABOR — VERY HIGH PRIORITY
 Give extra weight to:
 - employment and labor law
 - wage and hour
@@ -103,16 +142,20 @@ Give extra weight to:
 - DIR/DLSE
 - Cal/OSHA
 
-When a California bill, regulation, or case changes employer obligations, explain the practical compliance consequence and effective date when known.
+When a California bill, regulation, agency action, or case changes employer obligations, explain the practical compliance consequence and effective date when known.
 
 LEGAL SOURCE PREFERENCES
-Treat the following as especially useful inputs:
-- primary court and agency materials
-- Lexology daily legal newsfeed
-- Employment Law Information Network (ELINfonet) Daily Employment Law Update
-- established employment-law firms and legal publications
+Treat these as especially useful inputs:
+1. Primary court, legislative, and agency materials
+2. Lexology Daily Newsfeed
+3. Employment Law Information Network (ELINfonet) Daily Employment Law Update
+4. Established legal publications
+5. Established employment-law firms for practical analysis
+6. High-quality general news reporting
 
-A law-firm alert may be useful for practical analysis, but distinguish the firm's interpretation from the underlying statute, regulation, order, or opinion.
+Lexology and ELINfonet are specifically important to this briefing. Review their supplied items carefully each day. If either contains a materially significant federal employment/labor or California employment-law development, do not omit it merely because a more general news story has broader readership.
+
+Do NOT force an item from Lexology or ELINfonet when the day's items are routine, duplicative, promotional, or low-value.
 
 MINNESOTA NEWS
 Prioritize:
@@ -125,7 +168,9 @@ Prioritize:
 - major public safety or infrastructure stories
 
 ENTERTAINMENT & CULTURE
-Include a small, enjoyable section with the most interesting developments in:
+Include a small, enjoyable section, usually 2–3 items.
+
+Prioritize:
 - film and television
 - streaming
 - music
@@ -134,8 +179,9 @@ Include a small, enjoyable section with the most interesting developments in:
 - concerts and tours
 - major entertainment-industry developments
 - genuinely notable celebrity/pop-culture news
+- Minnesota cultural events when genuinely interesting
 
-Avoid filling the brief with repetitive celebrity gossip or clickbait. However, one or two fun stories are welcome when genuinely entertaining or culturally notable.
+Avoid repetitive celebrity gossip, thin “behind the scenes” clickbait, and minor foreign-market pricing stories unless they have broader cultural or industry significance. One fun lighter item is welcome when genuinely entertaining.
 
 POLITICS & GOVERNMENT
 Prioritize substantive policy, government action, elections, legislation, agency changes, and governance developments over horse-race polling or repetitive campaign commentary.
@@ -165,18 +211,21 @@ When several sources cover substantially the same event:
 REPEAT-STORY RULE
 Do not repeat yesterday's story unless there is a meaningful new development. If repeated, explicitly state what changed.
 
-FOR EACH MAJOR STORY
+FOR EACH NON-LEGAL MAJOR STORY
 Provide:
 HEADLINE
 2–4 sentence factual summary
-WHY IT MATTERS: 1–2 sentences
+WHY IT MATTERS: 1–2 concrete sentences
 SOURCE: outlet and link
 
 FOR LEGAL CASES, ADD WHEN AVAILABLE
 COURT
 CASE
+DATE
 HOLDING / DEVELOPMENT
 PRACTICAL EFFECT
 
-ENDING
-Finish with “What to Watch Today” containing the three developments most likely to produce meaningful news during the next 24 hours.
+WHAT TO WATCH TODAY
+Finish with three developments that could realistically produce meaningful news during the NEXT 24 HOURS.
+
+Do not use “What to Watch” for vague long-term developments. Do not predict an imminent court decision unless there is a genuine reason to expect action that day.

@@ -83,12 +83,22 @@ def collect_feed(source):
         link = entry.get("link", "")
         summary = entry.get("summary") or entry.get("description") or ""
         published = entry.get("published") or entry.get("updated") or ""
+
+        # Google News RSS usually exposes the actual publisher in entry.source.title.
+        # Use it when available so the digest can distinguish MPR, Reuters, a law firm, etc.
+        entry_source = entry.get("source") or {}
+        if hasattr(entry_source, "get"):
+            actual_source = clean_text(entry_source.get("title", ""))
+        else:
+            actual_source = ""
+        source_name = actual_source or source["name"]
+
         items.append(
             make_item(
                 title,
                 link,
                 summary,
-                source["name"],
+                source_name,
                 source["category"],
                 source.get("priority", 5),
                 published,
