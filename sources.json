@@ -131,5 +131,61 @@
     "category": "Good News",
     "query": "(rescue OR recovery OR conservation OR restored OR reunited OR breakthrough OR volunteers OR community OR kindness OR achievement) (site:apnews.com OR site:npr.org OR site:bbc.com OR site:bbc.co.uk OR site:smithsonianmag.com OR site:positive.news OR site:goodnewsnetwork.org)",
     "priority": 7
+  },
+  {
+    "type": "google_news",
+    "name": "California Employment Legislation and Regulation",
+    "category": "California Law",
+    "query": "California (employment OR labor OR workplace OR employer OR employee) (legislation OR bill OR statute OR regulation OR rule OR \"Labor Code\" OR \"Government Code\")",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "California Wage Hour PAGA",
+    "category": "California Law",
+    "query": "California (\"wage and hour\" OR overtime OR minimum wage OR PAGA OR \"Private Attorneys General Act\" OR meal break OR rest break OR payroll)",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "California FEHA Leave Accommodation",
+    "category": "California Law",
+    "query": "California (FEHA OR \"Civil Rights Department\" OR CRD OR discrimination OR harassment OR retaliation OR accommodation OR leave OR CFRA OR pregnancy) employer",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "California Workplace AI Privacy Noncompete",
+    "category": "California Law",
+    "query": "California workplace (AI OR \"artificial intelligence\" OR privacy OR employee data OR noncompete OR \"restrictive covenant\" OR automated hiring)",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "California Employment Appellate Decisions",
+    "category": "California Law",
+    "query": "California (\"Supreme Court\" OR \"Court of Appeal\") (employment OR employer OR employee OR labor OR FEHA OR PAGA OR wage OR workplace)",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "California Employment Agencies",
+    "category": "California Law",
+    "query": "California (DLSE OR \"Division of Labor Standards Enforcement\" OR DIR OR \"Department of Industrial Relations\" OR \"Cal/OSHA\" OR \"Civil Rights Department\") (employer OR employment OR workplace OR wage OR labor)",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "California Employment Primary Sources",
+    "category": "California Law",
+    "query": "(site:dir.ca.gov OR site:calcivilrights.ca.gov OR site:courts.ca.gov OR site:leginfo.legislature.ca.gov) (employment OR labor OR workplace OR employer OR employee OR wage OR PAGA OR FEHA)",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "California Employment Legal Analysis",
+    "category": "California Law",
+    "query": "California employment law (site:littler.com OR site:jacksonlewis.com OR site:ogletree.com OR site:cdflaborlaw.com)",
+    "priority": 9
   }
 ]

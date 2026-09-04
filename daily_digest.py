@@ -143,6 +143,35 @@ def is_strong_employment_legal(item):
     return employment_signal and legal_signal
 
 
+
+CALIFORNIA_MARKERS = [
+    "california", "ninth circuit", "9th circuit",
+    "northern district of california", "eastern district of california",
+    "central district of california", "southern district of california",
+    "n.d. cal", "e.d. cal", "c.d. cal", "s.d. cal",
+    "cal/osha", "dlse", "department of industrial relations",
+    "civil rights department", "feha", "cfra", "paga",
+    "private attorneys general act", "california labor code",
+    "california supreme court", "california court of appeal",
+]
+
+
+def is_california_employment(item):
+    text = " ".join([
+        item.get("title", ""),
+        item.get("summary", ""),
+        item.get("category_hint", ""),
+        item.get("origin", ""),
+        item.get("source", ""),
+    ]).lower()
+
+    california_signal = (
+        item.get("category_hint") == "California Law"
+        or any(marker in text for marker in CALIFORNIA_MARKERS)
+    )
+    return california_signal and is_strong_employment_legal(item)
+
+
 def item_rank(item):
     return (
         2 if item.get("source") in TRUSTED_LEGAL_SOURCES else 0,
@@ -192,19 +221,31 @@ def select_legal_candidates(items, max_items):
         for item in sorted(source_items, key=item_rank, reverse=True)[:80]:
             unique_append(selected, seen, item)
 
-    # 2. Dedicated legal feeds/searches: only keep items with a genuine employment/labor signal.
+    # 2. CALIFORNIA FIRST: dedicated California state + Ninth Circuit/CA federal employment material.
+    california_items = [
+        i for i in items
+        if i.get("source") not in TRUSTED_LEGAL_SOURCES
+        and is_california_employment(i)
+    ]
+    for item in sorted(california_items, key=item_rank, reverse=True)[:70]:
+        if len(selected) >= max_items:
+            break
+        unique_append(selected, seen, item)
+
+    # 3. Other dedicated employment/labor legal feeds.
     dedicated = [
         i for i in items
         if i.get("source") not in TRUSTED_LEGAL_SOURCES
         and i.get("category_hint") in LEGAL_CATEGORIES
         and is_strong_employment_legal(i)
+        and not is_california_employment(i)
     ]
     for item in sorted(dedicated, key=item_rank, reverse=True):
         if len(selected) >= max_items:
             break
         unique_append(selected, seen, item)
 
-    # 3. General-news sources may enter only for unmistakable employment/labor legal developments.
+    # 4. General-news spillover only for unmistakable employment/labor legal developments.
     spillover = [
         i for i in items
         if i.get("source") not in TRUSTED_LEGAL_SOURCES
@@ -235,6 +276,7 @@ def compact_story(item, idx):
         "published_at": item.get("published_at", ""),
         "origin": item.get("origin", ""),
         "trusted_legal_source": item.get("source") in TRUSTED_LEGAL_SOURCES,
+        "california_employment_hint": is_california_employment(item),
     }
 
 
@@ -321,7 +363,7 @@ HARD EDITORIAL RULES:
 
 def build_legal_prompt(profile, stories):
     return f"""You are the EMPLOYMENT & LABOR LAW editor for JAM Morning Brief.
-Your reader is an employment attorney. This is a professional practice update, NOT a general court-news section.
+Your reader practices PRIMARILY CALIFORNIA employment law. This is a professional practice update, NOT a general court-news section.
 
 EDITORIAL RULES:
 {profile}
@@ -329,17 +371,36 @@ EDITORIAL RULES:
 LEGAL CANDIDATES:
 {json.dumps(stories, ensure_ascii=False)}
 
-Lexology Daily Newsfeed and ELINfonet Daily Employment Law Update are PRIMARY specialist sources. Review their supplied items carefully.
-Other legal items are included only because they appear potentially employment/labor related.
+PRIMARY PRACTICE PRIORITY:
+1. California state employment/labor law and California employer compliance.
+2. Ninth Circuit and California federal district employment/labor cases.
+3. Federal employment/labor agencies and nationally applicable employment law.
+4. Minnesota/Eighth Circuit employment matters when meaningful.
+
+Lexology Daily Newsfeed and ELINfonet Daily Employment Law Update remain PRIMARY specialist sources and every supplied item must be reviewed.
 
 Return VALID JSON ONLY:
 {{
-  "legal_notes": [
+  "california_notes": [
     {{
-      "heading": "actual case name + court when supplied, or concise legal development title",
-      "jurisdiction_topic": "e.g. Federal — EEOC; California — Wage & Hour; Eighth Circuit — ADA",
+      "heading": "actual case name + court when supplied, or concise California legal development title",
+      "jurisdiction_topic": "e.g. California — Wage & Hour; Ninth Circuit — FEHA/ADA",
       "development": "concise, legally precise development/holding/rule/guidance",
-      "employer_takeaway": "specific practice/compliance significance; empty if source too thin",
+      "employer_takeaway": "specific California/employer practice significance; empty if source too thin",
+      "court": "",
+      "case": "",
+      "date": "",
+      "effective_date": "",
+      "source": "...",
+      "url": "..."
+    }}
+  ],
+  "other_legal_notes": [
+    {{
+      "heading": "...",
+      "jurisdiction_topic": "e.g. Federal — EEOC; Minnesota — Wage & Hour",
+      "development": "...",
+      "employer_takeaway": "...",
       "court": "",
       "case": "",
       "date": "",
@@ -355,28 +416,41 @@ Return VALID JSON ONLY:
       "decision": "included | duplicate | outside_scope | stale | too_thin",
       "reason": "brief reason"
     }}
+  ],
+  "california_candidate_review": [
+    {{
+      "title": "California candidate title",
+      "source": "...",
+      "decision": "included | duplicate | outside_scope | stale | too_thin",
+      "reason": "brief reason"
+    }}
   ]
 }}
 
-SELECTION RULE:
-- Usually select 4–8 meaningful notes on an active day; fewer is preferable to filler.
-- EVERY supplied Lexology and ELINfonet item must be reviewed and represented in specialist_source_review.
-- A material employment/labor-law item from Lexology or ELINfonet should ordinarily be INCLUDED unless duplicative, stale, or too thin to state accurately.
-- If specialist-source items contain meaningful employment/labor developments, DO NOT return an empty legal_notes array.
-- EXCLUDE criminal, eminent-domain, tax-procedure, generic public-pension, unrelated constitutional, unrelated commercial, and unrelated land-use cases.
-- EXCLUDE generic HR/career advice and promotional pieces without a real legal development.
-- Do not include a case just because it came from an Eighth or Ninth Circuit source.
-- Include only matters substantially related to employment, labor, workplace regulation, employer compliance, employee rights, labor relations, or a genuinely consequential Supreme Court/administrative-law issue affecting employment practice.
-- California state employment law receives very high priority.
-- Federal agencies and federal employment/labor developments receive high priority.
-- D. Minnesota/Eighth Circuit and Ninth Circuit/California federal employment cases receive high priority.
+CALIFORNIA RULES:
+- Aim for 2–4 California-specific notes when meaningful California candidates are available.
+- California notes appear FIRST in the legal briefing.
+- A California note may concern state law, a California agency, Ninth Circuit employment law, or a California federal district employment case.
+- Prefer substantive California developments over routine one-off federal enforcement stories.
+- If California candidates exist but are not included, affirmatively explain each exclusion in california_candidate_review.
+- Do NOT substitute unrelated California tax, pension, criminal, environmental, or general civil cases.
+
+OTHER LEGAL NOTES:
+- Usually 2–5 strong federal/Minnesota notes after the California section.
+- Do not overfill with routine OSHA accident investigations, small local settlements, or generic verdicts when more consequential California or federal developments exist.
+
+SPECIALIST REVIEW:
+- EVERY supplied Lexology and ELINfonet item must be represented in specialist_source_review.
+- Material California items from those specialist feeds should be placed in california_notes.
+- Material federal/Minnesota items may be placed in other_legal_notes.
 
 ACCURACY:
 - One development per note.
-- Never invent case names, holdings, deadlines or obligations.
+- Never invent case names, holdings, deadlines, effective dates, or obligations.
 - Never call a district-court ruling precedent.
 - Never describe a circuit decision as binding nationwide.
-- Never manufacture an employer takeaway from an incidental employment connection.
+- Never manufacture an employer takeaway from an incidental connection.
+- If source material is thin, be cautious or omit.
 """
 
 
@@ -461,28 +535,56 @@ def repair_general_if_needed(profile, candidates, digest, errors):
 
 def validate_legal(legal_digest, legal_candidates):
     errors = []
-    notes = legal_digest.get("legal_notes", [])
+    ca_notes = legal_digest.get("california_notes", [])
+    other_notes = legal_digest.get("other_legal_notes", [])
     specialist_candidates = [
         c for c in legal_candidates if c.get("source") in TRUSTED_LEGAL_SOURCES
     ]
-    review = legal_digest.get("specialist_source_review", [])
+    california_candidates = [
+        c for c in legal_candidates if c.get("california_employment_hint")
+    ]
 
-    if specialist_candidates and not notes:
+    specialist_review = legal_digest.get("specialist_source_review", [])
+    ca_review = legal_digest.get("california_candidate_review", [])
+
+    if specialist_candidates and not (ca_notes or other_notes):
         errors.append(
-            f"legal_notes is empty despite {len(specialist_candidates)} specialist-source candidates"
+            f"all legal notes are empty despite {len(specialist_candidates)} specialist-source candidates"
         )
 
-    reviewed_titles = {normalize_title(r.get("title", "")) for r in review if r.get("title")}
-    missing = [
+    if california_candidates and not ca_notes:
+        errors.append(
+            f"california_notes is empty despite {len(california_candidates)} California employment candidates"
+        )
+
+    reviewed_specialist_titles = {
+        normalize_title(r.get("title", "")) for r in specialist_review if r.get("title")
+    }
+    missing_specialist = [
         c.get("title", "")
         for c in specialist_candidates
-        if normalize_title(c.get("title", "")) not in reviewed_titles
+        if normalize_title(c.get("title", "")) not in reviewed_specialist_titles
     ]
-    if missing:
+    if missing_specialist:
         errors.append(
-            "specialist_source_review omitted specialist candidates: "
-            + " | ".join(missing[:12])
+            "specialist_source_review omitted candidates: "
+            + " | ".join(missing_specialist[:12])
         )
+
+    reviewed_ca_titles = {
+        normalize_title(r.get("title", "")) for r in ca_review if r.get("title")
+    }
+    missing_ca = [
+        c.get("title", "")
+        for c in california_candidates[:30]
+        if normalize_title(c.get("title", "")) not in reviewed_ca_titles
+    ]
+    if missing_ca:
+        errors.append(
+            "california_candidate_review omitted candidates: "
+            + " | ".join(missing_ca[:12])
+        )
+
     return errors
 
 
@@ -493,17 +595,44 @@ def repair_legal_if_needed(profile, candidates, legal_digest, errors):
     prompt = build_legal_prompt(profile, candidates)
     prompt += "\n\nYOUR PRIOR LEGAL OUTPUT FAILED VALIDATION:\n- " + "\n- ".join(errors)
     prompt += """
-Re-review EVERY Lexology and ELINfonet item first.
-If any specialist-source item is a material employment/labor-law development, include it.
-Do not fill the section with unrelated court news.
-Return the COMPLETE corrected JSON, including specialist_source_review.
+Re-review California employment candidates FIRST.
+The user practices primarily in California.
+If meaningful California employment material exists, include it before routine federal items.
+Re-review EVERY Lexology and ELINfonet item.
+Return the COMPLETE corrected JSON with california_notes, other_legal_notes,
+specialist_source_review, and california_candidate_review.
 """
     raw = call_openrouter(
         prompt,
-        "You are a senior employment-and-labor-law editor. The legal practice update is mandatory when meaningful specialist-source items exist. Return valid JSON only.",
-        temperature=0.03,
+        "You are a senior California-focused employment-and-labor-law editor. California practice updates receive first priority. Return valid JSON only.",
+        temperature=0.02,
     )
     return parse_json_response(raw)
+
+
+def legal_section_html(d):
+    ca = d.get("california_legal_notes", [])
+    other = d.get("other_legal_notes", [])
+    if not ca and not other:
+        return ""
+
+    parts = [
+        '<div style="font-size:13px;letter-spacing:.09em;text-transform:uppercase;font-weight:800;color:#5b6770;margin-top:32px;margin-bottom:2px">Employment &amp; Labor Law Notes</div>'
+    ]
+    if ca:
+        parts.append(
+            '<div style="font-size:14px;font-weight:800;color:#7a5d2c;margin-top:16px;margin-bottom:0">CALIFORNIA EMPLOYMENT — PRIMARY PRACTICE</div>'
+        )
+        parts.extend(render_legal_note(n) for n in ca)
+
+    if other:
+        parts.append(
+            '<div style="font-size:14px;font-weight:800;color:#5b6770;margin-top:20px;margin-bottom:0">FEDERAL / MINNESOTA / OTHER EMPLOYMENT</div>'
+        )
+        parts.extend(render_legal_note(n) for n in other)
+
+    return "".join(parts)
+
 
 def render_general_story(s):
     headline = html.escape(s.get("headline", ""))
@@ -561,7 +690,7 @@ def render_html(d):
     body += section_html("Top National", d.get("national_headlines", []))
     body += section_html("Top Global", d.get("global_headlines", []))
     body += section_html("Minnesota", d.get("minnesota", []))
-    body += section_html("Employment & Labor Law Notes", d.get("legal_notes", []), render_legal_note)
+    body += legal_section_html(d)
     body += section_html("Tech & AI", d.get("tech_news", []))
     body += section_html("Entertainment & Culture", d.get("entertainment", []))
     body += section_html("Good News", d.get("good_news", []))
@@ -599,9 +728,11 @@ def render_text(d):
     add_general("Top Global", d.get("global_headlines", []))
     add_general("Minnesota", d.get("minnesota", []))
 
-    if d.get("legal_notes"):
-        lines.extend(["", "EMPLOYMENT & LABOR LAW NOTES"])
-        for n in d["legal_notes"]:
+    def add_legal_notes(title, notes):
+        if not notes:
+            return
+        lines.extend(["", title.upper()])
+        for n in notes:
             lines.extend(["", n.get("heading", "")])
             if n.get("jurisdiction_topic"):
                 lines.append(n["jurisdiction_topic"])
@@ -614,6 +745,11 @@ def render_text(d):
             if n.get("source"):
                 lines.append(f"Source: {n['source']} {n.get('url','')}")
 
+    if d.get("california_legal_notes") or d.get("other_legal_notes"):
+        lines.extend(["", "EMPLOYMENT & LABOR LAW NOTES"])
+        add_legal_notes("California Employment — Primary Practice", d.get("california_legal_notes", []))
+        add_legal_notes("Federal / Minnesota / Other Employment", d.get("other_legal_notes", []))
+
     add_general("Tech & AI", d.get("tech_news", []))
     add_general("Entertainment & Culture", d.get("entertainment", []))
     add_general("Good News", d.get("good_news", []))
@@ -625,15 +761,18 @@ def main():
     items = json.loads(DATA_FILE.read_text(encoding="utf-8")) if DATA_FILE.exists() else []
     items = [normalize_item(i) for i in items]
 
-    lookback = int(os.getenv("LOOKBACK_HOURS", "30"))
-    items = [i for i in items if within_lookback(i, lookback)]
+    general_lookback = int(os.getenv("LOOKBACK_HOURS", "30"))
+    legal_lookback = int(os.getenv("LEGAL_LOOKBACK_HOURS", "96"))
+
     items = dedupe_near(dedupe_exact(items), threshold=87)
+    general_recent = [i for i in items if within_lookback(i, general_lookback)]
+    legal_recent = [i for i in items if within_lookback(i, legal_lookback)]
 
     general_max = int(os.getenv("GENERAL_MAX_STORIES_FOR_AI", "150"))
-    legal_max = int(os.getenv("LEGAL_MAX_STORIES_FOR_AI", "120"))
+    legal_max = int(os.getenv("LEGAL_MAX_STORIES_FOR_AI", "160"))
 
-    general_items = select_general_candidates(items, general_max)
-    legal_items = select_legal_candidates(items, legal_max)
+    general_items = select_general_candidates(general_recent, general_max)
+    legal_items = select_legal_candidates(legal_recent, legal_max)
 
     if not general_items:
         raise RuntimeError("No recent general-news stories found. Run scraper.py first.")
@@ -644,14 +783,21 @@ def main():
     legal_compact = [compact_story(i, idx + 1) for idx, i in enumerate(legal_items)]
 
     # Diagnostics are intentionally saved in the artifact so source-selection problems are visible.
-    source_counts_all = Counter(i.get("source", "") for i in items)
+    source_counts_legal = Counter(i.get("source", "") for i in legal_recent)
+    california_recent = [i for i in legal_recent if is_california_employment(i)]
     diagnostics = {
-        "recent_total_items": len(items),
+        "recent_total_items_general_lookback": len(general_recent),
+        "recent_total_items_legal_lookback": len(legal_recent),
+        "general_lookback_hours": general_lookback,
+        "legal_lookback_hours": legal_lookback,
         "general_candidate_count": len(general_items),
         "legal_candidate_count": len(legal_items),
-        "lexology_recent_items": source_counts_all.get("Lexology Daily Newsfeed", 0),
-        "elinfonet_recent_items": source_counts_all.get("ELINfonet Daily Employment Law Update", 0),
+        "california_employment_recent_count": len(california_recent),
+        "california_employment_candidate_count": sum(1 for i in legal_items if is_california_employment(i)),
+        "lexology_recent_items": source_counts_legal.get("Lexology Daily Newsfeed", 0),
+        "elinfonet_recent_items": source_counts_legal.get("ELINfonet Daily Employment Law Update", 0),
         "legal_candidate_sources": dict(Counter(i.get("source", "") for i in legal_items)),
+        "legal_candidate_categories": dict(Counter(i.get("category_hint", "") for i in legal_items)),
         "general_candidate_categories": dict(Counter(i.get("category_hint", "") for i in general_items)),
     }
     (OUTPUT / "source_diagnostics.json").write_text(
@@ -690,16 +836,18 @@ def main():
             "good_news": [clean_general_story(s) for s in general_digest.get("good_news", [])],
         }
 
-    # LEGAL PIPELINE — separate, mandatory professional review
-    legal_notes = []
+    # LEGAL PIPELINE — California-first professional review
+    california_legal_notes = []
+    other_legal_notes = []
     specialist_review = []
+    california_candidate_review = []
     legal_validation_errors = []
 
     if legal_compact:
         legal_raw = call_openrouter(
             build_legal_prompt(profile, legal_compact),
-            "You are a senior employment-and-labor-law briefing editor. Review every specialist-source item and exclude unrelated court news. Return valid JSON only.",
-            temperature=0.04,
+            "You are a senior California-focused employment-and-labor-law briefing editor. California practice updates receive first priority. Return valid JSON only.",
+            temperature=0.03,
         )
         legal_digest = parse_json_response(legal_raw)
 
@@ -711,16 +859,32 @@ def main():
             )
             legal_validation_errors = validate_legal(legal_digest, legal_compact)
 
-        legal_notes = [clean_legal_note(n) for n in legal_digest.get("legal_notes", [])]
+        california_legal_notes = [
+            clean_legal_note(n) for n in legal_digest.get("california_notes", [])
+        ]
+        other_legal_notes = [
+            clean_legal_note(n) for n in legal_digest.get("other_legal_notes", [])
+        ]
         specialist_review = legal_digest.get("specialist_source_review", [])
+        california_candidate_review = legal_digest.get("california_candidate_review", [])
 
         if legal_validation_errors:
             print("WARNING: legal validation still has issues:", legal_validation_errors)
     else:
         print("WARNING: No legal candidates available for this run.")
 
+    legal_notes = california_legal_notes + other_legal_notes
+
     legal_diagnostics = {
+        "legal_lookback_hours": legal_lookback,
         "legal_candidate_count": len(legal_compact),
+        "california_candidate_count": sum(
+            1 for c in legal_compact if c.get("california_employment_hint")
+        ),
+        "california_candidates": [
+            {"source": c.get("source"), "title": c.get("title"), "url": c.get("url")}
+            for c in legal_compact if c.get("california_employment_hint")
+        ][:40],
         "specialist_candidate_count": sum(
             1 for c in legal_compact if c.get("source") in TRUSTED_LEGAL_SOURCES
         ),
@@ -728,8 +892,10 @@ def main():
             {"source": c.get("source"), "title": c.get("title"), "url": c.get("url")}
             for c in legal_compact if c.get("source") in TRUSTED_LEGAL_SOURCES
         ],
+        "california_note_count": len(california_legal_notes),
+        "other_legal_note_count": len(other_legal_notes),
         "specialist_source_review": specialist_review,
-        "legal_note_count": len(legal_notes),
+        "california_candidate_review": california_candidate_review,
         "validation_errors": legal_validation_errors,
     }
     (OUTPUT / "legal_diagnostics.json").write_text(
@@ -744,6 +910,8 @@ def main():
         "national_headlines": general_digest.get("national_headlines", []),
         "global_headlines": general_digest.get("global_headlines", []),
         "minnesota": general_digest.get("minnesota", []),
+        "california_legal_notes": california_legal_notes,
+        "other_legal_notes": other_legal_notes,
         "legal_notes": legal_notes,
         "tech_news": general_digest.get("tech_news", []),
         "entertainment": general_digest.get("entertainment", []),
@@ -762,7 +930,7 @@ def main():
         f"{len(digest['national_headlines'])} national,",
         f"{len(digest['global_headlines'])} global,",
         f"{len(digest['minnesota'])} Minnesota,",
-        f"{len(digest['legal_notes'])} legal notes,",
+        f"{len(digest['california_legal_notes'])} California legal, " + f"{len(digest['other_legal_notes'])} other legal,",
         f"{len(digest['tech_news'])} tech,",
         f"{len(digest['entertainment'])} entertainment,",
         f"{len(digest['good_news'])} good news.",

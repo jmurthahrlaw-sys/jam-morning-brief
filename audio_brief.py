@@ -40,11 +40,14 @@ ORDER — KEEP THIS EXACT:
 7. One or two Good News stories
 
 LEGAL AUDIO STYLE:
-- The legal section is for an employment attorney.
+- The legal section is for an employment attorney whose PRIMARY practice is California.
+- Begin the legal segment with California Employment — Primary Practice.
+- Give California state employment law, California agencies, Ninth Circuit employment cases, and California federal district employment cases the most attention.
+- Then cover the strongest federal employment/labor developments.
+- Minnesota/Eighth Circuit employment matters are secondary unless especially significant.
 - Keep the legal content somewhat denser than the general-news sections, but still easy to follow by ear.
 - Name the court or agency when relevant.
 - State the development/holding, then give the practical employer or practice takeaway.
-- Prioritize federal employment/labor, D. Minn./Eighth Circuit employment matters, Ninth Circuit/California federal employment matters, Minnesota employment law, and California employment law.
 - Do not turn unrelated legal cases into a general court-news roundup.
 
 TRANSITIONS:
