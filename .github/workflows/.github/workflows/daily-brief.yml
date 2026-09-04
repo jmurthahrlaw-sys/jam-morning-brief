@@ -54,6 +54,7 @@ jobs:
         run: python audio_brief.py
 
       - name: Email the briefing through Brevo
+        continue-on-error: true
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           BRIEF_TO_EMAIL: ${{ secrets.BRIEF_TO_EMAIL }}
@@ -62,7 +63,8 @@ jobs:
           BRIEF_FROM_NAME: JAM Morning Brief
         run: python send_email.py
 
-      - name: Upload today's brief as a workflow artifact
+       - name: Upload today's brief as a workflow artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: jam-morning-brief-${{ github.run_id }}
