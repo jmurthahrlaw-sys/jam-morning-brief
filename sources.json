@@ -1,0 +1,114 @@
+[
+  {
+    "type": "rss",
+    "name": "NPR Top Stories",
+    "category": "Top News",
+    "url": "https://feeds.npr.org/1001/rss.xml",
+    "priority": 9
+  },
+  {
+    "type": "rss",
+    "name": "BBC World",
+    "category": "Top News",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "priority": 8
+  },
+  {
+    "type": "rss",
+    "name": "BBC Entertainment & Arts",
+    "category": "Entertainment & Culture",
+    "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+    "priority": 6
+  },
+  {
+    "type": "google_news",
+    "name": "Minnesota Trusted News",
+    "category": "Minnesota",
+    "query": "Minnesota (site:mprnews.org OR site:startribune.com OR site:minnpost.com)",
+    "priority": 9
+  },
+  {
+    "type": "google_news",
+    "name": "U.S. Supreme Court",
+    "category": "U.S. Supreme Court",
+    "query": "(\"U.S. Supreme Court\" OR SCOTUS) (opinion OR order OR certiorari OR argument OR emergency docket)",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "Minnesota Federal Courts",
+    "category": "Federal Courts",
+    "query": "(\"District of Minnesota\" OR \"Eighth Circuit\") (court OR judge OR opinion OR ruling OR injunction)",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "California Federal Courts",
+    "category": "Federal Courts",
+    "query": "(\"Ninth Circuit\" OR \"Northern District of California\" OR \"Eastern District of California\" OR \"Central District of California\" OR \"Southern District of California\") (opinion OR ruling OR injunction OR court)",
+    "priority": 9
+  },
+  {
+    "type": "google_news",
+    "name": "Minnesota Appellate Law",
+    "category": "Minnesota Law",
+    "query": "(\"Minnesota Supreme Court\" OR \"Minnesota Court of Appeals\") (opinion OR decision OR ruling)",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "Minnesota Employment and Land Use Law",
+    "category": "Minnesota Law",
+    "query": "Minnesota (employment law OR labor law OR land use OR environmental law OR municipal law) (court OR law OR legislation OR rule)",
+    "priority": 8
+  },
+  {
+    "type": "google_news",
+    "name": "California Appellate Law",
+    "category": "California Law",
+    "query": "(\"California Supreme Court\" OR \"California Court of Appeal\" OR \"California Courts of Appeal\") (opinion OR decision OR ruling)",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "California Employment Law",
+    "category": "California Law",
+    "query": "California (employment law OR labor law OR wage hour OR workplace) (legislation OR regulation OR court OR CRD OR DLSE OR Cal/OSHA)",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "Politics and Government",
+    "category": "Politics & Government",
+    "query": "U.S. politics government policy Congress White House federal agency",
+    "priority": 7
+  },
+  {
+    "type": "google_news",
+    "name": "Business and Economy",
+    "category": "Business & Economy",
+    "query": "U.S. economy labor market inflation Federal Reserve business workforce",
+    "priority": 6
+  },
+  {
+    "type": "google_news",
+    "name": "Health and Science",
+    "category": "Health & Science",
+    "query": "health science FDA CDC medical research public health",
+    "priority": 6
+  },
+  {
+    "type": "google_news",
+    "name": "Higher Education",
+    "category": "Education & Higher Education",
+    "query": "higher education college university admissions financial aid federal education policy",
+    "priority": 6
+  },
+  {
+    "type": "google_news",
+    "name": "Entertainment Trusted Sources",
+    "category": "Entertainment & Culture",
+    "query": "entertainment (site:variety.com OR site:deadline.com OR site:hollywoodreporter.com OR site:people.com OR site:vulture.com)",
+    "priority": 6
+  }
+]
