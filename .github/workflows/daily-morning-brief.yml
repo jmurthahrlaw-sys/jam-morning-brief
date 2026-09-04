@@ -1,0 +1,12 @@
+name: Send daily morning brief
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Confirm workflow
+        run: echo "Daily morning brief workflow is registered."
