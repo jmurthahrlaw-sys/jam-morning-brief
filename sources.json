@@ -14,11 +14,18 @@
     "priority": 8
   },
   {
-    "type": "rss",
-    "name": "BBC Entertainment & Arts",
-    "category": "Entertainment & Culture",
-    "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
-    "priority": 6
+    "type": "google_news",
+    "name": "National Trusted News",
+    "category": "Top News",
+    "query": "(site:reuters.com OR site:apnews.com OR site:npr.org OR site:nytimes.com OR site:washingtonpost.com) (United States OR U.S. OR Congress OR White House OR economy OR federal)",
+    "priority": 9
+  },
+  {
+    "type": "google_news",
+    "name": "Global Trusted News",
+    "category": "Top News",
+    "query": "(site:reuters.com OR site:apnews.com OR site:bbc.com OR site:bbc.co.uk OR site:npr.org) (world OR international OR election OR war OR diplomacy OR government)",
+    "priority": 9
   },
   {
     "type": "google_news",
@@ -31,49 +38,42 @@
     "type": "google_news",
     "name": "U.S. Supreme Court",
     "category": "U.S. Supreme Court",
-    "query": "(\"U.S. Supreme Court\" OR SCOTUS) (opinion OR order OR certiorari OR argument OR emergency docket)",
+    "query": "(\"U.S. Supreme Court\" OR SCOTUS) (employment OR labor OR EEOC OR NLRB OR workplace OR discrimination OR ADA OR FMLA OR wage OR arbitration OR administrative law)",
     "priority": 10
   },
   {
     "type": "google_news",
-    "name": "Minnesota Federal Courts",
+    "name": "Minnesota Federal Employment Courts",
     "category": "Federal Courts",
-    "query": "(\"District of Minnesota\" OR \"Eighth Circuit\") (court OR judge OR opinion OR ruling OR injunction)",
+    "query": "(\"District of Minnesota\" OR \"Eighth Circuit\") (employment OR employer OR employee OR labor OR discrimination OR retaliation OR ADA OR FMLA OR wage OR union OR workplace)",
     "priority": 10
   },
   {
     "type": "google_news",
-    "name": "California Federal Courts",
+    "name": "California Federal Employment Courts",
     "category": "Federal Courts",
-    "query": "(\"Ninth Circuit\" OR \"Northern District of California\" OR \"Eastern District of California\" OR \"Central District of California\" OR \"Southern District of California\") (opinion OR ruling OR injunction OR court)",
-    "priority": 9
-  },
-  {
-    "type": "google_news",
-    "name": "Minnesota Appellate Law",
-    "category": "Minnesota Law",
-    "query": "(\"Minnesota Supreme Court\" OR \"Minnesota Court of Appeals\") (opinion OR decision OR ruling)",
+    "query": "(\"Ninth Circuit\" OR \"Northern District of California\" OR \"Eastern District of California\" OR \"Central District of California\" OR \"Southern District of California\") (employment OR employer OR employee OR labor OR discrimination OR retaliation OR ADA OR FMLA OR wage OR union OR workplace)",
     "priority": 10
   },
   {
     "type": "google_news",
-    "name": "Minnesota Employment and Land Use Law",
+    "name": "Minnesota Employment Law",
     "category": "Minnesota Law",
-    "query": "Minnesota (employment law OR labor law OR land use OR environmental law OR municipal law) (court OR law OR legislation OR rule)",
-    "priority": 8
-  },
-  {
-    "type": "google_news",
-    "name": "California Appellate Law",
-    "category": "California Law",
-    "query": "(\"California Supreme Court\" OR \"California Court of Appeal\" OR \"California Courts of Appeal\") (opinion OR decision OR ruling)",
+    "query": "Minnesota (employment law OR labor law OR wage hour OR workplace OR discrimination OR leave OR union OR employee classification) (court OR law OR legislation OR rule OR agency)",
     "priority": 10
   },
   {
     "type": "google_news",
     "name": "California Employment Law",
     "category": "California Law",
-    "query": "California (employment law OR labor law OR wage hour OR workplace) (legislation OR regulation OR court OR CRD OR DLSE OR Cal/OSHA)",
+    "query": "California (employment law OR labor law OR wage hour OR workplace OR discrimination OR leave OR PAGA OR noncompete OR employee classification) (legislation OR regulation OR court OR CRD OR DLSE OR Cal/OSHA)",
+    "priority": 10
+  },
+  {
+    "type": "google_news",
+    "name": "Federal Employment Agencies",
+    "category": "Employment Law",
+    "query": "(EEOC OR NLRB OR \"Department of Labor\" OR DOL OR OSHA) (employment OR labor OR workplace OR employer OR employee OR wage OR discrimination OR union)",
     "priority": 10
   },
   {
@@ -87,8 +87,8 @@
     "type": "google_news",
     "name": "Business and Economy",
     "category": "Business & Economy",
-    "query": "U.S. economy labor market inflation Federal Reserve business workforce",
-    "priority": 6
+    "query": "U.S. economy inflation Federal Reserve business markets consumer economy",
+    "priority": 7
   },
   {
     "type": "google_news",
@@ -106,9 +106,30 @@
   },
   {
     "type": "google_news",
+    "name": "Tech and AI Trusted Sources",
+    "category": "Tech & AI",
+    "query": "(AI OR artificial intelligence OR technology OR cybersecurity OR privacy OR Apple OR Google OR Microsoft OR OpenAI) (site:reuters.com OR site:theverge.com OR site:arstechnica.com OR site:techcrunch.com OR site:wired.com)",
+    "priority": 8
+  },
+  {
+    "type": "rss",
+    "name": "BBC Entertainment & Arts",
+    "category": "Entertainment & Culture",
+    "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+    "priority": 7
+  },
+  {
+    "type": "google_news",
     "name": "Entertainment Trusted Sources",
     "category": "Entertainment & Culture",
     "query": "entertainment (site:variety.com OR site:deadline.com OR site:hollywoodreporter.com OR site:people.com OR site:vulture.com)",
-    "priority": 6
+    "priority": 7
+  },
+  {
+    "type": "google_news",
+    "name": "Positive and Good News",
+    "category": "Good News",
+    "query": "(rescue OR recovery OR conservation OR restored OR reunited OR breakthrough OR volunteers OR community OR kindness OR achievement) (site:apnews.com OR site:npr.org OR site:bbc.com OR site:bbc.co.uk OR site:smithsonianmag.com OR site:positive.news OR site:goodnewsnetwork.org)",
+    "priority": 7
   }
 ]
