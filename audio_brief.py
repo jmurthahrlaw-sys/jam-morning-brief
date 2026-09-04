@@ -19,34 +19,65 @@ def call_openrouter_for_script(digest):
     if not api_key:
         return None
     model = os.getenv("OPENROUTER_MODEL", "").strip() or "openai/gpt-4.1-mini"
-    prompt = f"""Turn the following written morning briefing into an intelligent, natural 8–12 minute spoken news briefing.
 
-Requirements:
-- Preserve factual accuracy and uncertainty.
-- Do not read URLs or formatting aloud.
-- Use smooth transitions.
-- Spend somewhat more time on consequential legal and Minnesota stories.
-- For legal stories, clearly name the court and explain the practical effect in plain English.
-- Keep entertainment near the end and let it feel lighter.
-- Finish with a short 'what to watch today.'
+    prompt = f"""Turn this written JAM Morning Brief into a polished spoken morning rundown for someone listening while getting ready for the day.
+
+TARGET:
+- Approximately 9–13 minutes.
+- Natural, calm, intelligent, conversational.
+- It should sound like a personal morning-news briefing, not like an article being read aloud.
 - Do not say you are an AI.
-- Output the spoken script only.
+- Do not read URLs, labels such as “source,” or email formatting aloud.
+- Preserve factual uncertainty and legal precision.
+
+ORDER — KEEP THIS EXACT:
+1. Three top U.S. national headlines
+2. Three top global headlines
+3. Two Minnesota headlines
+4. Employment & Labor Law Notes
+5. One or two Tech & AI stories
+6. One or two Entertainment & Culture stories
+7. One or two Good News stories
+
+LEGAL AUDIO STYLE:
+- The legal section is for an employment attorney.
+- Keep the legal content somewhat denser than the general-news sections, but still easy to follow by ear.
+- Name the court or agency when relevant.
+- State the development/holding, then give the practical employer or practice takeaway.
+- Prioritize federal employment/labor, D. Minn./Eighth Circuit employment matters, Ninth Circuit/California federal employment matters, Minnesota employment law, and California employment law.
+- Do not turn unrelated legal cases into a general court-news roundup.
+
+TRANSITIONS:
+Use short natural transitions such as “In Minnesota,” “Turning to employment law,” and “On the tech side.”
+Do not announce numbered lists unless it sounds natural.
+
+ENDING:
+- Do NOT include a “What to Watch Today” segment.
+- End on the Good News story with a warm but restrained closing sentence.
+- Do not add facts that are not in the briefing.
+
+Output the spoken script only.
 
 BRIEFING JSON:
 {json.dumps(digest, ensure_ascii=False)}
 """
+
     r = requests.post(
         OPENROUTER_URL,
-        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json", "X-Title": "JAM Morning Brief Audio"},
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "X-Title": "JAM Morning Brief Audio",
+        },
         json={
             "model": model,
-            "temperature": 0.35,
+            "temperature": 0.30,
             "messages": [
-                {"role": "system", "content": "You are a calm, polished morning-news audio producer."},
+                {"role": "system", "content": "You are a polished morning-news audio producer with excellent legal accuracy."},
                 {"role": "user", "content": prompt},
             ],
         },
-        timeout=120,
+        timeout=150,
     )
     r.raise_for_status()
     return r.json()["choices"][0]["message"]["content"].strip()
@@ -54,8 +85,7 @@ BRIEFING JSON:
 
 def split_for_tts(text, max_chars=3400):
     paragraphs = [p.strip() for p in re.split(r"\n+", text) if p.strip()]
-    chunks = []
-    current = ""
+    chunks, current = [], ""
     for p in paragraphs:
         candidate = (current + "\n\n" + p).strip()
         if len(candidate) <= max_chars:
@@ -68,8 +98,9 @@ def split_for_tts(text, max_chars=3400):
             cut = current.rfind(". ", 0, max_chars)
             if cut < max_chars // 2:
                 cut = max_chars
-            chunks.append(current[: cut + (2 if current[cut:cut+2] == '. ' else 0)].strip())
-            current = current[cut + (2 if current[cut:cut+2] == '. ' else 0):].strip()
+            extra = 2 if current[cut:cut+2] == ". " else 0
+            chunks.append(current[:cut + extra].strip())
+            current = current[cut + extra:].strip()
     if current:
         chunks.append(current)
     return chunks
@@ -80,9 +111,11 @@ def synthesize(text):
     if not api_key:
         print("OPENAI_API_KEY not set; skipping audio generation.")
         return None
+
     model = os.getenv("TTS_MODEL", "gpt-4o-mini-tts")
     voice = os.getenv("TTS_VOICE", "marin")
     combined = AudioSegment.empty()
+
     for idx, chunk in enumerate(split_for_tts(text), start=1):
         payload = {
             "model": model,
@@ -91,10 +124,18 @@ def synthesize(text):
             "response_format": "mp3",
         }
         if model.startswith("gpt-4o"):
-            payload["instructions"] = "Speak like a polished, warm morning-news host. Clear, measured, conversational, not theatrical."
+            payload["instructions"] = (
+                "Speak like a polished, warm morning-news host. "
+                "Clear, measured and conversational. Legal items should sound precise but not stiff. "
+                "Use subtle changes of pacing between hard news and lighter closing items."
+            )
+
         r = requests.post(
             OPENAI_SPEECH_URL,
-            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            },
             json=payload,
             timeout=180,
         )
@@ -104,6 +145,7 @@ def synthesize(text):
             combined += AudioSegment.silent(duration=350)
         combined += segment
         print(f"Synthesized audio chunk {idx}")
+
     out = OUTPUT / f"brief-{datetime.now().strftime('%Y-%m-%d')}.mp3"
     combined.export(out, format="mp3", bitrate="96k")
     return out
@@ -113,11 +155,13 @@ def main():
     digest_path = OUTPUT / "latest_digest.json"
     if not digest_path.exists():
         raise RuntimeError("latest_digest.json not found. Run daily_digest.py first.")
+
     digest = json.loads(digest_path.read_text(encoding="utf-8"))
     script = call_openrouter_for_script(digest)
     if not script:
         print("No OpenRouter key; skipping audio script.")
         return
+
     (OUTPUT / "latest_audio_script.txt").write_text(script, encoding="utf-8")
     out = synthesize(script)
     if out:

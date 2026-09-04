@@ -17,49 +17,32 @@ PROFILE_FILE = ROOT / "editorial_profile.txt"
 OUTPUT = ROOT / "output"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
-SECTION_ORDER = [
-    "Top News",
-    "Minnesota",
-    "U.S. Supreme Court",
-    "Federal Courts — Minnesota / Eighth Circuit",
-    "Federal Courts — California / Ninth Circuit",
-    "Minnesota Law",
-    "California Law",
-    "Federal Employment & Labor",
-    "California Employment & Labor",
-    "Politics & Government",
-    "Business & Economy",
-    "Health & Science",
-    "Education & Higher Education",
-    "Entertainment & Culture",
-    "Worth Knowing",
-]
-
-# Minimum representation in the AI candidate pool. These are not output quotas.
-CANDIDATE_MINIMUMS = {
-    "Top News": 12,
-    "Minnesota": 10,
-    "U.S. Supreme Court": 8,
-    "Federal Courts": 10,
-    "Minnesota Law": 8,
-    "California Law": 10,
-    "Employment Law": 8,
-    "Legal — Unsorted": 10,
-    "Politics & Government": 6,
-    "Business & Economy": 6,
-    "Health & Science": 5,
-    "Education & Higher Education": 4,
-    "Entertainment & Culture": 7,
-}
-
 TRUSTED_LEGAL_SOURCES = {
     "Lexology Daily Newsfeed",
     "ELINfonet Daily Employment Law Update",
 }
 
+# These are candidate-pool minimums, not output quotas.
+CANDIDATE_MINIMUMS = {
+    "Top News": 22,
+    "Minnesota": 12,
+    "U.S. Supreme Court": 8,
+    "Federal Courts": 12,
+    "Minnesota Law": 8,
+    "California Law": 12,
+    "Employment Law": 16,
+    "Legal — Unsorted": 12,
+    "Politics & Government": 8,
+    "Business & Economy": 8,
+    "Health & Science": 6,
+    "Education & Higher Education": 4,
+    "Entertainment & Culture": 10,
+    "Tech & AI": 10,
+    "Good News": 6,
+}
+
 
 def fix_text_encoding(value):
-    """Repair common UTF-8/Windows-1252 mojibake without changing normal text."""
     text = html.unescape(str(value or ""))
     bad_markers = ("â€", "â€™", "â€œ", "â€˜", "Ã", "Â")
     if any(marker in text for marker in bad_markers):
@@ -72,13 +55,8 @@ def fix_text_encoding(value):
         except (UnicodeEncodeError, UnicodeDecodeError):
             pass
     replacements = {
-        "â€™": "’",
-        "â€˜": "‘",
-        "â€œ": "“",
-        "â€": "”",
-        "â€“": "–",
-        "â€”": "—",
-        "Â ": " ",
+        "â€™": "’", "â€˜": "‘", "â€œ": "“", "â€": "”",
+        "â€“": "–", "â€”": "—", "Â ": " ",
     }
     for old, new in replacements.items():
         text = text.replace(old, new)
@@ -95,19 +73,41 @@ def within_lookback(item, hours):
         return True
 
 
+def is_employment_legal(item):
+    text = " ".join([
+        item.get("title", ""),
+        item.get("summary", ""),
+        item.get("category_hint", ""),
+    ]).lower()
+    terms = [
+        "employment", "employee", "employer", "labor", "labour", "eeoc", "nlrb",
+        "department of labor", "wage", "hour", "overtime", "discrimination",
+        "harassment", "retaliation", "accommodation", "ada", "fmla", "leave",
+        "pregnan", "union", "collective bargaining", "worker classification",
+        "independent contractor", "noncompete", "restrictive covenant", "paga",
+        "cal/osha", "dlse", "civil rights department", "workplace", "hiring",
+        "termination", "layoff", "pay transparency", "paid sick", "minimum wage",
+    ]
+    return any(term in text for term in terms)
+
+
 def item_rank(item):
-    trusted = 1 if item.get("source") in TRUSTED_LEGAL_SOURCES else 0
-    return (trusted, int(item.get("priority", 0)), item.get("published_at", ""))
+    trusted_legal = 2 if item.get("source") in TRUSTED_LEGAL_SOURCES else 0
+    employment_bonus = 1 if is_employment_legal(item) else 0
+    return (
+        trusted_legal,
+        employment_bonus,
+        int(item.get("priority", 0)),
+        item.get("published_at", ""),
+    )
 
 
 def select_candidates(items, max_items):
-    """Preserve subject diversity before sending candidates to the model."""
     buckets = defaultdict(list)
     for item in sorted(items, key=item_rank, reverse=True):
         buckets[item.get("category_hint", "Worth Knowing")].append(item)
 
-    selected = []
-    seen = set()
+    selected, seen = [], set()
 
     def add(item):
         key = item.get("id") or item.get("url") or item.get("title")
@@ -116,18 +116,22 @@ def select_candidates(items, max_items):
         selected.append(item)
         seen.add(key)
 
-    # Give every important category a guaranteed look before globally filling.
+    # First: guarantee substantial review of the two specialist legal feeds.
+    for source_name in TRUSTED_LEGAL_SOURCES:
+        source_items = [i for i in items if i.get("source") == source_name]
+        relevant = [i for i in source_items if is_employment_legal(i)]
+        for item in sorted(relevant, key=item_rank, reverse=True)[:24]:
+            add(item)
+        # Also allow a few items the keyword filter may miss.
+        for item in sorted(source_items, key=item_rank, reverse=True)[:8]:
+            add(item)
+
+    # Second: guarantee subject diversity.
     for category, minimum in CANDIDATE_MINIMUMS.items():
         for item in buckets.get(category, [])[:minimum]:
             add(item)
 
-    # Explicitly guarantee review of a reasonable number of trusted legal-source items.
-    for source_name in TRUSTED_LEGAL_SOURCES:
-        source_items = [i for i in items if i.get("source") == source_name]
-        for item in sorted(source_items, key=item_rank, reverse=True)[:15]:
-            add(item)
-
-    # Fill remaining capacity by overall rank.
+    # Third: fill remaining capacity by overall rank.
     for item in sorted(items, key=item_rank, reverse=True):
         if len(selected) >= max_items:
             break
@@ -141,7 +145,7 @@ def compact_story(item, idx):
     return {
         "id": idx,
         "title": fix_text_encoding(item.get("title", ""))[:300],
-        "summary": fix_text_encoding(item.get("summary", ""))[:700],
+        "summary": fix_text_encoding(item.get("summary", ""))[:850],
         "source": source,
         "url": item.get("url", ""),
         "category_hint": item.get("category_hint", ""),
@@ -149,6 +153,7 @@ def compact_story(item, idx):
         "published_at": item.get("published_at", ""),
         "origin": item.get("origin", ""),
         "trusted_legal_source": source in TRUSTED_LEGAL_SOURCES,
+        "employment_legal_hint": is_employment_legal(item),
     }
 
 
@@ -162,57 +167,82 @@ AVAILABLE STORIES FROM THE LAST ~24 HOURS:
 {json.dumps(stories, ensure_ascii=False)}
 
 TASK:
-Select and synthesize only the stories worth including. Merge duplicate coverage into a single item. Prefer the most authoritative or primary source available. Do not invent facts beyond the supplied material. If an item is thin, be cautious rather than filling gaps.
+Choose the best available items for the FIXED editorial assignments below.
+Do not simply rank all stories together. Fill each assignment on its own merits.
+Merge duplicate coverage into one item and prefer the strongest available source.
+Do not invent facts beyond supplied material.
 
-IMPORTANT SELECTION RULES:
-- Top Stories: 5 to 7 items, across the whole news agenda.
-- Ordinarily no more than TWO Top Stories should be primarily legal.
-- Do not repeat the same story in Top Stories and a lower section.
-- One legal case/development per story. Never combine unrelated court decisions.
-- Review Lexology Daily Newsfeed and ELINfonet items carefully when supplied. Include a material employment-law development when warranted, but do not force routine/promotional material.
-- For federal court items, distinguish Minnesota/Eighth Circuit from California/Ninth Circuit where the source material permits.
-- Put California employment/labor developments in "California Employment & Labor" when that is the principal significance.
-- Put federal agency/employment/labor developments in "Federal Employment & Labor" when appropriate.
-- If a requested section has no meaningful item, OMIT the section rather than filling it with weak material.
-- Entertainment should usually contain 2 to 3 genuinely worthwhile items, not filler.
-- The intro must summarize the stories actually selected.
-- "What to Watch Today" must concern plausible developments in the next 24 hours, not vague future events.
-- Never say the Supreme Court is about to decide a case merely because certiorari was granted.
-- Never describe a circuit ruling as binding nationwide.
-- Never call a district-court ruling precedent.
+FIXED OUTPUT:
+- national_headlines: EXACTLY 3
+- global_headlines: EXACTLY 3
+- minnesota: EXACTLY 2
+- legal_notes: flexible, usually 4–8 meaningful EMPLOYMENT/LABOR notes
+- tech_news: 1 or 2
+- entertainment: 1 or 2
+- good_news: 1 or 2
+- NO “What to Watch Today”
 
-Return VALID JSON ONLY, no markdown fences, with exactly this top-level shape:
+LEGAL SECTION:
+Lexology Daily Newsfeed and ELINfonet Daily Employment Law Update are primary specialist inputs.
+The legal section is NOT a general “interesting court cases” section. Its focus is employment and labor law:
+federal agencies/law, U.S. Supreme Court employment matters, D. Minn./8th Circuit employment matters,
+Ninth Circuit/California federal district employment matters, Minnesota state employment law, and California
+state employment law. California employment developments receive very high priority.
+
+Do not use a criminal case, tax case, general constitutional case, or unrelated civil case merely because it is legal.
+Include non-employment Supreme Court/legal matters only when unusually consequential to employer regulation,
+administrative law, civil rights, or the user's practice.
+
+Return VALID JSON ONLY with exactly this top-level shape:
 {{
   "date": "Month D, YYYY",
-  "intro": "1-2 sentence overview of the actual selected stories",
-  "top_stories": [
+  "intro": "1-2 sentences accurately describing this edition",
+  "national_headlines": [
     {{
       "headline": "...",
       "summary": "2-4 sentences",
       "why_it_matters": "1-2 concrete sentences",
       "source": "outlet/source",
-      "url": "https://...",
-      "court": "optional; empty string if not legal",
-      "case": "optional; empty string if not legal or not supplied",
-      "case_date": "optional; empty string if not supplied",
-      "holding_or_development": "optional; empty string if not legal",
-      "practical_effect": "optional; empty string if not legal"
+      "url": "https://..."
     }}
   ],
-  "sections": [
+  "global_headlines": [same general-story shape],
+  "minnesota": [same general-story shape],
+  "legal_notes": [
     {{
-      "name": "one of: {', '.join(SECTION_ORDER[1:])}",
-      "stories": [same story object shape]
+      "heading": "case name and court, or concise legal development title",
+      "jurisdiction_topic": "e.g. Federal — EEOC; California — Wage & Hour; Eighth Circuit — ADA",
+      "development": "concise description of holding, rule, agency action, legislation, or guidance",
+      "employer_takeaway": "concrete practice/compliance significance; empty string if source material is too thin",
+      "court": "optional; empty string if not applicable",
+      "case": "optional; empty string if not supplied",
+      "date": "optional; empty string if not supplied",
+      "effective_date": "optional; empty string if not supplied",
+      "source": "outlet/source",
+      "url": "https://..."
     }}
   ],
-  "what_to_watch": ["item 1", "item 2", "item 3"]
+  "tech_news": [same general-story shape],
+  "entertainment": [same general-story shape],
+  "good_news": [same general-story shape]
 }}
 
-Rules for size:
-- 5 to 7 top stories.
-- Most sections: 1 to 4 stories; omit empty sections.
-- Entertainment: usually 2 to 3 items.
-- Keep the full written digest near a 5–7 minute read.
+STRICT COUNTS:
+- national_headlines MUST contain 3 items.
+- global_headlines MUST contain 3 items.
+- minnesota MUST contain 2 items.
+- tech_news, entertainment, good_news must each contain 1 or 2 items.
+- legal_notes should contain only meaningful employment/labor items; fewer than 4 is acceptable if the source material does not support more.
+- Never create fake filler to meet a count. If there truly are not enough meaningful items, use the best available and do not invent.
+
+LEGAL ACCURACY:
+- One case/development per legal note.
+- Never combine unrelated decisions.
+- Never call a district-court ruling precedent.
+- Never imply a circuit ruling is binding nationwide.
+- Never invent a case name, holding, effective date, or employer obligation.
+- Distinguish commentary from authority.
+- If material is too thin, be cautious.
 """
 
 
@@ -228,17 +258,6 @@ def call_openrouter(prompt):
     if not api_key:
         raise RuntimeError("OPENROUTER_API_KEY is not configured")
     model = os.getenv("OPENROUTER_MODEL", "").strip() or "openai/gpt-4.1-mini"
-    payload = {
-        "model": model,
-        "temperature": 0.15,
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a precise senior news editor with unusually careful legal judgment. Return valid JSON only.",
-            },
-            {"role": "user", "content": prompt},
-        ],
-    }
     r = requests.post(
         OPENROUTER_URL,
         headers={
@@ -247,187 +266,187 @@ def call_openrouter(prompt):
             "HTTP-Referer": "https://github.com/jmurthahrlaw-sys/jam-morning-brief",
             "X-Title": "JAM Morning Brief",
         },
-        json=payload,
-        timeout=120,
+        json={
+            "model": model,
+            "temperature": 0.12,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a precise senior news editor and employment-law briefing editor. Return valid JSON only.",
+                },
+                {"role": "user", "content": prompt},
+            ],
+        },
+        timeout=150,
     )
     r.raise_for_status()
     return r.json()["choices"][0]["message"]["content"]
 
 
-def fallback_digest(items):
-    top = sorted(items, key=lambda x: int(x.get("priority", 0)), reverse=True)[:7]
-
-    def story(i):
-        return {
-            "headline": fix_text_encoding(i.get("title", "")),
-            "summary": fix_text_encoding(i.get("summary", ""))[:450],
-            "why_it_matters": "",
-            "source": i.get("source", ""),
-            "url": i.get("url", ""),
-            "court": "",
-            "case": "",
-            "case_date": "",
-            "holding_or_development": "",
-            "practical_effect": "",
-        }
-
-    grouped = {}
-    for i in items[7:]:
-        grouped.setdefault(i.get("category_hint", "Worth Knowing"), []).append(story(i))
+def general_story(item):
     return {
-        "date": datetime.now().strftime("%B %-d, %Y"),
-        "intro": "AI summarization was unavailable, so this edition lists the highest-priority collected stories.",
-        "top_stories": [story(i) for i in top],
-        "sections": [
-            {"name": k if k in SECTION_ORDER else "Worth Knowing", "stories": v[:4]}
-            for k, v in grouped.items()
-            if v
-        ],
-        "what_to_watch": [],
+        "headline": fix_text_encoding(item.get("title", "")),
+        "summary": fix_text_encoding(item.get("summary", ""))[:500],
+        "why_it_matters": "",
+        "source": item.get("source", ""),
+        "url": item.get("url", ""),
     }
 
 
-def clean_digest_text(digest):
-    def clean_story(story):
-        for key in [
-            "headline",
-            "summary",
-            "why_it_matters",
-            "source",
-            "court",
-            "case",
-            "case_date",
-            "holding_or_development",
-            "practical_effect",
-        ]:
-            if key in story:
-                story[key] = fix_text_encoding(story.get(key, ""))
-        return story
+def fallback_digest(items):
+    ranked = sorted(items, key=item_rank, reverse=True)
+    return {
+        "date": datetime.now().strftime("%B %-d, %Y"),
+        "intro": "AI summarization was unavailable, so this edition contains a basic selection of collected stories.",
+        "national_headlines": [general_story(i) for i in ranked[:3]],
+        "global_headlines": [general_story(i) for i in ranked[3:6]],
+        "minnesota": [general_story(i) for i in ranked if i.get("category_hint") == "Minnesota"][:2],
+        "legal_notes": [],
+        "tech_news": [general_story(i) for i in ranked if i.get("category_hint") == "Tech & AI"][:1],
+        "entertainment": [general_story(i) for i in ranked if i.get("category_hint") == "Entertainment & Culture"][:1],
+        "good_news": [],
+    }
 
+
+def clean_general_story(story):
+    for key in ["headline", "summary", "why_it_matters", "source"]:
+        story[key] = fix_text_encoding(story.get(key, ""))
+    return story
+
+
+def clean_digest_text(digest):
     digest["date"] = fix_text_encoding(digest.get("date", ""))
     digest["intro"] = fix_text_encoding(digest.get("intro", ""))
-    digest["top_stories"] = [clean_story(s) for s in digest.get("top_stories", [])]
-    for section in digest.get("sections", []):
-        section["name"] = fix_text_encoding(section.get("name", ""))
-        section["stories"] = [clean_story(s) for s in section.get("stories", [])]
-    digest["what_to_watch"] = [fix_text_encoding(x) for x in digest.get("what_to_watch", [])]
+    for key in ["national_headlines", "global_headlines", "minnesota", "tech_news", "entertainment", "good_news"]:
+        digest[key] = [clean_general_story(s) for s in digest.get(key, [])]
+    cleaned_legal = []
+    for note in digest.get("legal_notes", []):
+        for key in [
+            "heading", "jurisdiction_topic", "development", "employer_takeaway",
+            "court", "case", "date", "effective_date", "source",
+        ]:
+            note[key] = fix_text_encoding(note.get(key, ""))
+        cleaned_legal.append(note)
+    digest["legal_notes"] = cleaned_legal
     return digest
 
 
-def render_story(s):
-    headline = html.escape(fix_text_encoding(s.get("headline", "")))
-    summary = html.escape(fix_text_encoding(s.get("summary", "")))
-    why = html.escape(fix_text_encoding(s.get("why_it_matters", "")))
-    source = html.escape(fix_text_encoding(s.get("source", "")))
+def render_general_story(s):
+    headline = html.escape(s.get("headline", ""))
+    summary = html.escape(s.get("summary", ""))
+    why = html.escape(s.get("why_it_matters", ""))
+    source = html.escape(s.get("source", ""))
     url = html.escape(s.get("url", ""), quote=True)
-    legal_bits = []
-    for label, key in [
-        ("Court", "court"),
-        ("Case", "case"),
-        ("Date", "case_date"),
-        ("Holding / development", "holding_or_development"),
-        ("Practical effect", "practical_effect"),
-    ]:
-        value = fix_text_encoding((s.get(key) or "").strip())
-        if value:
-            legal_bits.append(
-                f'<div style="margin-top:6px"><strong>{label}:</strong> {html.escape(value)}</div>'
-            )
-    why_html = (
-        f'<div style="margin-top:9px"><strong>Why it matters:</strong> {why}</div>' if why else ""
-    )
-    source_html = (
-        f'<a href="{url}" style="color:#315d74;text-decoration:none">{source or "Read source"}</a>'
-        if url
-        else source
-    )
+    why_html = f'<div style="margin-top:8px"><strong>Why it matters:</strong> {why}</div>' if why else ""
+    src = f'<a href="{url}" style="color:#315d74;text-decoration:none">{source or "Read source"}</a>' if url else source
     return f"""
-    <div style="padding:18px 0;border-bottom:1px solid #e7e4de">
+    <div style="padding:16px 0;border-bottom:1px solid #e7e4de">
       <div style="font-size:19px;line-height:1.25;font-weight:700;color:#17232b">{headline}</div>
-      <div style="font-size:15px;line-height:1.55;margin-top:8px;color:#303b42">{summary}</div>
+      <div style="font-size:15px;line-height:1.55;margin-top:7px;color:#303b42">{summary}</div>
       {why_html}
-      {''.join(legal_bits)}
-      <div style="font-size:13px;margin-top:10px;color:#6b747a">{source_html}</div>
+      <div style="font-size:13px;margin-top:9px;color:#6b747a">{src}</div>
     </div>
     """
 
 
-def render_html(digest):
-    sections_html = ""
-    for section in digest.get("sections", []):
-        stories = section.get("stories") or []
-        if not stories:
-            continue
-        sections_html += f"""
-        <div style="font-size:13px;letter-spacing:.09em;text-transform:uppercase;font-weight:800;color:#5b6770;margin-top:34px;margin-bottom:2px">{html.escape(section.get('name',''))}</div>
-        {''.join(render_story(s) for s in stories)}
-        """
+def render_legal_note(n):
+    heading = html.escape(n.get("heading", ""))
+    jurisdiction = html.escape(n.get("jurisdiction_topic", ""))
+    development = html.escape(n.get("development", ""))
+    takeaway = html.escape(n.get("employer_takeaway", ""))
+    source = html.escape(n.get("source", ""))
+    url = html.escape(n.get("url", ""), quote=True)
+    meta = []
+    for label, key in [
+        ("Court", "court"),
+        ("Case", "case"),
+        ("Date", "date"),
+        ("Effective date", "effective_date"),
+    ]:
+        if n.get(key):
+            meta.append(f"<span style='margin-right:14px'><strong>{label}:</strong> {html.escape(n[key])}</span>")
+    src = f'<a href="{url}" style="color:#315d74;text-decoration:none">{source or "Read source"}</a>' if url else source
+    return f"""
+    <div style="padding:17px 0;border-bottom:1px solid #e7e4de">
+      <div style="font-size:13px;font-weight:800;color:#7a5d2c;text-transform:uppercase;letter-spacing:.04em">{jurisdiction}</div>
+      <div style="font-size:18px;line-height:1.3;font-weight:700;color:#17232b;margin-top:4px">{heading}</div>
+      <div style="font-size:15px;line-height:1.55;margin-top:8px;color:#303b42"><strong>Development:</strong> {development}</div>
+      {f'<div style="font-size:15px;line-height:1.55;margin-top:7px;color:#303b42"><strong>Employer takeaway:</strong> {takeaway}</div>' if takeaway else ''}
+      <div style="font-size:12px;line-height:1.5;margin-top:8px;color:#69737a">{' '.join(meta)}</div>
+      <div style="font-size:13px;margin-top:8px;color:#6b747a">{src}</div>
+    </div>
+    """
 
-    watch = digest.get("what_to_watch") or []
-    watch_html = "".join(
-        f"<li style='margin:7px 0'>{html.escape(fix_text_encoding(x))}</li>" for x in watch
-    )
-    top_html = "".join(render_story(s) for s in digest.get("top_stories", []))
+
+def section_html(title, stories, renderer=render_general_story):
+    if not stories:
+        return ""
+    return f"""
+    <div style="font-size:13px;letter-spacing:.09em;text-transform:uppercase;font-weight:800;color:#5b6770;margin-top:32px;margin-bottom:2px">{html.escape(title)}</div>
+    {''.join(renderer(s) for s in stories)}
+    """
+
+
+def render_html(d):
+    body = ""
+    body += section_html("Top National", d.get("national_headlines", []))
+    body += section_html("Top Global", d.get("global_headlines", []))
+    body += section_html("Minnesota", d.get("minnesota", []))
+    body += section_html("Employment & Labor Law Notes", d.get("legal_notes", []), render_legal_note)
+    body += section_html("Tech & AI", d.get("tech_news", []))
+    body += section_html("Entertainment & Culture", d.get("entertainment", []))
+    body += section_html("Good News", d.get("good_news", []))
     return f"""<!doctype html>
 <html><body style="margin:0;background:#f3f1ec;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;color:#26333a">
 <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f3f1ec;padding:24px 10px"><tr><td align="center">
 <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:720px;background:#ffffff;border-radius:14px;overflow:hidden">
-<tr><td style="padding:34px 36px 18px 36px">
+<tr><td style="padding:34px 36px 28px 36px">
   <div style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#65757f;font-weight:800">JAM Morning Brief</div>
-  <div style="font-family:Georgia,'Times New Roman',serif;font-size:34px;line-height:1.1;margin-top:8px;color:#17232b">{html.escape(digest.get('date',''))}</div>
-  <div style="font-size:16px;line-height:1.55;margin-top:12px;color:#4c5960">{html.escape(digest.get('intro',''))}</div>
-
-  <div style="font-size:13px;letter-spacing:.09em;text-transform:uppercase;font-weight:800;color:#5b6770;margin-top:32px">Top Stories</div>
-  {top_html}
-  {sections_html}
-
-  <div style="margin-top:34px;background:#f4f6f5;border-radius:10px;padding:18px 20px">
-    <div style="font-size:13px;letter-spacing:.09em;text-transform:uppercase;font-weight:800;color:#5b6770">What to Watch Today</div>
-    <ol style="padding-left:20px;margin:10px 0 0 0;font-size:15px;line-height:1.5">{watch_html}</ol>
-  </div>
+  <div style="font-family:Georgia,'Times New Roman',serif;font-size:34px;line-height:1.1;margin-top:8px;color:#17232b">{html.escape(d.get('date',''))}</div>
+  <div style="font-size:16px;line-height:1.55;margin-top:12px;color:#4c5960">{html.escape(d.get('intro',''))}</div>
+  {body}
   <div style="font-size:11px;color:#8a9297;margin-top:30px">Personal briefing generated from selected sources. Follow source links for full reporting and primary legal materials.</div>
 </td></tr></table>
 </td></tr></table>
 </body></html>"""
 
 
-def render_text(digest):
-    lines = [
-        "JAM MORNING BRIEF",
-        digest.get("date", ""),
-        "",
-        digest.get("intro", ""),
-        "",
-        "TOP STORIES",
-    ]
+def render_text(d):
+    lines = ["JAM MORNING BRIEF", d.get("date", ""), "", d.get("intro", "")]
 
-    def append_story(s):
-        lines.extend([f"\n{s.get('headline','')}", s.get("summary", "")])
-        if s.get("why_it_matters"):
-            lines.append(f"Why it matters: {s['why_it_matters']}")
-        for label, key in [
-            ("Court", "court"),
-            ("Case", "case"),
-            ("Date", "case_date"),
-            ("Holding / development", "holding_or_development"),
-            ("Practical effect", "practical_effect"),
-        ]:
-            if s.get(key):
-                lines.append(f"{label}: {s[key]}")
-        if s.get("source"):
-            lines.append(f"Source: {s.get('source')} {s.get('url','')}")
+    def add_general(title, stories):
+        if not stories:
+            return
+        lines.extend(["", title.upper()])
+        for s in stories:
+            lines.extend(["", s.get("headline", ""), s.get("summary", "")])
+            if s.get("why_it_matters"):
+                lines.append(f"Why it matters: {s['why_it_matters']}")
+            if s.get("source"):
+                lines.append(f"Source: {s['source']} {s.get('url','')}")
 
-    for s in digest.get("top_stories", []):
-        append_story(s)
+    add_general("Top National", d.get("national_headlines", []))
+    add_general("Top Global", d.get("global_headlines", []))
+    add_general("Minnesota", d.get("minnesota", []))
 
-    for section in digest.get("sections", []):
-        lines.append(f"\n{section.get('name','').upper()}")
-        for s in section.get("stories", []):
-            append_story(s)
+    if d.get("legal_notes"):
+        lines.extend(["", "EMPLOYMENT & LABOR LAW NOTES"])
+        for n in d["legal_notes"]:
+            lines.extend(["", n.get("heading", "")])
+            if n.get("jurisdiction_topic"):
+                lines.append(n["jurisdiction_topic"])
+            lines.append(f"Development: {n.get('development','')}")
+            if n.get("employer_takeaway"):
+                lines.append(f"Employer takeaway: {n['employer_takeaway']}")
+            for label, key in [("Court","court"),("Case","case"),("Date","date"),("Effective date","effective_date")]:
+                if n.get(key):
+                    lines.append(f"{label}: {n[key]}")
+            if n.get("source"):
+                lines.append(f"Source: {n['source']} {n.get('url','')}")
 
-    lines.append("\nWHAT TO WATCH TODAY")
-    for x in digest.get("what_to_watch", []):
-        lines.append(f"- {x}")
+    add_general("Tech & AI", d.get("tech_news", []))
+    add_general("Entertainment & Culture", d.get("entertainment", []))
+    add_general("Good News", d.get("good_news", []))
     return "\n".join(lines).strip() + "\n"
 
 
@@ -439,9 +458,8 @@ def main():
     items = dedupe_near(dedupe_exact(items), threshold=87)
     items.sort(key=item_rank, reverse=True)
 
-    max_items = int(os.getenv("MAX_STORIES_FOR_AI", "120"))
+    max_items = int(os.getenv("MAX_STORIES_FOR_AI", "150"))
     candidates = select_candidates(items, max_items)
-
     if not candidates:
         raise RuntimeError("No recent stories found. Run scraper.py first.")
 
@@ -449,16 +467,12 @@ def main():
     source_counts = Counter(i.get("source", "") for i in candidates)
     print(f"Sending {len(candidates)} candidate stories to AI.")
     print("Candidate categories:", dict(category_counts))
-    print(
-        "Trusted legal candidates:",
-        {
-            source: source_counts.get(source, 0)
-            for source in sorted(TRUSTED_LEGAL_SOURCES)
-        },
-    )
+    print("Trusted legal candidates:", {s: source_counts.get(s, 0) for s in sorted(TRUSTED_LEGAL_SOURCES)})
+    print("Employment/legal-hint candidates:", sum(1 for i in candidates if is_employment_legal(i)))
 
     profile = PROFILE_FILE.read_text(encoding="utf-8")
     compact = [compact_story(item, idx + 1) for idx, item in enumerate(candidates)]
+
     try:
         raw = call_openrouter(build_prompt(profile, compact))
         digest = clean_digest_text(parse_json_response(raw))
@@ -467,12 +481,19 @@ def main():
         digest = fallback_digest(candidates)
 
     today = datetime.now().strftime("%Y-%m-%d")
-    (OUTPUT / "latest_digest.json").write_text(
-        json.dumps(digest, indent=2, ensure_ascii=False), encoding="utf-8"
-    )
+    (OUTPUT / "latest_digest.json").write_text(json.dumps(digest, indent=2, ensure_ascii=False), encoding="utf-8")
     (OUTPUT / f"brief-{today}.html").write_text(render_html(digest), encoding="utf-8")
     (OUTPUT / f"brief-{today}.txt").write_text(render_text(digest), encoding="utf-8")
-    print(f"Created daily digest with {len(digest.get('top_stories', []))} top stories.")
+    print(
+        "Created digest:",
+        f"{len(digest.get('national_headlines', []))} national,",
+        f"{len(digest.get('global_headlines', []))} global,",
+        f"{len(digest.get('minnesota', []))} Minnesota,",
+        f"{len(digest.get('legal_notes', []))} legal notes,",
+        f"{len(digest.get('tech_news', []))} tech,",
+        f"{len(digest.get('entertainment', []))} entertainment,",
+        f"{len(digest.get('good_news', []))} good news.",
+    )
 
 
 if __name__ == "__main__":
