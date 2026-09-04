@@ -3,13 +3,13 @@ name: Send daily morning brief
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron is UTC. 12:05 UTC = 7:05 AM Central during CDT.
-    # During CST this runs at 6:05 AM; we can later add a DST-safe adjustment if desired.
+    # GitHub cron is UTC. 12:05 UTC = 7:05 AM Central during daylight saving time.
     - cron: "5 12 * * *"
 
 jobs:
   brief:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -63,7 +63,7 @@ jobs:
           BRIEF_FROM_NAME: JAM Morning Brief
         run: python send_email.py
 
-       - name: Upload today's brief as a workflow artifact
+      - name: Upload today's brief as a workflow artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
