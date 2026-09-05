@@ -2,21 +2,26 @@
   "imap_configured": true,
   "imap_user": "jammorningbrief@gmail.com",
   "lookback_days": 7,
+  "issues_per_source": 1,
   "mailbox": "\"[Gmail]/All Mail\"",
   "matched_message_count": 1,
+  "selected_issue_count": 1,
   "acc_message_count": 1,
   "elinfonet_message_count": 0,
-  "acc_article_count": 40,
+  "acc_article_count": 16,
   "elinfonet_article_count": 0,
+  "article_pages_fetched": 0,
+  "article_dates_resolved": 0,
   "messages": [
     {
       "kind": "acc",
       "subject": "Fwd: ACC Newsstand",
       "from": "Janene Murtha <janenemurtha@gmail.com>",
       "date": "Sat, 5 Sep 2026 13:51:32 -0500",
-      "articles_extracted": 40
+      "articles_extracted": 16,
+      "article_dates_resolved": 0
     }
   ],
-  "collected_at": "2026-09-05T19:42:34.429899+00:00",
+  "collected_at": "2026-09-05T20:25:16.996184+00:00",
   "status": "ok"
 }
