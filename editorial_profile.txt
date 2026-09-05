@@ -1,5 +1,5 @@
 JAM MORNING BRIEF — EDITORIAL PROFILE
-Version 4.0
+Version 8.0
 
 PURPOSE
 Create one concise personal morning briefing with two deliberately separate editorial tracks:
@@ -13,7 +13,7 @@ FINAL ORDER
 1. TOP NATIONAL — exactly 3
 2. TOP GLOBAL — exactly 3
 3. MINNESOTA — exactly 2
-4. EMPLOYMENT & LABOR LAW NOTES — flexible, usually 4–8 when warranted
+4. EMPLOYMENT & LABOR LAW NOTES — flexible, usually 6–10 when warranted
 5. TECH & AI — 1 or 2
 6. ENTERTAINMENT & CULTURE — 1 or 2
 7. GOOD NEWS — 1 or 2
@@ -166,7 +166,9 @@ LEGAL ACCURACY
 - Do not fabricate an “employer takeaway” where the employment connection is incidental.
 
 LEGAL LENGTH
-Usually 4–8 notes on an active day; fewer is better than filler.
+Usually 6–10 notes on an active day, with California first. The user prefers more useful coverage rather than an artificially small section.
+Typical target when warranted: 4–6 California notes plus 2–4 federal/Minnesota notes.
+Hard maximum: 10 total. Fewer is better than filler.
 A meaningful specialist-source item should not be omitted just because a general-news story is more popular.
 
 WRITING STYLE
@@ -228,13 +230,22 @@ ORDER WITHIN EMPLOYMENT & LABOR LAW NOTES
    - include meaningful employment/labor developments, but do not give Minnesota equal space with California by default
 
 CALIFORNIA SELECTION TARGET
-- On an ordinary active day, aim for 2–4 California-specific notes when meaningful material is available.
+- On an ordinary active day, aim for 4–6 California-specific notes when that much meaningful fresh material is available.
 - California notes should appear FIRST in the legal section.
 - If the candidate pool contains meaningful California employment material, it must not be displaced by routine federal enforcement stories.
 - A routine one-off OSHA accident investigation, small local wage settlement, or generic discrimination verdict should not displace a material California statute, appellate decision, CRD/DLSE development, PAGA development, or Ninth Circuit/California federal employment decision.
 - Never invent California content to fill a quota. If no meaningful California update exists within the legal lookback window, say so in diagnostics rather than substituting unrelated California law.
 
-LEGAL LOOKBACK
+V8 DAILY FRESHNESS / DEDUPLICATION
 - General news remains a roughly 30-hour briefing.
-- Employment-law developments may use a longer lookback because important legal developments are less frequent and may be published late in the day or before a weekend.
-- Use a default legal lookback of 96 hours, while preferring the newest meaningful items and avoiding needless repetition.
+- Employment-law developments use a default 48-hour freshness window.
+- The newsletters may be searched farther back only so the newest issue can still be found over weekends/holidays; do not treat every old issue in that search window as current.
+- Only the newest ACC Newsstand and newest ELINfonet issue should feed each run by default.
+- When the underlying article publication date can be resolved, use that date rather than the newsletter-forwarding date.
+- Do not repeat a legal story already used in a recent JAM brief merely because another outlet republishes or re-analyzes it.
+- One underlying legal development gets one note. Consolidate duplicate articles about the same bill, case, agency action, guidance, or rule.
+- Do not include generic worker-rights awareness pieces, annual reports, webinars, marketing, evergreen explainers, or stale proposals simply to fill space.
+- Specialist newsletters are mandatory inputs, not automatic inclusions. Primary authority or stronger analysis may be used when it covers the same development.
+- Pending legislation or advocacy must be described conditionally; do not phrase it as enacted regulation.
+- Do not infer specific duties (including accommodation or termination obligations) unless supported by the source.
+- Federal-sector EEOC procedures do not automatically apply to federal contractors or private employers.

@@ -1,0 +1,38 @@
+JAM MORNING BRIEF v8 — FRESH DAILY LEGAL EDITION
+
+Replace these files in the GitHub repository:
+
+TOP LEVEL
+- scraper.py
+- daily_digest.py
+- editorial_profile.txt
+
+.github/workflows/
+- scrape-news.yml
+- daily-morning-brief.yml
+
+Suggested commit message:
+Freshen and deduplicate daily legal brief
+
+WHAT V8 CHANGES
+- Legal freshness window defaults to 48 hours instead of 96.
+- IMAP still searches 7 days so weekends/holidays can find the newest newsletter,
+  but only the newest ACC Newsstand and newest ELINfonet issue are parsed.
+- ACC ingestion focuses on the U.S. Employment & Labor section instead of global
+  employment material and general newsletter sections.
+- Newsletter article pages are fetched on a best-effort basis to resolve the
+  underlying article publication date and source-page description. If this fails,
+  the newsletter issue date is retained as a fallback.
+- Legal stories already used in a recent JAM brief are stored in
+  data/brief_history.json and filtered from later briefs.
+- The daily workflow commits that small story-history file automatically.
+- Legal target is 6–10 useful notes on an active day: usually 4–6 California and
+  2–4 federal/Minnesota, with a hard maximum of 10.
+- Duplicate California AI/TPS and similar repeated coverage is consolidated.
+- Old/stale dated notes are deterministically removed after editorial selection.
+- Legal prompt explicitly distinguishes pending legislation from enacted rules,
+  avoids unsupported accommodation/termination duties, and keeps federal-sector
+  EEOC procedures separate from private/federal-contractor rules.
+
+NO NEW SECRETS ARE REQUIRED.
+Existing IMAP_USER and IMAP_APP_PASSWORD continue to be used.

@@ -10,12 +10,13 @@ import requests
 from dateutil import parser as dateparser
 
 from dedupe import dedupe_exact, dedupe_near, normalize_title, canonical_url
-from rapidfuzz.fuzz import ratio
+from rapidfuzz.fuzz import ratio, token_set_ratio
 
 ROOT = Path(__file__).resolve().parent
 DATA_FILE = ROOT / "data" / "news.json"
 PROFILE_FILE = ROOT / "editorial_profile.txt"
 OUTPUT = ROOT / "output"
+HISTORY_FILE = ROOT / "data" / "brief_history.json"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 TRUSTED_LEGAL_SOURCES = {
@@ -95,6 +96,70 @@ def within_lookback(item, hours):
         return dt >= datetime.now(timezone.utc) - timedelta(hours=hours)
     except Exception:
         return True
+
+
+def legal_story_key(item):
+    url = canonical_url(item.get("url", ""))
+    if url:
+        return url
+    return normalize_title(item.get("title", "") or item.get("heading", ""))
+
+
+def load_legal_history(days=21):
+    if not HISTORY_FILE.exists():
+        return []
+    try:
+        payload = json.loads(HISTORY_FILE.read_text(encoding="utf-8"))
+        entries = payload.get("legal", []) if isinstance(payload, dict) else []
+    except Exception:
+        return []
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    kept = []
+    for e in entries:
+        try:
+            dt = dateparser.parse(e.get("used_at", ""))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            if dt >= cutoff:
+                kept.append(e)
+        except Exception:
+            continue
+    return kept
+
+
+def previously_used_legal(item, history):
+    key = legal_story_key(item)
+    title = normalize_title(item.get("title", ""))
+    for entry in history:
+        if key and key == entry.get("key"):
+            return True
+        old_title = normalize_title(entry.get("title", ""))
+        if title and old_title and token_set_ratio(title, old_title) >= 88:
+            return True
+    return False
+
+
+def save_legal_history(notes, existing_history):
+    now = datetime.now(timezone.utc).isoformat()
+    entries = list(existing_history)
+    for note in notes:
+        title = note.get("heading", "")
+        url = note.get("url", "")
+        key = canonical_url(url) or normalize_title(title)
+        if not key:
+            continue
+        entries.append({"key": key, "title": title, "url": url, "used_at": now})
+    # Exact key de-dupe, newest wins.
+    deduped = {}
+    for entry in entries:
+        deduped[entry.get("key", "")] = entry
+    final = [e for k, e in deduped.items() if k]
+    final.sort(key=lambda e: e.get("used_at", ""), reverse=True)
+    HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)
+    HISTORY_FILE.write_text(
+        json.dumps({"legal": final[:250]}, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
 
 
 def is_employment_relevant(item):
@@ -363,7 +428,7 @@ HARD EDITORIAL RULES:
 
 def build_legal_prompt(profile, stories):
     return f"""You are the EMPLOYMENT & LABOR LAW editor for JAM Morning Brief.
-Your reader practices PRIMARILY CALIFORNIA employment law. This is a professional practice update, NOT a general court-news section.
+Your reader practices PRIMARILY CALIFORNIA employment law. This is a DAILY professional practice update, not a general court-news section.
 
 EDITORIAL RULES:
 {profile}
@@ -371,13 +436,30 @@ EDITORIAL RULES:
 LEGAL CANDIDATES:
 {json.dumps(stories, ensure_ascii=False)}
 
+FRESHNESS IS CRITICAL:
+- This brief runs every day. Prefer genuinely new developments from the last 24–48 hours.
+- The candidate published_at field is the best available article/development date. Treat it as a freshness signal.
+- A newsletter issue date is NOT proof that the underlying article is new. If a title/summary reveals an older development, mark it stale.
+- Do not recycle background explainers, annual reports, old proposals, or articles merely because they appeared in today's newsletter.
+- A story already used in a prior JAM brief is filtered before you see it; do not recreate it from a duplicate source.
+
 PRIMARY PRACTICE PRIORITY:
 1. California state employment/labor law and California employer compliance.
 2. Ninth Circuit and California federal district employment/labor cases.
 3. Federal employment/labor agencies and nationally applicable employment law.
 4. Minnesota/Eighth Circuit employment matters when meaningful.
 
-Lexology Daily Newsfeed and ELINfonet Daily Employment Law Update remain PRIMARY specialist sources and every supplied item must be reviewed.
+SOURCE PRIORITY:
+- Lexology/ACC Newsstand and ELINfonet are mandatory specialist INPUTS and should be reviewed carefully, but they do not receive automatic inclusion.
+- When multiple sources cover the same development, choose ONE note and prefer the most authoritative source: primary authority/agency first, then strong specialist analysis.
+- Do not use a weaker duplicate merely to increase the count.
+
+LENGTH / SELECTION:
+- Target 6–10 TOTAL legal notes on an active day; fewer is acceptable on a quiet day.
+- Usually 4–6 California notes and 2–4 federal/Minnesota notes when that much genuinely strong fresh material exists.
+- HARD MAXIMUM: 10 total legal notes, 6 California notes, 4 other notes.
+- The user prefers more useful coverage rather than an artificially tiny section, but NEVER pad with stale, repetitive, promotional, or low-value material.
+- One underlying legal development gets ONE note. Consolidate duplicate coverage of the same bill, guidance, case, rule, or agency action.
 
 Return VALID JSON ONLY:
 {{
@@ -395,20 +477,7 @@ Return VALID JSON ONLY:
       "url": "..."
     }}
   ],
-  "other_legal_notes": [
-    {{
-      "heading": "...",
-      "jurisdiction_topic": "e.g. Federal — EEOC; Minnesota — Wage & Hour",
-      "development": "...",
-      "employer_takeaway": "...",
-      "court": "",
-      "case": "",
-      "date": "",
-      "effective_date": "",
-      "source": "...",
-      "url": "..."
-    }}
-  ],
+  "other_legal_notes": [same shape],
   "specialist_source_review": [
     {{
       "source": "Lexology Daily Newsfeed or ELINfonet Daily Employment Law Update",
@@ -428,29 +497,26 @@ Return VALID JSON ONLY:
 }}
 
 CALIFORNIA RULES:
-- Aim for 2–4 California-specific notes when meaningful California candidates are available.
-- California notes appear FIRST in the legal briefing.
-- A California note may concern state law, a California agency, Ninth Circuit employment law, or a California federal district employment case.
-- Prefer substantive California developments over routine one-off federal enforcement stories.
-- If California candidates exist but are not included, affirmatively explain each exclusion in california_candidate_review.
-- Do NOT substitute unrelated California tax, pension, criminal, environmental, or general civil cases.
+- California notes appear FIRST.
+- Prefer enacted/pending employer obligations, appellate decisions, CRD/DIR/DLSE/Cal-OSHA actions, PAGA, wage/hour, FEHA, leave/accommodation, restrictive covenants, privacy, workplace AI, and meaningful Ninth Circuit/California federal decisions.
+- Do not include generic worker-rights awareness articles, ordinary allegations, annual reports, webinars, marketing, or evergreen explainers unless they contain a genuine new legal development.
+- Multiple articles about the same California AI bill are ONE development, not several notes.
+- Multiple articles about the same TPS guidance are ONE development, not several notes.
 
 OTHER LEGAL NOTES:
-- Usually 2–5 strong federal/Minnesota notes after the California section.
-- Do not overfill with routine OSHA accident investigations, small local settlements, or generic verdicts when more consequential California or federal developments exist.
-
-SPECIALIST REVIEW:
-- EVERY supplied Lexology and ELINfonet item must be represented in specialist_source_review.
-- Material California items from those specialist feeds should be placed in california_notes.
-- Material federal/Minnesota items may be placed in other_legal_notes.
+- Prefer consequential EEOC, NLRB, DOL, OSHA, Supreme Court, federal statute/regulation, and meaningful Minnesota/Eighth Circuit developments.
+- Exclude state-specific developments outside California/Minnesota unless they have clear national significance.
+- Employee benefits/pension items are secondary and should be included only when unusually significant to employer compliance.
 
 ACCURACY:
 - One development per note.
-- Never invent case names, holdings, deadlines, effective dates, or obligations.
+- Never invent case names, holdings, deadlines, effective dates, obligations, penalties, or remedies.
 - Never call a district-court ruling precedent.
 - Never describe a circuit decision as binding nationwide.
-- Never manufacture an employer takeaway from an incidental connection.
-- If source material is thin, be cautious or omit.
+- Advocacy for a pending bill is NOT an enacted rule; phrase the takeaway conditionally.
+- Do not infer a reasonable-accommodation duty, termination restriction, or other specific obligation unless the supplied source supports it.
+- Federal-sector EEOC procedures do not automatically apply to federal contractors or private employers.
+- If source material is thin, omit the unsupported detail or omit the note.
 """
 
 
@@ -467,6 +533,76 @@ def clean_legal_note(note):
     ):
         note[key] = fix_text_encoding(note.get(key, ""))
     return note
+
+
+def _note_date_is_stale(note, lookback_hours):
+    value = (note.get("date") or "").strip()
+    if not value:
+        return False
+    try:
+        dt = dateparser.parse(value)
+        if not dt:
+            return False
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt < datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
+    except Exception:
+        return False
+
+
+def _legal_topic_signature(note):
+    text = " ".join([
+        note.get("heading", ""), note.get("jurisdiction_topic", ""),
+        note.get("development", ""),
+    ]).lower()
+    is_ca = "california" in text or "ninth circuit" in text
+    if "temporary protected status" in text or re.search(r"\btps\b", text):
+        return "ca:tps" if is_ca else "tps"
+    if is_ca and ("workplace ai" in text or "artificial intelligence" in text or "automated decision" in text or re.search(r"\bai\b", text)):
+        return "ca:workplace-ai"
+    if is_ca and "labor commissioner" in text:
+        return "ca:labor-commissioner"
+    if is_ca and "holiday" in text and ("dir" in text or "holiday pay" in text):
+        return "ca:holiday-pay"
+    if "eeo-1" in text:
+        return "federal:eeo-1"
+    if "electronic delivery" in text or "e-delivery" in text:
+        return "federal:e-delivery"
+    if is_ca and "bills" in text and ("newsom" in text or "key measures" in text):
+        return "ca:legislative-roundup"
+    return ""
+
+
+def postprocess_legal_notes(notes, lookback_hours, max_notes):
+    out = []
+    seen_urls = set()
+    seen_topics = set()
+    for note in notes:
+        if _note_date_is_stale(note, lookback_hours):
+            continue
+        url = canonical_url(note.get("url", ""))
+        if url and url in seen_urls:
+            continue
+        topic = _legal_topic_signature(note)
+        if topic and topic in seen_topics:
+            continue
+        heading = normalize_title(note.get("heading", ""))
+        duplicate = False
+        for existing in out:
+            old = normalize_title(existing.get("heading", ""))
+            if heading and old and token_set_ratio(heading, old) >= 86:
+                duplicate = True
+                break
+        if duplicate:
+            continue
+        out.append(note)
+        if url:
+            seen_urls.add(url)
+        if topic:
+            seen_topics.add(topic)
+        if len(out) >= max_notes:
+            break
+    return out
 
 
 def story_key(story):
@@ -546,6 +682,13 @@ def validate_legal(legal_digest, legal_candidates):
 
     specialist_review = legal_digest.get("specialist_source_review", [])
     ca_review = legal_digest.get("california_candidate_review", [])
+
+    if len(ca_notes) > 6:
+        errors.append(f"california_notes hard maximum is 6, found {len(ca_notes)}")
+    if len(other_notes) > 4:
+        errors.append(f"other_legal_notes hard maximum is 4, found {len(other_notes)}")
+    if len(ca_notes) + len(other_notes) > 10:
+        errors.append(f"total legal notes hard maximum is 10, found {len(ca_notes) + len(other_notes)}")
 
     if specialist_candidates and not (ca_notes or other_notes):
         errors.append(
@@ -762,14 +905,16 @@ def main():
     items = [normalize_item(i) for i in items]
 
     general_lookback = int(os.getenv("LOOKBACK_HOURS", "30"))
-    legal_lookback = int(os.getenv("LEGAL_LOOKBACK_HOURS", "96"))
+    legal_lookback = int(os.getenv("LEGAL_LOOKBACK_HOURS", "48"))
 
     items = dedupe_near(dedupe_exact(items), threshold=87)
     general_recent = [i for i in items if within_lookback(i, general_lookback)]
-    legal_recent = [i for i in items if within_lookback(i, legal_lookback)]
+    legal_history = load_legal_history()
+    legal_recent_before_history = [i for i in items if within_lookback(i, legal_lookback)]
+    legal_recent = [i for i in legal_recent_before_history if not previously_used_legal(i, legal_history)]
 
     general_max = int(os.getenv("GENERAL_MAX_STORIES_FOR_AI", "150"))
-    legal_max = int(os.getenv("LEGAL_MAX_STORIES_FOR_AI", "160"))
+    legal_max = int(os.getenv("LEGAL_MAX_STORIES_FOR_AI", "100"))
 
     general_items = select_general_candidates(general_recent, general_max)
     legal_items = select_legal_candidates(legal_recent, legal_max)
@@ -787,7 +932,9 @@ def main():
     california_recent = [i for i in legal_recent if is_california_employment(i)]
     diagnostics = {
         "recent_total_items_general_lookback": len(general_recent),
-        "recent_total_items_legal_lookback": len(legal_recent),
+        "recent_total_items_legal_lookback": len(legal_recent_before_history),
+        "legal_items_after_history_filter": len(legal_recent),
+        "previously_used_legal_filtered": len(legal_recent_before_history) - len(legal_recent),
         "general_lookback_hours": general_lookback,
         "legal_lookback_hours": legal_lookback,
         "general_candidate_count": len(general_items),
@@ -865,6 +1012,14 @@ def main():
         other_legal_notes = [
             clean_legal_note(n) for n in legal_digest.get("other_legal_notes", [])
         ]
+        # Deterministic safety net: stale-dated notes, obvious topical duplicates,
+        # and over-long outputs are removed even if the model over-selects.
+        california_legal_notes = postprocess_legal_notes(
+            california_legal_notes, legal_lookback, 6
+        )
+        other_legal_notes = postprocess_legal_notes(
+            other_legal_notes, legal_lookback, 4
+        )
         specialist_review = legal_digest.get("specialist_source_review", [])
         california_candidate_review = legal_digest.get("california_candidate_review", [])
 
@@ -924,6 +1079,8 @@ def main():
     )
     (OUTPUT / f"brief-{today}.html").write_text(render_html(digest), encoding="utf-8")
     (OUTPUT / f"brief-{today}.txt").write_text(render_text(digest), encoding="utf-8")
+
+    save_legal_history(legal_notes, legal_history)
 
     print(
         "Created digest:",

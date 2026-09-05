@@ -4,12 +4,14 @@ import imaplib
 import json
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from email.header import decode_header
 from pathlib import Path
 from urllib.parse import quote_plus, urlparse
 
 import feedparser
+import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 
@@ -24,13 +26,23 @@ USER_AGENT = "JAM-Morning-Brief/1.0 (+personal news aggregator)"
 LEXOLOGY_SOURCE = "Lexology Daily Newsfeed"
 ELINFONET_SOURCE = "ELINfonet Daily Employment Law Update"
 
-# ACC Newsstand contains several non-employment sections. These two sections are
-# directly relevant to the user's employment practice; strong employment-law
-# items in other sections are also allowed through by keyword screening.
+# ACC Newsstand contains several non-employment sections. Employment & Labor is
+# the core section for JAM; strong employment-law items elsewhere may still pass
+# the keyword screen.
 ACC_RELEVANT_SECTIONS = {
     "employment & labor",
-    "employee benefits & pensions",
 }
+
+# Track the country heading in ACC Newsstand so the U.S. practice feed does not
+# spend candidate budget on Canada/Europe/other international employment items.
+ACC_COUNTRY_HEADINGS = {
+    "usa", "united states", "canada", "global", "australia", "brazil", "china",
+    "czech republic", "france", "germany", "hungary", "india", "ireland", "italy",
+    "japan", "mexico", "netherlands", "new zealand", "north macedonia", "poland",
+    "portugal", "singapore", "south africa", "south korea", "spain", "sweden",
+    "switzerland", "taiwan", "thailand", "turkey", "united kingdom", "uk",
+}
+US_COUNTRY_HEADINGS = {"usa", "united states"}
 
 ACC_SECTION_HEADINGS = {
     "employment & labor",
@@ -293,16 +305,160 @@ def lookahead_summary(lines, start_index, max_lines=5):
     return " ".join(pieces)
 
 
+def _jsonld_dates(obj):
+    """Yield datePublished/dateModified values from nested JSON-LD."""
+    if isinstance(obj, dict):
+        for key in ("datePublished", "dateCreated", "uploadDate", "dateModified"):
+            value = obj.get(key)
+            if value:
+                yield value
+        for value in obj.values():
+            yield from _jsonld_dates(value)
+    elif isinstance(obj, list):
+        for value in obj:
+            yield from _jsonld_dates(value)
+
+
+def _plausible_article_date(value):
+    if not value:
+        return ""
+    try:
+        dt = dateparser.parse(str(value))
+        if not dt:
+            return ""
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        dt = dt.astimezone(timezone.utc)
+        # Reject obviously bogus metadata and dates far in the future.
+        if dt.year < 2018 or dt > datetime.now(timezone.utc) + timedelta(days=2):
+            return ""
+        return dt.isoformat()
+    except Exception:
+        return ""
+
+
+def fetch_article_metadata(url):
+    """Best-effort fetch of an article's own publication date and description.
+
+    Newsletter issue dates are not reliable article publication dates.  This
+    function follows the article link and checks standard metadata/JSON-LD so
+    stale stories can be filtered deterministically later.  Failures are safe:
+    the newsletter issue date remains the fallback.
+    """
+    try:
+        r = requests.get(
+            url,
+            timeout=float(os.getenv("ARTICLE_METADATA_TIMEOUT", "10")),
+            allow_redirects=True,
+            headers={"User-Agent": USER_AGENT},
+        )
+        if r.status_code >= 400 or "html" not in (r.headers.get("Content-Type", "").lower()):
+            return {}
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        date_values = []
+        for attrs in (
+            {"property": "article:published_time"},
+            {"property": "og:published_time"},
+            {"name": "date"},
+            {"name": "datePublished"},
+            {"name": "publish-date"},
+            {"name": "publication_date"},
+            {"itemprop": "datePublished"},
+        ):
+            tag = soup.find("meta", attrs=attrs)
+            if tag and tag.get("content"):
+                date_values.append(tag.get("content"))
+
+        for script in soup.find_all("script", type="application/ld+json"):
+            try:
+                payload = json.loads(script.string or script.get_text() or "")
+            except Exception:
+                continue
+            date_values.extend(_jsonld_dates(payload))
+
+        for t in soup.find_all("time", datetime=True)[:8]:
+            date_values.append(t.get("datetime"))
+
+        published_at = ""
+        for value in date_values:
+            published_at = _plausible_article_date(value)
+            if published_at:
+                break
+
+        description = ""
+        for attrs in (
+            {"property": "og:description"},
+            {"name": "description"},
+            {"name": "twitter:description"},
+        ):
+            tag = soup.find("meta", attrs=attrs)
+            if tag and tag.get("content"):
+                description = clean_text(tag.get("content"))
+                if len(description) >= 60:
+                    break
+
+        return {
+            "article_published_at": published_at,
+            "article_description": description[:1400],
+            "resolved_url": r.url,
+        }
+    except Exception:
+        return {}
+
+
+def enrich_newsletter_items(items):
+    if not items:
+        return items, {"dates_resolved": 0, "pages_fetched": 0}
+    max_workers = max(1, min(int(os.getenv("ARTICLE_METADATA_WORKERS", "8")), 12))
+    results = {}
+    with ThreadPoolExecutor(max_workers=max_workers) as pool:
+        future_map = {pool.submit(fetch_article_metadata, item.get("url", "")): idx for idx, item in enumerate(items)}
+        for future in as_completed(future_map):
+            idx = future_map[future]
+            try:
+                results[idx] = future.result() or {}
+            except Exception:
+                results[idx] = {}
+
+    dates_resolved = 0
+    pages_fetched = 0
+    enriched = []
+    for idx, original in enumerate(items):
+        item = dict(original)
+        meta = results.get(idx, {})
+        if meta:
+            pages_fetched += 1
+        if meta.get("article_published_at"):
+            item["newsletter_issue_at"] = item.get("published_at", "")
+            item["published_at"] = meta["article_published_at"]
+            item["date_basis"] = "article_metadata"
+            dates_resolved += 1
+        else:
+            item["date_basis"] = "newsletter_issue_fallback"
+        if meta.get("article_description"):
+            existing = item.get("summary", "")
+            item["summary"] = clean_text(f"{existing} Source page summary: {meta['article_description']}")[:2200]
+        if meta.get("resolved_url"):
+            item["resolved_url"] = meta["resolved_url"]
+        enriched.append(item)
+    return enriched, {"dates_resolved": dates_resolved, "pages_fetched": pages_fetched}
+
+
 def parse_acc_newsstand(msg):
-    """Extract substantive Employment & Labor / Benefits items from ACC Newsstand email."""
+    """Extract substantive U.S. Employment & Labor items from ACC Newsstand."""
     html, text = extract_html_from_message(msg)
     lines = html_to_link_lines(html, text)
     out = []
     current_section = ""
+    current_country = ""
     message_date = msg.get("Date", "")
 
     for idx, line in enumerate(lines):
         low = line.lower().strip()
+        if low in ACC_COUNTRY_HEADINGS:
+            current_country = low
+            continue
         if low in ACC_SECTION_HEADINGS:
             current_section = low
             continue
@@ -322,13 +478,32 @@ def parse_acc_newsstand(msg):
 
         summary = lookahead_summary(lines, idx)
         combined = f"{title} {summary}"
+
+        # ACC is global.  JAM's specialist use is U.S. employment law, with
+        # California first.  Once the issue moves to another country, do not
+        # spend candidate budget on that jurisdiction.
+        if current_country and current_country not in US_COUNTRY_HEADINGS:
+            continue
+
         in_relevant_section = current_section in ACC_RELEVANT_SECTIONS
         if not in_relevant_section and not is_employment_relevant(combined):
             continue
 
-        # Skip obvious non-article event/promotional links even inside a legal section.
+        # Employee benefits/pension pieces are not core employment/labor notes
+        # unless the title/summary contains a stronger workplace-law signal.
+        if current_section == "employee benefits & pensions" and not any(
+            term in combined.lower() for term in (
+                "employment", "employer", "eeoc", "nlrb", "wage", "leave",
+                "discrimination", "harassment", "labor", "workplace", "worker",
+            )
+        ):
+            continue
+
         low_combined = combined.lower()
-        if any(x in low_combined for x in ["webinar", "register now", "event registration", "conference", "award ceremony"]):
+        if any(x in low_combined for x in [
+            "webinar", "register now", "event registration", "conference",
+            "award ceremony", "podcast episode", "video series",
+        ]):
             continue
 
         category, priority = category_for_legal_text(combined)
@@ -347,8 +522,7 @@ def parse_acc_newsstand(msg):
             )
         )
 
-    return dedupe_exact(out)[:80]
-
+    return dedupe_exact(out)[:70]
 
 def parse_elinfonet(msg):
     """Extract substantive article links from the ELINfonet daily employment-law email."""
@@ -458,23 +632,46 @@ def classify_newsletter(msg, preview_text=""):
     return ""
 
 
+def _message_sort_time(msg, msg_id):
+    try:
+        dt = dateparser.parse(msg.get("Date", ""))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        try:
+            return datetime.fromtimestamp(int(msg_id), tz=timezone.utc)
+        except Exception:
+            return datetime.min.replace(tzinfo=timezone.utc)
+
+
 def collect_newsletter_email_items():
-    """Collect ACC Newsstand + forwarded ELINfonet from one personal Gmail mailbox."""
+    """Collect the newest ACC Newsstand + ELINfonet issue from the JAM mailbox.
+
+    The IMAP search can look back several days so weekends/holidays are safe,
+    but only the newest issue of each newsletter is parsed.  Old newsletter
+    issues therefore do not keep flooding the candidate pool.
+    """
     host = os.getenv("IMAP_HOST", "imap.gmail.com").strip() or "imap.gmail.com"
     user = os.getenv("IMAP_USER", "").strip()
     password = re.sub(r"\s+", "", os.getenv("IMAP_APP_PASSWORD", ""))
     lookback_days = int(os.getenv("NEWSLETTER_LOOKBACK_DAYS", "7"))
+    issues_per_source = max(1, int(os.getenv("NEWSLETTER_ISSUES_PER_SOURCE", "1")))
 
     diagnostics = {
         "imap_configured": bool(user and password),
         "imap_user": user if user else "",
         "lookback_days": lookback_days,
+        "issues_per_source": issues_per_source,
         "mailbox": "",
         "matched_message_count": 0,
+        "selected_issue_count": 0,
         "acc_message_count": 0,
         "elinfonet_message_count": 0,
         "acc_article_count": 0,
         "elinfonet_article_count": 0,
+        "article_pages_fetched": 0,
+        "article_dates_resolved": 0,
         "messages": [],
         "collected_at": now_iso(),
     }
@@ -489,9 +686,10 @@ def collect_newsletter_email_items():
         mail.login(user, password)
         diagnostics["mailbox"] = select_all_mail(mail)
         since = (datetime.now() - timedelta(days=lookback_days)).strftime("%d-%b-%Y")
-        ids = search_message_ids(mail, since)[-20:]
+        ids = search_message_ids(mail, since)[-30:]
         diagnostics["matched_message_count"] = len(ids)
 
+        records = []
         for msg_id in ids:
             status, msg_data = mail.fetch(msg_id, "(RFC822)")
             if status != "OK":
@@ -499,14 +697,23 @@ def collect_newsletter_email_items():
             raw = next((part[1] for part in msg_data if isinstance(part, tuple)), None)
             if not raw:
                 continue
-
             msg = email.message_from_bytes(raw)
             html, text = extract_html_from_message(msg)
             preview = clean_text(text or html)[:5000]
             kind = classify_newsletter(msg, preview)
             if not kind:
                 continue
+            records.append((kind, _message_sort_time(msg, msg_id), int(msg_id), msg))
 
+        selected_records = []
+        for kind in ("acc", "elinfonet"):
+            kind_records = [r for r in records if r[0] == kind]
+            kind_records.sort(key=lambda r: (r[1], r[2]), reverse=True)
+            selected_records.extend(kind_records[:issues_per_source])
+
+        diagnostics["selected_issue_count"] = len(selected_records)
+
+        for kind, _, _, msg in sorted(selected_records, key=lambda r: r[1]):
             subject = decode_mime_header(msg.get("Subject", ""))
             sender = decode_mime_header(msg.get("From", ""))
             date = msg.get("Date", "")
@@ -514,10 +721,17 @@ def collect_newsletter_email_items():
             if kind == "acc":
                 batch = parse_acc_newsstand(msg)
                 diagnostics["acc_message_count"] += 1
-                diagnostics["acc_article_count"] += len(batch)
             else:
                 batch = parse_elinfonet(msg)
                 diagnostics["elinfonet_message_count"] += 1
+
+            batch, meta_diag = enrich_newsletter_items(batch)
+            diagnostics["article_pages_fetched"] += meta_diag.get("pages_fetched", 0)
+            diagnostics["article_dates_resolved"] += meta_diag.get("dates_resolved", 0)
+
+            if kind == "acc":
+                diagnostics["acc_article_count"] += len(batch)
+            else:
                 diagnostics["elinfonet_article_count"] += len(batch)
 
             diagnostics["messages"].append({
@@ -526,6 +740,7 @@ def collect_newsletter_email_items():
                 "from": sender,
                 "date": date,
                 "articles_extracted": len(batch),
+                "article_dates_resolved": meta_diag.get("dates_resolved", 0),
             })
             out.extend(batch)
 
