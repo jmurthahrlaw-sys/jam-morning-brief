@@ -3,7 +3,7 @@ name: Send daily morning brief
 on:
   workflow_dispatch:
   schedule:
-    # 12:05 UTC = 7:05 AM Central during daylight saving time
+    # GitHub cron is UTC. 12:05 UTC = 7:05 AM Central during daylight saving time.
     - cron: "5 12 * * *"
 
 jobs:
@@ -28,11 +28,10 @@ jobs:
 
       - name: Collect a final pre-brief refresh
         env:
-          LEXOLOGY_NEWSFEED_URL: ${{ secrets.LEXOLOGY_NEWSFEED_URL }}
-          IMAP_HOST: ${{ secrets.IMAP_HOST }}
+          IMAP_HOST: imap.gmail.com
           IMAP_USER: ${{ secrets.IMAP_USER }}
           IMAP_APP_PASSWORD: ${{ secrets.IMAP_APP_PASSWORD }}
-          ELINFONET_SENDER: update@elinfonet.com
+          NEWSLETTER_LOOKBACK_DAYS: "7"
         run: python scraper.py
 
       - name: Create written briefing
@@ -40,8 +39,18 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
           LOOKBACK_HOURS: "30"
-          MAX_STORIES_FOR_AI: "120"
+          LEGAL_LOOKBACK_HOURS: "96"
+          GENERAL_MAX_STORIES_FOR_AI: "150"
+          LEGAL_MAX_STORIES_FOR_AI: "160"
         run: python daily_digest.py
+
+      - name: Copy newsletter diagnostics into artifact
+        if: always()
+        run: |
+          mkdir -p output
+          if [ -f data/newsletter_diagnostics.json ]; then
+            cp data/newsletter_diagnostics.json output/newsletter_diagnostics.json
+          fi
 
       - name: Create optional audio briefing
         continue-on-error: true

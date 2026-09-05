@@ -24,23 +24,22 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Collect current stories
+      - name: Collect current stories and legal newsletters
         env:
-          LEXOLOGY_NEWSFEED_URL: ${{ secrets.LEXOLOGY_NEWSFEED_URL }}
-          IMAP_HOST: ${{ secrets.IMAP_HOST }}
+          IMAP_HOST: imap.gmail.com
           IMAP_USER: ${{ secrets.IMAP_USER }}
           IMAP_APP_PASSWORD: ${{ secrets.IMAP_APP_PASSWORD }}
-          ELINFONET_SENDER: update@elinfonet.com
+          NEWSLETTER_LOOKBACK_DAYS: "7"
         run: python scraper.py
 
       - name: Save updated news data
         run: |
           git config user.name "jam-morning-brief-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/news.json
+          git add data/news.json data/newsletter_diagnostics.json
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
-            git commit -m "Update collected news"
+            git commit -m "Update collected news and newsletters"
             git push
           fi
