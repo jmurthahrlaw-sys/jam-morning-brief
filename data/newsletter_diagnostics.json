@@ -1,5 +1,22 @@
 {
-  "status": "error",
-  "error": "b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'",
-  "collected_at": "2026-09-05T19:23:19.904823+00:00"
+  "imap_configured": true,
+  "imap_user": "jammorningbrief@gmail.com",
+  "lookback_days": 7,
+  "mailbox": "\"[Gmail]/All Mail\"",
+  "matched_message_count": 1,
+  "acc_message_count": 1,
+  "elinfonet_message_count": 0,
+  "acc_article_count": 40,
+  "elinfonet_article_count": 0,
+  "messages": [
+    {
+      "kind": "acc",
+      "subject": "Fwd: ACC Newsstand",
+      "from": "Janene Murtha <janenemurtha@gmail.com>",
+      "date": "Sat, 5 Sep 2026 13:51:32 -0500",
+      "articles_extracted": 40
+    }
+  ],
+  "collected_at": "2026-09-05T19:42:34.429899+00:00",
+  "status": "ok"
 }
