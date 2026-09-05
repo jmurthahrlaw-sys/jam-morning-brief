@@ -1,0 +1,21 @@
+JAM Morning Brief v8.1 — Gmail email delivery
+
+This removes the need for Brevo. It reuses the dedicated JAM Gmail account and App Password already configured in GitHub.
+
+Replace in GitHub:
+1. send_email.py (repository root)
+2. .github/workflows/daily-morning-brief.yml
+
+Add one GitHub Repository Secret:
+BRIEF_TO_EMAIL = the email address where you want to receive JAM each morning
+
+Optional GitHub Actions variable:
+BRIEF_TO_NAME = your display name
+
+No BREVO_API_KEY or BRIEF_FROM_EMAIL is needed.
+
+Test:
+Actions > Send daily morning brief > Run workflow
+Then expand "Email the briefing through JAM Gmail".
+Expected success line:
+Gmail sent JAM Morning Brief to <your recipient address> from jammorningbrief@gmail.com.
