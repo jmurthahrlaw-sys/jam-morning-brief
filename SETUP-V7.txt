@@ -1,0 +1,33 @@
+JAM MORNING BRIEF v7 — NEWSLETTER EMAIL INGESTION
+
+This version stops scraping the private Lexology web page.
+Instead, GitHub reads both specialist newsletters from one Gmail mailbox:
+
+1. ACC Newsstand / Lexology arrives directly at janenemurtha@gmail.com.
+2. ELINfonet is expected to be auto-forwarded from the law-firm Gmail account into janenemurtha@gmail.com.
+
+GitHub repository secrets required:
+
+IMAP_USER
+  Value: janenemurtha@gmail.com
+
+IMAP_APP_PASSWORD
+  Value: a Google App Password created for this automation.
+  Do NOT use the normal Gmail password.
+  Do NOT share the App Password in ChatGPT.
+
+The scraper searches the prior 7 days, so weekends and holiday weekends are covered.
+It parses actual ACC Newsstand Employment & Labor / Employee Benefits items and substantive ELINfonet article links.
+It deliberately ignores Lexology navigation/footer links and obvious webinar/event/promotional links.
+
+New diagnostic file:
+  data/newsletter_diagnostics.json
+
+The daily workflow also copies this diagnostic file into the downloadable artifact.
+Look for counts such as:
+  acc_message_count
+  acc_article_count
+  elinfonet_message_count
+  elinfonet_article_count
+
+The old GitHub secret LEXOLOGY_NEWSFEED_URL is no longer used by v7. It may be deleted later, but leaving it in GitHub does no harm.
