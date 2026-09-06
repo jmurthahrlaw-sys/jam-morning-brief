@@ -10,8 +10,8 @@
   "elinfonet_message_count": 0,
   "acc_article_count": 16,
   "elinfonet_article_count": 0,
-  "article_pages_fetched": 1,
-  "article_dates_resolved": 1,
+  "article_pages_fetched": 0,
+  "article_dates_resolved": 0,
   "messages": [
     {
       "kind": "acc",
@@ -19,9 +19,9 @@
       "from": "Janene Murtha <janenemurtha@gmail.com>",
       "date": "Sat, 5 Sep 2026 13:51:32 -0500",
       "articles_extracted": 16,
-      "article_dates_resolved": 1
+      "article_dates_resolved": 0
     }
   ],
-  "collected_at": "2026-09-06T06:30:28.235601+00:00",
+  "collected_at": "2026-09-06T07:25:11.271681+00:00",
   "status": "ok"
 }
