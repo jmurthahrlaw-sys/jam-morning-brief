@@ -39,7 +39,7 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
           LOOKBACK_HOURS: "30"
-          LEGAL_LOOKBACK_HOURS: "96"
+          LEGAL_LOOKBACK_HOURS: "48"
           GENERAL_MAX_STORIES_FOR_AI: "150"
           LEGAL_MAX_STORIES_FOR_AI: "160"
         run: python daily_digest.py
@@ -71,3 +71,11 @@ jobs:
           BRIEF_TO_NAME: ${{ vars.BRIEF_TO_NAME }}
           BRIEF_FROM_NAME: JAM Morning Brief
         run: python send_email.py
+
+      - name: Upload today's brief as a workflow artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jam-morning-brief-${{ github.run_id }}
+          path: output/
+          retention-days: 14
