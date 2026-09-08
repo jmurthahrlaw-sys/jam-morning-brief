@@ -1,0 +1,30 @@
+JAM Morning Brief v9 — Source-Grounded Accuracy
+
+Replace these two repository files:
+1. daily_digest.py
+2. editorial_profile.txt
+
+No new GitHub secrets are required.
+No workflow change is required.
+No new Python package is required; BeautifulSoup is already in JAM's requirements.
+
+What v9 changes:
+- Two-stage editorial pipeline: candidate selection first, source-page enrichment second.
+- Fetches underlying article pages for a focused finalist pool rather than asking AI to expand RSS headlines.
+- Requires candidate IDs and exact short evidence excerpts in internal JSON for every selected story/note.
+- Rejects unsupported Why-it-matters statements and unsupported legal employer takeaways.
+- Binds final source name and URL back to the actual selected candidate rather than trusting model-generated source fields.
+- Adds output/grounding_diagnostics.json showing finalist fetch status and grounding errors.
+- Preserves v8 freshness/deduplication and v8.1 Gmail email delivery.
+
+Suggested commit message:
+Ground JAM summaries in source article evidence
+
+Test:
+Actions > Send daily morning brief > Run workflow
+Then review:
+- brief-YYYY-MM-DD.html
+- grounding_diagnostics.json
+- legal_diagnostics.json
+
+Important: a fetched source can still block automated access. If so JAM falls back to the RSS/newsletter text and should omit a story when that evidence is too thin.

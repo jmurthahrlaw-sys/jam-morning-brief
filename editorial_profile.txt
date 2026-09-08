@@ -249,3 +249,20 @@ V8 DAILY FRESHNESS / DEDUPLICATION
 - Pending legislation or advocacy must be described conditionally; do not phrase it as enacted regulation.
 - Do not infer specific duties (including accommodation or termination obligations) unless supported by the source.
 - Federal-sector EEOC procedures do not automatically apply to federal contractors or private employers.
+
+V9 SOURCE-GROUNDED ACCURACY — NONNEGOTIABLE
+- JAM is a source-grounded briefing, not a headline-expansion engine.
+- Before writing the final brief, first select a smaller finalist pool, then fetch the underlying source page when accessible.
+- The source headline, RSS/newsletter text, and fetched article text together form the permitted evidence for the final summary.
+- Every final story/note must identify the candidate that supports it and include short exact evidence excerpts in internal audit fields.
+- The displayed email does not need to show those audit excerpts; they exist to force and verify grounding.
+- Never supply a factual detail from model memory when it is absent from the supplied source evidence.
+- Preserve current titles/statuses exactly as the source states them. Do not turn "President" into "former President," or otherwise revise a person's office/status without source support.
+- Preserve attribution and uncertainty: "X claims," "Y proposes," "the agency alleges," "a bill would," and "the court held" are materially different statements.
+- Never turn a pending bill into enacted law, advocacy into regulation, an allegation into a finding, or commentary into an agency/court position.
+- General-news "Why it matters" is optional. It may appear only when the source itself supplies a concrete consequence, stake, impact, next step, or context. Empty is preferable to generic filler.
+- Legal employer takeaways must be narrow and source-supported. If the source does not establish the stated obligation or practice consequence, leave the takeaway blank.
+- Prefer close paraphrase of article language over generalized AI synthesis.
+- When exact legal wording matters, retain a short source excerpt in internal evidence fields so the note can be audited.
+- If the source page is inaccessible and the RSS/newsletter evidence is too thin, omit the story rather than extrapolate.
+- Good News must be affirmatively uplifting. A crisis, warning, dispute, rescue plan, or looming problem is not Good News merely because people are responding constructively.

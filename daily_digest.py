@@ -5,8 +5,10 @@ import re
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
+from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 
 from dedupe import dedupe_exact, dedupe_near, normalize_title, canonical_url
@@ -329,20 +331,174 @@ def select_legal_candidates(items, max_items):
     return selected[:max_items]
 
 
-def compact_story(item, idx):
+def _norm_for_quote(value):
+    return re.sub(r"\s+", " ", fix_text_encoding(value or "")).strip()
+
+
+def _quote_supported(quote, evidence):
+    quote_n = _norm_for_quote(quote)
+    evidence_n = _norm_for_quote(evidence)
+    return bool(quote_n and len(quote_n) >= 10 and quote_n.lower() in evidence_n.lower())
+
+
+def _extract_article_text(html_text):
+    if not html_text:
+        return ""
+    soup = BeautifulSoup(html_text, "html.parser")
+    for tag in soup(["script", "style", "noscript", "svg", "nav", "header", "footer", "aside", "form"]):
+        tag.decompose()
+    candidates = []
+    for selector in ("article", "main", "[role='main']"):
+        for node in soup.select(selector):
+            text = _norm_for_quote(node.get_text(" ", strip=True))
+            if len(text) >= 300:
+                candidates.append(text)
+    if not candidates:
+        body = soup.body or soup
+        candidates.append(_norm_for_quote(body.get_text(" ", strip=True)))
+    text = max(candidates, key=len) if candidates else ""
+    return text[:12000]
+
+
+def enrich_item_with_source(item):
+    """Add best-effort source-page evidence. RSS/newsletter text remains the fallback."""
+    out = dict(item)
+    title = fix_text_encoding(out.get("title", ""))
+    summary = fix_text_encoding(out.get("summary", ""))
+    evidence_parts = [f"HEADLINE: {title}"]
+    if summary:
+        evidence_parts.append(f"RSS/NEWSLETTER TEXT: {summary}")
+
+    url = (out.get("url") or "").strip()
+    fetched_text = ""
+    resolved_url = url
+    fetch_status = "not_attempted"
+    if url.startswith(("http://", "https://")):
+        try:
+            r = requests.get(
+                url,
+                headers={
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 JAM-Morning-Brief/2.0",
+                    "Accept-Language": "en-US,en;q=0.9",
+                },
+                timeout=12,
+                allow_redirects=True,
+            )
+            resolved_url = r.url or url
+            ctype = (r.headers.get("content-type") or "").lower()
+            if r.ok and ("html" in ctype or not ctype):
+                fetched_text = _extract_article_text(r.text)
+                # Google News article wrappers are often mostly navigation; retain only if substantive.
+                if len(fetched_text) >= 350:
+                    fetch_status = "fetched"
+                    evidence_parts.append(f"SOURCE PAGE TEXT: {fetched_text}")
+                else:
+                    fetch_status = "thin_page"
+            else:
+                fetch_status = f"http_{r.status_code}"
+        except Exception as exc:
+            fetch_status = f"error:{type(exc).__name__}"
+
+    out["resolved_url"] = resolved_url
+    out["source_page_text"] = fetched_text
+    out["fetch_status"] = fetch_status
+    out["evidence"] = "\n".join(evidence_parts)[:14000]
+    return out
+
+
+def enrich_items(items, max_workers=8):
+    if not items:
+        return []
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    results = [None] * len(items)
+    with ThreadPoolExecutor(max_workers=max_workers) as pool:
+        futures = {pool.submit(enrich_item_with_source, item): idx for idx, item in enumerate(items)}
+        for future in as_completed(futures):
+            idx = futures[future]
+            try:
+                results[idx] = future.result()
+            except Exception:
+                fallback = dict(items[idx])
+                fallback["fetch_status"] = "worker_error"
+                fallback["evidence"] = f"HEADLINE: {fallback.get('title','')}\nRSS/NEWSLETTER TEXT: {fallback.get('summary','')}"
+                results[idx] = fallback
+    return results
+
+
+def assign_candidate_ids(items, prefix):
+    out = []
+    for idx, item in enumerate(items, 1):
+        x = dict(item)
+        x["candidate_id"] = f"{prefix}{idx:03d}"
+        out.append(x)
+    return out
+
+
+def selector_story(item):
     return {
-        "id": idx,
+        "candidate_id": item.get("candidate_id"),
+        "title": fix_text_encoding(item.get("title", ""))[:320],
+        "summary": fix_text_encoding(item.get("summary", ""))[:550],
+        "source": fix_text_encoding(item.get("source", "")),
+        "category_hint": fix_text_encoding(item.get("category_hint", "")),
+        "published_at": item.get("published_at", ""),
+        "california_employment_hint": is_california_employment(item),
+    }
+
+
+def compact_story(item, idx=None):
+    return {
+        "candidate_id": item.get("candidate_id") or str(idx or ""),
         "title": fix_text_encoding(item.get("title", ""))[:320],
         "summary": fix_text_encoding(item.get("summary", ""))[:1000],
         "source": fix_text_encoding(item.get("source", "")),
         "url": item.get("url", ""),
+        "resolved_url": item.get("resolved_url", ""),
         "category_hint": fix_text_encoding(item.get("category_hint", "")),
         "priority_hint": item.get("priority", 5),
         "published_at": item.get("published_at", ""),
         "origin": item.get("origin", ""),
+        "fetch_status": item.get("fetch_status", ""),
+        "evidence": fix_text_encoding(item.get("evidence", ""))[:14000],
         "trusted_legal_source": item.get("source") in TRUSTED_LEGAL_SOURCES,
         "california_employment_hint": is_california_employment(item),
     }
+
+
+def choose_finalists(items, kind, max_finalists):
+    """Headline/snippet-only preselection keeps source-page fetching focused and fast."""
+    payload = [selector_story(i) for i in items]
+    if kind == "general":
+        prompt = f"""You are selecting candidates for a daily general-news briefing. Do NOT summarize or rewrite facts.
+From the candidates below, return up to {max_finalists} candidate IDs that provide enough strong choices to later fill exactly 3 U.S. national, 3 global, 2 Minnesota, 1-2 Tech/AI, 1-2 Entertainment/Culture, and 1-2 genuinely uplifting Good News stories.
+Prioritize consequence, recency, source quality, and section fit. Exclude obvious duplicates and weak filler.
+Return JSON only: {{\"candidate_ids\":[\"G001\", ...]}}
+CANDIDATES:\n{json.dumps(payload, ensure_ascii=False)}"""
+        system = "You are a news assignment editor. Select candidate IDs only; do not invent facts. Return valid JSON only."
+    else:
+        prompt = f"""You are selecting candidates for a DAILY employment/labor-law briefing for an attorney whose PRIMARY practice is California.
+From the candidates below, return up to {max_finalists} candidate IDs worth source-page verification. Prioritize fresh California statutes/bills, appellate cases, CRD/DIR/DLSE/Cal-OSHA, PAGA, wage/hour, FEHA, leave, restrictive covenants, privacy/AI, then major federal EEOC/NLRB/DOL/OSHA and meaningful Minnesota/Eighth Circuit matters. Review specialist newsletter candidates seriously but exclude obvious benefits filler, marketing, generic HR advice, stale background, and non-U.S. material.
+Return JSON only: {{\"candidate_ids\":[\"L001\", ...]}}
+CANDIDATES:\n{json.dumps(payload, ensure_ascii=False)}"""
+        system = "You are a California-first employment-law assignment editor. Select candidate IDs only; do not invent facts. Return valid JSON only."
+    try:
+        raw = call_openrouter(prompt, system, temperature=0.02)
+        data = parse_json_response(raw)
+        ids = [str(x) for x in data.get("candidate_ids", [])][:max_finalists]
+        by_id = {i.get("candidate_id"): i for i in items}
+        selected = [by_id[x] for x in ids if x in by_id]
+    except Exception as exc:
+        print(f"WARNING: {kind} finalist preselection failed: {exc}")
+        selected = []
+    if len(selected) < min(12, len(items)):
+        seen = {i.get("candidate_id") for i in selected}
+        for item in items:
+            if item.get("candidate_id") not in seen:
+                selected.append(item)
+                seen.add(item.get("candidate_id"))
+            if len(selected) >= max_finalists:
+                break
+    return selected[:max_finalists]
 
 
 def call_openrouter(prompt, system, temperature=0.12):
@@ -380,21 +536,30 @@ def parse_json_response(text):
 
 
 def build_general_prompt(profile, stories):
-    return f"""You are the GENERAL-NEWS editor for JAM Morning Brief.
-The professional legal section is being produced by a different editor. Do not perform employment-law analysis here.
+    return f"""You are the SOURCE-GROUNDED GENERAL-NEWS editor for JAM Morning Brief.
+The professional legal section is produced separately.
 
 Relevant editorial rules:
 {profile}
 
-GENERAL-NEWS CANDIDATES:
+VERIFIED CANDIDATE EVIDENCE:
 {json.dumps(stories, ensure_ascii=False)}
 
-Select the best available stories and return VALID JSON ONLY with exactly:
+Your job is not to write a generic explanation of a headline. Every factual statement must be traceable to the EVIDENCE field of the candidate you use.
+
+Return VALID JSON ONLY with exactly:
 {{
   "date": "Month D, YYYY",
-  "intro": "1-2 sentences accurately describing the overall edition without claiming coverage that is absent",
+  "intro": "1-2 sentences describing the edition",
   "national_headlines": [
-    {{"headline":"...","summary":"2-4 sentences","why_it_matters":"ordinary public significance, not an artificial employer angle","source":"...","url":"..."}}
+    {{
+      "candidate_id":"G000",
+      "headline":"faithful headline; may lightly shorten source title without changing meaning",
+      "summary":"1-3 sentences closely paraphrasing the source evidence",
+      "why_it_matters":"ONLY an implication/consequence explicitly supported by the source evidence; otherwise empty string",
+      "evidence_quotes":["1-2 short exact excerpts copied from candidate evidence that support the summary"],
+      "why_support_quote":"short exact source excerpt supporting why_it_matters, or empty if why_it_matters is empty"
+    }}
   ],
   "global_headlines": [same shape],
   "minnesota": [same shape],
@@ -404,124 +569,98 @@ Select the best available stories and return VALID JSON ONLY with exactly:
 }}
 
 STRICT COUNTS:
-- national_headlines: exactly 3 U.S. stories
-- global_headlines: exactly 3 international stories
-- minnesota: exactly 2 Minnesota stories
-- tech_news: 1 or 2
-- entertainment: 1 or 2
-- good_news: 1 or 2
+- national_headlines exactly 3
+- global_headlines exactly 3
+- minnesota exactly 2
+- tech_news 1 or 2
+- entertainment 1 or 2
+- good_news 1 or 2
 
-HARD EDITORIAL RULES:
-- A story may appear in only ONE section, including when different outlets use different headlines for the same underlying event.
-- Never reuse a National, Global, Minnesota, Tech, or Entertainment story as Good News.
-- Exclude roundup/newsletter items that combine multiple unrelated stories into one candidate; never merge unrelated events into one headline.
-- Top National must be genuinely nationally consequential. Do not use a primarily local criminal case merely because it is high-profile.
-- Do not put foreign-company restructuring into National merely because jobs are involved.
-- Do not add employer/compliance implications to ordinary news.
-- Tech should actually be technology/AI news.
-- Entertainment may be fun but should not be trivial clickbait.
-- Good News must be genuinely uplifting, not merely technically interesting or mildly positive.
+GROUNDING RULES — NONNEGOTIABLE:
+- Use only supplied candidate evidence. Do NOT fill gaps from memory or general knowledge.
+- evidence_quotes and why_support_quote are INTERNAL audit fields. Copy them exactly from the selected candidate's EVIDENCE. Keep each excerpt short.
+- Do not change a person's current title/status from what the source says. If the evidence says "President," do not rewrite it as "former President," and vice versa.
+- Do not characterize a proposal, allegation, claim, investigation, or pending action as a completed fact.
+- Attribute claims when the source attributes them (e.g., "Iran said...", "the administration said...").
+- Preserve numbers, dates, institutional names, causal statements, and procedural posture exactly enough to avoid changing meaning.
+- "Why it matters" is NOT a generic filler field. Use it only when the source itself provides a concrete consequence, stakes, impact, next step, or context. Otherwise return "".
+- No unsupported predictions about diplomacy, markets, social cohesion, public confidence, regulation, or other downstream effects.
+- If the evidence is too thin to write a reliable story, choose another candidate.
+
+SECTION RULES:
+- A story may appear in only one section.
+- Top National must be genuinely nationally consequential.
+- Tech must actually be technology/AI.
+- Good News must be genuinely uplifting, not a crisis/rescue-plan story reframed positively.
 - No What to Watch section.
-- Use only facts supported by the supplied candidates.
 """
 
 
 def build_legal_prompt(profile, stories):
-    return f"""You are the EMPLOYMENT & LABOR LAW editor for JAM Morning Brief.
-Your reader practices PRIMARILY CALIFORNIA employment law. This is a DAILY professional practice update, not a general court-news section.
+    return f"""You are the SOURCE-GROUNDED EMPLOYMENT & LABOR LAW editor for JAM Morning Brief.
+Your reader is an employment attorney whose PRIMARY practice is California. This is a daily professional practice update.
 
 EDITORIAL RULES:
 {profile}
 
-LEGAL CANDIDATES:
+VERIFIED LEGAL CANDIDATE EVIDENCE:
 {json.dumps(stories, ensure_ascii=False)}
-
-FRESHNESS IS CRITICAL:
-- This brief runs every day. Prefer genuinely new developments from the last 24–48 hours.
-- The candidate published_at field is the best available article/development date. Treat it as a freshness signal.
-- A newsletter issue date is NOT proof that the underlying article is new. If a title/summary reveals an older development, mark it stale.
-- Do not recycle background explainers, annual reports, old proposals, or articles merely because they appeared in today's newsletter.
-- A story already used in a prior JAM brief is filtered before you see it; do not recreate it from a duplicate source.
-
-PRIMARY PRACTICE PRIORITY:
-1. California state employment/labor law and California employer compliance.
-2. Ninth Circuit and California federal district employment/labor cases.
-3. Federal employment/labor agencies and nationally applicable employment law.
-4. Minnesota/Eighth Circuit employment matters when meaningful.
-
-SOURCE PRIORITY:
-- Lexology/ACC Newsstand and ELINfonet are mandatory specialist INPUTS and should be reviewed carefully, but they do not receive automatic inclusion.
-- When multiple sources cover the same development, choose ONE note and prefer the most authoritative source: primary authority/agency first, then strong specialist analysis.
-- Do not use a weaker duplicate merely to increase the count.
-
-LENGTH / SELECTION:
-- Target 6–10 TOTAL legal notes on an active day; fewer is acceptable on a quiet day.
-- Usually 4–6 California notes and 2–4 federal/Minnesota notes when that much genuinely strong fresh material exists.
-- HARD MAXIMUM: 10 total legal notes, 6 California notes, 4 other notes.
-- The user prefers more useful coverage rather than an artificially tiny section, but NEVER pad with stale, repetitive, promotional, or low-value material.
-- One underlying legal development gets ONE note. Consolidate duplicate coverage of the same bill, guidance, case, rule, or agency action.
 
 Return VALID JSON ONLY:
 {{
   "california_notes": [
     {{
-      "heading": "actual case name + court when supplied, or concise California legal development title",
-      "jurisdiction_topic": "e.g. California — Wage & Hour; Ninth Circuit — FEHA/ADA",
-      "development": "concise, legally precise development/holding/rule/guidance",
-      "employer_takeaway": "specific California/employer practice significance; empty if source too thin",
-      "court": "",
-      "case": "",
-      "date": "",
-      "effective_date": "",
-      "source": "...",
-      "url": "..."
+      "candidate_id":"L000",
+      "heading":"actual case/development title supported by source",
+      "jurisdiction_topic":"e.g. California — Wage & Hour",
+      "development":"1-3 sentences closely paraphrasing the actual source; state procedural posture precisely",
+      "employer_takeaway":"narrow practical implication explicitly supported by the source; empty if source does not support one",
+      "court":"only if supplied",
+      "case":"only if supplied",
+      "effective_date":"only if supplied",
+      "evidence_quotes":["1-3 short exact excerpts copied from candidate evidence supporting development"],
+      "takeaway_support_quote":"short exact excerpt supporting employer_takeaway, or empty if takeaway is empty"
     }}
   ],
   "other_legal_notes": [same shape],
   "specialist_source_review": [
-    {{
-      "source": "Lexology Daily Newsfeed or ELINfonet Daily Employment Law Update",
-      "title": "candidate title",
-      "decision": "included | duplicate | outside_scope | stale | too_thin",
-      "reason": "brief reason"
-    }}
+    {{"source":"...","title":"...","decision":"included | duplicate | outside_scope | stale | too_thin","reason":"brief reason"}}
   ],
   "california_candidate_review": [
-    {{
-      "title": "California candidate title",
-      "source": "...",
-      "decision": "included | duplicate | outside_scope | stale | too_thin",
-      "reason": "brief reason"
-    }}
+    {{"title":"...","source":"...","decision":"included | duplicate | outside_scope | stale | too_thin","reason":"brief reason"}}
   ]
 }}
 
-CALIFORNIA RULES:
-- California notes appear FIRST.
-- Prefer enacted/pending employer obligations, appellate decisions, CRD/DIR/DLSE/Cal-OSHA actions, PAGA, wage/hour, FEHA, leave/accommodation, restrictive covenants, privacy, workplace AI, and meaningful Ninth Circuit/California federal decisions.
-- Do not include generic worker-rights awareness articles, ordinary allegations, annual reports, webinars, marketing, or evergreen explainers unless they contain a genuine new legal development.
-- Multiple articles about the same California AI bill are ONE development, not several notes.
-- Multiple articles about the same TPS guidance are ONE development, not several notes.
+FRESHNESS / PRIORITY:
+- Daily briefing: prefer genuinely new developments from the last 24-48 hours.
+- California first; then major federal; then meaningful Minnesota/Eighth Circuit.
+- Target roughly 6-10 total when the day warrants it; never pad to hit a number.
+- One legal development gets one note even if several sources cover it.
 
-OTHER LEGAL NOTES:
-- Prefer consequential EEOC, NLRB, DOL, OSHA, Supreme Court, federal statute/regulation, and meaningful Minnesota/Eighth Circuit developments.
-- Exclude state-specific developments outside California/Minnesota unless they have clear national significance.
-- Employee benefits/pension items are secondary and should be included only when unusually significant to employer compliance.
+SOURCE-GROUNDING RULES — NONNEGOTIABLE:
+- Every factual statement in development must be entailed by the selected candidate's EVIDENCE.
+- evidence_quotes and takeaway_support_quote are INTERNAL audit fields copied exactly from candidate EVIDENCE. Keep excerpts short.
+- Do not infer legal duties from a headline or generic article title.
+- Distinguish enacted law, signed bill, pending bill, proposed rule, final rule, agency guidance, enforcement action, court holding, allegation, settlement, and commentary.
+- For cases, state court and procedural posture exactly as supplied; never call a district-court ruling precedent and never describe a circuit decision as binding nationwide.
+- Do not invent case names, holdings, dates, penalties, deadlines, remedies, coverage thresholds, or effective dates.
+- employer_takeaway must be a narrow practice implication the source supports. If the source does not actually say or establish the claimed employer obligation, leave it blank.
+- Advocacy for a bill is not law. A bill awaiting signature is not an enacted employer obligation.
+- If source evidence is thin or inaccessible, prefer omitting the note over extrapolating.
+- When a primary agency/court source and commentary cover the same event, prefer the primary source when it contains enough detail.
 
-ACCURACY:
-- One development per note.
-- Never invent case names, holdings, deadlines, effective dates, obligations, penalties, or remedies.
-- Never call a district-court ruling precedent.
-- Never describe a circuit decision as binding nationwide.
-- Advocacy for a pending bill is NOT an enacted rule; phrase the takeaway conditionally.
-- Do not infer a reasonable-accommodation duty, termination restriction, or other specific obligation unless the supplied source supports it.
-- Federal-sector EEOC procedures do not automatically apply to federal contractors or private employers.
-- If source material is thin, omit the unsupported detail or omit the note.
+EXCLUDE:
+- generic worker-rights awareness pieces without a new legal development
+- annual reports without a discrete new rule/action
+- webinars/marketing/evergreen explainers
+- ordinary allegations with no material ruling or agency action
+- employee-benefits filler unless unusually consequential
+- state-specific developments outside California/Minnesota without national significance
 """
 
 
 def clean_general_story(story):
-    for key in ("headline", "summary", "why_it_matters", "source"):
+    for key in ("headline", "summary", "why_it_matters", "source", "why_support_quote"):
         story[key] = fix_text_encoding(story.get(key, ""))
     return story
 
@@ -529,7 +668,7 @@ def clean_general_story(story):
 def clean_legal_note(note):
     for key in (
         "heading", "jurisdiction_topic", "development", "employer_takeaway",
-        "court", "case", "date", "effective_date", "source",
+        "court", "case", "date", "effective_date", "source", "takeaway_support_quote",
     ):
         note[key] = fix_text_encoding(note.get(key, ""))
     return note
@@ -612,6 +751,85 @@ def story_key(story):
     return normalize_title(story.get("headline", ""))
 
 
+def bind_general_to_candidates(d, candidates):
+    by_id = {c.get("candidate_id"): c for c in candidates}
+    sections = ("national_headlines", "global_headlines", "minnesota", "tech_news", "entertainment", "good_news")
+    for section in sections:
+        for story in d.get(section, []):
+            cid = str(story.get("candidate_id", ""))
+            c = by_id.get(cid)
+            if not c:
+                continue
+            story["source"] = c.get("source", "")
+            story["url"] = c.get("url", "")
+    return d
+
+
+def bind_legal_to_candidates(notes, candidates):
+    by_id = {c.get("candidate_id"): c for c in candidates}
+    for note in notes:
+        cid = str(note.get("candidate_id", ""))
+        c = by_id.get(cid)
+        if not c:
+            continue
+        note["source"] = c.get("source", "")
+        note["url"] = c.get("url", "")
+        # The displayed date is the source/article date, not a guessed legal effective date.
+        pub = (c.get("published_at") or "")[:10]
+        note["date"] = pub
+    return notes
+
+
+def validate_grounded_general(d, candidates):
+    errors = []
+    by_id = {c.get("candidate_id"): c for c in candidates}
+    for section in ("national_headlines", "global_headlines", "minnesota", "tech_news", "entertainment", "good_news"):
+        for story in d.get(section, []):
+            cid = str(story.get("candidate_id", ""))
+            c = by_id.get(cid)
+            if not c:
+                errors.append(f"{section}: unknown candidate_id {cid}")
+                continue
+            evidence = c.get("evidence", "")
+            quotes = story.get("evidence_quotes", []) or []
+            if not quotes:
+                errors.append(f"{section}: {cid} has no evidence_quotes")
+            for q in quotes[:3]:
+                if not _quote_supported(q, evidence):
+                    errors.append(f"{section}: {cid} evidence quote not found in source evidence")
+                    break
+            why = (story.get("why_it_matters") or "").strip()
+            why_q = (story.get("why_support_quote") or "").strip()
+            if why and not _quote_supported(why_q, evidence):
+                errors.append(f"{section}: {cid} why_it_matters lacks exact source support")
+    return errors
+
+
+def validate_grounded_legal(legal_digest, candidates):
+    errors = []
+    by_id = {c.get("candidate_id"): c for c in candidates}
+    for section in ("california_notes", "other_legal_notes"):
+        for note in legal_digest.get(section, []):
+            cid = str(note.get("candidate_id", ""))
+            c = by_id.get(cid)
+            if not c:
+                errors.append(f"{section}: unknown candidate_id {cid}")
+                continue
+            evidence = c.get("evidence", "")
+            quotes = note.get("evidence_quotes", []) or []
+            if not quotes:
+                errors.append(f"{section}: {cid} has no evidence_quotes")
+            for q in quotes[:4]:
+                if not _quote_supported(q, evidence):
+                    errors.append(f"{section}: {cid} evidence quote not found in source evidence")
+                    break
+            takeaway = (note.get("employer_takeaway") or "").strip()
+            take_q = (note.get("takeaway_support_quote") or "").strip()
+            if takeaway and not _quote_supported(take_q, evidence):
+                errors.append(f"{section}: {cid} employer_takeaway lacks exact source support")
+    return errors
+
+
 def validate_general(d):
     errors = []
     expected = {
@@ -662,7 +880,7 @@ def repair_general_if_needed(profile, candidates, digest, errors):
     prompt += "\nCorrect all violations. Return the complete corrected JSON only."
     raw = call_openrouter(
         prompt,
-        "You are a precise senior general-news editor. Obey section counts and cross-section deduplication. Return valid JSON only.",
+        "You are a source-grounded senior general-news editor. Correct only using supplied evidence. Obey counts and deduplication. Return valid JSON only.",
         temperature=0.08,
     )
     return parse_json_response(raw)
@@ -747,7 +965,7 @@ specialist_source_review, and california_candidate_review.
 """
     raw = call_openrouter(
         prompt,
-        "You are a senior California-focused employment-and-labor-law editor. California practice updates receive first priority. Return valid JSON only.",
+        "You are a source-grounded California-focused employment-and-labor-law editor. Use only supplied evidence and exact audit quotes. Return valid JSON only.",
         temperature=0.02,
     )
     return parse_json_response(raw)
@@ -916,16 +1134,21 @@ def main():
     general_max = int(os.getenv("GENERAL_MAX_STORIES_FOR_AI", "150"))
     legal_max = int(os.getenv("LEGAL_MAX_STORIES_FOR_AI", "100"))
 
-    general_items = select_general_candidates(general_recent, general_max)
-    legal_items = select_legal_candidates(legal_recent, legal_max)
+    general_items = assign_candidate_ids(select_general_candidates(general_recent, general_max), "G")
+    legal_items = assign_candidate_ids(select_legal_candidates(legal_recent, legal_max), "L")
 
     if not general_items:
         raise RuntimeError("No recent general-news stories found. Run scraper.py first.")
 
     profile = PROFILE_FILE.read_text(encoding="utf-8")
 
-    general_compact = [compact_story(i, idx + 1) for idx, i in enumerate(general_items)]
-    legal_compact = [compact_story(i, idx + 1) for idx, i in enumerate(legal_items)]
+    # Two-stage pipeline: select finalists first, then fetch source pages and write only from evidence.
+    general_finalists = choose_finalists(general_items, "general", int(os.getenv("GENERAL_FINALISTS", "32")))
+    legal_finalists = choose_finalists(legal_items, "legal", int(os.getenv("LEGAL_FINALISTS", "36"))) if legal_items else []
+    general_enriched = enrich_items(general_finalists)
+    legal_enriched = enrich_items(legal_finalists)
+    general_compact = [compact_story(i) for i in general_enriched]
+    legal_compact = [compact_story(i) for i in legal_enriched]
 
     # Diagnostics are intentionally saved in the artifact so source-selection problems are visible.
     source_counts_legal = Counter(i.get("source", "") for i in legal_recent)
@@ -939,6 +1162,10 @@ def main():
         "legal_lookback_hours": legal_lookback,
         "general_candidate_count": len(general_items),
         "legal_candidate_count": len(legal_items),
+        "general_finalist_count": len(general_compact),
+        "legal_finalist_count": len(legal_compact),
+        "general_source_pages_fetched": sum(1 for c in general_compact if c.get("fetch_status") == "fetched"),
+        "legal_source_pages_fetched": sum(1 for c in legal_compact if c.get("fetch_status") == "fetched"),
         "california_employment_recent_count": len(california_recent),
         "california_employment_candidate_count": sum(1 for i in legal_items if is_california_employment(i)),
         "lexology_recent_items": source_counts_legal.get("Lexology Daily Newsfeed", 0),
@@ -959,7 +1186,7 @@ def main():
         "You are a precise senior general-news editor. Do not apply an employment-law lens to ordinary news. Return valid JSON only.",
         temperature=0.10,
     )
-    general_digest = parse_json_response(general_raw)
+    general_digest = bind_general_to_candidates(parse_json_response(general_raw), general_compact)
     general_digest = {
         **general_digest,
         "national_headlines": [clean_general_story(s) for s in general_digest.get("national_headlines", [])],
@@ -969,10 +1196,13 @@ def main():
         "entertainment": [clean_general_story(s) for s in general_digest.get("entertainment", [])],
         "good_news": [clean_general_story(s) for s in general_digest.get("good_news", [])],
     }
-    general_errors = validate_general(general_digest)
+    general_errors = validate_general(general_digest) + validate_grounded_general(general_digest, general_compact)
     if general_errors:
         print("General editor validation errors; requesting repair:", general_errors)
-        general_digest = repair_general_if_needed(profile, general_compact, general_digest, general_errors)
+        general_digest = bind_general_to_candidates(
+            repair_general_if_needed(profile, general_compact, general_digest, general_errors),
+            general_compact,
+        )
         general_digest = {
             **general_digest,
             "national_headlines": [clean_general_story(s) for s in general_digest.get("national_headlines", [])],
@@ -982,6 +1212,9 @@ def main():
             "entertainment": [clean_general_story(s) for s in general_digest.get("entertainment", [])],
             "good_news": [clean_general_story(s) for s in general_digest.get("good_news", [])],
         }
+        remaining_general_grounding = validate_grounded_general(general_digest, general_compact)
+        if remaining_general_grounding:
+            print("WARNING: general grounding still has issues:", remaining_general_grounding)
 
     # LEGAL PIPELINE — California-first professional review
     california_legal_notes = []
@@ -998,13 +1231,13 @@ def main():
         )
         legal_digest = parse_json_response(legal_raw)
 
-        legal_validation_errors = validate_legal(legal_digest, legal_compact)
+        legal_validation_errors = validate_legal(legal_digest, legal_compact) + validate_grounded_legal(legal_digest, legal_compact)
         if legal_validation_errors:
             print("Legal editor validation errors; requesting repair:", legal_validation_errors)
             legal_digest = repair_legal_if_needed(
                 profile, legal_compact, legal_digest, legal_validation_errors
             )
-            legal_validation_errors = validate_legal(legal_digest, legal_compact)
+            legal_validation_errors = validate_legal(legal_digest, legal_compact) + validate_grounded_legal(legal_digest, legal_compact)
 
         california_legal_notes = [
             clean_legal_note(n) for n in legal_digest.get("california_notes", [])
@@ -1012,6 +1245,8 @@ def main():
         other_legal_notes = [
             clean_legal_note(n) for n in legal_digest.get("other_legal_notes", [])
         ]
+        california_legal_notes = bind_legal_to_candidates(california_legal_notes, legal_compact)
+        other_legal_notes = bind_legal_to_candidates(other_legal_notes, legal_compact)
         # Deterministic safety net: stale-dated notes, obvious topical duplicates,
         # and over-long outputs are removed even if the model over-selects.
         california_legal_notes = postprocess_legal_notes(
@@ -1058,6 +1293,22 @@ def main():
         encoding="utf-8",
     )
     print("Legal diagnostics:", json.dumps(legal_diagnostics, ensure_ascii=False))
+
+    grounding_diagnostics = {
+        "general_grounding_errors": validate_grounded_general(general_digest, general_compact),
+        "legal_grounding_errors": validate_grounded_legal(legal_digest, legal_compact) if legal_compact else [],
+        "general_finalists": [
+            {"candidate_id": c.get("candidate_id"), "source": c.get("source"), "title": c.get("title"), "fetch_status": c.get("fetch_status")}
+            for c in general_compact
+        ],
+        "legal_finalists": [
+            {"candidate_id": c.get("candidate_id"), "source": c.get("source"), "title": c.get("title"), "fetch_status": c.get("fetch_status")}
+            for c in legal_compact
+        ],
+    }
+    (OUTPUT / "grounding_diagnostics.json").write_text(
+        json.dumps(grounding_diagnostics, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
 
     digest = {
         "date": fix_text_encoding(general_digest.get("date", datetime.now().strftime("%B %d, %Y").replace(" 0", " "))),
