@@ -555,9 +555,9 @@ Return VALID JSON ONLY with exactly:
     {{
       "candidate_id":"G000",
       "headline":"faithful headline; may lightly shorten source title without changing meaning",
-      "summary":"1-3 sentences closely paraphrasing the source evidence",
+      "summary":"2-4 sentences closely paraphrasing the source evidence and containing at least 3 concrete source-supported facts when the evidence allows",
       "why_it_matters":"ONLY an implication/consequence explicitly supported by the source evidence; otherwise empty string",
-      "evidence_quotes":["1-2 short exact excerpts copied from candidate evidence that support the summary"],
+      "evidence_quotes":["2-3 short exact excerpts copied from candidate evidence that together support the summary"],
       "why_support_quote":"short exact source excerpt supporting why_it_matters, or empty if why_it_matters is empty"
     }}
   ],
@@ -585,13 +585,20 @@ GROUNDING RULES — NONNEGOTIABLE:
 - Preserve numbers, dates, institutional names, causal statements, and procedural posture exactly enough to avoid changing meaning.
 - "Why it matters" is NOT a generic filler field. Use it only when the source itself provides a concrete consequence, stakes, impact, next step, or context. Otherwise return "".
 - No unsupported predictions about diplomacy, markets, social cohesion, public confidence, regulation, or other downstream effects.
-- If the evidence is too thin to write a reliable story, choose another candidate.
+- A one-sentence restatement of the headline is NOT an acceptable summary.
+- Prefer candidates with substantive SOURCE PAGE TEXT. RSS-only candidates may be used only when the RSS/newsletter text itself contains enough concrete detail.
+- A normal summary should answer, when supported: who/what happened, the key action or result, and at least one material detail such as timing, scope, numbers, location, procedural posture, or consequence.
+- Do not use vague filler such as "sparking debate," "raising concerns," "signaling changes," or "highlighting issues" unless the source evidence specifically supports that characterization.
+- If the evidence is too thin to supply at least 2 distinct concrete facts beyond the headline, choose another candidate.
 
 SECTION RULES:
 - A story may appear in only one section.
-- Top National must be genuinely nationally consequential.
+- Top National must be genuinely U.S. national news. U.S. elections, Congress, federal courts/agencies, state redistricting with national electoral significance, and national policy belong here, not Global.
+- Top Global must be primarily international/foreign affairs. A U.S. state political or court story may not be placed in Global merely because it is consequential.
+- Minnesota must concern Minnesota or a Minnesota-specific development.
 - Tech must actually be technology/AI.
-- Good News must be genuinely uplifting, not a crisis/rescue-plan story reframed positively.
+- Entertainment must actually be entertainment/culture.
+- Good News must be genuinely uplifting. Abuse, crisis, disaster, conflict, layoffs, scandal, warnings, or controversy are not Good News merely because someone responds constructively.
 - No What to Watch section.
 """
 
@@ -613,8 +620,9 @@ Return VALID JSON ONLY:
       "candidate_id":"L000",
       "heading":"actual case/development title supported by source",
       "jurisdiction_topic":"e.g. California — Wage & Hour",
-      "development":"1-3 sentences closely paraphrasing the actual source; state procedural posture precisely",
+      "development":"2-4 sentences closely paraphrasing the actual source and stating the concrete rule/holding/action plus material scope or procedural detail",
       "employer_takeaway":"narrow practical implication explicitly supported by the source; empty if source does not support one",
+      "source_language":"one short exact quote of no more than 20 words that captures the operative rule/holding/action, or empty if no useful exact language is available",
       "court":"only if supplied",
       "case":"only if supplied",
       "effective_date":"only if supplied",
@@ -635,7 +643,8 @@ FRESHNESS / PRIORITY:
 - Daily briefing: prefer genuinely new developments from the last 24-48 hours.
 - California first; then major federal; then meaningful Minnesota/Eighth Circuit.
 - Target roughly 6-10 total when the day warrants it; never pad to hit a number.
-- One legal development gets one note even if several sources cover it.
+- One legal development gets one note even if several sources cover it. Collapse multiple reports of the same case, rule, agency action, bill, or enforcement development into ONE note.
+- Prefer the candidate with the strongest evidence and highest authority for a duplicated development: primary court/agency/statute first, then specialist legal source, then established legal publication, then general press.
 
 SOURCE-GROUNDING RULES — NONNEGOTIABLE:
 - Every factual statement in development must be entailed by the selected candidate's EVIDENCE.
@@ -646,7 +655,12 @@ SOURCE-GROUNDING RULES — NONNEGOTIABLE:
 - Do not invent case names, holdings, dates, penalties, deadlines, remedies, coverage thresholds, or effective dates.
 - employer_takeaway must be a narrow practice implication the source supports. If the source does not actually say or establish the claimed employer obligation, leave it blank.
 - Advocacy for a bill is not law. A bill awaiting signature is not an enacted employer obligation.
-- If source evidence is thin or inaccessible, prefer omitting the note over extrapolating.
+- A headline restatement is not a legal update. The development should normally identify at least THREE concrete items supported by the evidence: (1) what authority acted, (2) what it actually held/issued/proposed/changed, and (3) a material detail such as scope, standard, procedure, effective date, remedy, vote, covered conduct, or next step.
+- For a case, identify the actual holding or procedural disposition; saying an article "discusses" or "analyzes" a case is insufficient.
+- For legislation/regulation, identify the bill/rule and what the operative provision would do. Do not say merely that it "creates new requirements."
+- For agency letters/guidance, state the agency's actual conclusion on the issue, not merely that guidance was issued.
+- source_language must be copied exactly from EVIDENCE, no more than 20 words, and should capture operative language rather than promotional prose.
+- If source evidence is thin or inaccessible, OMIT the note instead of extrapolating.
 - When a primary agency/court source and commentary cover the same event, prefer the primary source when it contains enough detail.
 
 EXCLUDE:
@@ -668,7 +682,7 @@ def clean_general_story(story):
 def clean_legal_note(note):
     for key in (
         "heading", "jurisdiction_topic", "development", "employer_takeaway",
-        "court", "case", "date", "effective_date", "source", "takeaway_support_quote",
+        "court", "case", "date", "effective_date", "source", "takeaway_support_quote", "source_language",
     ):
         note[key] = fix_text_encoding(note.get(key, ""))
     return note
@@ -707,6 +721,13 @@ def _legal_topic_signature(note):
         return "federal:eeo-1"
     if "electronic delivery" in text or "e-delivery" in text:
         return "federal:e-delivery"
+    if ("nlrb" in text or "national labor relations board" in text) and (
+        "withdrawal of recognition" in text or "union ouster" in text or
+        ("withdrawal" in text and "recognition" in text)
+    ):
+        return "federal:nlrb-withdrawal-recognition"
+    if "starbucks" in text and ("fifth circuit" in text or "5th circ" in text) and "nlrb" in text:
+        return "federal:fifth-circuit-starbucks-nlrb"
     if is_ca and "bills" in text and ("newsom" in text or "key measures" in text):
         return "ca:legislative-roundup"
     return ""
@@ -802,6 +823,16 @@ def validate_grounded_general(d, candidates):
             why_q = (story.get("why_support_quote") or "").strip()
             if why and not _quote_supported(why_q, evidence):
                 errors.append(f"{section}: {cid} why_it_matters lacks exact source support")
+            summary = _norm_for_quote(story.get("summary", ""))
+            summary_words = len(summary.split())
+            if summary_words < 28:
+                errors.append(f"{section}: {cid} summary is too thin ({summary_words} words); require a substantive 2-4 sentence account")
+            if len(quotes) < 2:
+                errors.append(f"{section}: {cid} needs at least 2 evidence quotes supporting distinct facts")
+            # Do not accept headline-only evidence for a final story.
+            non_headline = re.sub(r"^HEADLINE:\s*.*?(?:\n|$)", "", evidence, count=1, flags=re.I)
+            if len(_norm_for_quote(non_headline)) < 120:
+                errors.append(f"{section}: {cid} source evidence is too thin for reliable briefing")
     return errors
 
 
@@ -827,6 +858,21 @@ def validate_grounded_legal(legal_digest, candidates):
             take_q = (note.get("takeaway_support_quote") or "").strip()
             if takeaway and not _quote_supported(take_q, evidence):
                 errors.append(f"{section}: {cid} employer_takeaway lacks exact source support")
+            development = _norm_for_quote(note.get("development", ""))
+            dev_words = len(development.split())
+            if dev_words < 38:
+                errors.append(f"{section}: {cid} legal development is too thin ({dev_words} words)")
+            if len(quotes) < 2:
+                errors.append(f"{section}: {cid} needs at least 2 evidence quotes supporting the legal development")
+            source_language = _norm_for_quote(note.get("source_language", ""))
+            if source_language:
+                if len(source_language.split()) > 20:
+                    errors.append(f"{section}: {cid} source_language exceeds 20 words")
+                elif not _quote_supported(source_language, evidence):
+                    errors.append(f"{section}: {cid} source_language not found in source evidence")
+            non_headline = re.sub(r"^HEADLINE:\s*.*?(?:\n|$)", "", evidence, count=1, flags=re.I)
+            if len(_norm_for_quote(non_headline)) < 160:
+                errors.append(f"{section}: {cid} source evidence is too thin for an attorney-facing legal note")
     return errors
 
 
@@ -854,6 +900,16 @@ def validate_general(d):
             if k:
                 seen_exact[k] = section
             all_stories.append((section, s))
+
+    # Catch obvious section-fit mistakes.
+    for s in d.get("global_headlines", []):
+        txt = " ".join([s.get("headline",""), s.get("summary","")]).lower()
+        if any(term in txt for term in ("missouri", "congressional district", "u.s. senate", "united states senate", "white house", "congress ")) and not any(term in txt for term in ("foreign", "international", "ukraine", "israel", "china", "russia", "iran", "united nations", "u.n.")):
+            errors.append(f"global_headlines probable U.S.-domestic misclassification: {s.get('headline','')}")
+    for s in d.get("good_news", []):
+        txt = " ".join([s.get("headline",""), s.get("summary","")]).lower()
+        if any(term in txt for term in ("abuse", "crisis", "killed", "death", "dead", "lawsuit", "scandal", "warning", "layoff", "war ", "attack")):
+            errors.append(f"good_news probable negative-story misclassification: {s.get('headline','')}")
 
     # Catch same event chosen from different outlets.
     for i in range(len(all_stories)):
@@ -1018,6 +1074,7 @@ def render_legal_note(n):
     jurisdiction = html.escape(n.get("jurisdiction_topic", ""))
     development = html.escape(n.get("development", ""))
     takeaway = html.escape(n.get("employer_takeaway", ""))
+    source_language = html.escape(n.get("source_language", ""))
     source = html.escape(n.get("source", ""))
     url = html.escape(n.get("url", ""), quote=True)
     meta = []
@@ -1031,6 +1088,7 @@ def render_legal_note(n):
       <div style="font-size:18px;line-height:1.3;font-weight:700;color:#17232b;margin-top:4px">{heading}</div>
       <div style="font-size:15px;line-height:1.55;margin-top:8px;color:#303b42"><strong>Development:</strong> {development}</div>
       {f'<div style="font-size:15px;line-height:1.55;margin-top:7px;color:#303b42"><strong>Employer takeaway:</strong> {takeaway}</div>' if takeaway else ''}
+      {f'<div style="font-size:14px;line-height:1.5;margin-top:7px;color:#4c5960"><strong>Source language:</strong> “{source_language}”</div>' if source_language else ''}
       <div style="font-size:12px;line-height:1.5;margin-top:8px;color:#69737a">{' '.join(meta)}</div>
       <div style="font-size:13px;margin-top:8px;color:#6b747a">{src}</div>
     </div>
@@ -1166,6 +1224,8 @@ def main():
         "legal_finalist_count": len(legal_compact),
         "general_source_pages_fetched": sum(1 for c in general_compact if c.get("fetch_status") == "fetched"),
         "legal_source_pages_fetched": sum(1 for c in legal_compact if c.get("fetch_status") == "fetched"),
+        "general_finalists_with_substantive_evidence": sum(1 for c in general_compact if len(_norm_for_quote(re.sub(r"^HEADLINE:\\s*.*?(?:\\n|$)", "", c.get("evidence",""), count=1, flags=re.I))) >= 120),
+        "legal_finalists_with_substantive_evidence": sum(1 for c in legal_compact if len(_norm_for_quote(re.sub(r"^HEADLINE:\\s*.*?(?:\\n|$)", "", c.get("evidence",""), count=1, flags=re.I))) >= 160),
         "california_employment_recent_count": len(california_recent),
         "california_employment_candidate_count": sum(1 for i in legal_items if is_california_employment(i)),
         "lexology_recent_items": source_counts_legal.get("Lexology Daily Newsfeed", 0),

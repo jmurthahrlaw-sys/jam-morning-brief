@@ -1,0 +1,27 @@
+JAM Morning Brief v10 — Substance & Evidence
+
+Replace these two repository files:
+1. daily_digest.py
+2. editorial_profile.txt
+
+No new GitHub secrets are required.
+
+What changed:
+- General summaries must be substantive, not headline restatements.
+- Stronger source-evidence sufficiency validation.
+- Obvious National/Global and Good News misclassification checks.
+- Attorney-facing legal notes must state the actual holding/rule/action and material detail.
+- Stronger duplicate detection for recurring NLRB/Fifth Circuit matters.
+- Legal notes can show one short exact “Source language” quote (max 20 words).
+- Thin-evidence legal items are rejected rather than padded with generic language.
+
+Suggested commit:
+Require substantive source-grounded JAM summaries
+
+After installation:
+Actions → Send daily morning brief → Run workflow
+
+Then review/upload:
+- brief-YYYY-MM-DD.html
+- grounding_diagnostics.json
+- legal_diagnostics.json
