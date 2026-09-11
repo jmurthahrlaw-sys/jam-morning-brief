@@ -555,7 +555,7 @@ Return VALID JSON ONLY with exactly:
     {{
       "candidate_id":"G000",
       "headline":"faithful headline; may lightly shorten source title without changing meaning",
-      "summary":"2-4 sentences closely paraphrasing the source evidence and containing at least 3 concrete source-supported facts when the evidence allows",
+      "summary":"1-3 sentences closely paraphrasing the source evidence. Use concrete details when available; if evidence is thin, use one concise factual sentence rather than generic filler.",
       "why_it_matters":"ONLY an implication/consequence explicitly supported by the source evidence; otherwise empty string",
       "evidence_quotes":["2-3 short exact excerpts copied from candidate evidence that together support the summary"],
       "why_support_quote":"short exact source excerpt supporting why_it_matters, or empty if why_it_matters is empty"
@@ -585,11 +585,10 @@ GROUNDING RULES — NONNEGOTIABLE:
 - Preserve numbers, dates, institutional names, causal statements, and procedural posture exactly enough to avoid changing meaning.
 - "Why it matters" is NOT a generic filler field. Use it only when the source itself provides a concrete consequence, stakes, impact, next step, or context. Otherwise return "".
 - No unsupported predictions about diplomacy, markets, social cohesion, public confidence, regulation, or other downstream effects.
-- A one-sentence restatement of the headline is NOT an acceptable summary.
-- Prefer candidates with substantive SOURCE PAGE TEXT. RSS-only candidates may be used only when the RSS/newsletter text itself contains enough concrete detail.
-- A normal summary should answer, when supported: who/what happened, the key action or result, and at least one material detail such as timing, scope, numbers, location, procedural posture, or consequence.
-- Do not use vague filler such as "sparking debate," "raising concerns," "signaling changes," or "highlighting issues" unless the source evidence specifically supports that characterization.
-- If the evidence is too thin to supply at least 2 distinct concrete facts beyond the headline, choose another candidate.
+- Prefer candidates with substantive SOURCE PAGE TEXT.
+- If source evidence is thin, DO NOT pad the summary. One precise sentence closely tracking the evidence is better than three generic sentences.
+- A fuller summary should answer, when supported: who/what happened, the key action or result, and a material detail such as timing, scope, numbers, location, procedural posture, or consequence.
+- Do not use vague filler such as "sparking debate," "raising concerns," "signaling changes," "highlights," "underscores," "reflects," or "may affect" unless the source evidence specifically supports it.
 
 SECTION RULES:
 - A story may appear in only one section.
@@ -620,7 +619,7 @@ Return VALID JSON ONLY:
       "candidate_id":"L000",
       "heading":"actual case/development title supported by source",
       "jurisdiction_topic":"e.g. California — Wage & Hour",
-      "development":"2-4 sentences closely paraphrasing the actual source and stating the concrete rule/holding/action plus material scope or procedural detail",
+      "development":"1-3 sentences reporting ONLY what the supplied evidence establishes. If full source text is unavailable, give a precise, limited summary from the headline/RSS/newsletter evidence rather than omitting an important current development.",
       "employer_takeaway":"narrow practical implication explicitly supported by the source; empty if source does not support one",
       "source_language":"one short exact quote of no more than 20 words that captures the operative rule/holding/action, or empty if no useful exact language is available",
       "court":"only if supplied",
@@ -655,12 +654,13 @@ SOURCE-GROUNDING RULES — NONNEGOTIABLE:
 - Do not invent case names, holdings, dates, penalties, deadlines, remedies, coverage thresholds, or effective dates.
 - employer_takeaway must be a narrow practice implication the source supports. If the source does not actually say or establish the claimed employer obligation, leave it blank.
 - Advocacy for a bill is not law. A bill awaiting signature is not an enacted employer obligation.
-- A headline restatement is not a legal update. The development should normally identify at least THREE concrete items supported by the evidence: (1) what authority acted, (2) what it actually held/issued/proposed/changed, and (3) a material detail such as scope, standard, procedure, effective date, remedy, vote, covered conduct, or next step.
-- For a case, identify the actual holding or procedural disposition; saying an article "discusses" or "analyzes" a case is insufficient.
-- For legislation/regulation, identify the bill/rule and what the operative provision would do. Do not say merely that it "creates new requirements."
-- For agency letters/guidance, state the agency's actual conclusion on the issue, not merely that guidance was issued.
-- source_language must be copied exactly from EVIDENCE, no more than 20 words, and should capture operative language rather than promotional prose.
-- If source evidence is thin or inaccessible, OMIT the note instead of extrapolating.
+- Prefer a detailed legal note when the evidence supports one, but DO NOT allow the Employment & Labor Law section to disappear merely because publisher pages are blocked or thin.
+- If only a headline or RSS/newsletter snippet is available, a current high-priority legal development may still be included, but the note must stay strictly within those words.
+- For a case, state the actual holding or procedural disposition only if supplied. Otherwise describe narrowly what the source reports (for example, that a court reversed, upheld, allowed, blocked, or that a suit was filed).
+- For legislation/regulation, identify the bill/rule and operative provision when supplied. If not supplied, state only the proposal and status supported by the evidence.
+- For agency letters/guidance, state the agency's actual conclusion when supplied; otherwise describe the topic narrowly and omit an employer takeaway.
+- source_language must be copied exactly from EVIDENCE, no more than 20 words.
+- If evidence is thin, prefer a SHORT, CAUTIOUS note over a fabricated detailed note. Omit only when the item is non-substantive, stale, duplicative, or outside scope.
 - When a primary agency/court source and commentary cover the same event, prefer the primary source when it contains enough detail.
 
 EXCLUDE:
@@ -823,16 +823,6 @@ def validate_grounded_general(d, candidates):
             why_q = (story.get("why_support_quote") or "").strip()
             if why and not _quote_supported(why_q, evidence):
                 errors.append(f"{section}: {cid} why_it_matters lacks exact source support")
-            summary = _norm_for_quote(story.get("summary", ""))
-            summary_words = len(summary.split())
-            if summary_words < 28:
-                errors.append(f"{section}: {cid} summary is too thin ({summary_words} words); require a substantive 2-4 sentence account")
-            if len(quotes) < 2:
-                errors.append(f"{section}: {cid} needs at least 2 evidence quotes supporting distinct facts")
-            # Do not accept headline-only evidence for a final story.
-            non_headline = re.sub(r"^HEADLINE:\s*.*?(?:\n|$)", "", evidence, count=1, flags=re.I)
-            if len(_norm_for_quote(non_headline)) < 120:
-                errors.append(f"{section}: {cid} source evidence is too thin for reliable briefing")
     return errors
 
 
@@ -858,21 +848,12 @@ def validate_grounded_legal(legal_digest, candidates):
             take_q = (note.get("takeaway_support_quote") or "").strip()
             if takeaway and not _quote_supported(take_q, evidence):
                 errors.append(f"{section}: {cid} employer_takeaway lacks exact source support")
-            development = _norm_for_quote(note.get("development", ""))
-            dev_words = len(development.split())
-            if dev_words < 38:
-                errors.append(f"{section}: {cid} legal development is too thin ({dev_words} words)")
-            if len(quotes) < 2:
-                errors.append(f"{section}: {cid} needs at least 2 evidence quotes supporting the legal development")
             source_language = _norm_for_quote(note.get("source_language", ""))
             if source_language:
                 if len(source_language.split()) > 20:
                     errors.append(f"{section}: {cid} source_language exceeds 20 words")
                 elif not _quote_supported(source_language, evidence):
                     errors.append(f"{section}: {cid} source_language not found in source evidence")
-            non_headline = re.sub(r"^HEADLINE:\s*.*?(?:\n|$)", "", evidence, count=1, flags=re.I)
-            if len(_norm_for_quote(non_headline)) < 160:
-                errors.append(f"{section}: {cid} source evidence is too thin for an attorney-facing legal note")
     return errors
 
 

@@ -1,0 +1,18 @@
+JAM Morning Brief v11 — Legal First / No-Filler
+
+Replace:
+- daily_digest.py
+- editorial_profile.txt
+
+No workflow or secret changes.
+
+Keep LEGAL_LOOKBACK_HOURS at 48.
+
+Purpose:
+- Restore Employment & Labor Law as the first-priority centerpiece.
+- Thin Google News/paywall fetches will no longer zero out the legal section.
+- Legal notes remain constrained to the evidence actually available.
+- General news no longer pads thin source material with generic filler.
+
+Suggested commit:
+Restore legal-first brief with cautious source grounding
