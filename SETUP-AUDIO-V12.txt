@@ -1,0 +1,26 @@
+JAM Morning Brief — Audio Test v12
+
+Goal:
+- Voice: Marin
+- Vibe/style: Fitness Instructor
+- Speed: 1.08
+- Spoken length target: 9–11 minutes
+- Employment & Labor Law remains the audio centerpiece
+- Removes the old "what to watch today" ending
+
+Replace ONLY:
+  audio_brief.py
+
+No workflow edit is required for this test because your current workflow already uses:
+  TTS_VOICE: marin
+
+The replacement defaults to:
+  TTS_SPEED = 1.08
+  TTS_STYLE = fitness_instructor
+
+Run:
+  Actions → Send daily morning brief → Run workflow
+
+Then listen to the new brief-YYYY-MM-DD.mp3.
+
+Later, if desired, we can expose TTS_SPEED and TTS_STYLE as GitHub variables so changing the delivery does not require editing Python.
