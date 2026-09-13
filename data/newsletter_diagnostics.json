@@ -1,18 +1,5 @@
 {
-  "imap_configured": true,
-  "imap_user": "jammorningbrief@gmail.com",
-  "lookback_days": 7,
-  "issues_per_source": 1,
-  "mailbox": "\"[Gmail]/All Mail\"",
-  "matched_message_count": 0,
-  "selected_issue_count": 0,
-  "acc_message_count": 0,
-  "elinfonet_message_count": 0,
-  "acc_article_count": 0,
-  "elinfonet_article_count": 0,
-  "article_pages_fetched": 0,
-  "article_dates_resolved": 0,
-  "messages": [],
-  "collected_at": "2026-09-13T05:25:20.179027+00:00",
-  "status": "ok"
+  "status": "error",
+  "error": "b'[ALERT] Invalid credentials (Failure)'",
+  "collected_at": "2026-09-13T06:34:29.671758+00:00"
 }
