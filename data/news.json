@@ -1,5 +1,125 @@
 [
   {
+    "id": "1b9c55c7f3959a4877d471cc",
+    "title": "DOJ defends White House media ban, urges court to reject lawsuit",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5978614/doj-defend-white-house-media-ban",
+    "summary": "The Department of Justice defended President Trump's recent media ban, arguing that reporting by CNN, MS Now and Politico on a wide range of issues jeopardized national security and spread falsehoods.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:06:47+00:00",
+    "collected_at": "2026-09-23T09:27:16.041159+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "38289ae8d3aa9d2204038674",
+    "title": "Major news outlets banned by Trump will have their day in court",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5978069/cnn-msnow-politico-trump-white-house-ban",
+    "summary": "CNN, MS NOW, and Politico are asking a federal judge to hold the president in check for what they say is a violation of their Constitutional rights simply because he doesn't like how they cover him.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:01:00+00:00",
+    "collected_at": "2026-09-23T09:27:16.041406+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "4a1f8cdfe4ea3e6dd15cdd35",
+    "title": "There's growing concern that Trump may deploy the National Guard ahead of elections",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5978015/national-guard-election-military-midterms",
+    "summary": "Fears are growing that President Trump may deploy the U.S. military to polling places in the upcoming elections, despite strict state and federal laws against such a move.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T09:27:16.041630+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "99d5e4aadb27b52151ac1609",
+    "title": "Poll: Most voters agree the 2026 midterms are all about Trump — and they disapprove",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5977613/trump-poll-democrats-congress",
+    "summary": "A new NPR/PBS News/Marist poll finds President Trump — and his unpopularity — is an outsize factor in why most voters say they want Democrats to win the midterms.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T09:27:16.042035+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "87b63efbc4aa712a137453dc",
+    "title": "As Congress confronts AI, Senate lawmakers are shut off from its most advanced tools",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5978055/congress-ai-regulation",
+    "summary": "While Senate offices have access to chatbots like ChatGPT, they are not authorized to use any of the more advanced tools that are at the center of regulatory talks and public debate about AI safety.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T09:27:16.042245+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "9f001fc594a3bfd6d55e1fe2",
+    "title": "How an 'AI freeze' could make big AI companies bigger and hurt smaller firms",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5973306/ai-slowdown-debate-openai-anthropic",
+    "summary": "Critics say a slowdown of AI development among the largest companies could consolidate the power of frontier labs, just as many others are trying to catch up.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T09:27:16.042409+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "d9f31ea41d9317827c785ac8",
+    "title": "ICE is looking into 'mobile detention facilities'",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5976875/ice-mobile-detention-facilities-immigration",
+    "summary": "Buried in the paperwork for Immigration and Customs Enforcement's expansion in Pennsylvania is a document requesting \"mobile detention facilities.\"",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T09:27:16.042569+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "55f18cf4b4dd9dda76bc7ab5",
+    "title": "Poll: Trust in the U.S. Postal Service delivering mail-in ballots on time has fallen",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5978081/usps-election-mail-in-ballot",
+    "summary": "Registered voters are less confident that USPS will deliver election mail on time compared with 2024, an NPR/PBS News/Marist poll finds, after USPS was part of Trump's bid to limit mail voting.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T09:27:16.042763+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "46e04553b1c167161513c501",
+    "title": "Nigella Lawson is 'icing on the cake', TV critics say as she enters Bake Off tent",
+    "url": "https://www.bbc.co.uk/news/articles/cq2dwy1w9kpdo?at_medium=RSS&at_campaign=rss",
+    "summary": "The TV chef joined Paul Hollywood in the tent as the Channel 4 competition returned for a new series.",
+    "source": "BBC Entertainment & Arts",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-23T08:43:47+00:00",
+    "collected_at": "2026-09-23T09:28:58.855135+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "4cb4c5cf37057c6c6cd6c88c",
+    "title": "Prince and Princess of Wales share a laugh with Tom Cruise at film premiere",
+    "url": "https://www.bbc.co.uk/news/articles/ck0e3y7qzv1ro?at_medium=RSS&at_campaign=rss",
+    "summary": "William and Catherine renew their friendship with the Hollywood star at the premiere for his film Digger.",
+    "source": "BBC Entertainment & Arts",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-23T08:42:55+00:00",
+    "collected_at": "2026-09-23T09:28:58.855480+00:00",
+    "origin": "rss"
+  },
+  {
     "id": "6c91c72f37d1ea9f813a3939",
     "title": "Eleven killed in mass shooting at house in South Africa",
     "url": "https://www.bbc.co.uk/news/articles/crgjqxzl097eo?at_medium=RSS&at_campaign=rss",
@@ -8,7 +128,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T07:02:52+00:00",
-    "collected_at": "2026-09-23T08:28:19.990901+00:00",
+    "collected_at": "2026-09-23T09:27:16.181050+00:00",
     "origin": "rss"
   },
   {
@@ -32,7 +152,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T06:47:49+00:00",
-    "collected_at": "2026-09-23T08:28:19.990645+00:00",
+    "collected_at": "2026-09-23T09:27:16.181212+00:00",
     "origin": "rss"
   },
   {
@@ -44,7 +164,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T06:13:35+00:00",
-    "collected_at": "2026-09-23T08:28:19.931975+00:00",
+    "collected_at": "2026-09-23T09:27:16.042915+00:00",
     "origin": "rss"
   },
   {
@@ -56,7 +176,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T06:12:56+00:00",
-    "collected_at": "2026-09-23T08:28:19.989882+00:00",
+    "collected_at": "2026-09-23T09:27:16.180735+00:00",
     "origin": "rss"
   },
   {
@@ -92,7 +212,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T05:26:31+00:00",
-    "collected_at": "2026-09-23T08:28:19.932316+00:00",
+    "collected_at": "2026-09-23T09:27:16.043067+00:00",
     "origin": "rss"
   },
   {
@@ -116,7 +236,19 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T05:07:33+00:00",
-    "collected_at": "2026-09-23T08:28:28.523229+00:00",
+    "collected_at": "2026-09-23T09:28:58.856593+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "76cb4f7d560049006026df16",
+    "title": "Reports of violence against women in Gaza surge, UN agency finds",
+    "url": "https://www.bbc.co.uk/news/articles/c94gm7dp40y0o?at_medium=RSS&at_campaign=rss",
+    "summary": "The UN Population Fund also says there has been a \"severe escalation\" in the number of early and forced marriages.",
+    "source": "BBC World",
+    "category_hint": "Top News",
+    "priority": 8,
+    "published_at": "2026-09-23T05:02:26+00:00",
+    "collected_at": "2026-09-23T09:27:16.180906+00:00",
     "origin": "rss"
   },
   {
@@ -272,7 +404,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T01:25:47+00:00",
-    "collected_at": "2026-09-23T08:28:19.995384+00:00",
+    "collected_at": "2026-09-23T09:27:16.183879+00:00",
     "origin": "rss"
   },
   {
@@ -324,6 +456,18 @@
     "origin": "google_news"
   },
   {
+    "id": "f21b8f246b8e803c466bebd2",
+    "title": "Playing loud music on the bus? That will cost you hundreds of dollars in Singapore",
+    "url": "https://www.bbc.co.uk/news/articles/c3kg80ve7x0no?at_medium=RSS&at_campaign=rss",
+    "summary": "Authorities are cracking down on \"disruptive behaviours\" including eating onboard and putting feet on seats.",
+    "source": "BBC World",
+    "category_hint": "Top News",
+    "priority": 8,
+    "published_at": "2026-09-23T00:05:34+00:00",
+    "collected_at": "2026-09-23T09:27:16.181645+00:00",
+    "origin": "rss"
+  },
+  {
     "id": "eeca4a4bedc24598f064fe05",
     "title": "Kelly Clarkson Debuts Wavy Bob Haircut 1 Month After Ending Her Talk Show - People.com",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSFdBX2dJai1yTUhFeWU2NjcxNEszNXY4ck1FRUxRVkpOa0U2X0FoZlVtQWhLTVVfQnZYZUNCa3A3enRjSmVhQjV0ejJDUDY1VU1NNXQzRDZ3b2hiQ0UybWZFOVJQNDk2SXY4bjU2aGdSb2F4clNVWVMzZ0N4blV0Q2RFVV9JQV9XeVRWUGM3dUEwUUR5RzhTbWpobzZTSUlQZ1VvSEdXUXg1ODZPVWFHU1JB?oc=5",
@@ -344,7 +488,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T23:36:12+00:00",
-    "collected_at": "2026-09-23T08:28:19.992322+00:00",
+    "collected_at": "2026-09-23T09:27:16.182423+00:00",
     "origin": "rss"
   },
   {
@@ -512,7 +656,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T22:33:44+00:00",
-    "collected_at": "2026-09-23T08:28:19.995601+00:00",
+    "collected_at": "2026-09-23T09:27:16.184008+00:00",
     "origin": "rss"
   },
   {
@@ -564,6 +708,18 @@
     "origin": "google_news"
   },
   {
+    "id": "63c6dcd6836220b8504427f1",
+    "title": "A new skyline of data centres is rising in rural China",
+    "url": "https://www.bbc.co.uk/news/articles/cm5ydz4kl65ro?at_medium=RSS&at_campaign=rss",
+    "summary": "The BBC visits Inner Mongolia, where Beijing's AI infrastructure is progressing at \"China speed\", says one worker.",
+    "source": "BBC World",
+    "category_hint": "Top News",
+    "priority": 8,
+    "published_at": "2026-09-22T22:04:31+00:00",
+    "collected_at": "2026-09-23T09:27:16.183050+00:00",
+    "origin": "rss"
+  },
+  {
     "id": "03d2a4b59abf3a9539ef6087",
     "title": "Rare look at the remote engine rooms powering China's AI ambitions",
     "url": "https://www.bbc.co.uk/news/videos/cwe8ejvv0leno?at_medium=RSS&at_campaign=rss",
@@ -572,7 +728,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T22:03:48+00:00",
-    "collected_at": "2026-09-23T08:28:19.995155+00:00",
+    "collected_at": "2026-09-23T09:27:16.183744+00:00",
     "origin": "rss"
   },
   {
@@ -644,7 +800,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T21:36:55+00:00",
-    "collected_at": "2026-09-23T08:28:19.990405+00:00",
+    "collected_at": "2026-09-23T09:27:16.181359+00:00",
     "origin": "rss"
   },
   {
@@ -764,7 +920,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T20:59:00+00:00",
-    "collected_at": "2026-09-23T08:28:19.991129+00:00",
+    "collected_at": "2026-09-23T09:27:16.181505+00:00",
     "origin": "rss"
   },
   {
@@ -884,7 +1040,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T20:16:43+00:00",
-    "collected_at": "2026-09-23T08:28:28.522990+00:00",
+    "collected_at": "2026-09-23T09:28:58.856201+00:00",
     "origin": "rss"
   },
   {
@@ -920,7 +1076,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T20:08:52+00:00",
-    "collected_at": "2026-09-23T08:28:28.522464+00:00",
+    "collected_at": "2026-09-23T09:28:58.856052+00:00",
     "origin": "rss"
   },
   {
@@ -956,7 +1112,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T19:47:44+00:00",
-    "collected_at": "2026-09-23T08:28:19.991605+00:00",
+    "collected_at": "2026-09-23T09:27:16.181928+00:00",
     "origin": "rss"
   },
   {
@@ -1064,7 +1220,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T19:25:16+00:00",
-    "collected_at": "2026-09-23T08:28:19.994691+00:00",
+    "collected_at": "2026-09-23T09:27:16.183606+00:00",
     "origin": "rss"
   },
   {
@@ -1088,7 +1244,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T19:15:57+00:00",
-    "collected_at": "2026-09-23T08:28:19.995820+00:00",
+    "collected_at": "2026-09-23T09:27:16.184140+00:00",
     "origin": "rss"
   },
   {
@@ -1136,7 +1292,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T19:06:06+00:00",
-    "collected_at": "2026-09-23T08:28:19.991839+00:00",
+    "collected_at": "2026-09-23T09:27:16.182062+00:00",
     "origin": "rss"
   },
   {
@@ -1160,7 +1316,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T19:01:18+00:00",
-    "collected_at": "2026-09-23T08:28:28.521458+00:00",
+    "collected_at": "2026-09-23T09:28:58.855327+00:00",
     "origin": "rss"
   },
   {
@@ -1364,7 +1520,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T17:43:10+00:00",
-    "collected_at": "2026-09-23T08:28:28.524879+00:00",
+    "collected_at": "2026-09-23T09:28:58.857387+00:00",
     "origin": "rss"
   },
   {
@@ -1436,7 +1592,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T16:57:55+00:00",
-    "collected_at": "2026-09-23T08:28:19.993333+00:00",
+    "collected_at": "2026-09-23T09:27:16.182929+00:00",
     "origin": "rss"
   },
   {
@@ -1460,7 +1616,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T16:54:41+00:00",
-    "collected_at": "2026-09-23T08:28:19.993118+00:00",
+    "collected_at": "2026-09-23T09:27:16.182803+00:00",
     "origin": "rss"
   },
   {
@@ -1484,7 +1640,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T16:42:23+00:00",
-    "collected_at": "2026-09-23T08:28:19.994256+00:00",
+    "collected_at": "2026-09-23T09:27:16.183175+00:00",
     "origin": "rss"
   },
   {
@@ -1616,7 +1772,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T16:02:18+00:00",
-    "collected_at": "2026-09-23T08:28:28.521728+00:00",
+    "collected_at": "2026-09-23T09:28:58.855624+00:00",
     "origin": "rss"
   },
   {
@@ -1808,7 +1964,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T15:17:37+00:00",
-    "collected_at": "2026-09-23T08:28:19.992651+00:00",
+    "collected_at": "2026-09-23T09:27:16.182556+00:00",
     "origin": "rss"
   },
   {
@@ -1928,7 +2084,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T14:29:31+00:00",
-    "collected_at": "2026-09-23T08:28:28.522234+00:00",
+    "collected_at": "2026-09-23T09:28:58.855903+00:00",
     "origin": "rss"
   },
   {
@@ -1988,7 +2144,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T14:23:39+00:00",
-    "collected_at": "2026-09-23T08:28:19.994477+00:00",
+    "collected_at": "2026-09-23T09:27:16.183472+00:00",
     "origin": "rss"
   },
   {
@@ -2008,11 +2164,11 @@
     "title": "Veteran BBC Africa correspondent Mark Doyle dies aged 67",
     "url": "https://www.bbc.co.uk/news/articles/cq986214den3o?at_medium=RSS&at_campaign=rss",
     "summary": "Doyle was best known for reporting on African conflicts in the 1990s and 2000s, notably in Rwanda and Sierra Leone.",
-    "source": "BBC World",
-    "category_hint": "Top News",
-    "priority": 8,
+    "source": "BBC Entertainment & Arts",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
     "published_at": "2026-09-22T14:16:42+00:00",
-    "collected_at": "2026-09-23T08:28:19.993551+00:00",
+    "collected_at": "2026-09-23T09:28:58.857113+00:00",
     "origin": "rss"
   },
   {
@@ -2048,7 +2204,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T13:58:42+00:00",
-    "collected_at": "2026-09-23T08:28:19.992086+00:00",
+    "collected_at": "2026-09-23T09:27:16.182209+00:00",
     "origin": "rss"
   },
   {
@@ -2060,7 +2216,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T13:49:22+00:00",
-    "collected_at": "2026-09-23T08:28:19.994033+00:00",
+    "collected_at": "2026-09-23T09:27:16.183332+00:00",
     "origin": "rss"
   },
   {
@@ -2192,7 +2348,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T12:57:59+00:00",
-    "collected_at": "2026-09-23T08:28:19.996066+00:00",
+    "collected_at": "2026-09-23T09:27:16.184294+00:00",
     "origin": "rss"
   },
   {
@@ -2204,7 +2360,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T12:54:14+00:00",
-    "collected_at": "2026-09-23T08:28:19.991377+00:00",
+    "collected_at": "2026-09-23T09:27:16.181789+00:00",
     "origin": "rss"
   },
   {
@@ -2432,7 +2588,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T10:42:47+00:00",
-    "collected_at": "2026-09-23T08:28:19.992890+00:00",
+    "collected_at": "2026-09-23T09:27:16.182680+00:00",
     "origin": "rss"
   },
   {
@@ -2528,7 +2684,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T10:11:36+00:00",
-    "collected_at": "2026-09-23T08:28:28.523463+00:00",
+    "collected_at": "2026-09-23T09:28:58.856728+00:00",
     "origin": "rss"
   },
   {
@@ -2636,7 +2792,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T09:46:15+00:00",
-    "collected_at": "2026-09-23T08:28:28.522712+00:00",
+    "collected_at": "2026-09-23T09:28:58.856443+00:00",
     "origin": "rss"
   },
   {
@@ -2684,7 +2840,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T09:27:28+00:00",
-    "collected_at": "2026-09-23T08:28:28.524195+00:00",
+    "collected_at": "2026-09-23T09:28:58.856987+00:00",
     "origin": "rss"
   },
   {
@@ -2948,7 +3104,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T06:20:52+00:00",
-    "collected_at": "2026-09-23T08:28:28.524637+00:00",
+    "collected_at": "2026-09-23T09:28:58.857258+00:00",
     "origin": "rss"
   },
   {
@@ -3032,7 +3188,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T05:22:58+00:00",
-    "collected_at": "2026-09-23T08:28:28.523973+00:00",
+    "collected_at": "2026-09-23T09:28:58.856857+00:00",
     "origin": "rss"
   },
   {
@@ -3368,7 +3524,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T00:16:06+00:00",
-    "collected_at": "2026-09-23T08:28:28.525324+00:00",
+    "collected_at": "2026-09-23T09:28:58.857647+00:00",
     "origin": "rss"
   },
   {
@@ -3980,7 +4136,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T19:01:36+00:00",
-    "collected_at": "2026-09-23T08:28:28.525541+00:00",
+    "collected_at": "2026-09-23T09:28:58.857774+00:00",
     "origin": "rss"
   },
   {
@@ -4364,7 +4520,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T17:02:05+00:00",
-    "collected_at": "2026-09-23T08:28:28.526006+00:00",
+    "collected_at": "2026-09-23T09:28:58.858028+00:00",
     "origin": "rss"
   },
   {
@@ -4916,7 +5072,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T14:03:20+00:00",
-    "collected_at": "2026-09-23T08:28:28.525103+00:00",
+    "collected_at": "2026-09-23T09:28:58.857519+00:00",
     "origin": "rss"
   },
   {
@@ -5312,7 +5468,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T11:05:13+00:00",
-    "collected_at": "2026-09-23T08:28:28.525762+00:00",
+    "collected_at": "2026-09-23T09:28:58.857903+00:00",
     "origin": "rss"
   },
   {
@@ -8144,7 +8300,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-20T02:00:23+00:00",
-    "collected_at": "2026-09-23T08:28:28.527364+00:00",
+    "collected_at": "2026-09-23T09:28:58.858430+00:00",
     "origin": "rss"
   },
   {
@@ -8348,7 +8504,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-19T23:18:34+00:00",
-    "collected_at": "2026-09-23T08:28:28.527141+00:00",
+    "collected_at": "2026-09-23T09:28:58.858300+00:00",
     "origin": "rss"
   },
   {
@@ -9248,7 +9404,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-19T11:18:22+00:00",
-    "collected_at": "2026-09-23T08:28:28.527582+00:00",
+    "collected_at": "2026-09-23T09:28:58.858558+00:00",
     "origin": "rss"
   },
   {
@@ -11696,7 +11852,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-18T12:58:55+00:00",
-    "collected_at": "2026-09-23T08:28:28.526914+00:00",
+    "collected_at": "2026-09-23T09:28:58.858155+00:00",
     "origin": "rss"
   },
   {
@@ -12560,7 +12716,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-18T05:23:18+00:00",
-    "collected_at": "2026-09-23T08:28:28.527986+00:00",
+    "collected_at": "2026-09-23T09:28:58.858773+00:00",
     "origin": "rss"
   },
   {
@@ -14720,7 +14876,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-17T14:29:50+00:00",
-    "collected_at": "2026-09-23T08:28:28.528211+00:00",
+    "collected_at": "2026-09-23T09:28:58.858906+00:00",
     "origin": "rss"
   },
   {
@@ -17156,7 +17312,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-16T19:49:20+00:00",
-    "collected_at": "2026-09-23T08:28:28.528428+00:00",
+    "collected_at": "2026-09-23T09:28:58.859030+00:00",
     "origin": "rss"
   },
   {
@@ -28006,77 +28162,5 @@
     "published_at": "2026-09-13T09:31:24+00:00",
     "collected_at": "2026-09-15T00:35:46.722124+00:00",
     "origin": "google_news"
-  },
-  {
-    "id": "9d14fe1ab5736476064ff808",
-    "title": "US consumer prices accelerate in August, push Fed closer to rate hike - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdW10dVZWcHQ3MkdPRy1fRGN2VVUzeV8tV2tRSnRfVHdBbllhS0hfTzlWUy1tM0pHZWxmTl84b3loTVFqRHdUX3I2REFQQ1h5ZTZIcHBJTy1Jcmd1VUpPdDRtdVhvbVpHMEVCQmJkbnNqYXBCUGZiTjVmcTM5NUpEbFgwb08wQU92TFE?oc=5",
-    "summary": "US consumer prices accelerate in August, push Fed closer to rate hike Reuters",
-    "source": "Reuters",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-13T09:08:45+00:00",
-    "collected_at": "2026-09-15T02:29:09.175206+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "d075893f1bef7eb4cdad92a7",
-    "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
-    "url": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss",
-    "summary": "A recent spate of stark warnings about the dangers of AI has been met with scepticism by executives and investors.",
-    "source": "BBC World",
-    "category_hint": "Top News",
-    "priority": 8,
-    "published_at": "2026-09-13T09:05:10+00:00",
-    "collected_at": "2026-09-15T14:28:06.460627+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "5f8eab35c569d602b48d7995",
-    "title": "As Fears of A.I. Catastrophe Magnify, Washington Stirs, but Mostly Slumbers - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb0NQRzNOcFFtdklrZmN5a1VDcE9TUnJ5bzJuRmEwVUs3N1RtNmQ4U3Z3X0FwOWhVNW9xcE5oaTdjLVBQY3dfcnZmbi0tTjVmMHhISFFLWDBXNmJDb25sNE81TmU3NXdnMnRpaWp6SU9qbmc0X3RXTFBGNlY1ek9CQ1RMc1BCbnF5MV9j?oc=5",
-    "summary": "As Fears of A.I. Catastrophe Magnify, Washington Stirs, but Mostly Slumbers The New York Times",
-    "source": "The New York Times",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-13T09:03:38+00:00",
-    "collected_at": "2026-09-16T07:28:20.135287+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "d9ab420593812fedf0a300c1",
-    "title": "How the Smithsonian Might Choose Its Next Leader - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOejFOd1QtdW8zTUF1VDFNYlBKWEl2OHFrTml2c0FMNlRRRUQ1VWJzSHNfbk56dDEzdThjRzZIM1VMREVrcWxjOThsTFFLRTlDN0pwc1g0ZHpwdmdEUmoxaDRKSGdNVjZ0TUlXZDRBd0wxSzdZa0RKOHZSR3VmSXlIYXYxUVdMWnZjeXluQlBjTUs1TG1JcUxLd0wwN0NTX0ZVUU8w?oc=5",
-    "summary": "How the Smithsonian Might Choose Its Next Leader The New York Times",
-    "source": "The New York Times",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-13T09:03:07+00:00",
-    "collected_at": "2026-09-14T23:24:29.873053+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "adc5eca5e3fa37e788939413",
-    "title": "Watch: World War Two explosive detonated on beach - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBGMUJOeXRJaDB5UXFqQnBrdEVna0d2VS13am56QjB1ZmRQRldfdGlTdUkyNGlsRjdrZ2EtaEI0SUFyS0dtckJtTFRiZlZkYk9tbkN4aXgycw?oc=5",
-    "summary": "Watch: World War Two explosive detonated on beach BBC",
-    "source": "BBC",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-13T09:01:32+00:00",
-    "collected_at": "2026-09-14T08:29:59.169450+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "c003b6a0d0a7df4e296a3619",
-    "title": "How a young woman was recruited to ISIS — and how she eventually escaped",
-    "url": "https://www.npr.org/2026/09/13/nx-s1-5963568/canada-woman-escapes-isis",
-    "summary": "A young Canadian mother shares her memories of being an ISIS bride, and her harrowing escape from the extremist group.",
-    "source": "NPR Top Stories",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-13T09:00:00+00:00",
-    "collected_at": "2026-09-14T05:26:32.037510+00:00",
-    "origin": "rss"
   }
 ]
