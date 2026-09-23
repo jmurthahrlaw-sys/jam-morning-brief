@@ -1,5 +1,89 @@
 [
   {
+    "id": "a908f20517b76c7111586bb2",
+    "title": "Hurricane Polo downgraded but remains 'very powerful' off coast of Mexico",
+    "url": "https://www.bbc.co.uk/news/articles/ckddvlrlr5qeo?at_medium=RSS&at_campaign=rss",
+    "summary": "The large storm in the Pacific Ocean is being driven by warm waters caused by the El Niño weather phenomenon.",
+    "source": "BBC World",
+    "category_hint": "Top News",
+    "priority": 8,
+    "published_at": "2026-09-23T12:24:02+00:00",
+    "collected_at": "2026-09-23T12:32:26.735936+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "ce5b66991e2fe19e9fadfeb6",
+    "title": "Dolly Parton's manager accuses her nephew of threats and intimidation",
+    "url": "https://www.bbc.co.uk/news/articles/c670lydl5wg5o?at_medium=RSS&at_campaign=rss",
+    "summary": "Bryan Seaver, who announced Parton's death to the world, is accused of trying to extort her estate.",
+    "source": "BBC Entertainment & Arts",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-23T12:22:53+00:00",
+    "collected_at": "2026-09-23T12:32:36.088570+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "ce2d09983ee2a24613ba0e48",
+    "title": "Is Nepal's flood a harbinger of what's to come in the Himalayas?",
+    "url": "https://www.npr.org/2026/09/23/g-s1-144536/floods-climate-nepal-himalayas-dams-hydropower",
+    "summary": "Building dams and hydropower plants in the Himalayas holds great promise for providing electricity. In the wake of the Nepal disaster, experts are asking about the risks of such construction.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T11:48:00+00:00",
+    "collected_at": "2026-09-23T12:32:26.576400+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "64e5244d520343a5ead33f16",
+    "title": "Tigrayan leaders say new war with Ethiopian government has begun, as fighting erupts - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZlp4SFJVZ3ZuYXdueWZPdmJaOHFNbHlFYTJELWRhMm9mQWVkN2o5Yjd2dTJFSXJkWkhfV1R5OFdxTEw3blFQMzBlV1hudkV3eGJaeHNnNmdWVnZ6S0VyenNqMU9FbXdrQXljWEF1UU1VVmZjdGRuQ3Q4LVp2cERDa0FXbUlGZkNhVENUNHZ2VXRvVU5LYVZyTXl5UmVtbDA?oc=5",
+    "summary": "Tigrayan leaders say new war with Ethiopian government has begun, as fighting erupts Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T11:44:35+00:00",
+    "collected_at": "2026-09-23T12:32:28.147676+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "9e570c3003627d6e3bf5d9ee",
+    "title": "Dollar at 2-month highs as Fed outlook 'dominant' - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09vVklTVy1TeFR1N3AzZE9MUHJnb0dWeTVVUXJOS1N1dE1lT0ZSX1BSZ3RnMzVoVTdXTHhldmxGZkhCYkVTaHRMLWFrU2FUQVJhbzZHWld6TnZ5OFdXTGNDWXNUbTl1NE9qSmV5a3ZiQ0FUa3laZUdZVjRZZmNwazFoNDlKVHlkdEVQdzVLM01pb3M0S0x2VkFqN0dJRzhOLVZkenlmQzNxTVRVVm9reFRUN1psM1ZkbW1ycUhYU0VMM28?oc=5",
+    "summary": "Dollar at 2-month highs as Fed outlook 'dominant' Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T11:43:01+00:00",
+    "collected_at": "2026-09-23T12:32:28.150005+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "3567865b52f9eb2ca86517a0",
+    "title": "Tigray forces seize main airport in northern Ethiopia from police, residents tell the BBC",
+    "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss",
+    "summary": "There are fears of a return to war in the northern region as tensions between the government and TPLF escalate.",
+    "source": "BBC World",
+    "category_hint": "Top News",
+    "priority": 8,
+    "published_at": "2026-09-23T11:42:52+00:00",
+    "collected_at": "2026-09-23T12:32:26.735507+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "e168bfe902f53679fbef15a0",
+    "title": "Russia pounds Kyiv with drone strikes after Zelenskiy-Trump talks - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOTZWQVc0Z0NRMVp5VkdLOXk4RWM3TjBZZzNiaXk2djBNUl9wZm0yWHhJaC1iaTNxSDU4SUtxUk9tZ1ZEbjRGRklUcVRJMVFUcFFBT000NWlZUGZnNU1mU01KUnI0VE9tUjd0TExPR3JUdWFEaGNkSURjbHduMHVYdVNlT0kyYVRxQ0lTVW1Id1J1d0dFeWc?oc=5",
+    "summary": "Russia pounds Kyiv with drone strikes after Zelenskiy-Trump talks Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T11:25:38+00:00",
+    "collected_at": "2026-09-23T12:32:28.153097+00:00",
+    "origin": "google_news"
+  },
+  {
     "id": "5baf84c85ca64d91ccaa9a01",
     "title": "Angry Anderson, rock star who soundtracked Kylie's wedding in Neighbours, dies aged 79",
     "url": "https://www.bbc.co.uk/news/articles/cqn745px55nno?at_medium=RSS&at_campaign=rss",
@@ -8,8 +92,20 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T11:18:28+00:00",
-    "collected_at": "2026-09-23T11:27:23.725846+00:00",
+    "collected_at": "2026-09-23T12:32:26.736404+00:00",
     "origin": "rss"
+  },
+  {
+    "id": "a5e19a98fe9a2ed1b2fd9c15",
+    "title": "AI leaders to brief UN amid warnings the technology could slip beyond human control - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOazV6Q242LXE0TVZZRV9wcXl4UmJlMHp2ZHMtX0h4RGlPeGlUbkhGQklJTDhuN0FKaFdzUUs3cS0zN1ZsTVR1Mk51M190NFFuVjdZekJVSjlXMXpuaDAwVGVaSl9LbnpKMWlmMG1YaUVOQ3lqTXl4ck5nZm94RlMxaFA2N091TUxyNWJCSkpLOER1TDAtRF94TWZ6NVNIM01lcWxvOUJaWTVHYUZ3WlJjSm16WWtUSldqcHdWOFNR?oc=5",
+    "summary": "AI leaders to brief UN amid warnings the technology could slip beyond human control Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T11:18:01+00:00",
+    "collected_at": "2026-09-23T12:32:28.148218+00:00",
+    "origin": "google_news"
   },
   {
     "id": "12bb848e8fa897617007706b",
@@ -20,8 +116,20 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T11:13:32+00:00",
-    "collected_at": "2026-09-23T11:27:23.543733+00:00",
+    "collected_at": "2026-09-23T12:32:26.576582+00:00",
     "origin": "rss"
+  },
+  {
+    "id": "e393e1212d2858fc8e23501f",
+    "title": "Trump plans grand spectacle for potentially tense Xi talks - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaVBYbDJtMVNJRWNyaDlFLXhaWDBIbERYTkRRYVliRGR3eklaai1JTHBhZ2tOTjBqRk1CSTFvOENrMjduNVhWRUFiNzRsbDg0Y1ZJdFlKTy1oSUVBaUpTNlkwVS02emZkaHVUZVRaZjJleVhJWF9uY09xSHZMOVh3YXh2aVMwV09HeGJGSXVZTWZCRE5iNHdNdDI0bDU5aXZvMjJzMQ?oc=5",
+    "summary": "Trump plans grand spectacle for potentially tense Xi talks Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T11:09:46+00:00",
+    "collected_at": "2026-09-23T12:32:28.152782+00:00",
+    "origin": "google_news"
   },
   {
     "id": "7ebc82602e010eaf1449e896",
@@ -32,7 +140,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T11:02:42+00:00",
-    "collected_at": "2026-09-23T11:27:32.542802+00:00",
+    "collected_at": "2026-09-23T12:32:36.088920+00:00",
     "origin": "rss"
   },
   {
@@ -44,55 +152,31 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T11:00:09+00:00",
-    "collected_at": "2026-09-23T11:27:23.728934+00:00",
+    "collected_at": "2026-09-23T12:32:26.737741+00:00",
     "origin": "rss"
   },
   {
-    "id": "5c822f0b4dfe1fb202da6526",
-    "title": "Tigrayan forces seize airport, Ethiopian Airlines suspends flights - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZlp4SFJVZ3ZuYXdueWZPdmJaOHFNbHlFYTJELWRhMm9mQWVkN2o5Yjd2dTJFSXJkWkhfV1R5OFdxTEw3blFQMzBlV1hudkV3eGJaeHNnNmdWVnZ6S0VyenNqMU9FbXdrQXljWEF1UU1VVmZjdGRuQ3Q4LVp2cERDa0FXbUlGZkNhVENUNHZ2VXRvVU5LYVZyTXl5UmVtbDA?oc=5",
-    "summary": "Tigrayan forces seize airport, Ethiopian Airlines suspends flights Reuters",
+    "id": "32eafe5d332d46b0d4af1202",
+    "title": "International Criminal Court convicts Central African militia leader - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeXhDanFHSVBCQWY1OC13ZHZKbHVpdWN3YjY3NmRkckFNRXJpX0NHbkp1TmZIbVZKYndpUEJxQmd1MndqVkY4VWVuZmhrR3d1aDNyRjBudnNPTHU5Mk1wMXpXeFFwRDZYY3p5ZmRfR2ZzbmMxNnFnVm1zWE1kaGxSMEl4N1AzYWtmUG91TnpuWE5lUlJXeTBGZFhiUE5xNEtzcXR2QzFzMTFOenNOZFU0?oc=5",
+    "summary": "International Criminal Court convicts Central African militia leader Reuters",
     "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
-    "published_at": "2026-09-23T10:22:34+00:00",
-    "collected_at": "2026-09-23T11:27:25.058938+00:00",
+    "published_at": "2026-09-23T10:32:57+00:00",
+    "collected_at": "2026-09-23T12:32:28.148853+00:00",
     "origin": "google_news"
   },
   {
-    "id": "a5e19a98fe9a2ed1b2fd9c15",
-    "title": "AI leaders to brief UN amid warnings the technology could slip beyond human control - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOazV6Q242LXE0TVZZRV9wcXl4UmJlMHp2ZHMtX0h4RGlPeGlUbkhGQklJTDhuN0FKaFdzUUs3cS0zN1ZsTVR1Mk51M190NFFuVjdZekJVSjlXMXpuaDAwVGVaSl9LbnpKMWlmMG1YaUVOQ3lqTXl4ck5nZm94RlMxaFA2N091TUxyNWJCSkpLOER1TDAtRF94TWZ6NVNIM01lcWxvOUJaWTVHYUZ3WlJjSm16WWtUSldqcHdWOFNR?oc=5",
-    "summary": "AI leaders to brief UN amid warnings the technology could slip beyond human control Reuters",
-    "source": "Reuters",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-23T10:09:14+00:00",
-    "collected_at": "2026-09-23T11:27:25.059651+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "e49cf2e31d97d5fcc92ab327",
-    "title": "People.com | Celebrity News, Exclusives, Photos and Videos - People.com",
-    "url": "https://news.google.com/rss/articles/CBMiNkFVX3lxTE5zbk9VRkI2Q1lnSmFTU3NOUHFXZmZTdFhLZEdJaW1makVmSEJFZUtSWGVsSldKUQ?oc=5",
-    "summary": "People.com | Celebrity News, Exclusives, Photos and Videos People.com",
-    "source": "People.com",
-    "category_hint": "Entertainment & Culture",
-    "priority": 7,
-    "published_at": "2026-09-23T10:00:49+00:00",
-    "collected_at": "2026-09-23T11:27:33.118443+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "833bc84dc82b7f0d24041769",
-    "title": "Scots recall Kerr & Thomas for World Cup play-offs - bbc.com",
+    "id": "8c8209905eb628ac6f35b282",
+    "title": "Scots recall Kerr & Thomas for World Cup play-offs - BBC",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sNW9Zd2dKcG4xel9PR2FXNk96a1J3NXlGZl9uaGFBTi1fVEgwYkJUTWVzbDVzTDIwY1FxZ0RCcTlUOVhIajhHUjNsLXN6SE1KU0hfS0VtbVUxUHUxYjB6ZURlUkZLQlB6?oc=5",
-    "summary": "Scots recall Kerr & Thomas for World Cup play-offs bbc.com",
-    "source": "bbc.com",
+    "summary": "Scots recall Kerr & Thomas for World Cup play-offs BBC",
+    "source": "BBC",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T10:00:26+00:00",
-    "collected_at": "2026-09-23T11:27:25.059318+00:00",
+    "collected_at": "2026-09-23T12:32:28.153745+00:00",
     "origin": "google_news"
   },
   {
@@ -104,7 +188,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T10:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:23.544125+00:00",
+    "collected_at": "2026-09-23T12:32:26.576777+00:00",
     "origin": "rss"
   },
   {
@@ -116,7 +200,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T09:50:37+00:00",
-    "collected_at": "2026-09-23T11:27:25.046867+00:00",
+    "collected_at": "2026-09-23T12:32:28.148047+00:00",
     "origin": "google_news"
   },
   {
@@ -128,7 +212,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T09:48:50+00:00",
-    "collected_at": "2026-09-23T11:27:23.725611+00:00",
+    "collected_at": "2026-09-23T12:32:26.736249+00:00",
     "origin": "rss"
   },
   {
@@ -140,7 +224,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T09:06:47+00:00",
-    "collected_at": "2026-09-23T11:27:23.544476+00:00",
+    "collected_at": "2026-09-23T12:32:26.576912+00:00",
     "origin": "rss"
   },
   {
@@ -152,7 +236,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T09:06:47+00:00",
-    "collected_at": "2026-09-23T11:27:24.424438+00:00",
+    "collected_at": "2026-09-23T12:32:27.521104+00:00",
     "origin": "google_news"
   },
   {
@@ -164,7 +248,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T09:01:00+00:00",
-    "collected_at": "2026-09-23T11:27:23.544746+00:00",
+    "collected_at": "2026-09-23T12:32:26.577035+00:00",
     "origin": "rss"
   },
   {
@@ -176,7 +260,79 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T09:01:00+00:00",
-    "collected_at": "2026-09-23T11:27:24.423723+00:00",
+    "collected_at": "2026-09-23T12:32:27.520238+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "87b63efbc4aa712a137453dc",
+    "title": "As Congress confronts AI, Senate lawmakers are shut off from its most advanced tools",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5978055/congress-ai-regulation",
+    "summary": "While Senate offices have access to chatbots like ChatGPT, they are not authorized to use any of the more advanced tools that are at the center of regulatory talks and public debate about AI safety.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T12:32:26.577156+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "9f001fc594a3bfd6d55e1fe2",
+    "title": "How an 'AI freeze' could make big AI companies bigger and hurt smaller firms",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5973306/ai-slowdown-debate-openai-anthropic",
+    "summary": "Critics say a slowdown of AI development among the largest companies could consolidate the power of frontier labs, just as many others are trying to catch up.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T12:32:26.577276+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "4a1f8cdfe4ea3e6dd15cdd35",
+    "title": "There's growing concern that Trump may deploy the National Guard ahead of elections",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5978015/national-guard-election-military-midterms",
+    "summary": "Fears are growing that President Trump may deploy the U.S. military to polling places in the upcoming elections, despite strict state and federal laws against such a move.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T12:32:26.577419+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "d9f31ea41d9317827c785ac8",
+    "title": "ICE is looking into 'mobile detention facilities'",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5976875/ice-mobile-detention-facilities-immigration",
+    "summary": "Buried in the paperwork for Immigration and Customs Enforcement's expansion in Pennsylvania is a document requesting \"mobile detention facilities.\"",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T12:32:26.577535+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "99d5e4aadb27b52151ac1609",
+    "title": "Poll: Most voters agree the 2026 midterms are all about Trump — and they disapprove",
+    "url": "https://www.npr.org/2026/09/23/nx-s1-5977613/trump-poll-democrats-congress",
+    "summary": "A new NPR/PBS News/Marist poll finds President Trump — and his unpopularity — is an outsize factor in why most voters say they want Democrats to win the midterms.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T12:32:26.577877+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "a6a3606220f74eb883cd9b33",
+    "title": "Poll: Trust in the U.S. Postal Service delivering mail-in ballots on time has fallen - NPR",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56b1ZUYl9FWkhKbG9fNWtacnNUaDBvRHVEM0otdkd2VEVQUlJsejlnSFV3elRGZDFQRHc3Ny04S241TTF3bTZnWi1mUWdUNmJkNFB0WlBoOXBUS3dWMmRUWkx5M1UzN05RNDU5SUlKdjJ5ZEU3QlZBMEtMZG5iZw?oc=5",
+    "summary": "Poll: Trust in the U.S. Postal Service delivering mail-in ballots on time has fallen NPR",
+    "source": "NPR",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T09:00:00+00:00",
+    "collected_at": "2026-09-23T12:32:28.150335+00:00",
     "origin": "google_news"
   },
   {
@@ -192,75 +348,15 @@
     "origin": "rss"
   },
   {
-    "id": "87b63efbc4aa712a137453dc",
-    "title": "As Congress confronts AI, Senate lawmakers are shut off from its most advanced tools",
-    "url": "https://www.npr.org/2026/09/23/nx-s1-5978055/congress-ai-regulation",
-    "summary": "While Senate offices have access to chatbots like ChatGPT, they are not authorized to use any of the more advanced tools that are at the center of regulatory talks and public debate about AI safety.",
-    "source": "NPR Top Stories",
+    "id": "d59474381443ae9f7bebf260",
+    "title": "6-year-old Chinese girl sets women’s Rubik’s Cube speed record - AP News",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT2VUaU5MRERQYl9MYjV6OFViYVhtdFhxZjVPQTNCYzRLT1pleVdkazJFRVNPNktxZzlyWG5aMXp6TFRrOUw2Y0hhMy1scldlNm9jQWs1ZUVfYzlRZExRdE5LUnFxZVVSalV3X0g4RmFsVXJMX2NZS1dhamhxMEI5TTVESEJGcF9Pbjc4SjVDYWw4VlZESDFzRlln?oc=5",
+    "summary": "6-year-old Chinese girl sets women’s Rubik’s Cube speed record AP News",
+    "source": "AP News",
     "category_hint": "Top News",
     "priority": 9,
-    "published_at": "2026-09-23T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:23.545681+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "9f001fc594a3bfd6d55e1fe2",
-    "title": "How an 'AI freeze' could make big AI companies bigger and hurt smaller firms",
-    "url": "https://www.npr.org/2026/09/23/nx-s1-5973306/ai-slowdown-debate-openai-anthropic",
-    "summary": "Critics say a slowdown of AI development among the largest companies could consolidate the power of frontier labs, just as many others are trying to catch up.",
-    "source": "NPR Top Stories",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-23T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:23.545998+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "4a1f8cdfe4ea3e6dd15cdd35",
-    "title": "There's growing concern that Trump may deploy the National Guard ahead of elections",
-    "url": "https://www.npr.org/2026/09/23/nx-s1-5978015/national-guard-election-military-midterms",
-    "summary": "Fears are growing that President Trump may deploy the U.S. military to polling places in the upcoming elections, despite strict state and federal laws against such a move.",
-    "source": "NPR Top Stories",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-23T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:23.546291+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "d9f31ea41d9317827c785ac8",
-    "title": "ICE is looking into 'mobile detention facilities'",
-    "url": "https://www.npr.org/2026/09/23/nx-s1-5976875/ice-mobile-detention-facilities-immigration",
-    "summary": "Buried in the paperwork for Immigration and Customs Enforcement's expansion in Pennsylvania is a document requesting \"mobile detention facilities.\"",
-    "source": "NPR Top Stories",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-23T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:23.546534+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "99d5e4aadb27b52151ac1609",
-    "title": "Poll: Most voters agree the 2026 midterms are all about Trump — and they disapprove",
-    "url": "https://www.npr.org/2026/09/23/nx-s1-5977613/trump-poll-democrats-congress",
-    "summary": "A new NPR/PBS News/Marist poll finds President Trump — and his unpopularity — is an outsize factor in why most voters say they want Democrats to win the midterms.",
-    "source": "NPR Top Stories",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-23T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:23.546796+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "a6a3606220f74eb883cd9b33",
-    "title": "Poll: Trust in the U.S. Postal Service delivering mail-in ballots on time has fallen - NPR",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56b1ZUYl9FWkhKbG9fNWtacnNUaDBvRHVEM0otdkd2VEVQUlJsejlnSFV3elRGZDFQRHc3Ny04S241TTF3bTZnWi1mUWdUNmJkNFB0WlBoOXBUS3dWMmRUWkx5M1UzN05RNDU5SUlKdjJ5ZEU3QlZBMEtMZG5iZw?oc=5",
-    "summary": "Poll: Trust in the U.S. Postal Service delivering mail-in ballots on time has fallen NPR",
-    "source": "NPR",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-23T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.050682+00:00",
+    "published_at": "2026-09-23T08:49:00+00:00",
+    "collected_at": "2026-09-23T12:32:28.152619+00:00",
     "origin": "google_news"
   },
   {
@@ -272,7 +368,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T08:43:47+00:00",
-    "collected_at": "2026-09-23T11:27:32.542099+00:00",
+    "collected_at": "2026-09-23T12:32:36.088443+00:00",
     "origin": "rss"
   },
   {
@@ -284,8 +380,20 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T08:42:55+00:00",
-    "collected_at": "2026-09-23T11:27:32.542344+00:00",
+    "collected_at": "2026-09-23T12:32:36.088813+00:00",
     "origin": "rss"
+  },
+  {
+    "id": "0ecc8ce4b5fba99edb51ddef",
+    "title": "China's purges of top military commanders spur questions about war-waging ability - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeGdEYlV3dUljYzl4TGkwYXJ4elVTYjlKV0Vydm1SSHJydTdPT0N5OWd4c3AwTks1bF9SakVHcXdmclFkWXhkZTVyUnZ6cnZIMTQ4WDd1RzBUY080UTV1YUN6OEx5WlJRTFNOUFBiWENlZFJROVFiVlFxaWhlcG9FZ2F1Ylc3VURrOFdMU2tkS0lmY1BUYU5hNjhPNjN2bUhYQ2dpWnVJQVpoNjFNY3UwZ1pHc3JIVHV0Uk1zUi1SbVhlQ1VpYW1VNWV5cUhfZm1aM0hJTmVkRQ?oc=5",
+    "summary": "China's purges of top military commanders spur questions about war-waging ability Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T08:01:44+00:00",
+    "collected_at": "2026-09-23T12:32:28.147872+00:00",
+    "origin": "google_news"
   },
   {
     "id": "6c91c72f37d1ea9f813a3939",
@@ -296,7 +404,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T07:02:52+00:00",
-    "collected_at": "2026-09-23T11:27:23.724187+00:00",
+    "collected_at": "2026-09-23T12:32:26.735724+00:00",
     "origin": "rss"
   },
   {
@@ -320,7 +428,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T06:47:49+00:00",
-    "collected_at": "2026-09-23T11:27:23.724419+00:00",
+    "collected_at": "2026-09-23T12:32:26.735620+00:00",
     "origin": "rss"
   },
   {
@@ -344,19 +452,19 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T06:12:56+00:00",
-    "collected_at": "2026-09-23T11:27:23.723649+00:00",
+    "collected_at": "2026-09-23T12:32:26.735264+00:00",
     "origin": "rss"
   },
   {
-    "id": "53dca4b88ad9d62db9440993",
-    "title": "US and Iran hold first talks since June after Trump's 'annihilation' threat - bbc.com",
+    "id": "1330e9c070be3f9a7a3f55b0",
+    "title": "US and Iran hold first talks since June after Trump's 'annihilation' threat - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GNzdwTjBOUmNtS1hEZ0dnQWdKc29TM1NGZC1FdnFUR25keVBJdmdGb3NtR3l5ZFhGWGtWRFBaWUFXZlN2ZzFJUHNIRUtOaHRMT1lheUtZWUgzSDA?oc=5",
-    "summary": "US and Iran hold first talks since June after Trump's 'annihilation' threat bbc.com",
-    "source": "bbc.com",
+    "summary": "US and Iran hold first talks since June after Trump's 'annihilation' threat BBC",
+    "source": "BBC",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T06:12:56+00:00",
-    "collected_at": "2026-09-23T11:27:25.047612+00:00",
+    "collected_at": "2026-09-23T12:32:28.149187+00:00",
     "origin": "google_news"
   },
   {
@@ -368,7 +476,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T05:52:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.051719+00:00",
+    "collected_at": "2026-09-23T12:32:28.151884+00:00",
     "origin": "google_news"
   },
   {
@@ -380,7 +488,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T05:38:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.054204+00:00",
+    "collected_at": "2026-09-23T12:32:28.150896+00:00",
     "origin": "google_news"
   },
   {
@@ -392,7 +500,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T05:36:14+00:00",
-    "collected_at": "2026-09-23T11:27:32.545002+00:00",
+    "collected_at": "2026-09-23T12:32:36.089970+00:00",
     "origin": "rss"
   },
   {
@@ -420,15 +528,15 @@
     "origin": "google_news"
   },
   {
-    "id": "d4d23e8a19dce0ae12662e7e",
-    "title": "Waste vehicles left in street destroyed - bbc.com",
+    "id": "a221993aa3c7aca012c454a6",
+    "title": "Waste vehicles left in street destroyed - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uejE1dnZla3FWeHNOaFo5NXBkQXh3TVB3eUg2cmdPc1pJVE95bWdnN04wU2Faa0hMcUxpbjdoaVRPYS1rSHFNWUgtaFZHcWNaR01BdkxWb3Vjbk0?oc=5",
-    "summary": "Waste vehicles left in street destroyed bbc.com",
-    "source": "bbc.com",
+    "summary": "Waste vehicles left in street destroyed BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-23T05:08:21+00:00",
-    "collected_at": "2026-09-23T11:27:33.720135+00:00",
+    "collected_at": "2026-09-23T12:32:37.328775+00:00",
     "origin": "google_news"
   },
   {
@@ -440,19 +548,19 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T05:07:33+00:00",
-    "collected_at": "2026-09-23T11:27:32.544763+00:00",
+    "collected_at": "2026-09-23T12:32:36.089869+00:00",
     "origin": "rss"
   },
   {
-    "id": "1cc4fe2139fee3e1629e4dee",
-    "title": "Sir David Attenborough pumpkin mosaic at Sunnyfields breaks world record - bbc.com",
+    "id": "20ea1e9c6c9dea95d50c547e",
+    "title": "Sir David Attenborough pumpkin mosaic at Sunnyfields breaks world record - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GdUJ2al90RHJJZURZMkJ1SnQ3N0FqSE1ZelVWaUFFRmtpQUsyTEpRbjJZanVnTzJZRXpWSE81cEVYcWhDdjhaa2o0Y293OEVROE5YMmlwM09uZVE?oc=5",
-    "summary": "Sir David Attenborough pumpkin mosaic at Sunnyfields breaks world record bbc.com",
-    "source": "bbc.com",
+    "summary": "Sir David Attenborough pumpkin mosaic at Sunnyfields breaks world record BBC",
+    "source": "BBC",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T05:06:35+00:00",
-    "collected_at": "2026-09-23T11:27:25.051374+00:00",
+    "collected_at": "2026-09-23T12:32:28.151052+00:00",
     "origin": "google_news"
   },
   {
@@ -464,7 +572,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T05:02:26+00:00",
-    "collected_at": "2026-09-23T11:27:23.723916+00:00",
+    "collected_at": "2026-09-23T12:32:26.735392+00:00",
     "origin": "rss"
   },
   {
@@ -476,7 +584,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T04:53:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.060443+00:00",
+    "collected_at": "2026-09-23T12:32:28.149514+00:00",
     "origin": "google_news"
   },
   {
@@ -500,7 +608,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T04:30:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.048313+00:00",
+    "collected_at": "2026-09-23T12:32:28.149350+00:00",
     "origin": "google_news"
   },
   {
@@ -512,7 +620,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T04:23:53+00:00",
-    "collected_at": "2026-09-23T10:27:21.020216+00:00",
+    "collected_at": "2026-09-23T12:32:27.519742+00:00",
     "origin": "google_news"
   },
   {
@@ -524,8 +632,20 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T04:20:12+00:00",
-    "collected_at": "2026-09-23T11:27:23.724654+00:00",
+    "collected_at": "2026-09-23T12:32:26.735830+00:00",
     "origin": "rss"
+  },
+  {
+    "id": "d70cff3aa68222e6b8bd7589",
+    "title": "OSHA Fines Construction Company for Repeat Offenses - ehstoday.com",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcGZvM2NTbk9kSjdXUXdOLUpvSWcxTDdxblc4OHNxelFMcTdSWTJDZmIxaGVqZ3g2SjVUMmtzYnZXUHhBV3VxMlZYTEVBNEFQd3FyMWlMN2ZVUEdsZTJ4QW1GSWp6WWNvLUZjMVRiMkpvZmE3YzdhenRPTFIyXy0tbnozUWhVUUM5RDJGYVJaX3JYcnpTaU16eU5fdmhqZ0Jja1RPQzV1Y0FGWm8?oc=5",
+    "summary": "OSHA Fines Construction Company for Repeat Offenses ehstoday.com",
+    "source": "ehstoday.com",
+    "category_hint": "Employment Law",
+    "priority": 10,
+    "published_at": "2026-09-23T04:09:15+00:00",
+    "collected_at": "2026-09-23T12:32:32.418950+00:00",
+    "origin": "google_news"
   },
   {
     "id": "f5800f27902fa7f585267dec",
@@ -535,20 +655,8 @@
     "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
-    "published_at": "2026-09-23T04:10:10+00:00",
-    "collected_at": "2026-09-23T11:27:25.047944+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "46670d2b874b1c08585112ea",
-    "title": "OSHA Fines Construction Company for Repeat Offenses - EHS Today",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcGZvM2NTbk9kSjdXUXdOLUpvSWcxTDdxblc4OHNxelFMcTdSWTJDZmIxaGVqZ3g2SjVUMmtzYnZXUHhBV3VxMlZYTEVBNEFQd3FyMWlMN2ZVUEdsZTJ4QW1GSWp6WWNvLUZjMVRiMkpvZmE3YzdhenRPTFIyXy0tbnozUWhVUUM5RDJGYVJaX3JYcnpTaU16eU5fdmhqZ0Jja1RPQzV1Y0FGWm8?oc=5",
-    "summary": "OSHA Fines Construction Company for Repeat Offenses EHS Today",
-    "source": "EHS Today",
-    "category_hint": "Employment Law",
-    "priority": 10,
-    "published_at": "2026-09-23T04:09:15+00:00",
-    "collected_at": "2026-09-23T11:27:29.267629+00:00",
+    "published_at": "2026-09-23T04:09:00+00:00",
+    "collected_at": "2026-09-23T12:32:28.148389+00:00",
     "origin": "google_news"
   },
   {
@@ -564,15 +672,15 @@
     "origin": "google_news"
   },
   {
-    "id": "caac297e71cc89bded6b47c3",
-    "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines - bbc.com",
+    "id": "98a3adc1cea7917b5b9c1647",
+    "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ibnAxMnNWQ0xzYjdoWFlDOWNZSkhoNXdKVm5QanZsMmg5Wno3cDEtTzUxOVI0U0hGWU9rdmFwX2l2TTVTaXYzMTJlMFZEMEotRE1sdHJEQWdoQlE?oc=5",
-    "summary": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines bbc.com",
-    "source": "bbc.com",
+    "summary": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines BBC",
+    "source": "BBC",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T02:57:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.052078+00:00",
+    "collected_at": "2026-09-23T12:32:28.151212+00:00",
     "origin": "google_news"
   },
   {
@@ -608,20 +716,8 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T02:55:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.056227+00:00",
+    "collected_at": "2026-09-23T12:32:28.153254+00:00",
     "origin": "google_news"
-  },
-  {
-    "id": "9b28e459f09d0418673a5a9e",
-    "title": "Hurricane Polo intensifies into rare category 5 storm off the coast of Mexico",
-    "url": "https://www.bbc.co.uk/news/articles/ckddvlrlr5qeo?at_medium=RSS&at_campaign=rss",
-    "summary": "The storm's sudden intensification is \"truly remarkable\", the US hurricane monitoring agency said.",
-    "source": "BBC World",
-    "category_hint": "Top News",
-    "priority": 8,
-    "published_at": "2026-09-23T02:54:56+00:00",
-    "collected_at": "2026-09-23T11:27:23.724887+00:00",
-    "origin": "rss"
   },
   {
     "id": "61098755c449151f817d5174",
@@ -637,26 +733,14 @@
   },
   {
     "id": "54e3a6e232289cbc160db11f",
-    "title": "Lewis Hamilton Shares Photos of Elaborate Date Nights with Kim Kardashian - People.com",
+    "title": "Lewis Hamilton Shares Photos of Elaborate Date Nights with Kim Kardashian - people.com",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX2VUQ2dJekhoaWlCQWxNN1RlRGZOS2FhRVZSOXNwU3F5UHFUZTZjSTFRUE9jU193NWRfWHhUMEZGT0lGT1BhSlhxNXM3QlNveGF3c2Y4aHIzcmQxbkltdy1uTVRveDRnai1YQTRYRlBVWnRkbWMxU0U3a3NIbTBVZk5neTl1cS1vYWwycW91ZWdpcHZnTll1ZHFPdTUzWmlPd2dJT0k2MHZUNUNtRnNn?oc=5",
-    "summary": "Lewis Hamilton Shares Photos of Elaborate Date Nights with Kim Kardashian People.com",
-    "source": "People.com",
+    "summary": "Lewis Hamilton Shares Photos of Elaborate Date Nights with Kim Kardashian people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T02:13:38+00:00",
-    "collected_at": "2026-09-23T11:27:33.105682+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "9e570c3003627d6e3bf5d9ee",
-    "title": "Dollar at 2-month highs as Fed outlook 'dominant' - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09vVklTVy1TeFR1N3AzZE9MUHJnb0dWeTVVUXJOS1N1dE1lT0ZSX1BSZ3RnMzVoVTdXTHhldmxGZkhCYkVTaHRMLWFrU2FUQVJhbzZHWld6TnZ5OFdXTGNDWXNUbTl1NE9qSmV5a3ZiQ0FUa3laZUdZVjRZZmNwazFoNDlKVHlkdEVQdzVLM01pb3M0S0x2VkFqN0dJRzhOLVZkenlmQzNxTVRVVm9reFRUN1psM1ZkbW1ycUhYU0VMM28?oc=5",
-    "summary": "Dollar at 2-month highs as Fed outlook 'dominant' Reuters",
-    "source": "Reuters",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-23T01:43:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.049683+00:00",
+    "collected_at": "2026-09-23T12:32:36.642009+00:00",
     "origin": "google_news"
   },
   {
@@ -680,7 +764,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T01:25:47+00:00",
-    "collected_at": "2026-09-23T11:27:23.729409+00:00",
+    "collected_at": "2026-09-23T12:32:26.737944+00:00",
     "origin": "rss"
   },
   {
@@ -704,7 +788,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T01:02:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.057977+00:00",
+    "collected_at": "2026-09-23T12:32:28.150170+00:00",
     "origin": "google_news"
   },
   {
@@ -716,7 +800,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T00:34:52+00:00",
-    "collected_at": "2026-09-23T11:27:33.117768+00:00",
+    "collected_at": "2026-09-23T12:32:36.648015+00:00",
     "origin": "google_news"
   },
   {
@@ -728,7 +812,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-23T00:17:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.357298+00:00",
+    "collected_at": "2026-09-23T12:32:35.837421+00:00",
     "origin": "google_news"
   },
   {
@@ -740,19 +824,19 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T00:05:34+00:00",
-    "collected_at": "2026-09-23T11:27:23.725148+00:00",
+    "collected_at": "2026-09-23T12:32:26.736041+00:00",
     "origin": "rss"
   },
   {
     "id": "eeca4a4bedc24598f064fe05",
-    "title": "Kelly Clarkson Debuts Wavy Bob Haircut 1 Month After Ending Her Talk Show - People.com",
+    "title": "Kelly Clarkson Debuts Wavy Bob Haircut 1 Month After Ending Her Talk Show - people.com",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSFdBX2dJai1yTUhFeWU2NjcxNEszNXY4ck1FRUxRVkpOa0U2X0FoZlVtQWhLTVVfQnZYZUNCa3A3enRjSmVhQjV0ejJDUDY1VU1NNXQzRDZ3b2hiQ0UybWZFOVJQNDk2SXY4bjU2aGdSb2F4clNVWVMzZ0N4blV0Q2RFVV9JQV9XeVRWUGM3dUEwUUR5RzhTbWpobzZTSUlQZ1VvSEdXUXg1ODZPVWFHU1JB?oc=5",
-    "summary": "Kelly Clarkson Debuts Wavy Bob Haircut 1 Month After Ending Her Talk Show People.com",
-    "source": "People.com",
+    "summary": "Kelly Clarkson Debuts Wavy Bob Haircut 1 Month After Ending Her Talk Show people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T23:41:50+00:00",
-    "collected_at": "2026-09-23T11:27:33.106067+00:00",
+    "collected_at": "2026-09-23T12:32:36.642200+00:00",
     "origin": "google_news"
   },
   {
@@ -764,7 +848,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T23:36:12+00:00",
-    "collected_at": "2026-09-23T11:27:23.726872+00:00",
+    "collected_at": "2026-09-23T12:32:26.736829+00:00",
     "origin": "rss"
   },
   {
@@ -788,7 +872,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T23:28:00+00:00",
-    "collected_at": "2026-09-23T11:27:29.269368+00:00",
+    "collected_at": "2026-09-23T12:32:32.419588+00:00",
     "origin": "google_news"
   },
   {
@@ -804,15 +888,15 @@
     "origin": "google_news"
   },
   {
-    "id": "ff64f76e2b92514fabb84201",
-    "title": "Europe's car makers are in crisis. Will the threat of war rescue them? - bbc.com",
+    "id": "fde1a6c605e93bf6d3f670ad",
+    "title": "Europe's car makers are in crisis. Will the threat of war rescue them? - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9td3dkeHNXYzhNZ0hjTVhibFVGQjlwVGduNnk1MEhWb056dnNaNzVDOUJhWE1QUnRndmNSUGd5dV9Cc2UwNGVyYzFJSlg5VTZBRlc3a24zeFlJZGc?oc=5",
-    "summary": "Europe's car makers are in crisis. Will the threat of war rescue them? bbc.com",
-    "source": "bbc.com",
+    "summary": "Europe's car makers are in crisis. Will the threat of war rescue them? BBC",
+    "source": "BBC",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T23:11:33+00:00",
-    "collected_at": "2026-09-23T11:27:25.053193+00:00",
+    "collected_at": "2026-09-23T12:32:28.150495+00:00",
     "origin": "google_news"
   },
   {
@@ -836,7 +920,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T23:04:15+00:00",
-    "collected_at": "2026-09-23T11:27:25.664055+00:00",
+    "collected_at": "2026-09-23T12:32:28.785259+00:00",
     "origin": "google_news"
   },
   {
@@ -848,7 +932,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T22:57:00+00:00",
-    "collected_at": "2026-09-23T11:27:29.264347+00:00",
+    "collected_at": "2026-09-23T12:32:32.417219+00:00",
     "origin": "google_news"
   },
   {
@@ -872,7 +956,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T22:48:17+00:00",
-    "collected_at": "2026-09-23T11:27:25.664852+00:00",
+    "collected_at": "2026-09-23T12:32:28.785667+00:00",
     "origin": "google_news"
   },
   {
@@ -884,7 +968,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T22:45:59+00:00",
-    "collected_at": "2026-09-23T11:27:32.356155+00:00",
+    "collected_at": "2026-09-23T12:32:35.836864+00:00",
     "origin": "google_news"
   },
   {
@@ -896,7 +980,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T22:42:00+00:00",
-    "collected_at": "2026-09-23T11:27:29.265069+00:00",
+    "collected_at": "2026-09-23T12:32:32.417385+00:00",
     "origin": "google_news"
   },
   {
@@ -908,7 +992,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T22:37:59+00:00",
-    "collected_at": "2026-09-23T02:27:14.391057+00:00",
+    "collected_at": "2026-09-23T12:32:28.791618+00:00",
     "origin": "google_news"
   },
   {
@@ -920,7 +1004,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T22:35:14+00:00",
-    "collected_at": "2026-09-23T11:27:32.353049+00:00",
+    "collected_at": "2026-09-23T12:32:35.835355+00:00",
     "origin": "google_news"
   },
   {
@@ -932,7 +1016,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T22:33:44+00:00",
-    "collected_at": "2026-09-23T11:27:23.729632+00:00",
+    "collected_at": "2026-09-23T12:32:26.738043+00:00",
     "origin": "rss"
   },
   {
@@ -956,19 +1040,19 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T22:32:04+00:00",
-    "collected_at": "2026-09-23T11:27:32.352238+00:00",
+    "collected_at": "2026-09-23T12:32:35.834590+00:00",
     "origin": "google_news"
   },
   {
     "id": "37f4e0f7ef8a5c381fd16d5e",
-    "title": "Benny Blanco Says Farts Should Be ‘Completely Normalized’ in Relationships: ‘Let It Happen’ - People.com",
+    "title": "Benny Blanco Says Farts Should Be ‘Completely Normalized’ in Relationships: ‘Let It Happen’ - people.com",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUU15cFpwY0Y2NDRYRlJJV09sTzZyLUdrb2FVSTNpTnVISUtRbTlzTGFBZDFoR1BaQVo1TWY0UXRaOU8xMHBXV0F3b2NyMXpFZG9ublJwOFF4MGN0VFdoMklJNjRDR1E0ZGQtczhEZC1lWFMxYUFwUnhscEVXLXhtRGprcUNvb09YTlppZlJxNkthcWdlcmpmckZRUEhOVExV?oc=5",
-    "summary": "Benny Blanco Says Farts Should Be ‘Completely Normalized’ in Relationships: ‘Let It Happen’ People.com",
-    "source": "People.com",
+    "summary": "Benny Blanco Says Farts Should Be ‘Completely Normalized’ in Relationships: ‘Let It Happen’ people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T22:30:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.112023+00:00",
+    "collected_at": "2026-09-23T12:32:36.644909+00:00",
     "origin": "google_news"
   },
   {
@@ -980,7 +1064,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T22:24:28+00:00",
-    "collected_at": "2026-09-23T11:27:24.421543+00:00",
+    "collected_at": "2026-09-23T12:32:27.519144+00:00",
     "origin": "google_news"
   },
   {
@@ -1016,7 +1100,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T22:04:31+00:00",
-    "collected_at": "2026-09-23T11:27:23.727757+00:00",
+    "collected_at": "2026-09-23T12:32:26.737220+00:00",
     "origin": "rss"
   },
   {
@@ -1028,7 +1112,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T22:03:48+00:00",
-    "collected_at": "2026-09-23T11:27:23.729191+00:00",
+    "collected_at": "2026-09-23T12:32:26.737845+00:00",
     "origin": "rss"
   },
   {
@@ -1052,7 +1136,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T21:59:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.110591+00:00",
+    "collected_at": "2026-09-23T12:32:36.644567+00:00",
     "origin": "google_news"
   },
   {
@@ -1064,7 +1148,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T21:55:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.362339+00:00",
+    "collected_at": "2026-09-23T12:32:35.839726+00:00",
     "origin": "google_news"
   },
   {
@@ -1100,19 +1184,19 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T21:36:55+00:00",
-    "collected_at": "2026-09-23T11:27:23.725380+00:00",
+    "collected_at": "2026-09-23T12:32:26.736143+00:00",
     "origin": "rss"
   },
   {
     "id": "e2e6a4258c7b471bb8329c7b",
-    "title": "‘RHONY’s Hailey Glassman Says Jon Gosselin Romance ‘Ruined’ Her Life - People.com",
+    "title": "‘RHONY’s Hailey Glassman Says Jon Gosselin Romance ‘Ruined’ Her Life - people.com",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPODJhVHBENFpQQ0JIYU91S3hjNGxSbmxQemZMQjVUenp4ZVJRbXJmbkU5OXN1S1NxelBrRjN3WVNreEVSVUxkNTJPUWdlN05MZ01wMEtLR1dkcVV2THlKTTJ2UkZ3cHBZQ3U1cDRtT3hDSTEzTHNqZVhaNGlKOE85SWNyMWl3UFNYc2RqWFV4RQ?oc=5",
-    "summary": "‘RHONY’s Hailey Glassman Says Jon Gosselin Romance ‘Ruined’ Her Life People.com",
-    "source": "People.com",
+    "summary": "‘RHONY’s Hailey Glassman Says Jon Gosselin Romance ‘Ruined’ Her Life people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T21:34:03+00:00",
-    "collected_at": "2026-09-23T11:27:33.107885+00:00",
+    "collected_at": "2026-09-23T12:32:36.643269+00:00",
     "origin": "google_news"
   },
   {
@@ -1124,7 +1208,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T21:31:01+00:00",
-    "collected_at": "2026-09-23T11:27:24.413423+00:00",
+    "collected_at": "2026-09-23T12:32:27.514953+00:00",
     "origin": "google_news"
   },
   {
@@ -1148,7 +1232,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T21:24:00+00:00",
-    "collected_at": "2026-09-23T11:27:29.266271+00:00",
+    "collected_at": "2026-09-23T12:32:32.417885+00:00",
     "origin": "google_news"
   },
   {
@@ -1160,7 +1244,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T21:18:33+00:00",
-    "collected_at": "2026-09-23T11:27:29.263996+00:00",
+    "collected_at": "2026-09-23T12:32:32.416875+00:00",
     "origin": "google_news"
   },
   {
@@ -1172,7 +1256,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T21:16:50+00:00",
-    "collected_at": "2026-09-23T11:27:32.362984+00:00",
+    "collected_at": "2026-09-23T12:32:35.839564+00:00",
     "origin": "google_news"
   },
   {
@@ -1184,7 +1268,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T21:12:14+00:00",
-    "collected_at": "2026-09-23T11:27:24.414558+00:00",
+    "collected_at": "2026-09-23T12:32:27.515606+00:00",
     "origin": "google_news"
   },
   {
@@ -1208,7 +1292,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T21:07:29+00:00",
-    "collected_at": "2026-09-23T11:27:25.056666+00:00",
+    "collected_at": "2026-09-23T12:32:28.153410+00:00",
     "origin": "google_news"
   },
   {
@@ -1220,19 +1304,19 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T20:59:00+00:00",
-    "collected_at": "2026-09-23T11:27:23.726426+00:00",
+    "collected_at": "2026-09-23T12:32:26.736626+00:00",
     "origin": "rss"
   },
   {
-    "id": "d6c9625342c6d0bc5fc4fba7",
-    "title": "Morocco election: How Ceuta, football and Israel have shaped the campaign - bbc.com",
+    "id": "ae3d54d9b99d20031f968bfe",
+    "title": "Morocco election: How Ceuta, football and Israel have shaped the campaign - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LS09DRExRangzQ3NJTkpsblN1Q0dkRU9uZkZWTldva3haLTExa0tRWGFNVFl1N1I4Tm9MN0xINUM2aGhDWDVYb0trMTNoR0N2TmRzdkJIbVNSUW8?oc=5",
-    "summary": "Morocco election: How Ceuta, football and Israel have shaped the campaign bbc.com",
-    "source": "bbc.com",
+    "summary": "Morocco election: How Ceuta, football and Israel have shaped the campaign BBC",
+    "source": "BBC",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T20:59:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.055210+00:00",
+    "collected_at": "2026-09-23T12:32:28.152212+00:00",
     "origin": "google_news"
   },
   {
@@ -1256,7 +1340,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T20:52:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.361040+00:00",
+    "collected_at": "2026-09-23T12:32:35.838945+00:00",
     "origin": "google_news"
   },
   {
@@ -1296,15 +1380,15 @@
     "origin": "google_news"
   },
   {
-    "id": "e6cdcf1a5c1911644c4b7824",
-    "title": "New Wolves, Lynx owners pledge to push for new arena in downtown Minneapolis - Star Tribune",
+    "id": "a9c46a187c72236d86df1dd4",
+    "title": "New Wolves, Lynx owners to seek public assistance for new arena - Star Tribune",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYWs4RGtrcV82czRFZGV1SDBEaTB6UzlPX1dHSjdFU3BVUVltVkViSWs4ZDlIcU5VbGpWRGRZc2tWZ251Zklnd0FvSVM3YXRUSm5GeTN0TkVWOXdkRjRwdm0wazZweXpWNkFMUjJhdXpCWkIwem9ZaUgzYVd2XzNUTk50TGt4V3ctOXZiVkJ6bW9kUG5RT3AxV2k1UWoyOXdXWGlR?oc=5",
-    "summary": "New Wolves, Lynx owners pledge to push for new arena in downtown Minneapolis Star Tribune",
+    "summary": "New Wolves, Lynx owners to seek public assistance for new arena Star Tribune",
     "source": "Star Tribune",
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T20:25:45+00:00",
-    "collected_at": "2026-09-23T11:27:25.669314+00:00",
+    "collected_at": "2026-09-23T12:32:28.787789+00:00",
     "origin": "google_news"
   },
   {
@@ -1328,7 +1412,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T20:16:43+00:00",
-    "collected_at": "2026-09-23T11:27:32.544185+00:00",
+    "collected_at": "2026-09-23T12:32:36.089652+00:00",
     "origin": "rss"
   },
   {
@@ -1352,7 +1436,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T20:11:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.047270+00:00",
+    "collected_at": "2026-09-23T12:32:28.149026+00:00",
     "origin": "google_news"
   },
   {
@@ -1364,7 +1448,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T20:08:52+00:00",
-    "collected_at": "2026-09-23T11:27:32.543940+00:00",
+    "collected_at": "2026-09-23T12:32:36.089454+00:00",
     "origin": "rss"
   },
   {
@@ -1376,19 +1460,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T20:02:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.054529+00:00",
+    "collected_at": "2026-09-23T12:32:28.152049+00:00",
     "origin": "google_news"
   },
   {
     "id": "9a1b949af041b176e56f04c7",
-    "title": "Brad Pitt’s Se7en Was Released 31 years Ago Today. Here Are 7 Little Known Facts About the Disturbing Classic - People.com",
+    "title": "Brad Pitt’s Se7en Was Released 31 years Ago Today. Here Are 7 Little Known Facts About the Disturbing Classic - people.com",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVGxydUd6RFAyYVozSEFkM2JEQjlBVFFQNjB1MUd3WHZTaGRxMWhKbGFLOTBocmJBaXN2WmlLWTB6MTZaTWN2R0JDWGlmNU1PLVlJWUVWSmJYbHpEREkxMHJCbG0tSTJqaVltY0VCS2tSM3R2MzRiNXN1V1NsZjVzTGpmaV9OU1AyMkNTMnRYVlVYRHVLQm80emQ1bzJER2laYmp6N3pWSktUakI0NFhsN3ZZbEE?oc=5",
-    "summary": "Brad Pitt’s Se7en Was Released 31 years Ago Today. Here Are 7 Little Known Facts About the Disturbing Classic People.com",
-    "source": "People.com",
+    "summary": "Brad Pitt’s Se7en Was Released 31 years Ago Today. Here Are 7 Little Known Facts About the Disturbing Classic people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T19:53:35+00:00",
-    "collected_at": "2026-09-23T11:27:33.113208+00:00",
+    "collected_at": "2026-09-23T12:32:36.645664+00:00",
     "origin": "google_news"
   },
   {
@@ -1400,7 +1484,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T19:47:44+00:00",
-    "collected_at": "2026-09-23T11:27:23.727330+00:00",
+    "collected_at": "2026-09-23T12:32:26.737022+00:00",
     "origin": "rss"
   },
   {
@@ -1412,19 +1496,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T19:46:20+00:00",
-    "collected_at": "2026-09-23T11:27:25.049015+00:00",
+    "collected_at": "2026-09-23T12:32:28.149685+00:00",
     "origin": "google_news"
   },
   {
-    "id": "e5b94d8d1b59db53fe285c48",
-    "title": "American power, AI and a walkout - key moments from Trump's UN speech - bbc.com",
+    "id": "e0bc9f0e6198e8e9468b9621",
+    "title": "American power, AI and a walkout - key moments from Trump's UN speech - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sMXhQZXJPY1JROEktMHBINDhfbm0yWjdheVAxTVB4Y0xuUEFyYXNVclB0dUo5Zlk5d0FoNVJ0Z0gwS3llSU05ZFFqcG5EQk5zc25UWXZQOWtOMVk?oc=5",
-    "summary": "American power, AI and a walkout - key moments from Trump's UN speech bbc.com",
-    "source": "bbc.com",
+    "summary": "American power, AI and a walkout - key moments from Trump's UN speech BBC",
+    "source": "BBC",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T19:44:44+00:00",
-    "collected_at": "2026-09-23T11:27:25.055860+00:00",
+    "collected_at": "2026-09-23T12:32:28.152943+00:00",
     "origin": "google_news"
   },
   {
@@ -1436,7 +1520,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T19:43:49+00:00",
-    "collected_at": "2026-09-23T11:27:29.263235+00:00",
+    "collected_at": "2026-09-23T12:32:32.416664+00:00",
     "origin": "google_news"
   },
   {
@@ -1448,7 +1532,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T19:40:54+00:00",
-    "collected_at": "2026-09-23T11:27:33.110262+00:00",
+    "collected_at": "2026-09-23T12:32:36.644078+00:00",
     "origin": "google_news"
   },
   {
@@ -1484,7 +1568,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T19:30:49+00:00",
-    "collected_at": "2026-09-23T11:27:29.265761+00:00",
+    "collected_at": "2026-09-23T12:32:32.417721+00:00",
     "origin": "google_news"
   },
   {
@@ -1496,7 +1580,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T19:25:23+00:00",
-    "collected_at": "2026-09-23T11:27:25.668620+00:00",
+    "collected_at": "2026-09-23T12:32:28.787452+00:00",
     "origin": "google_news"
   },
   {
@@ -1508,7 +1592,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T19:25:16+00:00",
-    "collected_at": "2026-09-23T11:27:23.728707+00:00",
+    "collected_at": "2026-09-23T12:32:26.737636+00:00",
     "origin": "rss"
   },
   {
@@ -1532,7 +1616,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T19:15:57+00:00",
-    "collected_at": "2026-09-23T11:27:23.729857+00:00",
+    "collected_at": "2026-09-23T12:32:26.738199+00:00",
     "origin": "rss"
   },
   {
@@ -1544,7 +1628,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T19:15:48+00:00",
-    "collected_at": "2026-09-23T11:27:25.053512+00:00",
+    "collected_at": "2026-09-23T12:32:28.151532+00:00",
     "origin": "google_news"
   },
   {
@@ -1556,7 +1640,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T19:09:42+00:00",
-    "collected_at": "2026-09-23T11:27:25.049359+00:00",
+    "collected_at": "2026-09-23T12:32:28.149843+00:00",
     "origin": "google_news"
   },
   {
@@ -1568,7 +1652,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T19:08:46+00:00",
-    "collected_at": "2026-09-23T11:27:29.265423+00:00",
+    "collected_at": "2026-09-23T12:32:32.417548+00:00",
     "origin": "google_news"
   },
   {
@@ -1580,7 +1664,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T19:06:06+00:00",
-    "collected_at": "2026-09-23T11:27:23.726105+00:00",
+    "collected_at": "2026-09-23T12:32:26.736512+00:00",
     "origin": "rss"
   },
   {
@@ -1604,7 +1688,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T19:01:18+00:00",
-    "collected_at": "2026-09-23T11:27:32.543048+00:00",
+    "collected_at": "2026-09-23T12:32:36.089025+00:00",
     "origin": "rss"
   },
   {
@@ -1616,7 +1700,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T19:01:00+00:00",
-    "collected_at": "2026-09-23T11:27:29.269700+00:00",
+    "collected_at": "2026-09-23T12:32:32.419758+00:00",
     "origin": "google_news"
   },
   {
@@ -1628,7 +1712,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T19:00:51+00:00",
-    "collected_at": "2026-09-23T11:27:33.108264+00:00",
+    "collected_at": "2026-09-23T12:32:36.642926+00:00",
     "origin": "google_news"
   },
   {
@@ -1645,14 +1729,14 @@
   },
   {
     "id": "dfb75061132098a9d534f5eb",
-    "title": "Sombr Says It’s ‘Incredibly Insane’ to Call Him a ‘Nepo Baby’: ‘My Dad Devotes His Life to Fight AIDS’ - People.com",
+    "title": "Sombr Says It’s ‘Incredibly Insane’ to Call Him a ‘Nepo Baby’: ‘My Dad Devotes His Life to Fight AIDS’ - people.com",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNc2hiWFhJVVVtaDNGMElNbzlKeXZxR01kUW1hTGtIWTJWQ3JxV0Q0Q042R3MyR3BnRWtXdU9YWkRnTGRkOVZNRXhubTlIUFNPSFUwTDZ1WEVCNWxPZXVVSEZwWUZXbUp2a0M1aFAtRzJJeW1zT0hCejNFMUxoQklWdTBCc3BhWFBkREE?oc=5",
-    "summary": "Sombr Says It’s ‘Incredibly Insane’ to Call Him a ‘Nepo Baby’: ‘My Dad Devotes His Life to Fight AIDS’ People.com",
-    "source": "People.com",
+    "summary": "Sombr Says It’s ‘Incredibly Insane’ to Call Him a ‘Nepo Baby’: ‘My Dad Devotes His Life to Fight AIDS’ people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T18:38:59+00:00",
-    "collected_at": "2026-09-23T11:27:33.106439+00:00",
+    "collected_at": "2026-09-23T12:32:36.642565+00:00",
     "origin": "google_news"
   },
   {
@@ -1688,7 +1772,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T18:29:00+00:00",
-    "collected_at": "2026-09-23T11:27:24.420867+00:00",
+    "collected_at": "2026-09-23T12:32:27.517390+00:00",
     "origin": "google_news"
   },
   {
@@ -1712,7 +1796,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T18:21:10+00:00",
-    "collected_at": "2026-09-23T11:27:32.360267+00:00",
+    "collected_at": "2026-09-23T12:32:35.838544+00:00",
     "origin": "google_news"
   },
   {
@@ -1724,7 +1808,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T18:20:50+00:00",
-    "collected_at": "2026-09-23T11:27:33.116743+00:00",
+    "collected_at": "2026-09-23T12:32:36.647528+00:00",
     "origin": "google_news"
   },
   {
@@ -1736,19 +1820,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T18:15:44+00:00",
-    "collected_at": "2026-09-23T11:27:25.059995+00:00",
+    "collected_at": "2026-09-23T12:32:28.154625+00:00",
     "origin": "google_news"
   },
   {
-    "id": "609f5373ff97722c99f5cb3a",
-    "title": "Disney’s Cathleen Taff Named President of Entertainment Studios and Consumer Products, Former DCP Head Lisa Baldzicki Shifts Into New Role - Variety",
+    "id": "27b334862b17f81035df9f54",
+    "title": "Disney’s Cathleen Taff Named President of Entertainment Studios and Consumer Products, Former DCP Head Lisa Baldzicki Shifts Into New Role - variety.com",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUkh4UWVHcGZjNHR4ZVJEeVhXMEJoZ3pVUEMtdjZHbWVxQmNDNkVjdlZfenZBUlZLU1QtRDVaYVFIdzk5TUQ1S25QeGJmdzZPM0RaMTdIREpodWctSWVzNHVNWld2ZjRvZHFfVkZDS25JZ3lJTnpOQTUzbHBRYXZqR29VWmlLSGpzMlF4N3B6UTBGVDlIU21JaE1uT0RJSGVLYVZz?oc=5",
-    "summary": "Disney’s Cathleen Taff Named President of Entertainment Studios and Consumer Products, Former DCP Head Lisa Baldzicki Shifts Into New Role Variety",
-    "source": "Variety",
+    "summary": "Disney’s Cathleen Taff Named President of Entertainment Studios and Consumer Products, Former DCP Head Lisa Baldzicki Shifts Into New Role variety.com",
+    "source": "variety.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T18:15:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.111659+00:00",
+    "collected_at": "2026-09-23T12:32:36.645238+00:00",
     "origin": "google_news"
   },
   {
@@ -1765,14 +1849,14 @@
   },
   {
     "id": "1dfd330d6a67a7adb03538ef",
-    "title": "Taylor Swift Announces New Single ‘Patient Zero’ as She Teases Collector’s Edition CDs - People.com",
+    "title": "Taylor Swift Announces New Single ‘Patient Zero’ as She Teases Collector’s Edition CDs - people.com",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU1k1ZTMxaDlzRkVvR0ZiVDZTTFFxd3VPUVo3cEdUS3FienBZaWFoOFUxVjZOMEFaYUJfNVdiQTdHd2tOQThyT3RSQ2szUWJPMmxSQnBfN2Z6d2ZMUXdkSFdSTzJXbEN5cFF0VV9HZVVxLU1pcXcyNENCQ2s0UFh3UFdvR3NNcnE0bE9BUEZ6c1dJNkc3aVpLMHdGSy1OM0JKT2ZwcjVhdw?oc=5",
-    "summary": "Taylor Swift Announces New Single ‘Patient Zero’ as She Teases Collector’s Edition CDs People.com",
-    "source": "People.com",
+    "summary": "Taylor Swift Announces New Single ‘Patient Zero’ as She Teases Collector’s Edition CDs people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T18:09:30+00:00",
-    "collected_at": "2026-09-23T11:27:33.107170+00:00",
+    "collected_at": "2026-09-23T12:32:36.643099+00:00",
     "origin": "google_news"
   },
   {
@@ -1796,7 +1880,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T17:53:00+00:00",
-    "collected_at": "2026-09-23T11:27:29.270168+00:00",
+    "collected_at": "2026-09-23T12:32:32.419992+00:00",
     "origin": "google_news"
   },
   {
@@ -1836,15 +1920,15 @@
     "origin": "google_news"
   },
   {
-    "id": "8bc8b6dec90c31cebe8c8aa3",
-    "title": "Watch: Trump threatens to 'annihilate' Iran if no deal reached - bbc.com",
+    "id": "3ffbd4cb1eec697c84c3fddc",
+    "title": "Watch: Trump threatens to 'annihilate' Iran if no deal reached - BBC",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1BejNRYUdpNUkzcXA1SFBJcDJBVkZiWXdPWlFNUUJ6LTJFT21ENjh0MS1KdjI0T0ZUTC1FMnhxRXk2UWJCbmZyTzc4SEI2bnY3RVEyX2ZnVFA?oc=5",
-    "summary": "Watch: Trump threatens to 'annihilate' Iran if no deal reached bbc.com",
-    "source": "bbc.com",
+    "summary": "Watch: Trump threatens to 'annihilate' Iran if no deal reached BBC",
+    "source": "BBC",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T17:35:36+00:00",
-    "collected_at": "2026-09-23T11:27:25.052405+00:00",
+    "collected_at": "2026-09-23T12:32:28.151703+00:00",
     "origin": "google_news"
   },
   {
@@ -1904,7 +1988,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T16:55:17+00:00",
-    "collected_at": "2026-09-23T11:27:33.106787+00:00",
+    "collected_at": "2026-09-23T12:32:36.642379+00:00",
     "origin": "google_news"
   },
   {
@@ -1940,7 +2024,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T16:45:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.107539+00:00",
+    "collected_at": "2026-09-23T12:32:36.642753+00:00",
     "origin": "google_news"
   },
   {
@@ -1952,19 +2036,19 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T16:42:23+00:00",
-    "collected_at": "2026-09-23T11:27:23.727998+00:00",
+    "collected_at": "2026-09-23T12:32:26.737320+00:00",
     "origin": "rss"
   },
   {
-    "id": "f4b887a0533a151dcfca2a39",
-    "title": "Tunbridge Wells teenager honoured at award show by Prince Harry - bbc.com",
+    "id": "775ee0755e162868dc3b0ae1",
+    "title": "Tunbridge Wells teenager honoured at award show by Prince Harry - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13NWEyZXBnS1R0NWtadzBkSXJXWTR1ZWJDbXY4ckcxRVZYRW9RdVoyaENZS0ZDeXZGRThaUkgxT1RPaThWbjFmV1NiamwzMkRoSm90MDd6aHc3R2s?oc=5",
-    "summary": "Tunbridge Wells teenager honoured at award show by Prince Harry bbc.com",
-    "source": "bbc.com",
+    "summary": "Tunbridge Wells teenager honoured at award show by Prince Harry BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T16:41:32+00:00",
-    "collected_at": "2026-09-23T11:27:33.716673+00:00",
+    "collected_at": "2026-09-23T12:32:37.327087+00:00",
     "origin": "google_news"
   },
   {
@@ -1988,7 +2072,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T16:34:08+00:00",
-    "collected_at": "2026-09-23T11:27:32.356509+00:00",
+    "collected_at": "2026-09-23T12:32:35.837107+00:00",
     "origin": "google_news"
   },
   {
@@ -2000,7 +2084,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T16:32:12+00:00",
-    "collected_at": "2026-09-23T11:27:29.270809+00:00",
+    "collected_at": "2026-09-23T12:32:32.419428+00:00",
     "origin": "google_news"
   },
   {
@@ -2012,7 +2096,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T16:30:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.358277+00:00",
+    "collected_at": "2026-09-23T12:32:35.837903+00:00",
     "origin": "google_news"
   },
   {
@@ -2036,7 +2120,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T16:25:31+00:00",
-    "collected_at": "2026-09-23T11:27:25.668282+00:00",
+    "collected_at": "2026-09-23T12:32:28.787630+00:00",
     "origin": "google_news"
   },
   {
@@ -2084,19 +2168,19 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T16:02:18+00:00",
-    "collected_at": "2026-09-23T11:27:32.543274+00:00",
+    "collected_at": "2026-09-23T12:32:36.089135+00:00",
     "origin": "rss"
   },
   {
     "id": "5729b850131e8a2e631f2044",
-    "title": "Supermodel Twiggy Reveals How an Accidental Haircut Led to Her Discovery (Exclusive) - People.com",
+    "title": "Supermodel Twiggy Reveals How an Accidental Haircut Led to Her Discovery (Exclusive) - people.com",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOREM5QTU0RTRZcHAzU1d0V1pKZmVYRkZyQUo5Szh2bDBtSUt4T2FYTzJ2ZDhNMXhVZExmWGhMa3AzbExrRldOY0I5RFRyTTdoTFI0YVhfT1pBWEpXaElfY3BETzNaQmJ0Y0pNV1NCa2EwVzVHekRkYkFybHZfajIxSEFHc0NNeFl5b1U0MXBxWG9DM1lUQ2k1Q0YtMWh6WVdDMFFwQ2pUT25lU3lfS1BJ?oc=5",
-    "summary": "Supermodel Twiggy Reveals How an Accidental Haircut Led to Her Discovery (Exclusive) People.com",
-    "source": "People.com",
+    "summary": "Supermodel Twiggy Reveals How an Accidental Haircut Led to Her Discovery (Exclusive) people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T16:01:27+00:00",
-    "collected_at": "2026-09-23T11:27:33.109556+00:00",
+    "collected_at": "2026-09-23T12:32:36.643914+00:00",
     "origin": "google_news"
   },
   {
@@ -2108,7 +2192,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T16:01:10+00:00",
-    "collected_at": "2026-09-23T11:27:32.351161+00:00",
+    "collected_at": "2026-09-23T12:32:35.834217+00:00",
     "origin": "google_news"
   },
   {
@@ -2120,7 +2204,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T16:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.669662+00:00",
+    "collected_at": "2026-09-23T12:32:28.787960+00:00",
     "origin": "google_news"
   },
   {
@@ -2144,7 +2228,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T15:58:19+00:00",
-    "collected_at": "2026-09-23T11:27:33.710522+00:00",
+    "collected_at": "2026-09-23T12:32:37.324085+00:00",
     "origin": "google_news"
   },
   {
@@ -2173,14 +2257,14 @@
   },
   {
     "id": "f5d7e6b72330b3ba790f6626",
-    "title": "Presley Gerber’s Ex-Girlfriend Charlotte D’Alessio Says She’s ‘Angry’ About Late Model’s Death in Emotional Tribute - People.com",
+    "title": "Presley Gerber’s Ex-Girlfriend Charlotte D’Alessio Says She’s ‘Angry’ About Late Model’s Death in Emotional Tribute - people.com",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV2lXN3F3aDVuN0ozNWd6SXdXLWpkVXVXMWt3eUJaODNTb3ozY3REV2hqMjZ3TUdONHZ4a3VwUTRGMmxaSnBPS0RvaG9kOVpzWGpQU1czV3VTdXZvUkR6U2FzRWY2eUlmNmV3eTRiTmpsYUk4dlRKWTJNX29iV3ZmVEdPMHF2d0FYX0RudDJ1X3VfQ1IybGlUR092SlVEUmktQmcyXzV3?oc=5",
-    "summary": "Presley Gerber’s Ex-Girlfriend Charlotte D’Alessio Says She’s ‘Angry’ About Late Model’s Death in Emotional Tribute People.com",
-    "source": "People.com",
+    "summary": "Presley Gerber’s Ex-Girlfriend Charlotte D’Alessio Says She’s ‘Angry’ About Late Model’s Death in Emotional Tribute people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T15:44:01+00:00",
-    "collected_at": "2026-09-23T11:27:33.108843+00:00",
+    "collected_at": "2026-09-23T12:32:36.644246+00:00",
     "origin": "google_news"
   },
   {
@@ -2216,7 +2300,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T15:23:44+00:00",
-    "collected_at": "2026-09-23T11:27:25.057011+00:00",
+    "collected_at": "2026-09-23T12:32:28.153570+00:00",
     "origin": "google_news"
   },
   {
@@ -2240,7 +2324,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T15:21:51+00:00",
-    "collected_at": "2026-09-23T11:27:32.354109+00:00",
+    "collected_at": "2026-09-23T12:32:35.835696+00:00",
     "origin": "google_news"
   },
   {
@@ -2252,19 +2336,19 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T15:20:52+00:00",
-    "collected_at": "2026-09-23T11:27:32.355449+00:00",
+    "collected_at": "2026-09-23T12:32:35.836523+00:00",
     "origin": "google_news"
   },
   {
-    "id": "da541512517ffaf76979124f",
-    "title": "A Geico Holiday Special? Insurance Giant’s New CMO Widens Spotlight on Entertainment - Variety",
+    "id": "2cf08062fbd8d7474d9ce399",
+    "title": "A Geico Holiday Special? Insurance Giant’s New CMO Widens Spotlight on Entertainment - variety.com",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORFNIMTh3SDhmb1hBeDJVQ2FTT0RHMmpKVDJEaHh5V1o5aUV2T0cxVURwQ0lxaURVTEJNWFQtVjlidlhwaUZhODFybjVsaTdlMk1WUnI0ZDUxeWltd2ZoRlV2NXFaeVVGRExiV3dmUGU2Q0Vmc3V2Y3pRUUpXNWpKSjdyZUxsZFc3TGVSTjJVcDVGcTJEU2ZHNTl0MHJIX3RlSVE?oc=5",
-    "summary": "A Geico Holiday Special? Insurance Giant’s New CMO Widens Spotlight on Entertainment Variety",
-    "source": "Variety",
+    "summary": "A Geico Holiday Special? Insurance Giant’s New CMO Widens Spotlight on Entertainment variety.com",
+    "source": "variety.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T15:20:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.112368+00:00",
+    "collected_at": "2026-09-23T12:32:36.645071+00:00",
     "origin": "google_news"
   },
   {
@@ -2276,7 +2360,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T15:17:37+00:00",
-    "collected_at": "2026-09-23T11:27:23.727545+00:00",
+    "collected_at": "2026-09-23T12:32:26.737120+00:00",
     "origin": "rss"
   },
   {
@@ -2292,15 +2376,15 @@
     "origin": "google_news"
   },
   {
-    "id": "acd55b74f4663a8b219261b7",
-    "title": "Five charged over football pitch hearse disorder - bbc.com",
+    "id": "c5ec27c1f7ebc0d34bd57473",
+    "title": "Five charged over football pitch hearse disorder - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xUllFdkNoQ2wyNUZhSEpnYTBkS2hBLUtyel9yZmxQWmpUV3ItZzVtQnJjOGh2djJRdUEyQ2EzQnZIMXRlUzdQYVRZN25ROGNIUVhrNnNaamNjU00?oc=5",
-    "summary": "Five charged over football pitch hearse disorder bbc.com",
-    "source": "bbc.com",
+    "summary": "Five charged over football pitch hearse disorder BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T15:05:51+00:00",
-    "collected_at": "2026-09-23T11:27:33.719460+00:00",
+    "collected_at": "2026-09-23T12:32:37.328445+00:00",
     "origin": "google_news"
   },
   {
@@ -2324,7 +2408,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T14:54:56+00:00",
-    "collected_at": "2026-09-23T11:27:25.055533+00:00",
+    "collected_at": "2026-09-23T12:32:28.154059+00:00",
     "origin": "google_news"
   },
   {
@@ -2336,7 +2420,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T14:51:39+00:00",
-    "collected_at": "2026-09-23T11:27:33.721251+00:00",
+    "collected_at": "2026-09-23T12:32:37.329329+00:00",
     "origin": "google_news"
   },
   {
@@ -2353,14 +2437,14 @@
   },
   {
     "id": "b2374295544ff678ae14572a",
-    "title": "Simone Biles Reveals 3 Masked Men Broke Into Her Chicago Home and ‘Stole’ Her Porsche - People.com",
+    "title": "Simone Biles Reveals 3 Masked Men Broke Into Her Chicago Home and ‘Stole’ Her Porsche - people.com",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUGNSaEJnOHk3OF9EUjJWZWVBelVWT0pmS1BKdHdkODM2bDg5VVhkNmNCaVlyQjR6UjNyeWQ4clpSTnBZdFBzOUtYSEJVNFAxZmF1UElFaUdibHNySzNTS2Mydkp0SF9xS280X2g0MS04alltWEZ0N3dKYnVMZE56ajVuM2RENkMyekswWm5fTV91c2VIYk9GM0lfbGdDWE96?oc=5",
-    "summary": "Simone Biles Reveals 3 Masked Men Broke Into Her Chicago Home and ‘Stole’ Her Porsche People.com",
-    "source": "People.com",
+    "summary": "Simone Biles Reveals 3 Masked Men Broke Into Her Chicago Home and ‘Stole’ Her Porsche people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T14:50:07+00:00",
-    "collected_at": "2026-09-23T11:27:33.111302+00:00",
+    "collected_at": "2026-09-23T12:32:36.644410+00:00",
     "origin": "google_news"
   },
   {
@@ -2376,15 +2460,15 @@
     "origin": "google_news"
   },
   {
-    "id": "6a98a2fefc7527f18e5743eb",
-    "title": "Swan killed and has head removed in city park - bbc.com",
+    "id": "b527ac34355f600b4f5c33a0",
+    "title": "Swan killed and has head removed in city park - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VMnRNRnpwRVMxNHlvbnI4Ym5IYUJkZlZJaWp5bU1mY1ZXRkROanE3eFJRM29lVEVRX2dpTGxzYWJ5TVc1NWl1YnpkdzNSMjBSR1NQRUJZTXE4R0E?oc=5",
-    "summary": "Swan killed and has head removed in city park bbc.com",
-    "source": "bbc.com",
+    "summary": "Swan killed and has head removed in city park BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T14:35:13+00:00",
-    "collected_at": "2026-09-23T11:27:33.717133+00:00",
+    "collected_at": "2026-09-23T12:32:37.327317+00:00",
     "origin": "google_news"
   },
   {
@@ -2408,7 +2492,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T14:29:31+00:00",
-    "collected_at": "2026-09-23T11:27:32.543715+00:00",
+    "collected_at": "2026-09-23T12:32:36.089349+00:00",
     "origin": "rss"
   },
   {
@@ -2420,19 +2504,19 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T14:27:45+00:00",
-    "collected_at": "2026-09-23T11:27:33.707994+00:00",
+    "collected_at": "2026-09-23T12:32:37.322813+00:00",
     "origin": "google_news"
   },
   {
-    "id": "9d3b4278d878fedf1710b4ef",
-    "title": "Paracetamol overdose Newport student makes miraculous recovery - bbc.com",
+    "id": "5dd9e1e92138456b553d58ab",
+    "title": "Paracetamol overdose Newport student makes miraculous recovery - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8za0VjdHQzQ1FiRGswbF9ONHlWbzFPY2FxNGdXbVE0blJGOEdnLXBzSmFEek5vcjVTYTNzcFFBdjVPV1ptZWxXdkFYa09kNHVuZ1JVNUZsODctLU0?oc=5",
-    "summary": "Paracetamol overdose Newport student makes miraculous recovery bbc.com",
-    "source": "bbc.com",
+    "summary": "Paracetamol overdose Newport student makes miraculous recovery BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T14:27:45+00:00",
-    "collected_at": "2026-09-23T11:27:33.708340+00:00",
+    "collected_at": "2026-09-23T12:32:37.322987+00:00",
     "origin": "google_news"
   },
   {
@@ -2444,7 +2528,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T14:27:06+00:00",
-    "collected_at": "2026-09-23T11:27:33.118117+00:00",
+    "collected_at": "2026-09-23T12:32:36.648170+00:00",
     "origin": "google_news"
   },
   {
@@ -2468,7 +2552,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T14:23:39+00:00",
-    "collected_at": "2026-09-23T11:27:23.728472+00:00",
+    "collected_at": "2026-09-23T12:32:26.737527+00:00",
     "origin": "rss"
   },
   {
@@ -2480,7 +2564,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T14:18:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.052842+00:00",
+    "collected_at": "2026-09-23T12:32:28.151370+00:00",
     "origin": "google_news"
   },
   {
@@ -2492,7 +2576,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T14:16:42+00:00",
-    "collected_at": "2026-09-23T11:27:32.545659+00:00",
+    "collected_at": "2026-09-23T12:32:36.090282+00:00",
     "origin": "rss"
   },
   {
@@ -2504,7 +2588,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T14:11:46+00:00",
-    "collected_at": "2026-09-23T11:27:29.263607+00:00",
+    "collected_at": "2026-09-23T12:32:32.417051+00:00",
     "origin": "google_news"
   },
   {
@@ -2528,7 +2612,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T13:58:42+00:00",
-    "collected_at": "2026-09-23T11:27:23.727115+00:00",
+    "collected_at": "2026-09-23T12:32:26.736926+00:00",
     "origin": "rss"
   },
   {
@@ -2540,7 +2624,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T13:49:22+00:00",
-    "collected_at": "2026-09-23T11:27:23.728242+00:00",
+    "collected_at": "2026-09-23T12:32:26.737425+00:00",
     "origin": "rss"
   },
   {
@@ -2576,7 +2660,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T13:37:12+00:00",
-    "collected_at": "2026-09-23T11:27:32.357618+00:00",
+    "collected_at": "2026-09-23T12:32:35.840037+00:00",
     "origin": "google_news"
   },
   {
@@ -2604,15 +2688,15 @@
     "origin": "rss"
   },
   {
-    "id": "f942463f1df576fb3b075841",
-    "title": "Guernsey hospital to start charging for prescriptions - bbc.com",
+    "id": "9d8cbc88f087860d1854c6a5",
+    "title": "Guernsey hospital to start charging for prescriptions - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uOHdkMVh1X1lkbmpLdGQ0WlBZNm55ejFEUVRIbnhJbGNJRGc5dlQwVWFzNkpnOEk1WDZZdnFNaWFiYkMxb2N1QmF1U2FQY2htUkdWTk14WTZ6NFU?oc=5",
-    "summary": "Guernsey hospital to start charging for prescriptions bbc.com",
-    "source": "bbc.com",
+    "summary": "Guernsey hospital to start charging for prescriptions BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T13:28:19+00:00",
-    "collected_at": "2026-09-23T11:27:33.710848+00:00",
+    "collected_at": "2026-09-23T12:32:37.324249+00:00",
     "origin": "google_news"
   },
   {
@@ -2624,7 +2708,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T13:10:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.058304+00:00",
+    "collected_at": "2026-09-23T12:32:28.154454+00:00",
     "origin": "google_news"
   },
   {
@@ -2648,7 +2732,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T13:01:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.351868+00:00",
+    "collected_at": "2026-09-23T12:32:35.834776+00:00",
     "origin": "google_news"
   },
   {
@@ -2684,7 +2768,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T12:54:14+00:00",
-    "collected_at": "2026-09-23T11:27:23.726657+00:00",
+    "collected_at": "2026-09-23T12:32:26.736731+00:00",
     "origin": "rss"
   },
   {
@@ -2696,19 +2780,19 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T12:22:03+00:00",
-    "collected_at": "2026-09-23T11:27:33.711198+00:00",
+    "collected_at": "2026-09-23T12:32:37.324411+00:00",
     "origin": "google_news"
   },
   {
-    "id": "d61b76b307ef5f5add0e0b7f",
-    "title": "Appeal after rescue cat births nine kittens in East Yorkshire - bbc.com",
+    "id": "9c378ed98f484036340360af",
+    "title": "Appeal after rescue cat births nine kittens in East Yorkshire - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUSzdMSXFTek9yejB1MGFyeHNsTTQ5N2NUV0ctLVlhN3YxX3FxTDNzMkpuZ3hJSWYzODFGbzdQY2RYSkVqYkhpamJ4NUVGWmVkTEpPNWxuZ2xOb3c?oc=5",
-    "summary": "Appeal after rescue cat births nine kittens in East Yorkshire bbc.com",
-    "source": "bbc.com",
+    "summary": "Appeal after rescue cat births nine kittens in East Yorkshire BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T12:22:03+00:00",
-    "collected_at": "2026-09-23T11:27:33.711521+00:00",
+    "collected_at": "2026-09-23T12:32:37.324572+00:00",
     "origin": "google_news"
   },
   {
@@ -2720,7 +2804,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T12:16:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.050356+00:00",
+    "collected_at": "2026-09-23T12:32:28.150734+00:00",
     "origin": "google_news"
   },
   {
@@ -2732,7 +2816,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T12:06:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.112829+00:00",
+    "collected_at": "2026-09-23T12:32:36.645479+00:00",
     "origin": "google_news"
   },
   {
@@ -2768,7 +2852,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T11:45:01+00:00",
-    "collected_at": "2026-09-23T11:27:29.268658+00:00",
+    "collected_at": "2026-09-23T12:32:32.420159+00:00",
     "origin": "google_news"
   },
   {
@@ -2796,15 +2880,15 @@
     "origin": "google_news"
   },
   {
-    "id": "f09593aeb40eb5c0f68450ef",
-    "title": "Six-year-old girl breaks Rubik's Cube world record - bbc.com",
+    "id": "f1d0913f9174ed41c10b26ee",
+    "title": "Six-year-old girl breaks Rubik's Cube world record - BBC",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51b2J4bTk0N1dQYzctbnlaamZVTmNoRExCRElyVzhjemI1cVlBVmRlMlMzTG9kQkJGTEI5ZF9Xdy1DYXNQbHByemZNVC1EcnNLSUpTNDVXdk8?oc=5",
-    "summary": "Six-year-old girl breaks Rubik's Cube world record bbc.com",
-    "source": "bbc.com",
+    "summary": "Six-year-old girl breaks Rubik's Cube world record BBC",
+    "source": "BBC",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T11:29:46+00:00",
-    "collected_at": "2026-09-23T11:27:25.057648+00:00",
+    "collected_at": "2026-09-23T12:32:28.153902+00:00",
     "origin": "google_news"
   },
   {
@@ -2832,6 +2916,18 @@
     "origin": "rss"
   },
   {
+    "id": "779812a4f804b4bb3eb878bd",
+    "title": "Beavers threaten to drown one Minnesota town’s Swedish history - Star Tribune",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSEt1bzBrOEVSazM1dUhPNk5HRzdfOGg0QXpyS0szb1RVUE4tR2tvek1IZFFNeEk4N0h1dGdjOTVvZW10T3AyV1VvUFZqS21sTFA1dFlIWWlmSTFyenlxNDlncC16cTUydFlwcXVLZFhENE1td1dpMGNBaUJoNzIzUjN6S1hXSjVUTWc?oc=5",
+    "summary": "Beavers threaten to drown one Minnesota town’s Swedish history Star Tribune",
+    "source": "Star Tribune",
+    "category_hint": "Minnesota",
+    "priority": 9,
+    "published_at": "2026-09-22T11:00:00+00:00",
+    "collected_at": "2026-09-23T12:32:28.785845+00:00",
+    "origin": "google_news"
+  },
+  {
     "id": "9b4a27c49a0f7d5c01013cc0",
     "title": "Eight ingenious homes for wildlife around the world - bbc.com",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX3phNG40MkpKVmpMM05FNmFnMVpUaDhqSGxzbXlZZ1VSbWVzaGVMelgyYkJNVXpsajJfWE55UjNfNzJiVWFmbnRhQ1FUVXh2ZG45V3lvUmVKeGY2QUVxc0dPLW85dkl0V2NOR1h2Qjd2b0R1Z1JIcjYzWmRaUkpaR0JqVHZyTWRhcW51Y18wSkFNanFyQWlNSUlwLXE?oc=5",
@@ -2841,18 +2937,6 @@
     "priority": 9,
     "published_at": "2026-09-22T11:00:00+00:00",
     "collected_at": "2026-09-23T11:27:25.060764+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "779812a4f804b4bb3eb878bd",
-    "title": "Beavers threaten to drown one Minnesota town’s Swedish history - Star Tribune",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSEt1bzBrOEVSazM1dUhPNk5HRzdfOGg0QXpyS0szb1RVUE4tR2tvek1IZFFNeEk4N0h1dGdjOTVvZW10T3AyV1VvUFZqS21sTFA1dFlIWWlmSTFyenlxNDlncC16cTUydFlwcXVLZFhENE1td1dpMGNBaUJoNzIzUjN6S1hXSjVUTWc?oc=5",
-    "summary": "Beavers threaten to drown one Minnesota town’s Swedish history Star Tribune",
-    "source": "Star Tribune",
-    "category_hint": "Minnesota",
-    "priority": 9,
-    "published_at": "2026-09-22T11:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.665605+00:00",
     "origin": "google_news"
   },
   {
@@ -2900,7 +2984,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T10:47:59+00:00",
-    "collected_at": "2026-09-23T11:27:24.423393+00:00",
+    "collected_at": "2026-09-23T12:32:27.521268+00:00",
     "origin": "google_news"
   },
   {
@@ -2928,15 +3012,15 @@
     "origin": "rss"
   },
   {
-    "id": "f57959e2f4658f8c1774b51d",
-    "title": "Islamic centre damage commentary the 'best and worst of society' - bbc.com",
+    "id": "a78999220294055ebc34a476",
+    "title": "Islamic centre damage commentary the 'best and worst of society' - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wZEJRazlrcUVPUHFZbWZHdERBWTJTNVpvYTZhZzlMeUV5ekpVcW0xRXBaWUZsWUpIQ3c2eTR4MGt5YW4wSkZhdDhYUTV2VS1ibk55TDJxb2NqcUU?oc=5",
-    "summary": "Islamic centre damage commentary the 'best and worst of society' bbc.com",
-    "source": "bbc.com",
+    "summary": "Islamic centre damage commentary the 'best and worst of society' BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T10:42:10+00:00",
-    "collected_at": "2026-09-23T11:27:33.715678+00:00",
+    "collected_at": "2026-09-23T12:32:37.326601+00:00",
     "origin": "google_news"
   },
   {
@@ -2952,15 +3036,15 @@
     "origin": "google_news"
   },
   {
-    "id": "2b387bf933f160f9deacb8e8",
-    "title": "Hexham photographer wins prize with hen harrier pictures - bbc.com",
+    "id": "e0f4b2c20ae64ddeb3949c26",
+    "title": "Hexham photographer wins prize with hen harrier pictures - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zWHBOMnhhdW5JcUI0RFpkTTFhSTJWR0RWTm5SclpSZndDTzBZS1FwWkstR2JzU0M5a2UwUmpTa3g5cmZmcmpLWU1hTUdHMlFfeXhBRXlYNDNEbzg?oc=5",
-    "summary": "Hexham photographer wins prize with hen harrier pictures bbc.com",
-    "source": "bbc.com",
+    "summary": "Hexham photographer wins prize with hen harrier pictures BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T10:32:52+00:00",
-    "collected_at": "2026-09-23T11:27:33.720900+00:00",
+    "collected_at": "2026-09-23T12:32:37.329168+00:00",
     "origin": "google_news"
   },
   {
@@ -2972,7 +3056,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T10:30:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.668954+00:00",
+    "collected_at": "2026-09-23T12:32:28.787122+00:00",
     "origin": "google_news"
   },
   {
@@ -2984,7 +3068,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T10:29:43+00:00",
-    "collected_at": "2026-09-23T11:27:25.054846+00:00",
+    "collected_at": "2026-09-23T12:32:28.152371+00:00",
     "origin": "google_news"
   },
   {
@@ -3008,7 +3092,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T10:15:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.671194+00:00",
+    "collected_at": "2026-09-23T12:32:28.788677+00:00",
     "origin": "google_news"
   },
   {
@@ -3020,7 +3104,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T10:11:36+00:00",
-    "collected_at": "2026-09-23T11:27:32.545444+00:00",
+    "collected_at": "2026-09-23T12:32:36.090179+00:00",
     "origin": "rss"
   },
   {
@@ -3044,7 +3128,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T10:02:00+00:00",
-    "collected_at": "2026-09-23T11:27:24.422552+00:00",
+    "collected_at": "2026-09-23T12:32:27.520075+00:00",
     "origin": "google_news"
   },
   {
@@ -3068,7 +3152,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T10:01:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.354766+00:00",
+    "collected_at": "2026-09-23T12:32:35.836173+00:00",
     "origin": "google_news"
   },
   {
@@ -3080,7 +3164,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T10:00:10+00:00",
-    "collected_at": "2026-09-23T11:27:24.420218+00:00",
+    "collected_at": "2026-09-23T12:32:27.518461+00:00",
     "origin": "google_news"
   },
   {
@@ -3092,7 +3176,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T10:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.665245+00:00",
+    "collected_at": "2026-09-23T12:32:28.786024+00:00",
     "origin": "google_news"
   },
   {
@@ -3128,7 +3212,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T09:46:15+00:00",
-    "collected_at": "2026-09-23T11:27:32.544531+00:00",
+    "collected_at": "2026-09-23T12:32:36.089760+00:00",
     "origin": "rss"
   },
   {
@@ -3152,19 +3236,19 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T09:35:06+00:00",
-    "collected_at": "2026-09-23T11:27:32.357934+00:00",
+    "collected_at": "2026-09-23T12:32:35.837577+00:00",
     "origin": "google_news"
   },
   {
-    "id": "9b3e5e526bab02cdbe2570b2",
-    "title": "New DOL Opinion Letter Limits Tip-Pooling for Supervisor-Bartenders - HRMorning",
+    "id": "ceb5c0893589420def6464d0",
+    "title": "New DOL Opinion Letter Limits Tip-Pooling for Supervisor-Bartenders - hrmorning.com",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE51ampSREdOMmZOZHVMWHZFUXVDQVpXMGRHdVRPbGxNLXZuUTBRU2p2UldtZnplc3gxRGFqWEY4SFBra2U2aXlfbWZDU1VfSUFYa0RGT3JFeXh5enp1RFczbVVyLXJKNWRnTG1oZXMzZw?oc=5",
-    "summary": "New DOL Opinion Letter Limits Tip-Pooling for Supervisor-Bartenders HRMorning",
-    "source": "HRMorning",
+    "summary": "New DOL Opinion Letter Limits Tip-Pooling for Supervisor-Bartenders hrmorning.com",
+    "source": "hrmorning.com",
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T09:35:00+00:00",
-    "collected_at": "2026-09-23T11:27:29.270494+00:00",
+    "collected_at": "2026-09-23T12:32:32.419271+00:00",
     "origin": "google_news"
   },
   {
@@ -3176,7 +3260,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T09:27:28+00:00",
-    "collected_at": "2026-09-23T11:27:32.545876+00:00",
+    "collected_at": "2026-09-23T12:32:36.090382+00:00",
     "origin": "rss"
   },
   {
@@ -3205,14 +3289,14 @@
   },
   {
     "id": "1ca7d8f82561fec97a7c61e2",
-    "title": "Kevin Jonas Celebrates ‘Beautiful’ Wife Danielle on Her 40th Birthday: ‘I Love You More Than Words’ - People.com",
+    "title": "Kevin Jonas Celebrates ‘Beautiful’ Wife Danielle on Her 40th Birthday: ‘I Love You More Than Words’ - people.com",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWnFtWU5CeVJ3NEtCTF90dlRnX09yaWJUa0wzaXpGVDZXNmtreXBJY2dLWlg5Q3dMT2RJTFRWRUFVNmdrbDVwVW85X0xJTDZHWkl1d2xaUXg4QW15aHZTcDBjOHA4NDNpRDJuQlliMjVoTDl2UmJtamU4QWQyeURXQUVPbkg3d0wxaGFyZno0d2kwMXVRQldnZ0o2cmZ1NnBrNjVWYVB1MA?oc=5",
-    "summary": "Kevin Jonas Celebrates ‘Beautiful’ Wife Danielle on Her 40th Birthday: ‘I Love You More Than Words’ People.com",
-    "source": "People.com",
+    "summary": "Kevin Jonas Celebrates ‘Beautiful’ Wife Danielle on Her 40th Birthday: ‘I Love You More Than Words’ people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T09:04:42+00:00",
-    "collected_at": "2026-09-23T06:33:20.703592+00:00",
+    "collected_at": "2026-09-23T12:32:36.645992+00:00",
     "origin": "google_news"
   },
   {
@@ -3236,7 +3320,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.664474+00:00",
+    "collected_at": "2026-09-23T12:32:28.785468+00:00",
     "origin": "google_news"
   },
   {
@@ -3248,7 +3332,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.716340+00:00",
+    "collected_at": "2026-09-23T12:32:37.326770+00:00",
     "origin": "google_news"
   },
   {
@@ -3332,19 +3416,19 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T08:52:01+00:00",
-    "collected_at": "2026-09-23T11:27:33.718128+00:00",
+    "collected_at": "2026-09-23T12:32:37.327963+00:00",
     "origin": "google_news"
   },
   {
-    "id": "c0f1aa11cebc2f710dfc43fc",
-    "title": "Formula 1: Isack Hadjar to return from wrist injury at Azerbaijan Grand Prix - bbc.com",
+    "id": "5ac663fa781beaf38db88669",
+    "title": "Formula 1: Isack Hadjar to return from wrist injury at Azerbaijan Grand Prix - BBC",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByTHdKcXU1T2JvWWM2ZmxFSy1PQ2VnQUJNaTFHQnhISVJyTnRPM3ZhRnBsMnhtaU55MjJuaGo5TUVPR0dFMkVwV0JiTHdoSnhLNnNmdzd3Vm5xcG50OEJscmx4YnlnOTU5?oc=5",
-    "summary": "Formula 1: Isack Hadjar to return from wrist injury at Azerbaijan Grand Prix bbc.com",
-    "source": "bbc.com",
+    "summary": "Formula 1: Isack Hadjar to return from wrist injury at Azerbaijan Grand Prix BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T08:46:54+00:00",
-    "collected_at": "2026-09-23T11:27:33.713698+00:00",
+    "collected_at": "2026-09-23T12:32:37.325797+00:00",
     "origin": "google_news"
   },
   {
@@ -3396,15 +3480,15 @@
     "origin": "rss"
   },
   {
-    "id": "a37ec5c3cb8d1be39b73aede",
-    "title": "Banijay to Launch Dating Reality Format ‘Date Knight’ at Mipcom (EXCLUSIVE) - Variety",
+    "id": "57eceb1df7c4704089509c94",
+    "title": "Banijay to Launch Dating Reality Format ‘Date Knight’ at Mipcom (EXCLUSIVE) - variety.com",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lcVpteEZJTUdidEc3WlNyZ2wtN3B5ZlFpc2VQVmlubWNYa19pQ2lWMEhVYkVlcm1DdmpxR0c0TEJMZldGbzhuOEFzNnVuN0U3Zng0QkhVd1pONnRQaEVCMFIwNjRHWjlOSTVQQ212YWtmYU9vZDAzN2hSUmNpUQ?oc=5",
-    "summary": "Banijay to Launch Dating Reality Format ‘Date Knight’ at Mipcom (EXCLUSIVE) Variety",
-    "source": "Variety",
+    "summary": "Banijay to Launch Dating Reality Format ‘Date Knight’ at Mipcom (EXCLUSIVE) variety.com",
+    "source": "variety.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T08:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.110933+00:00",
+    "collected_at": "2026-09-23T12:32:36.644742+00:00",
     "origin": "google_news"
   },
   {
@@ -3504,15 +3588,15 @@
     "origin": "google_news"
   },
   {
-    "id": "383aa97b2391921b17a63a51",
-    "title": "Werner Herzog’s ‘Ghost Elephants’ Lands Home Entertainment Deal With Buffalo 8 (EXCLUSIVE) - Variety",
+    "id": "41b61ab85618a15c9995aa15",
+    "title": "Werner Herzog’s ‘Ghost Elephants’ Lands Home Entertainment Deal With Buffalo 8 (EXCLUSIVE) - variety.com",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM21seTlSZWpHY3gxY0M5TUEwckNROHY1NHhaY1dlblZ4Q1B5dGtDZmdXc1kwUmZEQnZMdHF3eFE3Q216dXRnZHE5UzJnRExZS2FkOTRJZXRwbzJ2U2lDOHM3cmtINkFiT3ZrcFJlSFdQc1lFNEIyU3d5OHBPdy1UUExJWVdxQy05eUZiOEdVZDdFSjlZaHN1dC13dmV2c1dS?oc=5",
-    "summary": "Werner Herzog’s ‘Ghost Elephants’ Lands Home Entertainment Deal With Buffalo 8 (EXCLUSIVE) Variety",
-    "source": "Variety",
+    "summary": "Werner Herzog’s ‘Ghost Elephants’ Lands Home Entertainment Deal With Buffalo 8 (EXCLUSIVE) variety.com",
+    "source": "variety.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T05:55:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.114227+00:00",
+    "collected_at": "2026-09-23T12:32:36.646312+00:00",
     "origin": "google_news"
   },
   {
@@ -3524,7 +3608,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T05:22:58+00:00",
-    "collected_at": "2026-09-23T11:27:32.545226+00:00",
+    "collected_at": "2026-09-23T12:32:36.090075+00:00",
     "origin": "rss"
   },
   {
@@ -3560,7 +3644,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T05:07:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.058620+00:00",
+    "collected_at": "2026-09-23T12:32:28.154219+00:00",
     "origin": "google_news"
   },
   {
@@ -3572,19 +3656,19 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T05:00:15+00:00",
-    "collected_at": "2026-09-23T11:27:33.715027+00:00",
+    "collected_at": "2026-09-23T12:32:37.326439+00:00",
     "origin": "google_news"
   },
   {
-    "id": "d26528ecb6fe46e7c1027d8c",
-    "title": "Inside Scotland's wildcat HQ - 'It's like Big Brother for cats' - bbc.com",
+    "id": "e39a141d1517e8577c2c258c",
+    "title": "Inside Scotland's wildcat HQ - 'It's like Big Brother for cats' - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QM29vXzQ0dzI1cDZUbnY4TWVJYnNaanUyLUtIN1pUMFBxZEt3UVI2NVZQSzdQYllZVkNSV2FVdzI0VjM4X0t5ZUlOejFDUFQ1bHVkbWpnX3dVbzQ?oc=5",
-    "summary": "Inside Scotland's wildcat HQ - 'It's like Big Brother for cats' bbc.com",
-    "source": "bbc.com",
+    "summary": "Inside Scotland's wildcat HQ - 'It's like Big Brother for cats' BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T05:00:15+00:00",
-    "collected_at": "2026-09-23T11:27:33.717460+00:00",
+    "collected_at": "2026-09-23T12:32:37.327636+00:00",
     "origin": "google_news"
   },
   {
@@ -3656,7 +3740,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T04:05:00+00:00",
-    "collected_at": "2026-09-23T11:27:24.416248+00:00",
+    "collected_at": "2026-09-23T12:32:27.516314+00:00",
     "origin": "google_news"
   },
   {
@@ -3668,7 +3752,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T04:01:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.113863+00:00",
+    "collected_at": "2026-09-23T12:32:36.646150+00:00",
     "origin": "google_news"
   },
   {
@@ -3680,7 +3764,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T03:53:08+00:00",
-    "collected_at": "2026-09-23T11:27:24.425115+00:00",
+    "collected_at": "2026-09-23T12:32:27.521857+00:00",
     "origin": "google_news"
   },
   {
@@ -3716,7 +3800,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T02:53:25+00:00",
-    "collected_at": "2026-09-23T11:27:24.420539+00:00",
+    "collected_at": "2026-09-23T12:32:27.518638+00:00",
     "origin": "google_news"
   },
   {
@@ -3728,7 +3812,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T02:50:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.364435+00:00",
+    "collected_at": "2026-09-23T12:32:35.840757+00:00",
     "origin": "google_news"
   },
   {
@@ -3804,15 +3888,15 @@
     "origin": "google_news"
   },
   {
-    "id": "9394cc023469260652037d27",
-    "title": "Blue Bell sued by EEOC after firing Jewish worker over beard request - fox26houston.com",
+    "id": "ef1de26fa2d061e3cb0c9e4d",
+    "title": "Blue Bell sued by EEOC after firing Jewish worker over beard request - FOX 26 Houston",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOck5LN3BzZFY3cHlEcFVKM2J2Nk5CaTJuOTc2dkRxdjZBTnF5WWoxR3NnclBOSE1NSDQzdHBrV1R2aF9UZ2stVjRLZy10cFpRNWJub2FLQ0YyMUs2WkxFUlEzQ0xzbjA1NDdKQVZVNkVYNGh6UDROQjhrbDYtY2U3OEdsODlqSUY5ZHFmWnpCVnBPMWRCQmFqc3F3QlhpSC1T?oc=5",
-    "summary": "Blue Bell sued by EEOC after firing Jewish worker over beard request fox26houston.com",
-    "source": "fox26houston.com",
+    "summary": "Blue Bell sued by EEOC after firing Jewish worker over beard request FOX 26 Houston",
+    "source": "FOX 26 Houston",
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T00:38:57+00:00",
-    "collected_at": "2026-09-23T11:27:29.271155+00:00",
+    "collected_at": "2026-09-23T12:32:32.420317+00:00",
     "origin": "google_news"
   },
   {
@@ -3836,7 +3920,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T00:24:29+00:00",
-    "collected_at": "2026-09-23T11:27:29.267309+00:00",
+    "collected_at": "2026-09-23T12:32:32.418462+00:00",
     "origin": "google_news"
   },
   {
@@ -3896,7 +3980,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T23:37:58+00:00",
-    "collected_at": "2026-09-23T11:27:24.419078+00:00",
+    "collected_at": "2026-09-23T12:32:27.517971+00:00",
     "origin": "google_news"
   },
   {
@@ -3932,19 +4016,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T23:07:05+00:00",
-    "collected_at": "2026-09-23T11:27:24.416604+00:00",
+    "collected_at": "2026-09-23T12:32:27.516877+00:00",
     "origin": "google_news"
   },
   {
     "id": "f7cf40eca76c3d644275cce5",
-    "title": "Who Is the ‘Layla’ from the 1971 Eric Clapton Song? - People.com",
+    "title": "Who Is the ‘Layla’ from the 1971 Eric Clapton Song? - people.com",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SSFNNanM4S1daT2FUenVwTjRFVG5WYXJjdXVlUnVPa21SaXBkT3dQT2tSRURzSmc1a0YxNWZwNHBjOElHOFE4N3N5U0hUajRwNFBlVGtzbmZwVndHcjUxaU83SW82S3g2cWhhNVR3ZmkyYzg?oc=5",
-    "summary": "Who Is the ‘Layla’ from the 1971 Eric Clapton Song? People.com",
-    "source": "People.com",
+    "summary": "Who Is the ‘Layla’ from the 1971 Eric Clapton Song? people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T23:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.109892+00:00",
+    "collected_at": "2026-09-23T12:32:36.643754+00:00",
     "origin": "google_news"
   },
   {
@@ -3956,7 +4040,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-21T22:48:26+00:00",
-    "collected_at": "2026-09-23T11:27:29.266950+00:00",
+    "collected_at": "2026-09-23T12:32:32.418302+00:00",
     "origin": "google_news"
   },
   {
@@ -4004,7 +4088,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T22:29:20+00:00",
-    "collected_at": "2026-09-23T11:27:24.424764+00:00",
+    "collected_at": "2026-09-23T12:32:27.518807+00:00",
     "origin": "google_news"
   },
   {
@@ -4040,7 +4124,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T21:48:49+00:00",
-    "collected_at": "2026-09-23T11:27:24.419536+00:00",
+    "collected_at": "2026-09-23T12:32:27.518136+00:00",
     "origin": "google_news"
   },
   {
@@ -4052,7 +4136,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T21:42:06+00:00",
-    "collected_at": "2026-09-23T11:27:32.362650+00:00",
+    "collected_at": "2026-09-23T12:32:35.839880+00:00",
     "origin": "google_news"
   },
   {
@@ -4064,7 +4148,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T21:36:48+00:00",
-    "collected_at": "2026-09-23T11:27:32.360697+00:00",
+    "collected_at": "2026-09-23T12:32:35.838711+00:00",
     "origin": "google_news"
   },
   {
@@ -4076,7 +4160,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T21:26:19+00:00",
-    "collected_at": "2026-09-23T11:27:25.676195+00:00",
+    "collected_at": "2026-09-23T12:32:28.790985+00:00",
     "origin": "google_news"
   },
   {
@@ -4088,7 +4172,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T21:21:09+00:00",
-    "collected_at": "2026-09-23T11:27:32.363312+00:00",
+    "collected_at": "2026-09-23T12:32:35.840197+00:00",
     "origin": "google_news"
   },
   {
@@ -4124,7 +4208,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T21:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.671519+00:00",
+    "collected_at": "2026-09-23T12:32:28.788833+00:00",
     "origin": "google_news"
   },
   {
@@ -4160,7 +4244,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T20:45:16+00:00",
-    "collected_at": "2026-09-23T11:27:24.414200+00:00",
+    "collected_at": "2026-09-23T12:32:27.515353+00:00",
     "origin": "google_news"
   },
   {
@@ -4172,7 +4256,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T20:44:26+00:00",
-    "collected_at": "2026-09-23T11:27:32.364761+00:00",
+    "collected_at": "2026-09-23T12:32:35.840921+00:00",
     "origin": "google_news"
   },
   {
@@ -4208,7 +4292,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-21T20:37:47+00:00",
-    "collected_at": "2026-09-23T11:27:29.267954+00:00",
+    "collected_at": "2026-09-23T12:32:32.418627+00:00",
     "origin": "google_news"
   },
   {
@@ -4292,7 +4376,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T20:15:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.672184+00:00",
+    "collected_at": "2026-09-23T12:32:28.789145+00:00",
     "origin": "google_news"
   },
   {
@@ -4304,7 +4388,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T20:11:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.670159+00:00",
+    "collected_at": "2026-09-23T12:32:28.788190+00:00",
     "origin": "google_news"
   },
   {
@@ -4412,7 +4496,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T19:30:58+00:00",
-    "collected_at": "2026-09-23T11:27:24.418034+00:00",
+    "collected_at": "2026-09-23T12:32:27.517219+00:00",
     "origin": "google_news"
   },
   {
@@ -4428,15 +4512,15 @@
     "origin": "google_news"
   },
   {
-    "id": "23bd868d1a67f02d72b362fd",
-    "title": "AI Workplace Legislation: State Laws on Employee Monitoring & Hiring - MultiState",
+    "id": "168adfa95f4e5edeab5c293c",
+    "title": "AI Workplace Legislation: State Laws on Employee Monitoring & Hiring - multistate.us",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ3RlMmJHbHo0TzJSSkpkTnJzOURoMEdpMDBLbnB5b2tPVnh0UklKT0ppUjBBQzlYSmZuTDlxSEpDS251VDlqNzI4UGkxRExtbnQyWGZOalpIS0NKTmhITnZYUmtwSXRhVEtoOXUzS25TallCNEoxYTZNSUlVZHhJYWZuU1c4R2lJWFAwMzhheGVoT0tfRjVBUm1IRGxISjd2SHhYVjZGSXVlNlE3ZFE4eHF3?oc=5",
-    "summary": "AI Workplace Legislation: State Laws on Employee Monitoring & Hiring MultiState",
-    "source": "MultiState",
+    "summary": "AI Workplace Legislation: State Laws on Employee Monitoring & Hiring multistate.us",
+    "source": "multistate.us",
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-21T19:19:04+00:00",
-    "collected_at": "2026-09-23T11:27:34.365031+00:00",
+    "collected_at": "2026-09-23T12:32:37.925579+00:00",
     "origin": "google_news"
   },
   {
@@ -4496,7 +4580,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T18:59:16+00:00",
-    "collected_at": "2026-09-23T11:27:25.673523+00:00",
+    "collected_at": "2026-09-23T12:32:28.790664+00:00",
     "origin": "google_news"
   },
   {
@@ -4520,7 +4604,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T18:54:09+00:00",
-    "collected_at": "2026-09-23T11:27:33.119120+00:00",
+    "collected_at": "2026-09-23T12:32:36.648651+00:00",
     "origin": "google_news"
   },
   {
@@ -4544,7 +4628,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T18:54:06+00:00",
-    "collected_at": "2026-09-23T11:27:25.670836+00:00",
+    "collected_at": "2026-09-23T12:32:28.788512+00:00",
     "origin": "google_news"
   },
   {
@@ -4568,7 +4652,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T18:41:05+00:00",
-    "collected_at": "2026-09-23T11:27:25.673995+00:00",
+    "collected_at": "2026-09-23T12:32:28.790187+00:00",
     "origin": "google_news"
   },
   {
@@ -4652,7 +4736,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T18:01:02+00:00",
-    "collected_at": "2026-09-23T11:27:33.119781+00:00",
+    "collected_at": "2026-09-23T12:32:36.648808+00:00",
     "origin": "google_news"
   },
   {
@@ -4664,7 +4748,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T18:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.670489+00:00",
+    "collected_at": "2026-09-23T12:32:28.788347+00:00",
     "origin": "google_news"
   },
   {
@@ -4680,15 +4764,15 @@
     "origin": "google_news"
   },
   {
-    "id": "2e3d067f80b469fd8f82fac4",
-    "title": "Democratic lawmakers demand probe into DOL 401(k) rule comments - InvestmentNews",
+    "id": "5632e05263acaa70799c462b",
+    "title": "Democratic lawmakers demand probe into DOL 401(k) rule comments - investmentnews.com",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVXNuZE9jRDh3SE5Td3JmcXl3MF9HWWJjNmRfTVhVa1hTOVlmUUdQSzRPbkwtdGdtQ1U1WWUyZGQzWmdadVVjSkhuSnBZVVVKcTZQYThlYmZBbERTZm9kcXB3NTRNZ2JXbkZPdW1NZWk2Q21PaW5oMnF5eXQwbXVYT3dScm84R2d6YUlJOVJMalk3TENHUThtblZyTDdMUzJFWFc1Njl5RUJLQ2FVRkxLb0o4UEgtMDlnU25z?oc=5",
-    "summary": "Democratic lawmakers demand probe into DOL 401(k) rule comments InvestmentNews",
-    "source": "InvestmentNews",
+    "summary": "Democratic lawmakers demand probe into DOL 401(k) rule comments investmentnews.com",
+    "source": "investmentnews.com",
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-21T17:54:28+00:00",
-    "collected_at": "2026-09-23T11:27:29.272769+00:00",
+    "collected_at": "2026-09-23T12:32:32.421117+00:00",
     "origin": "google_news"
   },
   {
@@ -4717,14 +4801,14 @@
   },
   {
     "id": "205f9b710f530cf241ef40de",
-    "title": "Halle Berry Says New X-Men Star Maya Boyd ‘Is Going to Kill It’ as Storm After Passing the Torch (Exclusive) - People.com",
+    "title": "Halle Berry Says New X-Men Star Maya Boyd ‘Is Going to Kill It’ as Storm After Passing the Torch (Exclusive) - people.com",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUktybkpTQXFtSVFEVlBIRkdOekluMGFxLTFRc2ptMTFIQmFDeVBmQ1lzeTc0Z1ZSUnJacGd1TFZqVEVmZndtdk83TXJBcV9ZMUJveE5pZGJzUjdROFBYaUhSdGNsS0pGTWd5VzRFamNnbWpHM0F6VW5yLTVKczNoc3EyYVZ3OG1pVmktcXN3ZWRCOUYwWEVZdlg3VWdUNGpZX2NhRzVKaTd4OXlBMm00bU8zeHhPY18zSDkyUmJMeU8yZ01aV3NEQk8wOE8?oc=5",
-    "summary": "Halle Berry Says New X-Men Star Maya Boyd ‘Is Going to Kill It’ as Storm After Passing the Torch (Exclusive) People.com",
-    "source": "People.com",
+    "summary": "Halle Berry Says New X-Men Star Maya Boyd ‘Is Going to Kill It’ as Storm After Passing the Torch (Exclusive) people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T17:43:04+00:00",
-    "collected_at": "2026-09-23T11:27:33.115271+00:00",
+    "collected_at": "2026-09-23T12:32:36.646812+00:00",
     "origin": "google_news"
   },
   {
@@ -4760,7 +4844,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T17:30:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.674328+00:00",
+    "collected_at": "2026-09-23T12:32:28.790027+00:00",
     "origin": "google_news"
   },
   {
@@ -4849,14 +4933,14 @@
   },
   {
     "id": "cc90bf450ec2e12c69adf73d",
-    "title": "Ben Affleck Reveals He Nearly Cast Jennifer Garner in His New Movie — Why It Didn’t Happen - People.com",
+    "title": "Ben Affleck Reveals He Nearly Cast Jennifer Garner in His New Movie — Why It Didn’t Happen - people.com",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORFBGay13cG1KWk9laTBnSHhhN3lpRFhTNjRydGhBQ1N0Rks2QTNna2NNdjVmMF9UZ3A2QzMzSUpqTU5ucHhEd3oyQVhWWlliNmItVGVRaEFXQjRoM0NsNEViOFBURUhsMlIyV1A3MzNWY1JxTENISUVodmc2QTZETGhvWGRBbDd4NnVQcTA5TEg4d19ldDFfaTRKcw?oc=5",
-    "summary": "Ben Affleck Reveals He Nearly Cast Jennifer Garner in His New Movie — Why It Didn’t Happen People.com",
-    "source": "People.com",
+    "summary": "Ben Affleck Reveals He Nearly Cast Jennifer Garner in His New Movie — Why It Didn’t Happen people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T17:02:33+00:00",
-    "collected_at": "2026-09-23T11:27:33.115946+00:00",
+    "collected_at": "2026-09-23T12:32:36.647138+00:00",
     "origin": "google_news"
   },
   {
@@ -4880,7 +4964,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T17:02:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.359605+00:00",
+    "collected_at": "2026-09-23T12:32:35.838222+00:00",
     "origin": "google_news"
   },
   {
@@ -4896,15 +4980,15 @@
     "origin": "google_news"
   },
   {
-    "id": "5bccef68e03a82ea29ef8548",
-    "title": "SCAD Savannah Film Festival to Open With ‘A Talent for Murder’ and Legend of Entertainment Honor for Helen Mirren - Variety",
+    "id": "04c0cda462fcb879598a3e80",
+    "title": "SCAD Savannah Film Festival to Open With ‘A Talent for Murder’ and Legend of Entertainment Honor for Helen Mirren - variety.com",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVEdPdDhiejF5QUdHRjhTSmpKSkg3UC1WVDRvQk15cXBVMTJaTVdjWFpPZWpydzlCVTVrZFlZeXd3VVRZYkpHVDBXN2sweHBubXVWTXl2ZlVFajAtTjY0cEZyNEZhczQwRmdiSml3X0I4T21ySllvd255OTdhUGM3RGN4U3VkOFVwaE9mSVhDdm40OVV1UXcycFFlR1hnN28?oc=5",
-    "summary": "SCAD Savannah Film Festival to Open With ‘A Talent for Murder’ and Legend of Entertainment Honor for Helen Mirren Variety",
-    "source": "Variety",
+    "summary": "SCAD Savannah Film Festival to Open With ‘A Talent for Murder’ and Legend of Entertainment Honor for Helen Mirren variety.com",
+    "source": "variety.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T17:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.115612+00:00",
+    "collected_at": "2026-09-23T12:32:36.646976+00:00",
     "origin": "google_news"
   },
   {
@@ -4944,15 +5028,15 @@
     "origin": "google_news"
   },
   {
-    "id": "781f2b651c019c6e763dc30a",
-    "title": "Watch: Timelapse shows typhoon barrelling towards Japan - bbc.com",
+    "id": "916554986dce2bd03ef9b182",
+    "title": "Watch: Timelapse shows typhoon barrelling towards Japan - BBC",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xMXNRbS1hem1KLTUtU2dkUzdmMHFfZFdrN1hqNEkxNWM4ME5Ga2wyc3V0cDJYUEhkT3JCTWlETi1NV3BUQ0FKdW82aWlyV1JaZjd4Wjc4N3M?oc=5",
-    "summary": "Watch: Timelapse shows typhoon barrelling towards Japan bbc.com",
-    "source": "bbc.com",
+    "summary": "Watch: Timelapse shows typhoon barrelling towards Japan BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-21T16:52:12+00:00",
-    "collected_at": "2026-09-23T11:27:33.718771+00:00",
+    "collected_at": "2026-09-23T12:32:37.328120+00:00",
     "origin": "google_news"
   },
   {
@@ -4969,14 +5053,14 @@
   },
   {
     "id": "90979f3a96c6a5e4964980f5",
-    "title": "Tulsa College Football Coach’s Pregnant Wife Dies Suddenly at 30 While Working Out at Home - People.com",
+    "title": "Tulsa College Football Coach’s Pregnant Wife Dies Suddenly at 30 While Working Out at Home - people.com",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUWxrbU5qZnVOUlNvYmwyLTRnTkZ2RlNIX3FGWEZVcGxkWEtqUU1MZmNQRmtBbGpuZnNDS1pvbDFvZ3BxWGxybnZiaGtyNm1TN29sOFZrcWNpRG5ZLWh3azJpOEJ3Vmw5V1h5dWNpUnVnbTVxZTItUW0xUW9QX0JLTWhZY2pMdjVMaC1DcFpQZTczckVBRUhxbUgxWEZzRlI4N0hzV2ItUmJoQWxEY0lF?oc=5",
-    "summary": "Tulsa College Football Coach’s Pregnant Wife Dies Suddenly at 30 While Working Out at Home People.com",
-    "source": "People.com",
+    "summary": "Tulsa College Football Coach’s Pregnant Wife Dies Suddenly at 30 While Working Out at Home people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T16:40:31+00:00",
-    "collected_at": "2026-09-23T11:27:33.109223+00:00",
+    "collected_at": "2026-09-23T12:32:36.643580+00:00",
     "origin": "google_news"
   },
   {
@@ -5012,7 +5096,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T16:27:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.667912+00:00",
+    "collected_at": "2026-09-23T12:32:28.787286+00:00",
     "origin": "google_news"
   },
   {
@@ -5072,19 +5156,19 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-21T15:47:22+00:00",
-    "collected_at": "2026-09-23T11:27:29.266605+00:00",
+    "collected_at": "2026-09-23T12:32:32.418126+00:00",
     "origin": "google_news"
   },
   {
-    "id": "8b9fc3ef4996cf8dbca12f21",
-    "title": "Jersey Zoo's beloved orangutan Nettie dies aged 43 - bbc.com",
+    "id": "42b8119d82eb9a0d2087e1c3",
+    "title": "Jersey Zoo's beloved orangutan Nettie dies aged 43 - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PZFAxdzQ5M0d5Vk5UN2FBenNhMGk5Y0RycXhPd1hOVExLSGFTMDFkTVhuanA4bTBQMWZUSlRBNndRVkh1MTJRZ2RWY08wY2dpMWtyQnJtaU9CNUE?oc=5",
-    "summary": "Jersey Zoo's beloved orangutan Nettie dies aged 43 bbc.com",
-    "source": "bbc.com",
+    "summary": "Jersey Zoo's beloved orangutan Nettie dies aged 43 BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-21T15:46:05+00:00",
-    "collected_at": "2026-09-23T11:27:33.719781+00:00",
+    "collected_at": "2026-09-23T12:32:37.328605+00:00",
     "origin": "google_news"
   },
   {
@@ -5180,19 +5264,19 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T15:17:51+00:00",
-    "collected_at": "2026-09-23T11:27:25.673185+00:00",
+    "collected_at": "2026-09-23T12:32:28.789635+00:00",
     "origin": "google_news"
   },
   {
-    "id": "eec19aed77a4635d1aec1a69",
-    "title": "Nationalist residents' groups warn some parading settlements 'could unravel' over Drumcree - bbc.com",
+    "id": "b998261b92ed6f6e4628eb1c",
+    "title": "Nationalist residents' groups warn some parading settlements 'could unravel' over Drumcree - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56VzN2M3BYUjBWTUNCYlhLNTBWU0FnRTNnQ0E3UkJ1M3lGTzhkd3gwbjRNX2NybjZ6YUp1TUlaWmhoNXhYS3lkX0JXb1JXbkh4S2VTQWJ6NnJUdzA?oc=5",
-    "summary": "Nationalist residents' groups warn some parading settlements 'could unravel' over Drumcree bbc.com",
-    "source": "bbc.com",
+    "summary": "Nationalist residents' groups warn some parading settlements 'could unravel' over Drumcree BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-21T15:13:12+00:00",
-    "collected_at": "2026-09-23T11:27:33.712864+00:00",
+    "collected_at": "2026-09-23T12:32:37.325472+00:00",
     "origin": "google_news"
   },
   {
@@ -5240,7 +5324,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T14:56:53+00:00",
-    "collected_at": "2026-09-23T11:27:32.355793+00:00",
+    "collected_at": "2026-09-23T12:32:35.836700+00:00",
     "origin": "google_news"
   },
   {
@@ -5288,7 +5372,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T14:42:00+00:00",
-    "collected_at": "2026-09-23T11:27:24.424072+00:00",
+    "collected_at": "2026-09-23T12:32:27.520573+00:00",
     "origin": "google_news"
   },
   {
@@ -5336,7 +5420,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T14:21:35+00:00",
-    "collected_at": "2026-09-23T11:27:32.358594+00:00",
+    "collected_at": "2026-09-23T12:32:35.837744+00:00",
     "origin": "google_news"
   },
   {
@@ -5348,7 +5432,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T14:18:25+00:00",
-    "collected_at": "2026-09-23T11:27:24.421218+00:00",
+    "collected_at": "2026-09-23T12:32:27.518975+00:00",
     "origin": "google_news"
   },
   {
@@ -5492,7 +5576,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-21T13:48:44+00:00",
-    "collected_at": "2026-09-23T11:27:29.268321+00:00",
+    "collected_at": "2026-09-23T12:32:32.418791+00:00",
     "origin": "google_news"
   },
   {
@@ -5552,7 +5636,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T13:31:30+00:00",
-    "collected_at": "2026-09-23T11:27:32.361678+00:00",
+    "collected_at": "2026-09-23T12:32:35.839259+00:00",
     "origin": "google_news"
   },
   {
@@ -5588,7 +5672,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T13:29:56+00:00",
-    "collected_at": "2026-09-23T11:27:33.117096+00:00",
+    "collected_at": "2026-09-23T12:32:36.647695+00:00",
     "origin": "google_news"
   },
   {
@@ -5660,7 +5744,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T12:36:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.114903+00:00",
+    "collected_at": "2026-09-23T12:32:36.646644+00:00",
     "origin": "google_news"
   },
   {
@@ -5744,7 +5828,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T12:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:24.425444+00:00",
+    "collected_at": "2026-09-23T12:32:27.521509+00:00",
     "origin": "google_news"
   },
   {
@@ -5780,7 +5864,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T11:08:23+00:00",
-    "collected_at": "2026-09-23T11:27:25.667575+00:00",
+    "collected_at": "2026-09-23T12:32:28.786785+00:00",
     "origin": "google_news"
   },
   {
@@ -5804,7 +5888,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T11:05:27+00:00",
-    "collected_at": "2026-09-23T11:27:25.675321+00:00",
+    "collected_at": "2026-09-23T12:32:28.790501+00:00",
     "origin": "google_news"
   },
   {
@@ -5828,7 +5912,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T11:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.672511+00:00",
+    "collected_at": "2026-09-23T12:32:28.789305+00:00",
     "origin": "google_news"
   },
   {
@@ -5900,7 +5984,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T10:27:10+00:00",
-    "collected_at": "2026-09-23T11:27:24.415401+00:00",
+    "collected_at": "2026-09-23T12:32:27.516141+00:00",
     "origin": "google_news"
   },
   {
@@ -5912,7 +5996,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T10:18:06+00:00",
-    "collected_at": "2026-09-23T11:27:32.359274+00:00",
+    "collected_at": "2026-09-23T12:32:35.838066+00:00",
     "origin": "google_news"
   },
   {
@@ -5924,19 +6008,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T10:16:00+00:00",
-    "collected_at": "2026-09-23T11:27:24.417331+00:00",
+    "collected_at": "2026-09-23T12:32:27.516702+00:00",
     "origin": "google_news"
   },
   {
     "id": "cfe89423b4e3c8ed30db6a65",
-    "title": "Cindy Crawford Shared Pride for Her Kids in PEOPLE Interview Before Son Presley’s Death - People.com",
+    "title": "Cindy Crawford Shared Pride for Her Kids in PEOPLE Interview Before Son Presley’s Death - people.com",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWFplUkVIdjRCS0NVZktYWjJTXzlXNTRhd2stclVKallTWFdWZW84aHBVbl8zd01kUF8yVmR5V2VGZzJnYnNtRk5yVnIxWlZOMXVUZzVocU5IbjJZR2p3aURsQUxtTm5rbFAxaUM0SURGTzZSU2dWOVZHbm56M0VubTM2eURzVlVGQnhSR3gxMmFBaXU2VjVja3ZrMW4tOEhLSzBHeXNnU1FlcjNacWxHNjJ3Y3QwM0hwblFfUFJISkN6OEdINm1VME1oaVZYVU9VN0V1dEVB?oc=5",
-    "summary": "Cindy Crawford Shared Pride for Her Kids in PEOPLE Interview Before Son Presley’s Death People.com",
-    "source": "People.com",
+    "summary": "Cindy Crawford Shared Pride for Her Kids in PEOPLE Interview Before Son Presley’s Death people.com",
+    "source": "people.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T10:15:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.117441+00:00",
+    "collected_at": "2026-09-23T12:32:36.647857+00:00",
     "origin": "google_news"
   },
   {
@@ -5948,7 +6032,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T10:14:34+00:00",
-    "collected_at": "2026-09-23T11:27:24.413789+00:00",
+    "collected_at": "2026-09-23T12:32:27.515148+00:00",
     "origin": "google_news"
   },
   {
@@ -5972,7 +6056,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T10:09:36+00:00",
-    "collected_at": "2026-09-23T11:27:32.356945+00:00",
+    "collected_at": "2026-09-23T12:32:35.837267+00:00",
     "origin": "google_news"
   },
   {
@@ -6008,7 +6092,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T10:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.677289+00:00",
+    "collected_at": "2026-09-23T12:32:28.791303+00:00",
     "origin": "google_news"
   },
   {
@@ -6068,7 +6152,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T09:45:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.676782+00:00",
+    "collected_at": "2026-09-23T12:32:28.791148+00:00",
     "origin": "google_news"
   },
   {
@@ -6104,7 +6188,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T09:03:17+00:00",
-    "collected_at": "2026-09-23T11:27:24.422227+00:00",
+    "collected_at": "2026-09-23T12:32:27.519910+00:00",
     "origin": "google_news"
   },
   {
@@ -6140,7 +6224,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.666136+00:00",
+    "collected_at": "2026-09-23T12:32:28.786277+00:00",
     "origin": "google_news"
   },
   {
@@ -6152,7 +6236,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.666490+00:00",
+    "collected_at": "2026-09-23T12:32:28.786445+00:00",
     "origin": "google_news"
   },
   {
@@ -6164,7 +6248,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.666830+00:00",
+    "collected_at": "2026-09-23T12:32:28.786620+00:00",
     "origin": "google_news"
   },
   {
@@ -6176,7 +6260,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.667232+00:00",
+    "collected_at": "2026-09-23T12:32:28.786959+00:00",
     "origin": "google_news"
   },
   {
@@ -6188,7 +6272,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.678005+00:00",
+    "collected_at": "2026-09-23T12:32:28.791457+00:00",
     "origin": "google_news"
   },
   {
@@ -6392,7 +6476,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T08:39:38+00:00",
-    "collected_at": "2026-09-23T11:27:24.417667+00:00",
+    "collected_at": "2026-09-23T12:32:27.517049+00:00",
     "origin": "google_news"
   },
   {
@@ -6476,7 +6560,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T07:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:24.418715+00:00",
+    "collected_at": "2026-09-23T12:32:27.517808+00:00",
     "origin": "google_news"
   },
   {
@@ -6488,7 +6572,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T07:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.351517+00:00",
+    "collected_at": "2026-09-23T12:32:35.834408+00:00",
     "origin": "google_news"
   },
   {
@@ -6500,7 +6584,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T07:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.361362+00:00",
+    "collected_at": "2026-09-23T12:32:35.839104+00:00",
     "origin": "google_news"
   },
   {
@@ -6576,15 +6660,15 @@
     "origin": "google_news"
   },
   {
-    "id": "d5d67e5769b35f17308ae9f5",
-    "title": "GP is prescribing watching football as an antidote to depression - bbc.com",
+    "id": "14b37296a7f4111717e66bec",
+    "title": "GP is prescribing watching football as an antidote to depression - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2QkU1OVM0TXMzdTZaN0g1aDkyWHFiUDdyZ2g5c0NRaXRaWXE0aUZKYmRFQUIzVmo0ckU2V2tqeFFvcFNpQnozbkVsUHB5ODVGdmlCZTVlcTJBdGM?oc=5",
-    "summary": "GP is prescribing watching football as an antidote to depression bbc.com",
-    "source": "bbc.com",
+    "summary": "GP is prescribing watching football as an antidote to depression BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-21T05:19:03+00:00",
-    "collected_at": "2026-09-23T11:27:33.714369+00:00",
+    "collected_at": "2026-09-23T12:32:37.326120+00:00",
     "origin": "google_news"
   },
   {
@@ -6660,15 +6744,15 @@
     "origin": "google_news"
   },
   {
-    "id": "c07f91a271fabf300a9c7163",
-    "title": "Community pub bidding to buy its building - bbc.com",
+    "id": "a65ceba1e0107f33fffb11bf",
+    "title": "Community pub bidding to buy its building - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSZzA5SG15SUdjNzlSaUV3T0h5VkthdlByVVl4NVUwZmNCU2ptVnZVU1AyMElIR1JSX1BoVGdwb1FpM0tTcnFodkQ1T1RpTWtuUGVPZ1FDV21nQmc?oc=5",
-    "summary": "Community pub bidding to buy its building bbc.com",
-    "source": "bbc.com",
+    "summary": "Community pub bidding to buy its building BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-21T05:02:49+00:00",
-    "collected_at": "2026-09-23T11:27:33.711849+00:00",
+    "collected_at": "2026-09-23T12:32:37.324743+00:00",
     "origin": "google_news"
   },
   {
@@ -6836,7 +6920,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-21T01:58:05+00:00",
-    "collected_at": "2026-09-23T11:27:34.365780+00:00",
+    "collected_at": "2026-09-23T12:32:37.925788+00:00",
     "origin": "google_news"
   },
   {
@@ -6908,7 +6992,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T00:44:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.114578+00:00",
+    "collected_at": "2026-09-23T12:32:36.646478+00:00",
     "origin": "google_news"
   },
   {
@@ -7208,7 +7292,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-20T21:15:51+00:00",
-    "collected_at": "2026-09-23T11:27:33.712536+00:00",
+    "collected_at": "2026-09-23T12:32:37.325077+00:00",
     "origin": "google_news"
   },
   {
@@ -7388,7 +7472,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-20T18:29:17+00:00",
-    "collected_at": "2026-09-23T10:27:21.021217+00:00",
+    "collected_at": "2026-09-23T12:32:27.520935+00:00",
     "origin": "google_news"
   },
   {
@@ -7580,7 +7664,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-20T15:06:00+00:00",
-    "collected_at": "2026-09-23T11:27:24.421866+00:00",
+    "collected_at": "2026-09-23T12:32:27.519311+00:00",
     "origin": "google_news"
   },
   {
@@ -7784,7 +7868,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-20T12:26:43+00:00",
-    "collected_at": "2026-09-23T11:27:24.413033+00:00",
+    "collected_at": "2026-09-23T12:32:27.514734+00:00",
     "origin": "google_news"
   },
   {
@@ -7884,15 +7968,15 @@
     "origin": "google_news"
   },
   {
-    "id": "94fa0be85ad9f64306049f80",
-    "title": "Bergerac director finds Jersey a real revelation - bbc.com",
+    "id": "87810d5a196eee6a20480cd1",
+    "title": "Bergerac director finds Jersey a real revelation - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ESERuUXdFN0xOWjNnR1RsaVk1OWZyME9YNEEwZjFrNHAwbnJMTV9peE5lRzZoVHZKU0haUExqOFJFcl9NNWVPbS1nQ0NTV0prTFJLQU9ObDZPQkk?oc=5",
-    "summary": "Bergerac director finds Jersey a real revelation bbc.com",
-    "source": "bbc.com",
+    "summary": "Bergerac director finds Jersey a real revelation BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-20T11:14:39+00:00",
-    "collected_at": "2026-09-23T11:27:33.713322+00:00",
+    "collected_at": "2026-09-23T12:32:37.325638+00:00",
     "origin": "google_news"
   },
   {
@@ -7916,7 +8000,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-20T11:00:00+00:00",
-    "collected_at": "2026-09-23T07:27:49.703102+00:00",
+    "collected_at": "2026-09-23T12:32:28.792024+00:00",
     "origin": "google_news"
   },
   {
@@ -8036,7 +8120,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-20T10:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.671840+00:00",
+    "collected_at": "2026-09-23T12:32:28.788992+00:00",
     "origin": "google_news"
   },
   {
@@ -8100,27 +8184,27 @@
     "origin": "google_news"
   },
   {
-    "id": "d423a687eec040f9cab24218",
-    "title": "Ex-Wrexham player calls for more support for youngsters released by clubs - bbc.com",
+    "id": "d62541efa4d43e7439f62c0b",
+    "title": "Ex-Wrexham player calls for more support for youngsters released by clubs - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fZjFFOVlXdzBDNXVlckc4alN3Q2VfN01kWWVEOFo0OHplbjdxQkxNLWtKN1g4T2dqUWdUd1plLTd1d1IxUDdrbThBQjhKVEF0WkJBbTQtZ21OcHc?oc=5",
-    "summary": "Ex-Wrexham player calls for more support for youngsters released by clubs bbc.com",
-    "source": "bbc.com",
+    "summary": "Ex-Wrexham player calls for more support for youngsters released by clubs BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-20T09:43:09+00:00",
-    "collected_at": "2026-09-23T11:27:33.714045+00:00",
+    "collected_at": "2026-09-23T12:32:37.325956+00:00",
     "origin": "google_news"
   },
   {
-    "id": "1244243403b6a0d95aeedbe0",
-    "title": "The remarkable rescue of a teenager trapped in Westhumble cave - bbc.com",
+    "id": "b7be80ef022c1aed250a5bbf",
+    "title": "The remarkable rescue of a teenager trapped in Westhumble cave - BBC",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51YUg3QU1lanNXOV9KN0d3TWEyal9nWF85S3dEVVJFTVlxeE9jaC03bEVTOC00blJtQlMxYTFteHQxS0V6YzhjcUpuczhIWXNUR3lRUmdBYWtIdw?oc=5",
-    "summary": "The remarkable rescue of a teenager trapped in Westhumble cave bbc.com",
-    "source": "bbc.com",
+    "summary": "The remarkable rescue of a teenager trapped in Westhumble cave BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-20T09:31:14+00:00",
-    "collected_at": "2026-09-23T11:27:33.712198+00:00",
+    "collected_at": "2026-09-23T12:32:37.324907+00:00",
     "origin": "google_news"
   },
   {
@@ -8132,7 +8216,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-20T09:31:14+00:00",
-    "collected_at": "2026-09-23T11:27:33.716017+00:00",
+    "collected_at": "2026-09-23T12:32:37.326928+00:00",
     "origin": "google_news"
   },
   {
@@ -8180,7 +8264,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-20T09:03:07+00:00",
-    "collected_at": "2026-09-23T11:27:24.425779+00:00",
+    "collected_at": "2026-09-23T12:32:27.521692+00:00",
     "origin": "google_news"
   },
   {
@@ -8192,7 +8276,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-20T09:01:40+00:00",
-    "collected_at": "2026-09-23T11:27:24.416979+00:00",
+    "collected_at": "2026-09-23T12:32:27.516518+00:00",
     "origin": "google_news"
   },
   {
@@ -8240,19 +8324,19 @@
     "category_hint": "Business & Economy",
     "priority": 7,
     "published_at": "2026-09-20T08:47:00+00:00",
-    "collected_at": "2026-09-23T11:27:30.465030+00:00",
+    "collected_at": "2026-09-23T12:32:33.874686+00:00",
     "origin": "google_news"
   },
   {
-    "id": "ff14a66dce0b058e55889260",
-    "title": "Greater focus on non-religious beliefs in schools - bbc.com",
+    "id": "59d2677b0e7fb37b62d27da4",
+    "title": "Greater focus on non-religious beliefs in schools - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGSnRLQXI2UGpKS3NXY3JGTzREbnAwVi0wSGV0TVpPVjhkdGRfMmJWVWxuREdUaXd1ZmVHZ2FpQTVEeW1XTldFUmNfbDF6VEJjMmEyQjR4U3hYVkE?oc=5",
-    "summary": "Greater focus on non-religious beliefs in schools bbc.com",
-    "source": "bbc.com",
+    "summary": "Greater focus on non-religious beliefs in schools BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-20T08:26:59+00:00",
-    "collected_at": "2026-09-23T11:27:33.720466+00:00",
+    "collected_at": "2026-09-23T12:32:37.328937+00:00",
     "origin": "google_news"
   },
   {
@@ -8360,7 +8444,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-20T06:07:02+00:00",
-    "collected_at": "2026-09-23T08:28:29.643294+00:00",
+    "collected_at": "2026-09-23T12:32:37.327473+00:00",
     "origin": "google_news"
   },
   {
@@ -8376,15 +8460,15 @@
     "origin": "google_news"
   },
   {
-    "id": "5e762f1bfa57b86063a4035d",
-    "title": "Why bookshops are booming in the TikTok age - bbc.com",
+    "id": "131e3a2b339a2992593a6e02",
+    "title": "Why bookshops are booming in the TikTok age - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iQjdjMElGVlNpNndkZ0M2b2V6UHlzMHpJVkJ6RWlDYTJaTTR1MTk1ajY3OThOWXNLdmhiakljdXZSX2RPdk04NnhWQzItcGNJYjY1b2JuS1lKSmM?oc=5",
-    "summary": "Why bookshops are booming in the TikTok age bbc.com",
-    "source": "bbc.com",
+    "summary": "Why bookshops are booming in the TikTok age BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-20T06:02:48+00:00",
-    "collected_at": "2026-09-23T11:27:33.714685+00:00",
+    "collected_at": "2026-09-23T12:32:37.326279+00:00",
     "origin": "google_news"
   },
   {
@@ -8552,7 +8636,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-20T04:01:14+00:00",
-    "collected_at": "2026-09-23T10:27:21.019777+00:00",
+    "collected_at": "2026-09-23T12:32:27.519555+00:00",
     "origin": "google_news"
   },
   {
@@ -8648,7 +8732,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-20T02:00:23+00:00",
-    "collected_at": "2026-09-23T11:27:32.546563+00:00",
+    "collected_at": "2026-09-23T12:32:36.090699+00:00",
     "origin": "rss"
   },
   {
@@ -8672,7 +8756,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-20T01:54:25+00:00",
-    "collected_at": "2026-09-23T11:27:32.362017+00:00",
+    "collected_at": "2026-09-23T12:32:35.839411+00:00",
     "origin": "google_news"
   },
   {
@@ -8816,7 +8900,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T23:32:05+00:00",
-    "collected_at": "2026-09-23T11:27:33.709044+00:00",
+    "collected_at": "2026-09-23T12:32:37.323330+00:00",
     "origin": "google_news"
   },
   {
@@ -8832,15 +8916,15 @@
     "origin": "google_news"
   },
   {
-    "id": "263633d8462de0c7c178ccd9",
-    "title": "'People forget we exist': Why older LGBTQ+ people fear losing identity - bbc.com",
+    "id": "ff7b96d6106a2508f6a4e410",
+    "title": "'People forget we exist': Why older LGBTQ+ people fear losing identity - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4WGozbVJueFdaZFNtZkhUX1BZMFBYWl8wYllBZXhRUDRqZm1UQ2ZBR3ZUWUUzay1tSW5aWl9xM2Q2eHdvOFg4cUkzWUd4SVgwVE1jbV94OUZTb1U?oc=5",
-    "summary": "'People forget we exist': Why older LGBTQ+ people fear losing identity bbc.com",
-    "source": "bbc.com",
+    "summary": "'People forget we exist': Why older LGBTQ+ people fear losing identity BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T23:18:46+00:00",
-    "collected_at": "2026-09-23T11:27:33.709504+00:00",
+    "collected_at": "2026-09-23T12:32:37.323569+00:00",
     "origin": "google_news"
   },
   {
@@ -8852,7 +8936,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-19T23:18:34+00:00",
-    "collected_at": "2026-09-23T11:27:32.546346+00:00",
+    "collected_at": "2026-09-23T12:32:36.090589+00:00",
     "origin": "rss"
   },
   {
@@ -8964,15 +9048,15 @@
     "origin": "rss"
   },
   {
-    "id": "71a0600f8851a682a3de79f7",
-    "title": "'I'm often stopped on the street for confessions' - Retiring bishop reflects on a life at the heart of the community - bbc.com",
+    "id": "56630a0a8fd44a2bdbc3a42e",
+    "title": "'I'm often stopped on the street for confessions' - Retiring bishop reflects on a life at the heart of the community - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44bUxORTV5VzgtSklIVVlQeE5qWHNyNW9xYzdROGxoUmJlTXRrN1lPaHA2VUZkeVVsYWVsOS1GY1loUjhxektUam1hY1pPUm9vbDk1VHlHNmpLS3c?oc=5",
-    "summary": "'I'm often stopped on the street for confessions' - Retiring bishop reflects on a life at the heart of the community bbc.com",
-    "source": "bbc.com",
+    "summary": "'I'm often stopped on the street for confessions' - Retiring bishop reflects on a life at the heart of the community BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T23:00:15+00:00",
-    "collected_at": "2026-09-23T11:27:33.719127+00:00",
+    "collected_at": "2026-09-23T12:32:37.328285+00:00",
     "origin": "google_news"
   },
   {
@@ -9312,15 +9396,15 @@
     "origin": "google_news"
   },
   {
-    "id": "e54bd32b975ab0030998348e",
-    "title": "Tottenham 2-3 Aston Villa: No sign of recovery from struggling Spurs - bbc.com",
+    "id": "d439133e81046b864fe02481",
+    "title": "Tottenham 2-3 Aston Villa: No sign of recovery from struggling Spurs - BBC",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vWlktVTZ5MFdNOGs3NnprUEoxVUQweGFZNFJkTlc4NFZYYWxBT2ZtOHkxTjdtaURfVk5HaGZmTE9naVNndklFMFloM0oxSUVWdHoxU2RJTTdTVWMwblBxckpTX3c0aG9f?oc=5",
-    "summary": "Tottenham 2-3 Aston Villa: No sign of recovery from struggling Spurs bbc.com",
-    "source": "bbc.com",
+    "summary": "Tottenham 2-3 Aston Villa: No sign of recovery from struggling Spurs BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T15:33:20+00:00",
-    "collected_at": "2026-09-23T11:27:33.717780+00:00",
+    "collected_at": "2026-09-23T12:32:37.327799+00:00",
     "origin": "google_news"
   },
   {
@@ -9344,7 +9428,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-19T15:26:31+00:00",
-    "collected_at": "2026-09-23T11:27:24.415741+00:00",
+    "collected_at": "2026-09-23T12:32:27.515968+00:00",
     "origin": "google_news"
   },
   {
@@ -9396,15 +9480,15 @@
     "origin": "google_news"
   },
   {
-    "id": "8d19d3e4f148b500098cad12",
-    "title": "From heroic big sister to diva dog, awards recognise those making 'incredible difference' - bbc.com",
+    "id": "c96c567786807c20800dc473",
+    "title": "From heroic big sister to diva dog, awards recognise those making 'incredible difference' - BBC",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wYk1wOXJPajVPVFoyeGljSkhZWEFmZjl2a3NzOWQ4UHBIMEFPaE1wZm5OQndEX3R3VzVQYXc2eS1nSExQbHlOczJqYThkZ3ViSjdzYk5LNUdDUQ?oc=5",
-    "summary": "From heroic big sister to diva dog, awards recognise those making 'incredible difference' bbc.com",
-    "source": "bbc.com",
+    "summary": "From heroic big sister to diva dog, awards recognise those making 'incredible difference' BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T14:52:32+00:00",
-    "collected_at": "2026-09-23T11:27:33.708685+00:00",
+    "collected_at": "2026-09-23T12:32:37.323160+00:00",
     "origin": "google_news"
   },
   {
@@ -9620,7 +9704,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-19T12:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.672835+00:00",
+    "collected_at": "2026-09-23T12:32:28.789464+00:00",
     "origin": "google_news"
   },
   {
@@ -9752,7 +9836,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-19T11:18:22+00:00",
-    "collected_at": "2026-09-23T11:27:32.546776+00:00",
+    "collected_at": "2026-09-23T12:32:36.090800+00:00",
     "origin": "rss"
   },
   {
@@ -10088,7 +10172,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T06:09:33+00:00",
-    "collected_at": "2026-09-23T10:27:29.770800+00:00",
+    "collected_at": "2026-09-23T12:32:37.325238+00:00",
     "origin": "google_news"
   },
   {
@@ -10116,15 +10200,15 @@
     "origin": "rss"
   },
   {
-    "id": "e3f12191d745c52376312822",
-    "title": "A Suffolk village familiar with tragedy mourns Noah Woods - bbc.com",
+    "id": "8e0d6937cf305ac760f95c05",
+    "title": "A Suffolk village familiar with tragedy mourns Noah Woods - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5qb3FrVmFGQldHNWNxV0VkMlg1dkpYQTFUdzhETXM5ck5HdURvYkNwU2MtNWxLY1JJdzZVWS00LW9qb0Z1LTBQaXRQZ3NQRFhIT3FOTDlNX1hVQ2c?oc=5",
-    "summary": "A Suffolk village familiar with tragedy mourns Noah Woods bbc.com",
-    "source": "bbc.com",
+    "summary": "A Suffolk village familiar with tragedy mourns Noah Woods BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T05:27:45+00:00",
-    "collected_at": "2026-09-23T11:27:33.709831+00:00",
+    "collected_at": "2026-09-23T12:32:37.323750+00:00",
     "origin": "google_news"
   },
   {
@@ -10508,7 +10592,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-19T00:14:33+00:00",
-    "collected_at": "2026-09-23T11:27:32.353744+00:00",
+    "collected_at": "2026-09-23T12:32:35.835859+00:00",
     "origin": "google_news"
   },
   {
@@ -10628,7 +10712,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-18T23:07:00+00:00",
-    "collected_at": "2026-09-23T11:27:24.419866+00:00",
+    "collected_at": "2026-09-23T12:32:27.518298+00:00",
     "origin": "google_news"
   },
   {
@@ -10640,7 +10724,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-18T23:06:00+00:00",
-    "collected_at": "2026-09-23T11:27:29.273111+00:00",
+    "collected_at": "2026-09-23T12:32:32.421274+00:00",
     "origin": "google_news"
   },
   {
@@ -10952,7 +11036,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-18T21:07:24+00:00",
-    "collected_at": "2026-09-23T11:27:32.353410+00:00",
+    "collected_at": "2026-09-23T12:32:35.835185+00:00",
     "origin": "google_news"
   },
   {
@@ -11108,7 +11192,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-18T20:25:25+00:00",
-    "collected_at": "2026-09-23T11:27:29.273453+00:00",
+    "collected_at": "2026-09-23T12:32:32.421442+00:00",
     "origin": "google_news"
   },
   {
@@ -11168,7 +11252,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-18T20:15:53+00:00",
-    "collected_at": "2026-09-23T11:27:24.418374+00:00",
+    "collected_at": "2026-09-23T12:32:27.517636+00:00",
     "origin": "google_news"
   },
   {
@@ -11264,7 +11348,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-18T19:22:38+00:00",
-    "collected_at": "2026-09-23T11:27:24.414910+00:00",
+    "collected_at": "2026-09-23T12:32:27.515798+00:00",
     "origin": "google_news"
   },
   {
@@ -11672,7 +11756,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-18T17:08:49+00:00",
-    "collected_at": "2026-09-23T11:27:29.271477+00:00",
+    "collected_at": "2026-09-23T12:32:32.420478+00:00",
     "origin": "google_news"
   },
   {
@@ -11924,7 +12008,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-18T16:03:58+00:00",
-    "collected_at": "2026-09-23T11:27:29.269025+00:00",
+    "collected_at": "2026-09-23T12:32:32.419114+00:00",
     "origin": "google_news"
   },
   {
@@ -12132,15 +12216,15 @@
     "origin": "google_news"
   },
   {
-    "id": "5d8b09a7a1786110aa971399",
-    "title": "Bill Hader on Why Young People Hate AI, Voicing Cat in the Hat and the Status of His Jonestown HBO Series - Variety",
+    "id": "0aaad82d9507499ea249198d",
+    "title": "Bill Hader on Why Young People Hate AI, Voicing Cat in the Hat and the Status of His Jonestown HBO Series - variety.com",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN3pVTTdmRHFFUTZCX2M3VDhRUDk5SWlZUVktbllKNXpCUlA5a0JkWEwtVllhQWhVdGtNRVA0UXpvUVVtTVFYdUwyWGFLcnVDaFpudHBDOGo1WDNQamppbnk1YzZTdkZaaEFvVVpoc211dVVTdFR6QVJ0VFlxMGFWRVBwaVlqT2VJOWpB?oc=5",
-    "summary": "Bill Hader on Why Young People Hate AI, Voicing Cat in the Hat and the Status of His Jonestown HBO Series Variety",
-    "source": "Variety",
+    "summary": "Bill Hader on Why Young People Hate AI, Voicing Cat in the Hat and the Status of His Jonestown HBO Series variety.com",
+    "source": "variety.com",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-18T14:19:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.113541+00:00",
+    "collected_at": "2026-09-23T12:32:36.645829+00:00",
     "origin": "google_news"
   },
   {
@@ -12200,7 +12284,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-18T12:58:55+00:00",
-    "collected_at": "2026-09-23T11:27:32.546124+00:00",
+    "collected_at": "2026-09-23T12:32:36.090485+00:00",
     "origin": "rss"
   },
   {
@@ -12428,7 +12512,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-18T11:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.678825+00:00",
+    "collected_at": "2026-09-23T12:32:28.791863+00:00",
     "origin": "google_news"
   },
   {
@@ -12932,7 +13016,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-18T07:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:29.272451+00:00",
+    "collected_at": "2026-09-23T12:32:32.420958+00:00",
     "origin": "google_news"
   },
   {
@@ -13064,7 +13148,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-18T05:23:18+00:00",
-    "collected_at": "2026-09-23T11:27:32.547013+00:00",
+    "collected_at": "2026-09-23T12:32:36.090904+00:00",
     "origin": "rss"
   },
   {
@@ -14208,15 +14292,15 @@
     "origin": "google_news"
   },
   {
-    "id": "c0278c66896e2fc72be8d45c",
-    "title": "Microsoft exec called AI scraping the “largest theft of labor in human history” - arstechnica.com",
+    "id": "f6a737be7803ec5c48c24dfa",
+    "title": "Microsoft exec called AI scraping the “largest theft of labor in human history” - Ars Technica",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ3U5UnNFeDdiblhwcjVQelZRQkRoQkZYdjJoOTMyeTVrbTJ2cV8td193U3RmQ1RUUFRhSG1WV210dkgzdHpFX2o0eUVsM24zSkl1SHoxazBRbWpMMHFkNWFuV2NvblBTTC1VSjJ3WlJSdXVqQndUZk1YY29HOXNXdUx0WU9mQ2syeGhQVUZ0WnpjeW5ENzJvZ1lsMHV5VWFEMmpSY3pIaWhsbFZtNThBVllmS3Zid3F4bnkyVDBEaw?oc=5",
-    "summary": "Microsoft exec called AI scraping the “largest theft of labor in human history” arstechnica.com",
-    "source": "arstechnica.com",
+    "summary": "Microsoft exec called AI scraping the “largest theft of labor in human history” Ars Technica",
+    "source": "Ars Technica",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-17T20:10:41+00:00",
-    "collected_at": "2026-09-23T11:27:32.363957+00:00",
+    "collected_at": "2026-09-23T12:32:35.840516+00:00",
     "origin": "google_news"
   },
   {
@@ -14660,7 +14744,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-17T17:35:40+00:00",
-    "collected_at": "2026-09-23T11:27:36.284616+00:00",
+    "collected_at": "2026-09-23T12:32:39.852449+00:00",
     "origin": "google_news"
   },
   {
@@ -14756,7 +14840,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-17T17:04:09+00:00",
-    "collected_at": "2026-09-23T11:27:25.674992+00:00",
+    "collected_at": "2026-09-23T12:32:28.790345+00:00",
     "origin": "google_news"
   },
   {
@@ -15224,7 +15308,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-17T14:29:50+00:00",
-    "collected_at": "2026-09-23T11:27:32.547233+00:00",
+    "collected_at": "2026-09-23T12:32:36.091005+00:00",
     "origin": "rss"
   },
   {
@@ -15404,7 +15488,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-17T13:41:06+00:00",
-    "collected_at": "2026-09-23T11:27:25.674652+00:00",
+    "collected_at": "2026-09-23T12:32:28.789798+00:00",
     "origin": "google_news"
   },
   {
@@ -15692,7 +15776,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-17T12:08:47+00:00",
-    "collected_at": "2026-09-23T11:27:29.271792+00:00",
+    "collected_at": "2026-09-23T12:32:32.420646+00:00",
     "origin": "google_news"
   },
   {
@@ -15764,7 +15848,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-17T11:30:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.352571+00:00",
+    "collected_at": "2026-09-23T12:32:35.834944+00:00",
     "origin": "google_news"
   },
   {
@@ -16100,7 +16184,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-17T09:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:33.710192+00:00",
+    "collected_at": "2026-09-23T12:32:37.323919+00:00",
     "origin": "google_news"
   },
   {
@@ -16700,7 +16784,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-17T02:49:48+00:00",
-    "collected_at": "2026-09-23T11:27:25.675645+00:00",
+    "collected_at": "2026-09-23T12:32:28.790820+00:00",
     "origin": "google_news"
   },
   {
@@ -17132,7 +17216,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-16T22:13:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.354438+00:00",
+    "collected_at": "2026-09-23T12:32:35.836018+00:00",
     "origin": "google_news"
   },
   {
@@ -17660,7 +17744,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-16T19:49:20+00:00",
-    "collected_at": "2026-09-23T11:27:32.547457+00:00",
+    "collected_at": "2026-09-23T12:32:36.091111+00:00",
     "origin": "rss"
   },
   {
@@ -17948,7 +18032,7 @@
     "category_hint": "Federal Courts",
     "priority": 10,
     "published_at": "2026-09-16T18:19:49+00:00",
-    "collected_at": "2026-09-23T11:27:27.393438+00:00",
+    "collected_at": "2026-09-23T12:32:30.605550+00:00",
     "origin": "google_news"
   },
   {
@@ -19220,7 +19304,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-16T11:22:29+00:00",
-    "collected_at": "2026-09-23T11:27:34.371455+00:00",
+    "collected_at": "2026-09-23T12:32:37.928712+00:00",
     "origin": "google_news"
   },
   {
@@ -20724,15 +20808,15 @@
     "origin": "rss"
   },
   {
-    "id": "998ab9580cf60f04e8794a2f",
-    "title": "Turkey arrests dozens in crackdown on LGBTQ+ activists - bbc.com",
+    "id": "8052798e7355f2f574c8c734",
+    "title": "Turkey arrests dozens in crackdown on LGBTQ+ activists - BBC",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mS3JNQ2dQdTkzb05WaHVOR05DZ3NQblp5QW5jdEpzczdLbTNHdm9NVWxDMlpPaVFtS0VNZ2pERC1zeFlHMzBxV29aNWtwMnhRSWZqZURKNWx1bHM?oc=5",
-    "summary": "Turkey arrests dozens in crackdown on LGBTQ+ activists bbc.com",
-    "source": "bbc.com",
+    "summary": "Turkey arrests dozens in crackdown on LGBTQ+ activists BBC",
+    "source": "BBC",
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-15T22:26:05+00:00",
-    "collected_at": "2026-09-23T11:27:33.707616+00:00",
+    "collected_at": "2026-09-23T12:32:37.322606+00:00",
     "origin": "google_news"
   },
   {
@@ -20912,7 +20996,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-15T21:33:05+00:00",
-    "collected_at": "2026-09-23T11:27:34.365424+00:00",
+    "collected_at": "2026-09-23T12:32:39.249666+00:00",
     "origin": "google_news"
   },
   {
@@ -21944,7 +22028,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-15T16:48:52+00:00",
-    "collected_at": "2026-09-23T10:27:30.342008+00:00",
+    "collected_at": "2026-09-23T12:32:37.926352+00:00",
     "origin": "google_news"
   },
   {
@@ -22448,7 +22532,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-15T13:30:00+00:00",
-    "collected_at": "2026-09-23T11:27:34.368830+00:00",
+    "collected_at": "2026-09-23T12:32:37.927276+00:00",
     "origin": "google_news"
   },
   {
@@ -23168,7 +23252,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-15T07:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:32.355124+00:00",
+    "collected_at": "2026-09-23T12:32:35.836345+00:00",
     "origin": "google_news"
   },
   {
@@ -24704,7 +24788,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-14T20:56:13+00:00",
-    "collected_at": "2026-09-23T11:27:34.939454+00:00",
+    "collected_at": "2026-09-23T12:32:38.575934+00:00",
     "origin": "google_news"
   },
   {
@@ -26916,18 +27000,6 @@
     "origin": "rss"
   },
   {
-    "id": "518cd0314c712104c82579c7",
-    "title": "Doctors strike, rally for contract with Allina - MPR News",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM1pKZWdlam9CX2MxTWNhNDBwc2dKdFIyRDVPcEZUczdGM1lmbFQ2bVZpOE1BVEczQzRLX1Z3RjFEZFZ4emxqQmdMNjhRdmJOeVZVTlhTVjNLVWdaOTFEcHpUZ1ZtbFBJMGpHSVlQVUpUTi01LXAxWFN5QTlWYnJzTU4tMzBjdmdVd2M5blRCQmpXazNYRVpUVw?oc=5",
-    "summary": "Doctors strike, rally for contract with Allina MPR News",
-    "source": "MPR News",
-    "category_hint": "Minnesota",
-    "priority": 9,
-    "published_at": "2026-09-14T07:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:25.678473+00:00",
-    "origin": "google_news"
-  },
-  {
     "id": "afd666d1b8251fb321bc4746",
     "title": "The U.S. economy faces mounting headwinds. Here are the biggest risks. - CBS News",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QakUtQzNvVVFQV3NVbFZWQy16QzBQM2RxbnU2RnJvdE9CT1VPUDlXeEQ1Q2ltelp1b0VSSDJ2VVM5X1NuMnRxRVpBMjVtMmJzRmc5clBKRlowWTFfSnpmM3o1LTVTYm1LcDkw?oc=5",
@@ -26936,7 +27008,7 @@
     "category_hint": "Business & Economy",
     "priority": 7,
     "published_at": "2026-09-14T07:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:30.465415+00:00",
+    "collected_at": "2026-09-23T12:32:33.874880+00:00",
     "origin": "google_news"
   },
   {
@@ -26948,19 +27020,31 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-14T07:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:36.285392+00:00",
+    "collected_at": "2026-09-23T12:32:39.852859+00:00",
     "origin": "google_news"
   },
   {
-    "id": "579c6fe298d2ec01a6c3aca7",
-    "title": "Employers Sprung, Temporarily, From California’s Trap Law - cdflaborlaw.com",
+    "id": "605d0dd18294c2813235a11a",
+    "title": "Employers Sprung, Temporarily, From California’s Trap Law - CDF Labor Law LLP",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYWtQdVFLOWZGTXJ6TWtyNDBTakM3SFhNenFTLWZTTGhUOXYzdWhUZl9leGtkMzk2N2R3LWNGSEoxa1hVMGR5b0ZiNllSRUVWeHY3aTM3b0hkMFE2NEpYalBUTVRQNUxKMEhVQXZGYjZOb1N1SXZlREMyTGJ2TDAyTnVxWnI4Uk1sck1LTjdfbkI?oc=5",
-    "summary": "Employers Sprung, Temporarily, From California’s Trap Law cdflaborlaw.com",
-    "source": "cdflaborlaw.com",
+    "summary": "Employers Sprung, Temporarily, From California’s Trap Law CDF Labor Law LLP",
+    "source": "CDF Labor Law LLP",
     "category_hint": "California Law",
     "priority": 9,
     "published_at": "2026-09-14T07:00:00+00:00",
-    "collected_at": "2026-09-23T11:27:38.634941+00:00",
+    "collected_at": "2026-09-23T12:32:42.267574+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "518cd0314c712104c82579c7",
+    "title": "Doctors strike, rally for contract with Allina - MPR News",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM1pKZWdlam9CX2MxTWNhNDBwc2dKdFIyRDVPcEZUczdGM1lmbFQ2bVZpOE1BVEczQzRLX1Z3RjFEZFZ4emxqQmdMNjhRdmJOeVZVTlhTVjNLVWdaOTFEcHpUZ1ZtbFBJMGpHSVlQVUpUTi01LXAxWFN5QTlWYnJzTU4tMzBjdmdVd2M5blRCQmpXazNYRVpUVw?oc=5",
+    "summary": "Doctors strike, rally for contract with Allina MPR News",
+    "source": "MPR News",
+    "category_hint": "Minnesota",
+    "priority": 9,
+    "published_at": "2026-09-14T07:00:00+00:00",
+    "collected_at": "2026-09-23T11:27:25.678473+00:00",
     "origin": "google_news"
   },
   {
@@ -28185,66 +28269,6 @@
     "priority": 7,
     "published_at": "2026-09-13T12:39:51+00:00",
     "collected_at": "2026-09-16T06:33:42.325190+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "bc5f013c6347027c39a2f130",
-    "title": "Doonesbury Comic Strips by Garry Trudeau - September 13, 2026 - The Washington Post",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAxaXkzTmNaTDBPN3ZKS3RTMEtDRk9PNWVjc0wyQ29tYUhfT3lXd3BiUXE1Ti1uS3paY0pqOEs3ZG5sLXRWMVdBUGpjZ0FqMWpYWl8yR2ZzdWRmSVZHbHc5aHVYd2UwTDU5bU85NEp2bXc5TzA?oc=5",
-    "summary": "Doonesbury Comic Strips by Garry Trudeau - September 13, 2026 The Washington Post",
-    "source": "The Washington Post",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-13T12:16:30+00:00",
-    "collected_at": "2026-09-15T23:24:41.074829+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "cee963b314e3b2254473cfdc",
-    "title": "Politics chat: Trump's $5,000 promise to voters, Vance invokes Charlie Kirk",
-    "url": "https://www.npr.org/2026/09/13/nx-s1-5964863/politics-chat-trumps-5-000-promise-to-voters-vance-invokes-charlie-kirk",
-    "summary": "Following the midterm convention in Dallas, President Trump's $5,000 campaign promise has generated attention, but not belief. And, Vice President JD Vance characterizes Democrats as extremists.",
-    "source": "NPR Top Stories",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-13T12:04:27+00:00",
-    "collected_at": "2026-09-14T09:29:32.350997+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "d329160ee0f20a19487651ed",
-    "title": "From fracking to data centers: Hearing from people on both sides of the opposition",
-    "url": "https://www.npr.org/2026/09/13/nx-s1-5946724/from-fracking-to-data-centers-hearing-from-people-on-both-sides-of-the-opposition",
-    "summary": "NPR's Ayesha Rascoe speaks with environmentalist, Bill McKibben, and public relations specialist, Frank Maisano, about opposition to industrial development projects like fracking and data centers.",
-    "source": "NPR Top Stories",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-13T12:04:24+00:00",
-    "collected_at": "2026-09-14T08:29:57.520550+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "ccd84c6fa3bb73a5732a350b",
-    "title": "The secret ballot has been an article of faith in US elections. That’s being tested in Georgia - AP News",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTVVKUUphaXNKNkhObkJJbzExY2hhUWlTVEtQVG5tMERabE93Y3RRVjFoSUFibHdVYzZRaEh0UVg0Q0pPYk1nUXo5VFVCRE5Edmgwa3RNdDVMUVpnb05LVHU4dXFhekdNYVhkWUlWRFlXN0hHNHprbnpKVzRoX05FT1JpRkVtQkJHb3M2VW41eTAtWU1QSlN4N1pETHFMMVJKaDdaSmlOYXUwVXlnbkFXQ28zYU10ckw5eDBz?oc=5",
-    "summary": "The secret ballot has been an article of faith in US elections. That’s being tested in Georgia AP News",
-    "source": "AP News",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-13T11:36:00+00:00",
-    "collected_at": "2026-09-14T08:29:59.168556+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "ca1a6103101e317a4f0e3f39",
-    "title": "Carney says Canada seeks \"unique alliance\" but not membership with the European Union - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY1Y5U2xFbGpBM1ppYU9rcmhrdVk5b2hKTkNNZHdyakV6Y0UzS2lJenNKS0s2SjFZdVY0cDBDUm42MnNib1BlYzZLWENheHpobzhOanc1LXVnblVHNFo1MDNtUEFjcE93T0ZIOW85VmcwWk1zOEMtcGh4NXpOSk94dVowaVlya1IzWkJxX2NOcDhtZWhVRURzeGRCWUhHV1FuNGRzSUI0bS1ERVZ3TUdhbUZGOWpwZw?oc=5",
-    "summary": "Carney says Canada seeks \"unique alliance\" but not membership with the European Union Reuters",
-    "source": "Reuters",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-13T11:30:00+00:00",
-    "collected_at": "2026-09-14T12:34:06.156351+00:00",
     "origin": "google_news"
   }
 ]
