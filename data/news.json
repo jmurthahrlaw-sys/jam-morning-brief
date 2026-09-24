@@ -1,17 +1,5 @@
 [
   {
-    "id": "b02788b01132cc30c9935e6a",
-    "title": "White House restores access to media outlets banned by Trump after judge's order",
-    "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
-    "summary": "CNN, Politico and MS NOW were allowed back into the White House after some of their staff were earlier turned away.",
-    "source": "BBC World",
-    "category_hint": "Top News",
-    "priority": 8,
-    "published_at": "2026-09-24T17:25:20+00:00",
-    "collected_at": "2026-09-24T17:26:06.458142+00:00",
-    "origin": "rss"
-  },
-  {
     "id": "c1411e425716d94c392b041e",
     "title": "CNN, MS NOW, Politico reporters regain entry to White House - The Washington Post",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYWRqVjhhMVRSQWVBZ0lXOU1CY3V5bk1rQ1NiSjQ2UHptUnhfVXJLXzhqZ2RoSnNfT3dWOTROUVpsYWJMbGZURUlXOGF3czU4SUlUUXM1X1NPWjBJdTVuV09zVndLMFNPUkZwZzJjN2F4ckVHSkl3NmpmemhZbjVMdzk0NDBLUERuc0UzUXdlX0VyVl8yaFN6MUNYZC0yRlNIdDZLbm9wcHE5T2s?oc=5",
@@ -19,8 +7,152 @@
     "source": "The Washington Post",
     "category_hint": "Top News",
     "priority": 9,
-    "published_at": "2026-09-24T17:24:20+00:00",
-    "collected_at": "2026-09-24T17:26:07.271623+00:00",
+    "published_at": "2026-09-24T18:24:32+00:00",
+    "collected_at": "2026-09-24T18:30:36.184851+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "706201c7c499e7ec6d71083d",
+    "title": "BBC upholds complaints over Victoria Beckham slur on Have I Got News For You",
+    "url": "https://www.bbc.co.uk/news/articles/cqde0wrl9d5do?at_medium=RSS&at_campaign=rss",
+    "summary": "Two viewers complained to the BBC over the \"gratuitously offensive\" comment made during the show.",
+    "source": "BBC Entertainment & Arts",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-24T18:18:55+00:00",
+    "collected_at": "2026-09-24T18:30:44.882406+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "6d7782a98cadb07dbf8871f9",
+    "title": "NLRB revives test limiting protections for workers' profane, racist outbursts - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZW1TeDhUOXI1XzFqbnpLZFRyTXlxWi1XNV9LazUySmtEcURiVDJkNERhdjZENU5ZWEp4RDVZQ3MzQlMyVzc0aVZiZUR6Q0dfLXdiSnYxOGE1ZU5yNU1tUmRQUERCZnhFWGZPVF8zdHk0YkhGYldUeDhHWE9rcS1oQ3oyTHRUYWJPM3NZSVBQQkNnWTc1dVJhY2dGeWdmZFFRSEUtQ2JKS2tZcTJUcGgtbVVqMk9uVGVIQk1IWXUyTGF2Zw?oc=5",
+    "summary": "NLRB revives test limiting protections for workers' profane, racist outbursts Reuters",
+    "source": "Reuters",
+    "category_hint": "Employment Law",
+    "priority": 10,
+    "published_at": "2026-09-24T18:17:43+00:00",
+    "collected_at": "2026-09-24T18:30:41.394333+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "31a2aaaf22d1ccd070c40d19",
+    "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+    "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+    "summary": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
+    "source": "BBC World",
+    "category_hint": "Top News",
+    "priority": 8,
+    "published_at": "2026-09-24T18:06:40+00:00",
+    "collected_at": "2026-09-24T18:30:35.391795+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "6a20f807e7cf904667fb6e7e",
+    "title": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
+    "url": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o?at_medium=RSS&at_campaign=rss",
+    "summary": "Proceeds from the tour, which begins in Dublin next month, will go to organisations supporting Palestinians, he says.",
+    "source": "BBC World",
+    "category_hint": "Top News",
+    "priority": 8,
+    "published_at": "2026-09-24T17:55:44+00:00",
+    "collected_at": "2026-09-24T18:30:35.392763+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "ef006870ba41083b9d62d931",
+    "title": "RFK Jr.'s ethics filing reveals book deals worth millions of dollars",
+    "url": "https://www.npr.org/2026/09/24/nx-s1-5979867/rfk-ethics-book-deals",
+    "summary": "Health Secretary Robert F. Kennedy Jr.'s annual financial disclosure reveals he has received two lucrative book advances and free flights from a friend while in office.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-24T17:51:40+00:00",
+    "collected_at": "2026-09-24T18:30:35.271196+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "b02788b01132cc30c9935e6a",
+    "title": "White House restores access to media outlets banned by Trump after judge's order",
+    "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+    "summary": "CNN, Politico and MS NOW were allowed back into the White House after some of their staff were earlier turned away.",
+    "source": "BBC World",
+    "category_hint": "Top News",
+    "priority": 8,
+    "published_at": "2026-09-24T17:49:20+00:00",
+    "collected_at": "2026-09-24T18:30:35.391383+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "170cb897caa86f3f491f75fc",
+    "title": "White House reinstates access to CNN, MS NOW and Politico following judge's order - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSGZDelJBRHdvcFBwNGNlTGwxdVNHNnk1UmhJeDZUZWd2Y3o4ZGw4QTVaM2VrT21MQWt2eUUyR2c5cnR3ckdadDZNS0RSdUpLX1FVMHpqU1B3aWVyeGs3aGp0RE44R2JoRG55QlhiUWRQOWRhUGtoZ1ZoMlhydDJOQlRPU2JkbldsaDB4UUc3TVJxU2xwMFVvbHlMNG1UOHNPWUUzSmVaVHFCR1Y0SmJvRmFSNFVDU3JyNHdhTkp0a1RuQmEzWjNrcw?oc=5",
+    "summary": "White House reinstates access to CNN, MS NOW and Politico following judge's order Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-24T17:48:17+00:00",
+    "collected_at": "2026-09-24T18:30:36.180170+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "b18363bb20d8404db685b778",
+    "title": "DWC updates pathology and clinical laboratory fee schedule to reflect additional Medicare changes effective October 2026 | California Department of Industrial Relations - California Department of Industrial Relations (DIR) (.gov)",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IdUI4R0lNMzNWX3BqVVhxdTVTVHptc2FqM2I4M0tUMmE4dDVBcHBNSzNEbm4zUVEybEJHUzdfcHAzNlU4QlhHR0E5MXdieHpWbTEwRHZjQUl0U0NH?oc=5",
+    "summary": "DWC updates pathology and clinical laboratory fee schedule to reflect additional Medicare changes effective October 2026 | California Department of Industrial Relations California Department of Industrial Relations (DIR) (.gov)",
+    "source": "California Department of Industrial Relations (DIR) (.gov)",
+    "category_hint": "California Law",
+    "priority": 10,
+    "published_at": "2026-09-24T17:47:51+00:00",
+    "collected_at": "2026-09-24T18:30:51.522440+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "02a5a6b46655431c060741c9",
+    "title": "Flights suspended to Ethiopian holy town of Lalibela as fighting expands - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ0thQ2FqZmNRWUszTGE0UTA1RjNRWFI5NWs4eEFzdmFvTWxJY3UwSXBYazlacWlacnVhZmtfY3hfX2pJVmc4eXF2VGxvR3Jud0Vta3BYRmNKdnJuWU9qVURfTUtLY2k3OHcxbTFqdEhpNDRfOVJ5T2xISENyeTYyTzVkNkFYR1Q1UXRyd0tEZ1lrUWo2dVI2NVdUWTljRDkwUzlld3p1UFh0aG5qWXg0YlotUTN2UENPOFE?oc=5",
+    "summary": "Flights suspended to Ethiopian holy town of Lalibela as fighting expands Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-24T17:31:22+00:00",
+    "collected_at": "2026-09-24T18:30:36.931243+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "f10384dfbfdb8f7203dbff1f",
+    "title": "New US sanctions shut down Iranian flights - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORXFRdU50SU1neUhFbzk2V2JmSXRiRDFJbm5BR1VFaWp6NXhaZ2hRcExwUjJNeHRwVlFNd0xKY2tBWnI4N0c3Tk0zWTFyUHNCSnZJRUw3Znp3bU1UREd5OHo5anJLY21GdkVTa2V1TnQ2ZTVxOGRXSHRfUmIxN0dCRzFSaXJFVWRJOHQzVWE4dTdjcXRZNk5nSVg0eFBEYWd4akJGNWVzbE5rNEhwSVowcUp5SXhHZzV3OVBsUkp3UkQ1RTZvWHNwWTdn?oc=5",
+    "summary": "New US sanctions shut down Iranian flights Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-24T17:27:27+00:00",
+    "collected_at": "2026-09-24T18:30:36.933562+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "4a61d66df22b7615a990073c",
+    "title": "US and Iran discuss phased deal to reopen Hormuz and end US blockade, sources say - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYXMwQlBmRVM4WXVFeXhQVkcyYnpaUzE3dk1wUWswS3pZWDBKTGNWVEpqdFNsWXZEYm5PQ3pSVmRhVFl1empQN3p6SFY0YTVHRmxxNWpxbXFNWVlCOEF5T0tBLVp0MzNyWVlyQnpkbUtyVzNTeGtxQXZVc3hhb0E4aVV6bU5QVEdHMFhCaXRhV3hxQVJ3MWRXNF9tNG5EeUVzcTdEOUhGSExiS3F2SUlkS2xzRk1mNlg4bkRhR0FoaE5QZw?oc=5",
+    "summary": "US and Iran discuss phased deal to reopen Hormuz and end US blockade, sources say Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-24T17:20:56+00:00",
+    "collected_at": "2026-09-24T18:30:36.926779+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "e9abc54ae6446106f2eb446b",
+    "title": "‘Sesame Street’ Movie in the Works at Netflix - The Hollywood Reporter",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVzJDME5zU1VZRGxvMWhIUWRKcUNNWEVEX2tIVTdKX0xHSGlNbU5BcXJWeTViaktZU0JweTVGSlJBcmMwMVB4V09HQlY3b0NfaGV5MkpLYTM1LXZOaENRNEFKZVZFcEJTajk2NVl4X0xpZE44NUFZdWhWVmNyV25PbDRqUWZudUhrU09FcFVueV92YnlYeWc?oc=5",
+    "summary": "‘Sesame Street’ Movie in the Works at Netflix The Hollywood Reporter",
+    "source": "The Hollywood Reporter",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-24T17:00:53+00:00",
+    "collected_at": "2026-09-24T18:30:45.562757+00:00",
     "origin": "google_news"
   },
   {
@@ -32,19 +164,31 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T16:59:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.269396+00:00",
+    "collected_at": "2026-09-24T18:30:36.181611+00:00",
     "origin": "google_news"
   },
   {
-    "id": "2c2c7f2b115d42272b47c50b",
-    "title": "US Democrats tee up pre-election war powers vote as some Republicans break with Trump on Iran - reuters.com",
+    "id": "78f61a76ca11d2d4fa219153",
+    "title": "New York lawsuit says Polymarket's prediction markets are illegal gambling - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaHBKRzNuRV9UcDlISEg4M2tsZURmLThPQW1ZbDMtRG91aDVLeWJJT2xsenpqbi11dENjOVp6TmpXWllXNTVmT1FFczRmY1U5YkVXVUZ6bTRIVUlSRWk5MnNDWWJobnoyU2dqSHAzR1pMaTJyR2NQa1QwQlBmX2pnUEx1ZG9oTGo2U3FDekFDYlJrVVltVG9TMmVleXNaNk5aLVVVS0VBSHk?oc=5",
+    "summary": "New York lawsuit says Polymarket's prediction markets are illegal gambling Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-24T16:58:11+00:00",
+    "collected_at": "2026-09-24T18:30:36.929055+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "645afa960a0afeeed811f58a",
+    "title": "US Democrats tee up pre-election war powers vote as some Republicans break with Trump on Iran - Reuters",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMU45a3FvODBzSXpndWg1QUVuQzlqUmVJWjZEWUFXNWltVUx0Sm4zbDE1X3lFSnFYd2hQeGotT1YtejB1NU9lZDJKcnJjeEZqNkJtZkQ0anhFUG92V3pWLXlyQzhIalFwTzRuVnVvd3BGQ2tfYTJ3RUxMRlhlWTdTUFE3MnAzMUxmallxcE9SZU5ldmxJeE1fYnhyT0c5eG9lVXVydVg2TFhnbnFJYUFsOE56U194eTltTnc2bGFR?oc=5",
-    "summary": "US Democrats tee up pre-election war powers vote as some Republicans break with Trump on Iran reuters.com",
-    "source": "reuters.com",
+    "summary": "US Democrats tee up pre-election war powers vote as some Republicans break with Trump on Iran Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T16:53:04+00:00",
-    "collected_at": "2026-09-24T17:26:07.900848+00:00",
+    "collected_at": "2026-09-24T18:30:36.927402+00:00",
     "origin": "google_news"
   },
   {
@@ -56,7 +200,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-24T16:36:33+00:00",
-    "collected_at": "2026-09-24T17:26:06.459122+00:00",
+    "collected_at": "2026-09-24T18:30:35.392586+00:00",
     "origin": "rss"
   },
   {
@@ -68,19 +212,19 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-24T16:30:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.166602+00:00",
+    "collected_at": "2026-09-24T18:30:41.394635+00:00",
     "origin": "google_news"
   },
   {
-    "id": "fb3a8c21ef403a80547e2815",
-    "title": "Insight: US and Iran discuss phased deal to reopen Hormuz and end US blockade, sources say - reuters.com",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYXMwQlBmRVM4WXVFeXhQVkcyYnpaUzE3dk1wUWswS3pZWDBKTGNWVEpqdFNsWXZEYm5PQ3pSVmRhVFl1empQN3p6SFY0YTVHRmxxNWpxbXFNWVlCOEF5T0tBLVp0MzNyWVlyQnpkbUtyVzNTeGtxQXZVc3hhb0E4aVV6bU5QVEdHMFhCaXRhV3hxQVJ3MWRXNF9tNG5EeUVzcTdEOUhGSExiS3F2SUlkS2xzRk1mNlg4bkRhR0FoaE5QZw?oc=5",
-    "summary": "Insight: US and Iran discuss phased deal to reopen Hormuz and end US blockade, sources say reuters.com",
-    "source": "reuters.com",
+    "id": "3e508e70c7ec29bf5f73b60b",
+    "title": "US cybersecurity agency releases election infrastructure plan 40 days before midterms - AP News",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmNGU0tUVHVmSExPTzVrQnZOOVU0c1MxQzVURVBmR293a1JsRXppUnhJQWphVXpLSGxIZC1SeGR3SGlJVnBEempldmJ5YnZUQlktRUhYMldnN0ZIM2FPMHdhZlhFVzhpQ2Y5UGpkYklrQlpOYThnZkw2RTU5T3M4WmMxSE9FR0hGMi1rbGdUSmMtand1RzB3cXpwMjZabjJheFlFZ3ZnYw?oc=5",
+    "summary": "US cybersecurity agency releases election infrastructure plan 40 days before midterms AP News",
+    "source": "AP News",
     "category_hint": "Top News",
     "priority": 9,
-    "published_at": "2026-09-24T16:28:41+00:00",
-    "collected_at": "2026-09-24T17:26:07.900602+00:00",
+    "published_at": "2026-09-24T16:20:00+00:00",
+    "collected_at": "2026-09-24T18:30:36.935368+00:00",
     "origin": "google_news"
   },
   {
@@ -92,7 +236,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T16:01:44+00:00",
-    "collected_at": "2026-09-24T17:26:06.243180+00:00",
+    "collected_at": "2026-09-24T18:30:35.271499+00:00",
     "origin": "rss"
   },
   {
@@ -104,20 +248,8 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-24T16:00:29+00:00",
-    "collected_at": "2026-09-24T17:26:06.458645+00:00",
+    "collected_at": "2026-09-24T18:30:35.392018+00:00",
     "origin": "rss"
-  },
-  {
-    "id": "f6ea7fcdb76d258211c702d0",
-    "title": "New York lawsuit says Polymarket's prediction markets are illegal gambling - reuters.com",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaHBKRzNuRV9UcDlISEg4M2tsZURmLThPQW1ZbDMtRG91aDVLeWJJT2xsenpqbi11dENjOVp6TmpXWllXNTVmT1FFczRmY1U5YkVXVUZ6bTRIVUlSRWk5MnNDWWJobnoyU2dqSHAzR1pMaTJyR2NQa1QwQlBmX2pnUEx1ZG9oTGo2U3FDekFDYlJrVVltVG9TMmVleXNaNk5aLVVVS0VBSHk?oc=5",
-    "summary": "New York lawsuit says Polymarket's prediction markets are illegal gambling reuters.com",
-    "source": "reuters.com",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-24T15:59:22+00:00",
-    "collected_at": "2026-09-24T17:26:07.905442+00:00",
-    "origin": "google_news"
   },
   {
     "id": "24ce1ff303782d81bf982f34",
@@ -128,19 +260,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T15:54:28+00:00",
-    "collected_at": "2026-09-24T17:26:07.901928+00:00",
+    "collected_at": "2026-09-24T18:30:36.927113+00:00",
     "origin": "google_news"
   },
   {
-    "id": "1684fdd8e6efe2560e7b17fb",
-    "title": "Saudi Arabia thwarts Houthi ballistic missiles, Yemen's Saudi-led coalition says - reuters.com",
+    "id": "19d90a879521f5af4e5418bd",
+    "title": "Saudi Arabia thwarts Houthi ballistic missiles, Yemen's Saudi-led coalition says - Reuters",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW1IRmRaem1xSHEwTjd1VldSMmNqZk55VmdmZkh4QnNhU21SM0ZtWGg4RDdxSkNOM1F6ZUJ4LUYybUlzcWx6S01zbzd5N3BRSWRTc0N6eExNa2RFQXVTYlM3RmtXOFlDUk1Yc2Q0LXNkTEFPQlpCNjgzZHNlbkZXWGtXT1NRNFZ3a2lvWWNxVkk1Rng0Q2ZtNUk4TzZ0YXpNdDFaRUZQa2lBVHpnV05pV1QtZVlJSjJpTFFPTA?oc=5",
-    "summary": "Saudi Arabia thwarts Houthi ballistic missiles, Yemen's Saudi-led coalition says reuters.com",
-    "source": "reuters.com",
+    "summary": "Saudi Arabia thwarts Houthi ballistic missiles, Yemen's Saudi-led coalition says Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T15:42:16+00:00",
-    "collected_at": "2026-09-24T17:26:07.901352+00:00",
+    "collected_at": "2026-09-24T18:30:36.928481+00:00",
     "origin": "google_news"
   },
   {
@@ -152,7 +284,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-24T15:42:07+00:00",
-    "collected_at": "2026-09-24T17:26:06.458324+00:00",
+    "collected_at": "2026-09-24T18:30:35.391603+00:00",
     "origin": "rss"
   },
   {
@@ -164,7 +296,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T15:42:07+00:00",
-    "collected_at": "2026-09-24T17:26:07.908382+00:00",
+    "collected_at": "2026-09-24T18:30:36.937474+00:00",
     "origin": "google_news"
   },
   {
@@ -176,7 +308,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-24T15:37:45+00:00",
-    "collected_at": "2026-09-24T17:26:06.458798+00:00",
+    "collected_at": "2026-09-24T18:30:35.392211+00:00",
     "origin": "rss"
   },
   {
@@ -188,7 +320,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T15:37:45+00:00",
-    "collected_at": "2026-09-24T17:26:07.906873+00:00",
+    "collected_at": "2026-09-24T18:30:36.933822+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "7cf2aa1cf6ad1ab756bbcde9",
+    "title": "‘Nobody Wants This’ Takes a Big Step in Season 3 Trailer - The Hollywood Reporter",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRy1RTmYtZkZmSUpCTFdTaUhjVU53bFZnTjFWY1NfS1FzVDNmZU5sUXJlcktYWnpuZ1JyRElGLW5oTUE2Tm5JMXRKWXdSTGVTcjIxU1VpYTNvbTU2NHc1ejQ1TUVNZWY1a09wOXhTSGpyNnZaTWZ1d2tWT2pMVHRRWjFnLXBqa3Y3WXdqQmh3Z2NqT0xTeVE?oc=5",
+    "summary": "‘Nobody Wants This’ Takes a Big Step in Season 3 Trailer The Hollywood Reporter",
+    "source": "The Hollywood Reporter",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-24T15:35:03+00:00",
+    "collected_at": "2026-09-24T18:30:45.573825+00:00",
     "origin": "google_news"
   },
   {
@@ -200,7 +344,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T15:31:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.900336+00:00",
+    "collected_at": "2026-09-24T18:30:36.926452+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "49df90f6bf6b868983ae7195",
+    "title": "LA Dodgers Star Mookie Betts Signed By 3 Arts Sports & SSE - Deadline",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5VVDBKSmdJbm8yUjlHQjlyZjdzcmxLbHZ0T0xjZDMySG5nRHJCOUwxUmlFNmZ0MlJnREJDWjBoQUhMR3pmTjh1cHItMWhqY2R2SVkwZXVNUWdKS1J3d3ZJaVpIOWUyNWlRZWtya3pmcnp3NFo1d2c?oc=5",
+    "summary": "LA Dodgers Star Mookie Betts Signed By 3 Arts Sports & SSE Deadline",
+    "source": "Deadline",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-24T15:30:00+00:00",
+    "collected_at": "2026-09-24T18:30:45.574789+00:00",
     "origin": "google_news"
   },
   {
@@ -212,55 +368,55 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-24T15:27:24+00:00",
-    "collected_at": "2026-09-24T17:26:12.166872+00:00",
+    "collected_at": "2026-09-24T18:30:41.394959+00:00",
     "origin": "google_news"
   },
   {
-    "id": "b1b9cbd0a65b118e8d352d17",
-    "title": "CNN, MS NOW and Politico denied access to White House despite judge's order - reuters.com",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSGZDelJBRHdvcFBwNGNlTGwxdVNHNnk1UmhJeDZUZWd2Y3o4ZGw4QTVaM2VrT21MQWt2eUUyR2c5cnR3ckdadDZNS0RSdUpLX1FVMHpqU1B3aWVyeGs3aGp0RE44R2JoRG55QlhiUWRQOWRhUGtoZ1ZoMlhydDJOQlRPU2JkbldsaDB4UUc3TVJxU2xwMFVvbHlMNG1UOHNPWUUzSmVaVHFCR1Y0SmJvRmFSNFVDU3JyNHdhTkp0a1RuQmEzWjNrcw?oc=5",
-    "summary": "CNN, MS NOW and Politico denied access to White House despite judge's order reuters.com",
-    "source": "reuters.com",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-24T15:21:49+00:00",
-    "collected_at": "2026-09-24T17:26:07.267799+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "bcc38821948bccc27146aec3",
-    "title": "SoftBank's growing bets on AI and semiconductor assets - reuters.com",
+    "id": "3288c74128187b1aa2679d81",
+    "title": "SoftBank's growing bets on AI and semiconductor assets - Reuters",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQmlyVEJYazh1M1Z2NnUzQlA5VWVobHFDb1pRMkZQbUx6WDhBTk5razVad1RvQkdrTmNYeFV1VzZsU1ZCT1NBSGFYRGZWUVJEX0dMUUQ1MmpQVmlxVzM5U3R6VEZTRHBvUVl1X3lFNlgyeU9Ga0lPNzRGU2ZpdkFXai1MWXV5ZGpmQ3JBYzZZaFNZd2ZKTzBEQ3JFUUNKbXZMRTFfSg?oc=5",
-    "summary": "SoftBank's growing bets on AI and semiconductor assets reuters.com",
-    "source": "reuters.com",
+    "summary": "SoftBank's growing bets on AI and semiconductor assets Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-24T15:19:45+00:00",
-    "collected_at": "2026-09-24T17:26:15.494032+00:00",
+    "collected_at": "2026-09-24T18:30:44.664284+00:00",
     "origin": "google_news"
   },
   {
-    "id": "3193cacf00a6b4260b710802",
-    "title": "US appeals court reinstates Ohio law requiring voters to prove citizenship - reuters.com",
+    "id": "7b84355792daecea78739d46",
+    "title": "Asian Games: Shin Ohashi, 17, breaks 200m breaststroke world record - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpV0huNU56ODE3Tk1icDdtbXJCYjRFd04tWFFCNFVkV0plbEVQMjlYeDF2R1BZem52djBYUkh4RUxMeFczOFFqZnliWkpTeU1ESHpCMDBvT19zXzRfbWdCUGRkYU85dVFX?oc=5",
+    "summary": "Asian Games: Shin Ohashi, 17, breaks 200m breaststroke world record BBC",
+    "source": "BBC",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-24T15:12:12+00:00",
+    "collected_at": "2026-09-24T18:30:36.936665+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "6de0f7b2797a2fd31758b96e",
+    "title": "US appeals court reinstates Ohio law requiring voters to prove citizenship - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOG44MHQ4UVJuRlpkNVJMdk4xeUU2MlRJTjFlMzJId1h3dXRHV3ZjX09Fb3RvZGJUcWd3OVRjT2NlV0tWbmdSMExnQmhBRmUzbjFkck04MWJ2enpQSTFUN3pHbU5rUDh2TkFxWHQ1eFhQWURDOWNMSnlrSWF1T3h3VTdfOHctX2NXQ2FuZFo1WVRDZ0Y0ZTNMV3J6SWoxQk5uTjRDUW1QRVNNR2Vwdlp0UmFNX0xrSHlFOVB1WjN2Qm1OZw?oc=5",
-    "summary": "US appeals court reinstates Ohio law requiring voters to prove citizenship reuters.com",
-    "source": "reuters.com",
+    "summary": "US appeals court reinstates Ohio law requiring voters to prove citizenship Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T15:12:09+00:00",
-    "collected_at": "2026-09-24T17:26:07.907683+00:00",
+    "collected_at": "2026-09-24T18:30:36.930976+00:00",
     "origin": "google_news"
   },
   {
-    "id": "552375afcc41cba59169b6fe",
-    "title": "Flights suspended to Ethiopian holy town of Lalibela as fighting expands - reuters.com",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ0thQ2FqZmNRWUszTGE0UTA1RjNRWFI5NWs4eEFzdmFvTWxJY3UwSXBYazlacWlacnVhZmtfY3hfX2pJVmc4eXF2VGxvR3Jud0Vta3BYRmNKdnJuWU9qVURfTUtLY2k3OHcxbTFqdEhpNDRfOVJ5T2xISENyeTYyTzVkNkFYR1Q1UXRyd0tEZ1lrUWo2dVI2NVdUWTljRDkwUzlld3p1UFh0aG5qWXg0YlotUTN2UENPOFE?oc=5",
-    "summary": "Flights suspended to Ethiopian holy town of Lalibela as fighting expands reuters.com",
-    "source": "reuters.com",
+    "id": "b94ae0c3524b9fda2182f80e",
+    "title": "Global News Podcast | Rogue OpenAI agent hacks government site - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5SWTJKd2Q2NFZvOTlsVHJ0dW5tSmNNUlNNcXlmdDZndlNZZm00ZHNuRXNDb0hwNWtGZ1VQRmFnUnJVUmZ6Y3VQd1RRb1h5dGtp?oc=5",
+    "summary": "Global News Podcast | Rogue OpenAI agent hacks government site BBC",
+    "source": "BBC",
     "category_hint": "Top News",
     "priority": 9,
-    "published_at": "2026-09-24T15:03:37+00:00",
-    "collected_at": "2026-09-24T17:26:07.902456+00:00",
+    "published_at": "2026-09-24T15:04:11+00:00",
+    "collected_at": "2026-09-24T18:30:36.933040+00:00",
     "origin": "google_news"
   },
   {
@@ -272,7 +428,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T15:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:06.243422+00:00",
+    "collected_at": "2026-09-24T18:30:35.271791+00:00",
     "origin": "rss"
   },
   {
@@ -296,7 +452,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-24T14:37:34+00:00",
-    "collected_at": "2026-09-24T17:26:06.458958+00:00",
+    "collected_at": "2026-09-24T18:30:35.392404+00:00",
     "origin": "rss"
   },
   {
@@ -308,19 +464,19 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T14:36:19+00:00",
-    "collected_at": "2026-09-24T17:26:16.373878+00:00",
+    "collected_at": "2026-09-24T18:30:45.572402+00:00",
     "origin": "google_news"
   },
   {
-    "id": "013d1103c29b656b32fb7f32",
-    "title": "Infantino looks set to stay, but FIFA faces a new war over power - reuters.com",
+    "id": "8dcdf2bc904beccc9c0cbf6c",
+    "title": "Infantino looks set to stay, but FIFA faces a new war over power - Reuters",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ004UTM5QzNmUXhUZGRRcTZpQVRPYzltSXJaRHFlYWpLb3AyUFd6OUdxREFjRW1UcXVuaHhkRjQxc2cxX05qTDBLWXRnY1hGbEU0TG9JelZyUEpPVFpWQk00RWdNX1hjX09EZkhWMUYwb25RTkNoVGkxNXV4MFpYRlNqY3BWUUItZk15WHJjUHY4ZDZmYktyMVNKR0ZvMC1oMUlJOHJJbw?oc=5",
-    "summary": "Infantino looks set to stay, but FIFA faces a new war over power reuters.com",
-    "source": "reuters.com",
+    "summary": "Infantino looks set to stay, but FIFA faces a new war over power Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T14:27:39+00:00",
-    "collected_at": "2026-09-24T17:26:07.901103+00:00",
+    "collected_at": "2026-09-24T18:30:36.927682+00:00",
     "origin": "google_news"
   },
   {
@@ -332,7 +488,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T14:24:50+00:00",
-    "collected_at": "2026-09-24T17:26:16.374367+00:00",
+    "collected_at": "2026-09-24T18:30:45.572692+00:00",
     "origin": "google_news"
   },
   {
@@ -344,19 +500,19 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T14:19:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.365327+00:00",
+    "collected_at": "2026-09-24T18:30:45.563450+00:00",
     "origin": "google_news"
   },
   {
-    "id": "9404c7daee37918bca52db83",
-    "title": "Google plans first test of AI chips in space under Project Suncatcher - reuters.com",
+    "id": "53785db56ad2fce31dbc8fa5",
+    "title": "Google plans first test of AI chips in space under Project Suncatcher - Reuters",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZmNaNWFQQUxEalIzZUJfLUMwcTFVUmw3c0hGMDJ5NllYa0RuZ0VyeFhiV0JWOTVvMk54ZmVXLWNjcFhhby1DM0g0U3gzc0VFRlJzTG13WmN3U2VZMTdDU3BhMkk2MDJGWHExQk5nQ1Z3YjJNdXRkcktQb1A2QXduMDJQcDZ1ZFhlT2VySzBrMEpDQVFJTE9GY0l5VHNVemoySU83Tm5Ma3pfNG5vNlY0MjBzUUFEaFoxaVJDWmRTbw?oc=5",
-    "summary": "Google plans first test of AI chips in space under Project Suncatcher reuters.com",
-    "source": "reuters.com",
+    "summary": "Google plans first test of AI chips in space under Project Suncatcher Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-24T14:11:34+00:00",
-    "collected_at": "2026-09-24T17:26:15.494966+00:00",
+    "collected_at": "2026-09-24T18:30:44.665745+00:00",
     "origin": "google_news"
   },
   {
@@ -368,7 +524,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-24T14:08:38+00:00",
-    "collected_at": "2026-09-24T17:26:06.458490+00:00",
+    "collected_at": "2026-09-24T18:30:35.394797+00:00",
     "origin": "rss"
   },
   {
@@ -380,7 +536,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T14:08:38+00:00",
-    "collected_at": "2026-09-24T17:26:07.904968+00:00",
+    "collected_at": "2026-09-24T18:30:36.931927+00:00",
     "origin": "google_news"
   },
   {
@@ -392,7 +548,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T13:48:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.270135+00:00",
+    "collected_at": "2026-09-24T18:30:36.182501+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "f1920bd89dc8206dd00ff9b0",
+    "title": "How the world's biggest bond managers are investing in a tumultuous market - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYXp6bkk4UG1DMzdvTEhNb0Y2cGRGaVpZRFpIejg5TmtqVWpxRGtRTWZKY2wwWE5zVDhOMUhKVm5ZMTZDQWRVb2ZZZ3BuZzUwMlRiQWgwNEthZk0tQ2pYcFBmSlhMYzN3Mkg5VWNMaXY3X2hNc1d1MDBJVklYTURqVFdCUDJsZGFBWkdEejJMZmNaUVd5c1NxXzJ6cTlUd3FZUXZtNmFwNGwweC1jdTMwbUpGR0lxQQ?oc=5",
+    "summary": "How the world's biggest bond managers are investing in a tumultuous market Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-24T13:17:52+00:00",
+    "collected_at": "2026-09-24T18:30:36.935112+00:00",
     "origin": "google_news"
   },
   {
@@ -420,6 +588,18 @@
     "origin": "rss"
   },
   {
+    "id": "60b1c99e461f79a3ac87faff",
+    "title": "Trump says he'll discuss AI with Xi but wants to 'leave it exactly where it is' - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOWFPSF81d196aENvbnN5UkVvamNMbVhiUlBLLS1mcDBSYnJDV0poQkluYjhCTjhxODBtUFlJTnZLSjdCeHlQbEN5cFlzVWtzLW1QN2tKODR1MGdnalFiTFhoMFhkSFR5TGlFMDJVZ09oT01QZUc2azJYMG9GbTE1RE9IZDhXWTJyUmNjMmVQTTZlRjItWUJMOWViaGxEaVJCRGU1ODE4R0o3bFZNMllnbHc2THFlOXJoYXJDdHhuMlc3aHJHc0c0?oc=5",
+    "summary": "Trump says he'll discuss AI with Xi but wants to 'leave it exactly where it is' Reuters",
+    "source": "Reuters",
+    "category_hint": "Tech & AI",
+    "priority": 8,
+    "published_at": "2026-09-24T12:51:33+00:00",
+    "collected_at": "2026-09-24T18:30:44.663737+00:00",
+    "origin": "google_news"
+  },
+  {
     "id": "97e90004bdf42a1a83d6bd36",
     "title": "Trump and Xi strike cordial tone at summit amid underlying tensions",
     "url": "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit",
@@ -428,7 +608,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T12:43:15+00:00",
-    "collected_at": "2026-09-24T17:26:06.243664+00:00",
+    "collected_at": "2026-09-24T18:30:35.272042+00:00",
     "origin": "rss"
   },
   {
@@ -452,7 +632,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T12:30:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.366189+00:00",
+    "collected_at": "2026-09-24T18:30:45.564899+00:00",
     "origin": "google_news"
   },
   {
@@ -464,7 +644,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-24T12:29:39+00:00",
-    "collected_at": "2026-09-24T17:26:16.973214+00:00",
+    "collected_at": "2026-09-24T18:30:46.310260+00:00",
     "origin": "google_news"
   },
   {
@@ -488,7 +668,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T12:10:57+00:00",
-    "collected_at": "2026-09-24T17:26:07.903199+00:00",
+    "collected_at": "2026-09-24T18:30:36.930421+00:00",
     "origin": "google_news"
   },
   {
@@ -500,7 +680,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T12:07:13+00:00",
-    "collected_at": "2026-09-24T17:26:07.270374+00:00",
+    "collected_at": "2026-09-24T18:30:36.182787+00:00",
     "origin": "google_news"
   },
   {
@@ -512,7 +692,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T12:00:52+00:00",
-    "collected_at": "2026-09-24T17:26:07.903438+00:00",
+    "collected_at": "2026-09-24T18:30:36.930133+00:00",
     "origin": "google_news"
   },
   {
@@ -524,7 +704,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T12:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.365830+00:00",
+    "collected_at": "2026-09-24T18:30:45.564585+00:00",
     "origin": "google_news"
   },
   {
@@ -536,7 +716,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-24T11:52:32+00:00",
-    "collected_at": "2026-09-24T17:26:15.490922+00:00",
+    "collected_at": "2026-09-24T18:30:44.660359+00:00",
     "origin": "google_news"
   },
   {
@@ -548,31 +728,31 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T11:48:18+00:00",
-    "collected_at": "2026-09-24T17:26:07.907110+00:00",
+    "collected_at": "2026-09-24T18:30:36.935871+00:00",
     "origin": "google_news"
   },
   {
-    "id": "c622d1d7a3a6804389102c4d",
-    "title": "Cybersecurity startup Island valued at $6.4 billion amid AI agent security risks - reuters.com",
+    "id": "5d32d0d90f7cac0a1c0da44b",
+    "title": "Cybersecurity startup Island valued at $6.4 billion amid AI agent security risks - Reuters",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd1puRmlKdUNRcnUzb2hocUxkZmdland2NVEzY0V3T0g3akFuM2M0dzF4T3dxWEZVYlBMN1NxSTQ4cUR3VndWRV94eThxV3dzRjhzNzNIdnpKeUZJQ2JmZjBFSXZuU0E0LVh6cVp3dGc4RE9RVF9JWXVhbXZTQXJWREtrVkIzbzh2akFkUVJwNE8wcVlWLXd4UzFqWmM2c0p0bkk4dDZR?oc=5",
-    "summary": "Cybersecurity startup Island valued at $6.4 billion amid AI agent security risks reuters.com",
-    "source": "reuters.com",
+    "summary": "Cybersecurity startup Island valued at $6.4 billion amid AI agent security risks Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-24T11:38:17+00:00",
-    "collected_at": "2026-09-24T17:26:15.490420+00:00",
+    "collected_at": "2026-09-24T18:30:44.659533+00:00",
     "origin": "google_news"
   },
   {
-    "id": "6856e023dfa86d2ee9820f43",
-    "title": "India's 'cockroach' movement says it will launch protest if poll panel chief doesn't quit in 48 hours - reuters.com",
+    "id": "fd7118c9f2d45db8a2412723",
+    "title": "India's 'cockroach' movement says it will launch protest if poll panel chief doesn't quit in 48 hours - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYVZzUi1NT0tFZTZsVFVNTUFBalB6RUNHWS1uYmNKRGVua3ZCbUVFS0kybUdXSlhsZlIxMkNOV0w2eEZlY29BMHNfV2RVUHV2ZHhZc2dJMmpQWnZaeU9oQlV2ZGIybmgwQ1RrT0E2dGVfdHFLR0ZGbHROQ0MzMHJDSUR4dVhKUDMzZjlmZzVDZ20zZHNzQUhLN0ZMcUJUUUN1U3JUbFVRSXFKVU96dHdib3VqajB3UFM4RUstejh2Tm5qak0?oc=5",
-    "summary": "India's 'cockroach' movement says it will launch protest if poll panel chief doesn't quit in 48 hours reuters.com",
-    "source": "reuters.com",
+    "summary": "India's 'cockroach' movement says it will launch protest if poll panel chief doesn't quit in 48 hours Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T11:10:35+00:00",
-    "collected_at": "2026-09-24T17:26:07.903910+00:00",
+    "collected_at": "2026-09-24T18:30:36.929320+00:00",
     "origin": "google_news"
   },
   {
@@ -584,7 +764,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T11:10:14+00:00",
-    "collected_at": "2026-09-24T17:26:06.243941+00:00",
+    "collected_at": "2026-09-24T18:30:35.272363+00:00",
     "origin": "rss"
   },
   {
@@ -597,6 +777,18 @@
     "priority": 9,
     "published_at": "2026-09-24T11:10:14+00:00",
     "collected_at": "2026-09-24T17:26:07.274623+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "f2922926cd20728fcf87aec2",
+    "title": "COMMENTARY: AI could help governments cut debt — but unevenly - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQmFJZlhXMnJVOGZlLW5aSUVHdFB0U1hFNFBMU19za2lkRDdwckJnWkNPMktHaFFzTEVacGNCdmwxMVVvSEdnd2V0b20wYXJCbHpXdU53RTRhQ3EwZDRBNlZLbjVzSXAyWWxxQ3pmRDQyVDRxdVJoTEt3UzFKWUtydEZEWnRJN08xWjZ2eU1RdHE3YWFpcFlTZnlSbmlNNGlZU05uME94dERrdFBmOFpsbnd1R2NubENad1pISXhDcXBteWs3ZG1F?oc=5",
+    "summary": "COMMENTARY: AI could help governments cut debt — but unevenly Reuters",
+    "source": "Reuters",
+    "category_hint": "Tech & AI",
+    "priority": 8,
+    "published_at": "2026-09-24T11:06:10+00:00",
+    "collected_at": "2026-09-24T18:30:44.662644+00:00",
     "origin": "google_news"
   },
   {
@@ -620,7 +812,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-24T11:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.534162+00:00",
+    "collected_at": "2026-09-24T18:30:37.585471+00:00",
     "origin": "google_news"
   },
   {
@@ -632,7 +824,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-24T11:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.534446+00:00",
+    "collected_at": "2026-09-24T18:30:37.585818+00:00",
     "origin": "google_news"
   },
   {
@@ -644,7 +836,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-24T10:58:54+00:00",
-    "collected_at": "2026-09-24T17:26:12.168429+00:00",
+    "collected_at": "2026-09-24T18:30:41.396876+00:00",
     "origin": "google_news"
   },
   {
@@ -656,7 +848,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T10:47:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.904724+00:00",
+    "collected_at": "2026-09-24T18:30:36.932222+00:00",
     "origin": "google_news"
   },
   {
@@ -680,7 +872,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T10:43:25+00:00",
-    "collected_at": "2026-09-24T17:26:06.244136+00:00",
+    "collected_at": "2026-09-24T18:30:35.272580+00:00",
     "origin": "rss"
   },
   {
@@ -704,7 +896,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-24T10:11:15+00:00",
-    "collected_at": "2026-09-24T17:26:06.459429+00:00",
+    "collected_at": "2026-09-24T18:30:35.393135+00:00",
     "origin": "rss"
   },
   {
@@ -716,7 +908,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-24T10:11:15+00:00",
-    "collected_at": "2026-09-24T17:26:16.965115+00:00",
+    "collected_at": "2026-09-24T18:30:46.300563+00:00",
     "origin": "google_news"
   },
   {
@@ -728,19 +920,31 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-24T10:09:22+00:00",
-    "collected_at": "2026-09-24T16:29:24.106276+00:00",
+    "collected_at": "2026-09-24T18:30:44.660626+00:00",
     "origin": "google_news"
   },
   {
-    "id": "2b81d519ed838522c3cabe3b",
-    "title": "Financing of historic AI buildout raises systemic risks in US, researcher says - reuters.com",
+    "id": "87d7c9dc23ed08669851d90f",
+    "title": "Financing of historic AI buildout raises systemic risks in US, researcher says - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONTI0NGRQVHZXUklOa2xra3RUeVRIUnBhYjdYVENBX1UzTkJoZ1hsX1lvX185ajhhNG5xeWpCMWctSUlnVDFlcE93akVCblpGMy1QY0lCUEJDSVZyZnFWVVA4ZzRhSDM2eVlKelBJRDQ1dlh4UjRsYS0xdVBVX2lWRGQ5ZklQUi03NnZBVm9ncE1KU2JOR3hWRFZ6djBVR1dCak5zREE0VUp3UF9ieWRsQlk0VXUycXBQNTQ1eHdzbkdydw?oc=5",
-    "summary": "Financing of historic AI buildout raises systemic risks in US, researcher says reuters.com",
-    "source": "reuters.com",
+    "summary": "Financing of historic AI buildout raises systemic risks in US, researcher says Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-24T10:07:31+00:00",
-    "collected_at": "2026-09-24T17:26:15.488372+00:00",
+    "collected_at": "2026-09-24T18:30:44.655482+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "f5f5d209a6bf825bf6fa09a4",
+    "title": "Steve Sack cartoon: Mitch McConnell votes - MinnPost",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrcVY1aTlRazROR0MtNHBSQVdiRkgxRkN5VXIzb3Z5MnVnRjh2NXNRZDVaVjBiLVMyX0lWZjNnUGpKd2ZtRlA3UXh3dkJUeUVBYl9qYTMzWExPNVdRclNLMWozbjE3by1sOXpxNVlQNFBZM0tSNDk0cHBEQkVmYk0?oc=5",
+    "summary": "Steve Sack cartoon: Mitch McConnell votes MinnPost",
+    "source": "MinnPost",
+    "category_hint": "Minnesota",
+    "priority": 9,
+    "published_at": "2026-09-24T10:00:00+00:00",
+    "collected_at": "2026-09-24T18:30:37.592144+00:00",
     "origin": "google_news"
   },
   {
@@ -764,7 +968,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T09:58:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.905218+00:00",
+    "collected_at": "2026-09-24T18:30:36.932762+00:00",
     "origin": "google_news"
   },
   {
@@ -824,7 +1028,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-24T09:04:15+00:00",
-    "collected_at": "2026-09-24T17:26:08.537989+00:00",
+    "collected_at": "2026-09-24T18:30:37.590267+00:00",
     "origin": "google_news"
   },
   {
@@ -836,7 +1040,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:06.244343+00:00",
+    "collected_at": "2026-09-24T18:30:35.272827+00:00",
     "origin": "rss"
   },
   {
@@ -848,7 +1052,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:06.244516+00:00",
+    "collected_at": "2026-09-24T18:30:35.273084+00:00",
     "origin": "rss"
   },
   {
@@ -860,7 +1064,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:06.244714+00:00",
+    "collected_at": "2026-09-24T18:30:35.273284+00:00",
     "origin": "rss"
   },
   {
@@ -872,8 +1076,44 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:06.244882+00:00",
+    "collected_at": "2026-09-24T18:30:35.273481+00:00",
     "origin": "rss"
+  },
+  {
+    "id": "f28540a5dcfb3a0000cfac0a",
+    "title": "Tucker Carlson has reconsidered Trump. And quite a bit else - NPR",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa2JZM0NleFJUbXhCVTF6V2J3VkIxMXZaMkFQM1BvcG90M0NQRndBT0VROEJBb0Y2U1MyUldmN0V2emx0TTAtNkdHY0huZEhqQVZDaFRiakRiOFYwLVNBZGlnZEx2aG9JS0dLMHMyZW84ZDVHRXU5YjFRRUtIZV9tOXpramg0ODRKTnRpaw?oc=5",
+    "summary": "Tucker Carlson has reconsidered Trump. And quite a bit else NPR",
+    "source": "NPR",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-24T09:00:00+00:00",
+    "collected_at": "2026-09-24T18:30:36.929583+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "e0f020627da95286b3a9b24c",
+    "title": "Rochester’s biomedical startup economy is growing. Finding the right workers is harder - MPR News",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnAyX1FINkFEM2ZXSWl4d1FzOFU4ZHAtUm5sWTNFYl83dmNVUEFCUjFrSGt0b3ZNQjdZWS1kWUlJdk5EcUthWE53UlNmTENFdmtUM1BaOUJXSnRPTXIwVFJwY1d0MlpFRlJUM0tvOHI5cTJVeExzMXRyUzRqVll6NThoSExzX1dUXzBWTmVISDNrSjk5X0RsR3J3?oc=5",
+    "summary": "Rochester’s biomedical startup economy is growing. Finding the right workers is harder MPR News",
+    "source": "MPR News",
+    "category_hint": "Minnesota",
+    "priority": 9,
+    "published_at": "2026-09-24T09:00:00+00:00",
+    "collected_at": "2026-09-24T18:30:37.586152+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "bc7470c8bb4073295ca40706",
+    "title": "Minnesota teens are using less cannabis. Some groups are still at higher risk - MPR News",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUkRCQjM5VGR0Zm9LaGcwYWF4WFR5cmhQc3dGME5qUHVIZnVDMUtlbjA0WTQ1a0toc3hqQmNSdmxyNDVNVENKTmtwY1JvZklkVFZ3MUJXcWZRUnlBYVMxbkJDaFg3ZVJVRGg5QThyWEJpNzF2THJya0RpcXdVbEIwVHQzUHJTTmdOWnlCSGxjaHBHRURmcUdoa2NSSTVrOHFsZjZHM3pnLXZ0d1JWRW9BQVQ2NXBsZ3Bz?oc=5",
+    "summary": "Minnesota teens are using less cannabis. Some groups are still at higher risk MPR News",
+    "source": "MPR News",
+    "category_hint": "Minnesota",
+    "priority": 9,
+    "published_at": "2026-09-24T09:00:00+00:00",
+    "collected_at": "2026-09-24T18:30:37.587543+00:00",
+    "origin": "google_news"
   },
   {
     "id": "986ffc139f6ed7cbf1a69102",
@@ -888,42 +1128,6 @@
     "origin": "rss"
   },
   {
-    "id": "f28540a5dcfb3a0000cfac0a",
-    "title": "Tucker Carlson has reconsidered Trump. And quite a bit else - NPR",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa2JZM0NleFJUbXhCVTF6V2J3VkIxMXZaMkFQM1BvcG90M0NQRndBT0VROEJBb0Y2U1MyUldmN0V2emx0TTAtNkdHY0huZEhqQVZDaFRiakRiOFYwLVNBZGlnZEx2aG9JS0dLMHMyZW84ZDVHRXU5YjFRRUtIZV9tOXpramg0ODRKTnRpaw?oc=5",
-    "summary": "Tucker Carlson has reconsidered Trump. And quite a bit else NPR",
-    "source": "NPR",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-24T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.902692+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "e0f020627da95286b3a9b24c",
-    "title": "Rochester’s biomedical startup economy is growing. Finding the right workers is harder - MPR News",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnAyX1FINkFEM2ZXSWl4d1FzOFU4ZHAtUm5sWTNFYl83dmNVUEFCUjFrSGt0b3ZNQjdZWS1kWUlJdk5EcUthWE53UlNmTENFdmtUM1BaOUJXSnRPTXIwVFJwY1d0MlpFRlJUM0tvOHI5cTJVeExzMXRyUzRqVll6NThoSExzX1dUXzBWTmVISDNrSjk5X0RsR3J3?oc=5",
-    "summary": "Rochester’s biomedical startup economy is growing. Finding the right workers is harder MPR News",
-    "source": "MPR News",
-    "category_hint": "Minnesota",
-    "priority": 9,
-    "published_at": "2026-09-24T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.534705+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "bc7470c8bb4073295ca40706",
-    "title": "Minnesota teens are using less cannabis. Some groups are still at higher risk - MPR News",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUkRCQjM5VGR0Zm9LaGcwYWF4WFR5cmhQc3dGME5qUHVIZnVDMUtlbjA0WTQ1a0toc3hqQmNSdmxyNDVNVENKTmtwY1JvZklkVFZ3MUJXcWZRUnlBYVMxbkJDaFg3ZVJVRGg5QThyWEJpNzF2THJya0RpcXdVbEIwVHQzUHJTTmdOWnlCSGxjaHBHRURmcUdoa2NSSTVrOHFsZjZHM3pnLXZ0d1JWRW9BQVQ2NXBsZ3Bz?oc=5",
-    "summary": "Minnesota teens are using less cannabis. Some groups are still at higher risk MPR News",
-    "source": "MPR News",
-    "category_hint": "Minnesota",
-    "priority": 9,
-    "published_at": "2026-09-24T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.536303+00:00",
-    "origin": "google_news"
-  },
-  {
     "id": "505501cde24c94b1329ee222",
     "title": "Tucker Carlson on the war with Iran and why he worries about the spread of tribalism - NPR",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWi1UMVNYMTU0ZWUyemhSOHlFbUZxdXY4d2FzcW1mdE1majU5N0QtNllqWi1yWl9qYnoyREc3T0tSYVQ0ZDBTOXVSTUJjYy1pNlEwYzQ1TWhQRU13QlRVempENFRaVnFOUGwzczRCek1RQV9CbDdFS0l1eVlpY2ZLVHBMN2U3VXBwNFcxWkhPLXlqOXJKTFBHMUJBUFE5MmIxU1hBTGxfanl4RER0b0U3X1kwLXRKUjFnaE9INENJcjd6WXh0elhkVw?oc=5",
@@ -932,7 +1136,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T08:45:45+00:00",
-    "collected_at": "2026-09-24T17:26:07.902212+00:00",
+    "collected_at": "2026-09-24T18:30:36.928770+00:00",
     "origin": "google_news"
   },
   {
@@ -944,7 +1148,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T08:44:54+00:00",
-    "collected_at": "2026-09-24T17:26:07.272329+00:00",
+    "collected_at": "2026-09-24T18:30:36.185660+00:00",
     "origin": "google_news"
   },
   {
@@ -958,6 +1162,18 @@
     "published_at": "2026-09-24T08:44:54+00:00",
     "collected_at": "2026-09-24T15:28:29.177233+00:00",
     "origin": "rss"
+  },
+  {
+    "id": "7261264d08361fea012c5bed",
+    "title": "For their podcast, 2 elementary school students ask adults why they chose their jobs - NPR",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWlZ6S0FNLVE3ZVV1RFBxY1F6eVBVWXBWU05xMmR0TXNrNGlPQWRPWVJTQ3hNZzJyT043MTZoX1g2Ukx4RzZqNGZkMFAxYmtBbWJnODdJX09CYzl2bm9QOUNJUXlHRDFYY2hZcm9pbGxya283Mm1UNlgtdWdYQmtmUy1OVllnMklvdWp3X1dJQ084VU9jVDlQMjFWUXNxTXZ4MkxmM3RWWl9EX1ZqeVZRRURWZ2VQTlk5cVVfNVozaExqVVVRMno0?oc=5",
+    "summary": "For their podcast, 2 elementary school students ask adults why they chose their jobs NPR",
+    "source": "NPR",
+    "category_hint": "Good News",
+    "priority": 7,
+    "published_at": "2026-09-24T08:42:53+00:00",
+    "collected_at": "2026-09-24T18:30:46.310517+00:00",
+    "origin": "google_news"
   },
   {
     "id": "f1fd38194e2770e0b3a366f6",
@@ -980,7 +1196,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-24T08:26:19+00:00",
-    "collected_at": "2026-09-24T17:26:06.459967+00:00",
+    "collected_at": "2026-09-24T18:30:35.393779+00:00",
     "origin": "rss"
   },
   {
@@ -992,7 +1208,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T08:26:19+00:00",
-    "collected_at": "2026-09-24T17:26:07.909319+00:00",
+    "collected_at": "2026-09-24T18:30:36.938158+00:00",
     "origin": "google_news"
   },
   {
@@ -1016,7 +1232,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T08:13:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.276418+00:00",
+    "collected_at": "2026-09-24T18:30:36.189250+00:00",
     "origin": "google_news"
   },
   {
@@ -1028,7 +1244,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T07:30:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.908609+00:00",
+    "collected_at": "2026-09-24T18:30:36.937209+00:00",
     "origin": "google_news"
   },
   {
@@ -1040,7 +1256,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-24T06:47:12+00:00",
-    "collected_at": "2026-09-24T17:26:06.459273+00:00",
+    "collected_at": "2026-09-24T18:30:35.392958+00:00",
     "origin": "rss"
   },
   {
@@ -1052,7 +1268,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T06:45:25+00:00",
-    "collected_at": "2026-09-24T17:26:15.744702+00:00",
+    "collected_at": "2026-09-24T18:30:44.882600+00:00",
     "origin": "rss"
   },
   {
@@ -1064,19 +1280,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T06:43:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.905912+00:00",
+    "collected_at": "2026-09-24T18:30:36.934158+00:00",
     "origin": "google_news"
   },
   {
-    "id": "1bdd2a913077ba808e72abe0",
-    "title": "Judge orders Trump administration to restore journalists' access to White House - NPR",
+    "id": "4debbe741e582e4967c4270b",
+    "title": "Journalists for CNN, MS NOW and Politico return to the White House upon judge's orders - NPR",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQajJmRTZzN2tLZGNpWlVhbnZGeFdQMU42V0RoQkNFZlV4clJmalhIbF9qNVByQ216MU5zVHRFQnQxSjhvcVd3cUxRdXRJOWVYWFY5RkJKQVRnaEZBUnN4YkpMOEdHUGtQSHVyay11amN2R1daUGJrZnNoZU9DVFI4V1NFdUJoamI3N1QwS2pLUDk5cTQ?oc=5",
-    "summary": "Judge orders Trump administration to restore journalists' access to White House NPR",
+    "summary": "Journalists for CNN, MS NOW and Politico return to the White House upon judge's orders NPR",
     "source": "NPR",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T06:21:06+00:00",
-    "collected_at": "2026-09-24T17:26:07.274846+00:00",
+    "collected_at": "2026-09-24T18:30:36.183753+00:00",
     "origin": "google_news"
   },
   {
@@ -1136,7 +1352,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T05:27:58+00:00",
-    "collected_at": "2026-09-24T17:26:15.745862+00:00",
+    "collected_at": "2026-09-24T18:30:44.883872+00:00",
     "origin": "rss"
   },
   {
@@ -1148,7 +1364,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-24T05:27:31+00:00",
-    "collected_at": "2026-09-24T17:26:16.969629+00:00",
+    "collected_at": "2026-09-24T18:30:46.305571+00:00",
     "origin": "google_news"
   },
   {
@@ -1160,7 +1376,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-24T05:26:16+00:00",
-    "collected_at": "2026-09-24T17:26:16.970793+00:00",
+    "collected_at": "2026-09-24T18:30:46.306935+00:00",
     "origin": "google_news"
   },
   {
@@ -1172,7 +1388,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T05:18:26+00:00",
-    "collected_at": "2026-09-24T17:26:07.906173+00:00",
+    "collected_at": "2026-09-24T18:30:36.934435+00:00",
     "origin": "google_news"
   },
   {
@@ -1184,7 +1400,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T05:14:13+00:00",
-    "collected_at": "2026-09-24T17:26:15.745225+00:00",
+    "collected_at": "2026-09-24T18:30:44.883175+00:00",
     "origin": "rss"
   },
   {
@@ -1200,27 +1416,27 @@
     "origin": "rss"
   },
   {
-    "id": "6d9ad9dccec27fc30f87a96f",
-    "title": "Trump-Xi meeting outside UN spotlight tests world body's clout - reuters.com",
+    "id": "14bfa2c1e8a40c09279d681e",
+    "title": "Trump-Xi meeting outside UN spotlight tests world body's clout - Reuters",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVjdDUU9HODhTcWdINGxKSE03VHRiTllZWWZRQ0pXdjFIQ3ZFTW83SFJHNF9ERmZJQVM1R0dsWFNYeTlyMWpKN0VOVnl6Z0tGbUJUTHJfMFBzaUFtSmJaYVR2RW9uYTNCbWx5bXBjU3Fia2tPdzdXbHM3UmtQUk9vekdkVk1OMXg4YVY5TEJn?oc=5",
-    "summary": "Trump-Xi meeting outside UN spotlight tests world body's clout reuters.com",
-    "source": "reuters.com",
+    "summary": "Trump-Xi meeting outside UN spotlight tests world body's clout Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T05:03:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.902929+00:00",
+    "collected_at": "2026-09-24T18:30:36.929847+00:00",
     "origin": "google_news"
   },
   {
-    "id": "4ce5046a2c69f9382eb5496c",
-    "title": "Trump-Xi summit in Washington begins with great fanfare but low expectations - reuters.com",
+    "id": "eac76ad4c1b337da88b6d226",
+    "title": "Trump-Xi summit in Washington begins with great fanfare but low expectations - Reuters",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOFBtV0xyRTZ6QjVMdWVrcU5qb294UkxGZU9LTldydjd4UldJdlZxdjBOS29ucEt1emVQcWwzVjhUM2lXQlBobEJSOTRFNVpRaXhwRnVXNXFSZzI0Y1Q4NDRXLVQyTzJ5NVhGZ2h2V2FSNUdRemZ5blp3NGJ6eTlyVzhvZ3BpTEpRUHVzOW5HZ0s2TmFDU0VYNjFB?oc=5",
-    "summary": "Trump-Xi summit in Washington begins with great fanfare but low expectations reuters.com",
-    "source": "reuters.com",
+    "summary": "Trump-Xi summit in Washington begins with great fanfare but low expectations Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T05:02:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.276657+00:00",
+    "collected_at": "2026-09-24T18:30:36.188960+00:00",
     "origin": "google_news"
   },
   {
@@ -1260,15 +1476,15 @@
     "origin": "google_news"
   },
   {
-    "id": "e9f44760565d752dc056a462",
-    "title": "Morning Bid: Diplomacy takes a back seat - reuters.com",
+    "id": "1b0a91c084d972325aaec585",
+    "title": "Morning Bid: Diplomacy takes a back seat - Reuters",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU01WX1JfTzIwdUo1SzFaM0cxdFJxeEhZakFPazkteXR6Y2l6cUNMekJFNHdiN2ZsX1hEUUZnM2hQaTRMZy1BY1F2bzBlc0pwZ2p1OXFhSVluVFVCbjY2RUZVRDJZNF95cVNlOGNJZlpVQWZQUVJWaUlfT0JmMFVqNUhkaw?oc=5",
-    "summary": "Morning Bid: Diplomacy takes a back seat reuters.com",
-    "source": "reuters.com",
+    "summary": "Morning Bid: Diplomacy takes a back seat Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T04:31:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.906408+00:00",
+    "collected_at": "2026-09-24T18:30:36.934818+00:00",
     "origin": "google_news"
   },
   {
@@ -1280,7 +1496,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T04:23:38+00:00",
-    "collected_at": "2026-09-24T17:26:07.904154+00:00",
+    "collected_at": "2026-09-24T18:30:36.931628+00:00",
     "origin": "google_news"
   },
   {
@@ -1304,7 +1520,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T04:11:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.368461+00:00",
+    "collected_at": "2026-09-24T18:30:45.566724+00:00",
     "origin": "google_news"
   },
   {
@@ -1316,7 +1532,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-24T04:03:46+00:00",
-    "collected_at": "2026-09-24T17:26:12.169415+00:00",
+    "collected_at": "2026-09-24T18:30:41.398316+00:00",
     "origin": "google_news"
   },
   {
@@ -1328,19 +1544,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T04:01:09+00:00",
-    "collected_at": "2026-09-24T17:26:07.276900+00:00",
+    "collected_at": "2026-09-24T18:30:36.189950+00:00",
     "origin": "google_news"
   },
   {
-    "id": "686c233bb58dd9bc33cd26ad",
-    "title": "Moroccan centrist party tops parliament vote after boost from football chief - reuters.com",
+    "id": "23b00d56284405a863bfd98b",
+    "title": "Moroccan centrist party tops parliament vote after boost from football chief - Reuters",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmNYZUlQOGhLd3QzeXNoOTd5SmctdlMwQ2VGT3BUVU1ZRDZ4YWtLMWlCVmRvT09NcW91TzA2TGRLdnJTSFh3WERFeUxxcUwtYnIxdXVJMnhmeGdxTXBQZ3JwR3IzM2FYaFJDcFFqUWFMRG8wLWJhakwwNzhYZ21FazdNMjljLVE0OFh5TG5hSFo1SFJBOUR0ekZSTjlXbngy?oc=5",
-    "summary": "Moroccan centrist party tops parliament vote after boost from football chief reuters.com",
-    "source": "reuters.com",
+    "summary": "Moroccan centrist party tops parliament vote after boost from football chief Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T03:56:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.904384+00:00",
+    "collected_at": "2026-09-24T18:30:36.932493+00:00",
     "origin": "google_news"
   },
   {
@@ -1380,15 +1596,15 @@
     "origin": "rss"
   },
   {
-    "id": "39d155a3f040a83c20df51ee",
-    "title": "NLRB puts Genesys nurses' union removal petition on hold - WJRT ABC12",
+    "id": "267ca40936f9d92f0853ca73",
+    "title": "NLRB puts Genesys nurses' union removal petition on hold - abc12.com",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSWptVmFtZk1Qc0xfbnI3cmJ2QlFTS2ZkNm1BVkFMMC0tSGF0MGpteVF1MW1pUnFFQWVZUlhWMXFMdFczdHJiM1JxV0VUOGN3Vjg2STJnZndYTkNtcFF1dURyNUNqWGZWMS1DblNMd2RWMERwUjFLTGZnbkFGYjFWSmRBSW9FNVBhcUgzblQyNWtERVdFUTdEWUd2c2J0aFpPYUNlX2hTelViX1U1YkVYZUtxWEZfZklpckd1c2FjYVJqdWJPTnlONUxqQWljMmdya2NUell3?oc=5",
-    "summary": "NLRB puts Genesys nurses' union removal petition on hold WJRT ABC12",
-    "source": "WJRT ABC12",
+    "summary": "NLRB puts Genesys nurses' union removal petition on hold abc12.com",
+    "source": "abc12.com",
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-24T03:17:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.167370+00:00",
+    "collected_at": "2026-09-24T18:30:41.395531+00:00",
     "origin": "google_news"
   },
   {
@@ -1400,7 +1616,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T02:57:51+00:00",
-    "collected_at": "2026-09-24T17:26:16.365032+00:00",
+    "collected_at": "2026-09-24T18:30:45.563131+00:00",
     "origin": "google_news"
   },
   {
@@ -1412,7 +1628,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T02:30:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.905673+00:00",
+    "collected_at": "2026-09-24T18:30:36.933305+00:00",
     "origin": "google_news"
   },
   {
@@ -1436,7 +1652,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T02:19:15+00:00",
-    "collected_at": "2026-09-24T17:26:07.275576+00:00",
+    "collected_at": "2026-09-24T18:30:36.188136+00:00",
     "origin": "google_news"
   },
   {
@@ -1448,7 +1664,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-24T02:04:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.168074+00:00",
+    "collected_at": "2026-09-24T18:30:41.396590+00:00",
     "origin": "google_news"
   },
   {
@@ -1488,15 +1704,15 @@
     "origin": "google_news"
   },
   {
-    "id": "dcfde26b65619c20471ef320",
-    "title": "Oil prices jump 4% as Houthis fire missiles at Saudi Arabia - reuters.com",
+    "id": "8179961b4c940b1073b207f2",
+    "title": "Oil prices jump 4% as Houthis fire missiles at Saudi Arabia - Reuters",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1FxSEFPZkVpeHV0LS1WTURzc3lOWWM3d0dfTG1mQ0hBWmZiLWhia1FPbnUzdm5yMVhuZE1RenYyOTNqYmFqT2d5MzVtNE1IcHJCNGJ4aXU0US1Tc09OWnJINzRpQkFTWXdsczlhcE50N25wT052OUZhS21QOG9haGV4XzFTZnQ4NzNTWFlVbU1QcDRyZC0yejVxX1dabVZmWHMyMVM0dWE5RGpNWXZNVHBn?oc=5",
-    "summary": "Oil prices jump 4% as Houthis fire missiles at Saudi Arabia reuters.com",
-    "source": "reuters.com",
+    "summary": "Oil prices jump 4% as Houthis fire missiles at Saudi Arabia Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T01:17:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.906638+00:00",
+    "collected_at": "2026-09-24T18:30:36.935620+00:00",
     "origin": "google_news"
   },
   {
@@ -1508,7 +1724,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-24T01:02:55+00:00",
-    "collected_at": "2026-09-24T17:26:08.542145+00:00",
+    "collected_at": "2026-09-24T18:30:37.595320+00:00",
     "origin": "google_news"
   },
   {
@@ -1520,7 +1736,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-24T00:50:24+00:00",
-    "collected_at": "2026-09-24T17:26:06.461190+00:00",
+    "collected_at": "2026-09-24T18:30:35.395322+00:00",
     "origin": "rss"
   },
   {
@@ -1556,19 +1772,19 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-24T00:15:46+00:00",
-    "collected_at": "2026-09-24T17:26:06.461032+00:00",
+    "collected_at": "2026-09-24T18:30:35.395155+00:00",
     "origin": "rss"
   },
   {
-    "id": "d48e7d37aeb79e61bd873431",
-    "title": "SoftBank raises $11.1 billion in world's biggest high-yield corporate bond sale - reuters.com",
+    "id": "74e20ecf5aab4c1ff436ff1c",
+    "title": "SoftBank raises $11.1 billion in world's biggest high-yield corporate bond sale - Reuters",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeldGcjFrNndNWHBkZ3ppV1hNSklkU3BNWGw5ZWFZQ1VyMWptRmJTN2pEMVBfUVFoLU0xOUhaUVN4VVR3RTNKeXNySkFGZ2tsRWVLRkY0SnhTdDUwcTZwWS1PYVBPdklXN0NLd1phMEt6Uzc3blZleGxGYUh0ZmhLY1RVREJxcE5VNFBsenVhcXpnV0R2WGVXWk9uUGdvT3BRSVRDVFFZSk1aZl92ZGxwSG1sbWg?oc=5",
-    "summary": "SoftBank raises $11.1 billion in world's biggest high-yield corporate bond sale reuters.com",
-    "source": "reuters.com",
+    "summary": "SoftBank raises $11.1 billion in world's biggest high-yield corporate bond sale Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T00:13:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.908842+00:00",
+    "collected_at": "2026-09-24T18:30:36.937854+00:00",
     "origin": "google_news"
   },
   {
@@ -1592,7 +1808,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T23:58:50+00:00",
-    "collected_at": "2026-09-24T17:26:06.461341+00:00",
+    "collected_at": "2026-09-24T18:30:35.395489+00:00",
     "origin": "rss"
   },
   {
@@ -1604,7 +1820,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T23:42:38+00:00",
-    "collected_at": "2026-09-24T17:26:06.461488+00:00",
+    "collected_at": "2026-09-24T18:30:35.395657+00:00",
     "origin": "rss"
   },
   {
@@ -1640,19 +1856,19 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T23:31:16+00:00",
-    "collected_at": "2026-09-24T17:26:16.372215+00:00",
+    "collected_at": "2026-09-24T18:30:45.570895+00:00",
     "origin": "google_news"
   },
   {
-    "id": "9d92835d427f484c56761ee3",
-    "title": "Judge skeptical of Trump's White House media ban at hearing - reuters.com",
+    "id": "8ef6b546d714d8a4a50d1659",
+    "title": "Judge skeptical of Trump's White House media ban at hearing - Reuters",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbHZCTDh5UkxYMTBaTFJxcElhNlpvemdJMmYxUnRleHFwTWNRdDBoNjRmcEoyMmJMWVluLVZOelE5ek9oQ2EydlpVcUp4aUQ4TF9DTGtOSnhDVFJlSmU0cUhFY2ZNQzJLUzhJaVBQUDkyLS1lbGlCSXNPMzVsWVF3c3NkNjQ0QzJuVDFMd0xDaENVNmRHbGxlMUhIem1ESXN1Z1kzaHVoZXhCSE9KVGV4dnlBNUEtUQ?oc=5",
-    "summary": "Judge skeptical of Trump's White House media ban at hearing reuters.com",
-    "source": "reuters.com",
+    "summary": "Judge skeptical of Trump's White House media ban at hearing Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T23:18:11+00:00",
-    "collected_at": "2026-09-24T17:26:07.273618+00:00",
+    "collected_at": "2026-09-24T18:30:36.186243+00:00",
     "origin": "google_news"
   },
   {
@@ -1664,7 +1880,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T23:18:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.538386+00:00",
+    "collected_at": "2026-09-24T18:30:37.591025+00:00",
     "origin": "google_news"
   },
   {
@@ -1676,7 +1892,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T23:14:10+00:00",
-    "collected_at": "2026-09-24T17:26:06.461646+00:00",
+    "collected_at": "2026-09-24T18:30:35.395838+00:00",
     "origin": "rss"
   },
   {
@@ -1700,7 +1916,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T23:08:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.171247+00:00",
+    "collected_at": "2026-09-24T18:30:41.400413+00:00",
     "origin": "google_news"
   },
   {
@@ -1712,7 +1928,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T23:03:56+00:00",
-    "collected_at": "2026-09-24T17:26:06.461966+00:00",
+    "collected_at": "2026-09-24T18:30:35.396213+00:00",
     "origin": "rss"
   },
   {
@@ -1760,7 +1976,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T22:40:39+00:00",
-    "collected_at": "2026-09-24T17:26:07.273034+00:00",
+    "collected_at": "2026-09-24T18:30:36.186971+00:00",
     "origin": "google_news"
   },
   {
@@ -1796,7 +2012,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T22:27:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.166318+00:00",
+    "collected_at": "2026-09-24T18:30:41.394004+00:00",
     "origin": "google_news"
   },
   {
@@ -1808,7 +2024,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T22:26:55+00:00",
-    "collected_at": "2026-09-24T17:26:08.534951+00:00",
+    "collected_at": "2026-09-24T18:30:37.586446+00:00",
     "origin": "google_news"
   },
   {
@@ -1832,7 +2048,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T22:12:40+00:00",
-    "collected_at": "2026-09-24T17:26:08.536064+00:00",
+    "collected_at": "2026-09-24T18:30:37.588215+00:00",
     "origin": "google_news"
   },
   {
@@ -1856,7 +2072,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T22:01:17+00:00",
-    "collected_at": "2026-09-24T17:26:06.460885+00:00",
+    "collected_at": "2026-09-24T18:30:35.394984+00:00",
     "origin": "rss"
   },
   {
@@ -1868,7 +2084,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T21:53:38+00:00",
-    "collected_at": "2026-09-24T17:26:15.745061+00:00",
+    "collected_at": "2026-09-24T18:30:44.882996+00:00",
     "origin": "rss"
   },
   {
@@ -1880,7 +2096,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T21:36:23+00:00",
-    "collected_at": "2026-09-24T17:26:08.536547+00:00",
+    "collected_at": "2026-09-24T18:30:37.588540+00:00",
     "origin": "google_news"
   },
   {
@@ -1892,7 +2108,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T21:35:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.167603+00:00",
+    "collected_at": "2026-09-24T18:30:41.395835+00:00",
     "origin": "google_news"
   },
   {
@@ -1916,7 +2132,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T21:29:04+00:00",
-    "collected_at": "2026-09-24T17:26:06.462128+00:00",
+    "collected_at": "2026-09-24T18:30:35.396476+00:00",
     "origin": "rss"
   },
   {
@@ -1952,7 +2168,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T21:20:47+00:00",
-    "collected_at": "2026-09-24T17:26:07.908154+00:00",
+    "collected_at": "2026-09-24T18:30:36.936938+00:00",
     "origin": "google_news"
   },
   {
@@ -1964,7 +2180,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T21:16:00+00:00",
-    "collected_at": "2026-09-24T17:26:06.460133+00:00",
+    "collected_at": "2026-09-24T18:30:35.393968+00:00",
     "origin": "rss"
   },
   {
@@ -1992,15 +2208,15 @@
     "origin": "google_news"
   },
   {
-    "id": "6a0d253ff17070675a9cba46",
-    "title": "Australia says OpenAI agent hacked government website, checks for more breaches - reuters.com",
+    "id": "a823ef0e529b390d4e9fa03a",
+    "title": "Australia says OpenAI agent hacked government website, checks for more breaches - Reuters",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLWZud0ZEMW9uYlUwVlpoRlBIbW82Tjc4Rjl3WW5jcWxVR25wSmZCTXlOdHkwR2VrQzdzZkUwX3lNMXBGUkZMZU1sYS13dzRRb1RMRzFOVjc5RmJIbXFfNy1ob1VZY1ItYS0tQW9XVHNLc3p3UEJwNy1QRWVSYVFjQnh0ellEX2JSZkpSdXlMYVI4UkV2VE05enVnZFJuV3BaS1pVczF5VE9vaTdZOGZyU2tjTk9oVVE5RVBjTnVWNGNUZzVEZDM0?oc=5",
-    "summary": "Australia says OpenAI agent hacked government website, checks for more breaches reuters.com",
-    "source": "reuters.com",
+    "summary": "Australia says OpenAI agent hacked government website, checks for more breaches Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T20:44:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.907913+00:00",
+    "collected_at": "2026-09-24T18:30:36.936406+00:00",
     "origin": "google_news"
   },
   {
@@ -2012,7 +2228,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T20:31:02+00:00",
-    "collected_at": "2026-09-24T17:26:12.170655+00:00",
+    "collected_at": "2026-09-24T18:30:41.399824+00:00",
     "origin": "google_news"
   },
   {
@@ -2024,7 +2240,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T20:31:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.365584+00:00",
+    "collected_at": "2026-09-24T18:30:45.564294+00:00",
     "origin": "google_news"
   },
   {
@@ -2048,7 +2264,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-23T20:28:16+00:00",
-    "collected_at": "2026-09-24T17:26:16.964842+00:00",
+    "collected_at": "2026-09-24T18:30:46.299918+00:00",
     "origin": "google_news"
   },
   {
@@ -2060,7 +2276,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T20:24:41+00:00",
-    "collected_at": "2026-09-24T17:26:08.537742+00:00",
+    "collected_at": "2026-09-24T18:30:37.589969+00:00",
     "origin": "google_news"
   },
   {
@@ -2076,15 +2292,15 @@
     "origin": "google_news"
   },
   {
-    "id": "09f46128115450810718a5c7",
-    "title": "NEWSLETTER: Funding frenzy, chip wars, and robot dreams: Inside China‘s AI boom - reuters.com",
+    "id": "e08f1e5834acfc83b461d3ff",
+    "title": "NEWSLETTER: Funding frenzy, chip wars, and robot dreams: Inside China‘s AI boom - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ1hSZVA3UXRLNWE3RU8wUWRTN3Z5SGRTQWkzRGRScVVHdDhfWFliZXdLSXlDdzdoX3NhN3BjdzNEUTJ2NmJRMVYyN2RteUdidHd0ejNtS1hZSlFPUWw5Si1GblRRQktKM055MDQ3V2kzWlVuREpNSmJZelozbFZuVGU2MW1STXdqN09mUEJRa3hHUkNXbEdRUEhBV0gzVHg4RjRmQ0VRcExrNURXZnExcURyWmVheEQwSTVDTEhCODJGZUNWV09OSUFn?oc=5",
-    "summary": "NEWSLETTER: Funding frenzy, chip wars, and robot dreams: Inside China‘s AI boom reuters.com",
-    "source": "reuters.com",
+    "summary": "NEWSLETTER: Funding frenzy, chip wars, and robot dreams: Inside China‘s AI boom Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-23T20:11:03+00:00",
-    "collected_at": "2026-09-24T17:26:15.486010+00:00",
+    "collected_at": "2026-09-24T18:30:44.654537+00:00",
     "origin": "google_news"
   },
   {
@@ -2096,7 +2312,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-23T20:10:08+00:00",
-    "collected_at": "2026-09-24T17:26:16.973661+00:00",
+    "collected_at": "2026-09-24T18:30:46.311191+00:00",
     "origin": "google_news"
   },
   {
@@ -2108,7 +2324,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T20:09:18+00:00",
-    "collected_at": "2026-09-24T17:26:16.369161+00:00",
+    "collected_at": "2026-09-24T18:30:45.567328+00:00",
     "origin": "google_news"
   },
   {
@@ -2120,7 +2336,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T20:02:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.172243+00:00",
+    "collected_at": "2026-09-24T18:30:41.402400+00:00",
     "origin": "google_news"
   },
   {
@@ -2252,7 +2468,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T19:14:27+00:00",
-    "collected_at": "2026-09-24T17:26:16.367438+00:00",
+    "collected_at": "2026-09-24T18:30:45.565492+00:00",
     "origin": "google_news"
   },
   {
@@ -2276,19 +2492,19 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T19:10:30+00:00",
-    "collected_at": "2026-09-24T17:26:12.173431+00:00",
+    "collected_at": "2026-09-24T18:30:41.403923+00:00",
     "origin": "google_news"
   },
   {
-    "id": "87dc44e442bdda853db86c58",
-    "title": "White House denies report US is considering a diesel export ban - reuters.com",
+    "id": "08947b8b08f8a21524c346f9",
+    "title": "White House denies report US is considering a diesel export ban - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdFJsaVEyZjZ1VGFYN2lDRE5Nc014bGJLNTVPanNXbUwxVDVNQS13TWJRMTVjcVpILUcxYnlnUWJiaFRXVGhPWGNEWExMNHBscHhTSEZmd0MwWnMyZFZmSmRfb056c3RqOWZtQTJhMUhRWUxIVTdRRDZLdkhOSXRRWEZRS0J4LXBuRWhnLVhVWTkxVlpVWGxOMEQ4Qnhpc1RHbmYxQnp4aDI0UQ?oc=5",
-    "summary": "White House denies report US is considering a diesel export ban reuters.com",
-    "source": "reuters.com",
+    "summary": "White House denies report US is considering a diesel export ban Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T19:03:27+00:00",
-    "collected_at": "2026-09-24T17:26:07.268148+00:00",
+    "collected_at": "2026-09-24T18:30:36.179413+00:00",
     "origin": "google_news"
   },
   {
@@ -2324,7 +2540,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T18:51:12+00:00",
-    "collected_at": "2026-09-24T17:26:06.460439+00:00",
+    "collected_at": "2026-09-24T18:30:35.394303+00:00",
     "origin": "rss"
   },
   {
@@ -2336,7 +2552,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T18:44:09+00:00",
-    "collected_at": "2026-09-24T16:29:15.388783+00:00",
+    "collected_at": "2026-09-24T18:30:36.189533+00:00",
     "origin": "google_news"
   },
   {
@@ -2360,7 +2576,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-23T18:32:59+00:00",
-    "collected_at": "2026-09-24T17:26:16.972286+00:00",
+    "collected_at": "2026-09-24T18:30:46.309203+00:00",
     "origin": "google_news"
   },
   {
@@ -2372,7 +2588,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T18:29:02+00:00",
-    "collected_at": "2026-09-24T17:26:16.374711+00:00",
+    "collected_at": "2026-09-24T18:30:45.573276+00:00",
     "origin": "google_news"
   },
   {
@@ -2444,7 +2660,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T18:15:31+00:00",
-    "collected_at": "2026-09-24T17:26:06.459581+00:00",
+    "collected_at": "2026-09-24T18:30:35.393417+00:00",
     "origin": "rss"
   },
   {
@@ -2468,7 +2684,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T18:14:40+00:00",
-    "collected_at": "2026-09-24T17:26:07.907441+00:00",
+    "collected_at": "2026-09-24T18:30:36.936149+00:00",
     "origin": "google_news"
   },
   {
@@ -2504,7 +2720,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T18:08:21+00:00",
-    "collected_at": "2026-09-24T17:26:16.366435+00:00",
+    "collected_at": "2026-09-24T18:30:45.563759+00:00",
     "origin": "google_news"
   },
   {
@@ -2600,7 +2816,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T17:38:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.174949+00:00",
+    "collected_at": "2026-09-24T18:30:41.404758+00:00",
     "origin": "google_news"
   },
   {
@@ -2648,19 +2864,19 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T17:17:47+00:00",
-    "collected_at": "2026-09-24T17:26:15.746017+00:00",
+    "collected_at": "2026-09-24T18:30:44.884061+00:00",
     "origin": "rss"
   },
   {
-    "id": "b37c4f24ca9dd02b21b3cfca",
-    "title": "Meta's Muse rekindles fears over winners and losers as personal AI agent emerges - reuters.com",
+    "id": "ce1998eb86da517388b75c8c",
+    "title": "Meta's Muse rekindles fears over winners and losers as personal AI agent emerges - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNlVtTVRPc0JSamlpVlpnNHFRZ1FQWDE0OFpRN2JoTzhQZ2lXaDVJV2FkMjBGa0psQ2ZUWVpzbXIxbFVDS3M0eHVWWGI4aGxxZVotZGJXTHRocVhXZU9fbl9rX2xvbGFkSGIxazlPOXlVRlNISEVLTEFZNXlpRVI5V1JRS3k5N3JTLXZ3UEFnMXA5cktvaDEwa3V6dUhvTkZRTnotSnhKV2xRbDJjRTF4NW5Bd0VWcXVIZHJWbDgtLTM2M3c?oc=5",
-    "summary": "Meta's Muse rekindles fears over winners and losers as personal AI agent emerges reuters.com",
-    "source": "reuters.com",
+    "summary": "Meta's Muse rekindles fears over winners and losers as personal AI agent emerges Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-23T17:13:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.494273+00:00",
+    "collected_at": "2026-09-24T18:30:44.664023+00:00",
     "origin": "google_news"
   },
   {
@@ -2708,7 +2924,19 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T16:42:34+00:00",
-    "collected_at": "2026-09-24T17:26:08.538641+00:00",
+    "collected_at": "2026-09-24T18:30:37.590685+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "1b7c7cd8dd5af55027a8f38a",
+    "title": "CNN, Politico and MSNOW Sue Trump After White House Ban - The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0VsX2hWOXZ5QnpwTWZ0MFNqLWpTdHFmTzlxeWsyR0pkamxxNXRFN3JZTGdYZDJzZ3VnV3VpNFRBdlloRU0wVHVLNGFkTnN5VVRIQ3k2ck8zYTZGRU5YRFExcEpEWjlGcFFQT3p1S2xhVlpPS0xocGUzaFhreHJOdm5MUnNKcHR0bERfdndn?oc=5",
+    "summary": "CNN, Politico and MSNOW Sue Trump After White House Ban The New York Times",
+    "source": "The New York Times",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-23T16:42:00+00:00",
+    "collected_at": "2026-09-24T18:30:36.183475+00:00",
     "origin": "google_news"
   },
   {
@@ -2720,7 +2948,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T16:37:49+00:00",
-    "collected_at": "2026-09-24T17:26:16.367194+00:00",
+    "collected_at": "2026-09-24T18:30:45.565201+00:00",
     "origin": "google_news"
   },
   {
@@ -2732,7 +2960,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T16:36:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.537282+00:00",
+    "collected_at": "2026-09-24T18:30:37.589402+00:00",
     "origin": "google_news"
   },
   {
@@ -2756,7 +2984,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T16:31:40+00:00",
-    "collected_at": "2026-09-24T17:26:12.168684+00:00",
+    "collected_at": "2026-09-24T18:30:41.397167+00:00",
     "origin": "google_news"
   },
   {
@@ -2804,7 +3032,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T16:19:16+00:00",
-    "collected_at": "2026-09-24T17:26:15.745382+00:00",
+    "collected_at": "2026-09-24T18:30:44.883353+00:00",
     "origin": "rss"
   },
   {
@@ -2816,7 +3044,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T16:15:46+00:00",
-    "collected_at": "2026-09-24T17:26:12.170393+00:00",
+    "collected_at": "2026-09-24T18:30:41.399414+00:00",
     "origin": "google_news"
   },
   {
@@ -2840,7 +3068,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T16:12:05+00:00",
-    "collected_at": "2026-09-24T17:26:12.175236+00:00",
+    "collected_at": "2026-09-24T18:30:41.404496+00:00",
     "origin": "google_news"
   },
   {
@@ -2852,7 +3080,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T16:00:42+00:00",
-    "collected_at": "2026-09-24T17:26:16.375276+00:00",
+    "collected_at": "2026-09-24T18:30:45.574120+00:00",
     "origin": "google_news"
   },
   {
@@ -2864,7 +3092,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-23T16:00:21+00:00",
-    "collected_at": "2026-09-24T17:26:16.970329+00:00",
+    "collected_at": "2026-09-24T18:30:46.306400+00:00",
     "origin": "google_news"
   },
   {
@@ -2876,7 +3104,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-23T15:58:24+00:00",
-    "collected_at": "2026-09-24T17:26:16.966942+00:00",
+    "collected_at": "2026-09-24T18:30:46.302475+00:00",
     "origin": "google_news"
   },
   {
@@ -2888,7 +3116,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T15:56:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.171757+00:00",
+    "collected_at": "2026-09-24T18:30:41.400669+00:00",
     "origin": "google_news"
   },
   {
@@ -2900,7 +3128,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T15:52:29+00:00",
-    "collected_at": "2026-09-24T17:26:16.369424+00:00",
+    "collected_at": "2026-09-24T18:30:45.568047+00:00",
     "origin": "google_news"
   },
   {
@@ -2912,7 +3140,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T15:48:55+00:00",
-    "collected_at": "2026-09-24T17:26:16.366680+00:00",
+    "collected_at": "2026-09-24T18:30:45.566124+00:00",
     "origin": "google_news"
   },
   {
@@ -2936,7 +3164,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-23T15:47:32+00:00",
-    "collected_at": "2026-09-24T17:26:16.968366+00:00",
+    "collected_at": "2026-09-24T18:30:46.304106+00:00",
     "origin": "google_news"
   },
   {
@@ -2948,7 +3176,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T15:46:28+00:00",
-    "collected_at": "2026-09-24T17:26:06.462276+00:00",
+    "collected_at": "2026-09-24T18:30:35.396637+00:00",
     "origin": "rss"
   },
   {
@@ -2960,7 +3188,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T15:37:20+00:00",
-    "collected_at": "2026-09-24T17:26:06.460591+00:00",
+    "collected_at": "2026-09-24T18:30:35.394462+00:00",
     "origin": "rss"
   },
   {
@@ -3032,7 +3260,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T14:44:45+00:00",
-    "collected_at": "2026-09-24T17:26:12.172949+00:00",
+    "collected_at": "2026-09-24T18:30:41.401769+00:00",
     "origin": "google_news"
   },
   {
@@ -3116,19 +3344,19 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T14:30:06+00:00",
-    "collected_at": "2026-09-24T17:26:08.539861+00:00",
+    "collected_at": "2026-09-24T18:30:37.592696+00:00",
     "origin": "google_news"
   },
   {
-    "id": "bc0b3f1919baeae62f1ca96e",
-    "title": "Verizon to invest $70 million in AI training effort - reuters.com",
+    "id": "1b78bdd7c8acda81c85faaec",
+    "title": "Verizon to invest $70 million in AI training effort - Reuters",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbTBjNFp0WEJlQTNmMVR2eEJWd2RhMVpJak1ybXNLWVlWTVhZU19VQVJpb3lMaWFET2N6djc3U2cxdDdacFprVDhrWHJ6T0pNb1RJOUdxc0cwUHhqdHA4RGE5dHpTaGRyVVBwbTh6RkpzLXZuajlfX094OUdZQ21JZTBJUUZQUHFqQUVvU0ZRQTI5UWUtLVcySzFLMHJoNlUzVzB3YWZn?oc=5",
-    "summary": "Verizon to invest $70 million in AI training effort reuters.com",
-    "source": "reuters.com",
+    "summary": "Verizon to invest $70 million in AI training effort Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-23T14:26:36+00:00",
-    "collected_at": "2026-09-24T17:26:15.491389+00:00",
+    "collected_at": "2026-09-24T18:30:44.661171+00:00",
     "origin": "google_news"
   },
   {
@@ -3204,18 +3432,6 @@
     "origin": "google_news"
   },
   {
-    "id": "1b7c7cd8dd5af55027a8f38a",
-    "title": "CNN, Politico and MSNOW Sue Trump After White House Ban - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0VsX2hWOXZ5QnpwTWZ0MFNqLWpTdHFmTzlxeWsyR0pkamxxNXRFN3JZTGdYZDJzZ3VnV3VpNFRBdlloRU0wVHVLNGFkTnN5VVRIQ3k2ck8zYTZGRU5YRFExcEpEWjlGcFFQT3p1S2xhVlpPS0xocGUzaFhreHJOdm5MUnNKcHR0bERfdndn?oc=5",
-    "summary": "CNN, Politico and MSNOW Sue Trump After White House Ban The New York Times",
-    "source": "The New York Times",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-23T13:50:26+00:00",
-    "collected_at": "2026-09-24T17:26:07.270922+00:00",
-    "origin": "google_news"
-  },
-  {
     "id": "3f83e0dd837300231cf05ad6",
     "title": "Greetings from Edinburgh, where a cheeky tour guide makes art history hilarious",
     "url": "https://www.npr.org/2026/09/23/g-s1-142427/uk-coco-art-history-comedy-tour",
@@ -3236,7 +3452,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T13:20:19+00:00",
-    "collected_at": "2026-09-24T17:26:15.746185+00:00",
+    "collected_at": "2026-09-24T18:30:44.884407+00:00",
     "origin": "rss"
   },
   {
@@ -3248,19 +3464,19 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T13:14:22+00:00",
-    "collected_at": "2026-09-24T17:26:12.167835+00:00",
+    "collected_at": "2026-09-24T18:30:41.396130+00:00",
     "origin": "google_news"
   },
   {
-    "id": "d29ae8ee21211901674df1bf",
-    "title": "Amazon rolls out new agentic AI for third-party sellers - reuters.com",
+    "id": "26ca8123172fb0963b616a9f",
+    "title": "Amazon rolls out new agentic AI for third-party sellers - Reuters",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNno1MXBaZ3JtY05ZWHpfU2RsV0JuU3Zlb3hlN2RiaExrSHdEbE5wNGZjZUhINUNJQkdBR0pTM0xQUFhHZjdMdmEwSGtOcDRVcjJ1dFJNU1ZqMWlzbFpDZFhUVTlGaDFpTENaRjhKSDk0YWFiX05VOUZNbVVqRGhSemt6MHpabV8xbHNHSkZwbGRWVy1XdFdGZlVUVS1iMEJCNUNkd2stYUU2TnZ6Ny1LSXZB?oc=5",
-    "summary": "Amazon rolls out new agentic AI for third-party sellers reuters.com",
-    "source": "reuters.com",
+    "summary": "Amazon rolls out new agentic AI for third-party sellers Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-23T13:03:43+00:00",
-    "collected_at": "2026-09-24T17:26:15.491612+00:00",
+    "collected_at": "2026-09-24T18:30:44.661432+00:00",
     "origin": "google_news"
   },
   {
@@ -3272,7 +3488,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-23T13:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.171992+00:00",
+    "collected_at": "2026-09-24T18:30:41.400946+00:00",
     "origin": "google_news"
   },
   {
@@ -3296,7 +3512,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-23T12:32:16+00:00",
-    "collected_at": "2026-09-24T17:26:16.967899+00:00",
+    "collected_at": "2026-09-24T18:30:46.303559+00:00",
     "origin": "google_news"
   },
   {
@@ -3320,7 +3536,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T12:31:31+00:00",
-    "collected_at": "2026-09-24T17:26:06.459805+00:00",
+    "collected_at": "2026-09-24T18:30:35.393608+00:00",
     "origin": "rss"
   },
   {
@@ -3344,7 +3560,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T12:22:53+00:00",
-    "collected_at": "2026-09-24T17:26:06.460287+00:00",
+    "collected_at": "2026-09-24T18:30:35.394140+00:00",
     "origin": "rss"
   },
   {
@@ -3380,7 +3596,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-23T11:48:00+00:00",
-    "collected_at": "2026-09-24T15:28:39.328608+00:00",
+    "collected_at": "2026-09-24T18:30:46.308413+00:00",
     "origin": "google_news"
   },
   {
@@ -3428,7 +3644,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T11:27:43+00:00",
-    "collected_at": "2026-09-24T17:26:08.539135+00:00",
+    "collected_at": "2026-09-24T18:30:37.591299+00:00",
     "origin": "google_news"
   },
   {
@@ -3488,7 +3704,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-23T11:02:39+00:00",
-    "collected_at": "2026-09-24T17:26:15.490688+00:00",
+    "collected_at": "2026-09-24T18:30:44.662239+00:00",
     "origin": "google_news"
   },
   {
@@ -3500,7 +3716,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T11:00:09+00:00",
-    "collected_at": "2026-09-24T17:26:06.462506+00:00",
+    "collected_at": "2026-09-24T18:30:35.396802+00:00",
     "origin": "rss"
   },
   {
@@ -3524,7 +3740,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T10:49:41+00:00",
-    "collected_at": "2026-09-24T17:26:07.267272+00:00",
+    "collected_at": "2026-09-24T18:30:36.179084+00:00",
     "origin": "google_news"
   },
   {
@@ -3584,7 +3800,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T10:30:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.538876+00:00",
+    "collected_at": "2026-09-24T18:30:37.591861+00:00",
     "origin": "google_news"
   },
   {
@@ -3624,27 +3840,27 @@
     "origin": "google_news"
   },
   {
-    "id": "93fab3f6e1cd43b267b0de1b",
-    "title": "AI leaders warn UN of security risks as systems grow more powerful - reuters.com",
+    "id": "0f0e664294007574af52fcb3",
+    "title": "AI leaders warn UN of security risks as systems grow more powerful - Reuters",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOazV6Q242LXE0TVZZRV9wcXl4UmJlMHp2ZHMtX0h4RGlPeGlUbkhGQklJTDhuN0FKaFdzUUs3cS0zN1ZsTVR1Mk51M190NFFuVjdZekJVSjlXMXpuaDAwVGVaSl9LbnpKMWlmMG1YaUVOQ3lqTXl4ck5nZm94RlMxaFA2N091TUxyNWJCSkpLOER1TDAtRF94TWZ6NVNIM01lcWxvOUJaWTVHYUZ3WlJjSm16WWtUSldqcHdWOFNR?oc=5",
-    "summary": "AI leaders warn UN of security risks as systems grow more powerful reuters.com",
-    "source": "reuters.com",
+    "summary": "AI leaders warn UN of security risks as systems grow more powerful Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-23T10:05:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.487129+00:00",
+    "collected_at": "2026-09-24T18:30:44.656548+00:00",
     "origin": "google_news"
   },
   {
-    "id": "1236639293ccb73dda47f5e2",
-    "title": "US says China trade truce extended as Trump welcomes Xi - reuters.com",
+    "id": "218921bd1dcc607d872279d6",
+    "title": "US says China trade truce extended as Trump welcomes Xi - Reuters",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaVBYbDJtMVNJRWNyaDlFLXhaWDBIbERYTkRRYVliRGR3eklaai1JTHBhZ2tOTjBqRk1CSTFvOENrMjduNVhWRUFiNzRsbDg0Y1ZJdFlKTy1oSUVBaUpTNlkwVS02emZkaHVUZVRaZjJleVhJWF9uY09xSHZMOVh3YXh2aVMwV09HeGJGSXVZTWZCRE5iNHdNdDI0bDU5aXZvMjJzMQ?oc=5",
-    "summary": "US says China trade truce extended as Trump welcomes Xi reuters.com",
-    "source": "reuters.com",
+    "summary": "US says China trade truce extended as Trump welcomes Xi Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T10:01:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.275089+00:00",
+    "collected_at": "2026-09-24T18:30:36.187501+00:00",
     "origin": "google_news"
   },
   {
@@ -3668,7 +3884,19 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T10:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.539619+00:00",
+    "collected_at": "2026-09-24T18:30:37.592424+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "68d9479babe025a849028b0a",
+    "title": "'It feels like a calling': The internet vigilantes who weaponise kindness - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeVFGWDhraEE3cElyR202WDZIaXNBYXR3c3hoTjZ5UEhBc0RXREttMXg2bXpMLUI3RzdpWFFWdE5QdXZjdk9VakFSNVAyaURtT0d0VDA2d3dEd0tvMjhnUDlKQWVXVXREaXVqS0ZicXJ2Uy1zV19KYjQ5VTVScXlGYkZqbnRmWDAyVDl0MmZrbkVuaXN4NE0yWFN2bDZkeEpESEgxUUxJTm5MZw?oc=5",
+    "summary": "'It feels like a calling': The internet vigilantes who weaponise kindness BBC",
+    "source": "BBC",
+    "category_hint": "Good News",
+    "priority": 7,
+    "published_at": "2026-09-23T10:00:00+00:00",
+    "collected_at": "2026-09-24T18:30:46.301164+00:00",
     "origin": "google_news"
   },
   {
@@ -3681,18 +3909,6 @@
     "priority": 9,
     "published_at": "2026-09-23T10:00:00+00:00",
     "collected_at": "2026-09-24T17:26:08.542385+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "68d9479babe025a849028b0a",
-    "title": "'It feels like a calling': The internet vigilantes who weaponise kindness - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeVFGWDhraEE3cElyR202WDZIaXNBYXR3c3hoTjZ5UEhBc0RXREttMXg2bXpMLUI3RzdpWFFWdE5QdXZjdk9VakFSNVAyaURtT0d0VDA2d3dEd0tvMjhnUDlKQWVXVXREaXVqS0ZicXJ2Uy1zV19KYjQ5VTVScXlGYkZqbnRmWDAyVDl0MmZrbkVuaXN4NE0yWFN2bDZkeEpESEgxUUxJTm5MZw?oc=5",
-    "summary": "'It feels like a calling': The internet vigilantes who weaponise kindness BBC",
-    "source": "BBC",
-    "category_hint": "Good News",
-    "priority": 7,
-    "published_at": "2026-09-23T10:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.965862+00:00",
     "origin": "google_news"
   },
   {
@@ -3776,7 +3992,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-23T09:21:16+00:00",
-    "collected_at": "2026-09-24T17:26:16.969853+00:00",
+    "collected_at": "2026-09-24T18:30:46.305827+00:00",
     "origin": "google_news"
   },
   {
@@ -3788,7 +4004,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T09:06:47+00:00",
-    "collected_at": "2026-09-24T12:33:00.805930+00:00",
+    "collected_at": "2026-09-24T18:30:36.187801+00:00",
     "origin": "google_news"
   },
   {
@@ -3812,7 +4028,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T09:01:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.275818+00:00",
+    "collected_at": "2026-09-24T18:30:36.188404+00:00",
     "origin": "google_news"
   },
   {
@@ -3836,7 +4052,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.273867+00:00",
+    "collected_at": "2026-09-24T18:30:36.187242+00:00",
     "origin": "google_news"
   },
   {
@@ -3848,7 +4064,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.535211+00:00",
+    "collected_at": "2026-09-24T18:30:37.586731+00:00",
     "origin": "google_news"
   },
   {
@@ -3860,7 +4076,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.539379+00:00",
+    "collected_at": "2026-09-24T18:30:37.591590+00:00",
     "origin": "google_news"
   },
   {
@@ -3968,7 +4184,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T08:44:10+00:00",
-    "collected_at": "2026-09-24T17:26:07.903671+00:00",
+    "collected_at": "2026-09-24T18:30:36.930694+00:00",
     "origin": "google_news"
   },
   {
@@ -3980,7 +4196,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T08:43:47+00:00",
-    "collected_at": "2026-09-24T17:26:15.745542+00:00",
+    "collected_at": "2026-09-24T18:30:44.883530+00:00",
     "origin": "rss"
   },
   {
@@ -3992,7 +4208,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T08:42:55+00:00",
-    "collected_at": "2026-09-24T17:26:15.746460+00:00",
+    "collected_at": "2026-09-24T18:30:44.884582+00:00",
     "origin": "rss"
   },
   {
@@ -4028,7 +4244,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T07:01:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.375005+00:00",
+    "collected_at": "2026-09-24T18:30:45.573552+00:00",
     "origin": "google_news"
   },
   {
@@ -4196,7 +4412,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-23T05:02:26+00:00",
-    "collected_at": "2026-09-24T17:26:06.460739+00:00",
+    "collected_at": "2026-09-24T18:30:35.394634+00:00",
     "origin": "rss"
   },
   {
@@ -4208,7 +4424,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T05:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.369663+00:00",
+    "collected_at": "2026-09-24T18:30:45.568325+00:00",
     "origin": "google_news"
   },
   {
@@ -4280,7 +4496,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T04:23:53+00:00",
-    "collected_at": "2026-09-24T17:26:07.276074+00:00",
+    "collected_at": "2026-09-24T18:30:36.188676+00:00",
     "origin": "google_news"
   },
   {
@@ -4352,7 +4568,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T02:56:57+00:00",
-    "collected_at": "2026-09-24T13:29:13.297662+00:00",
+    "collected_at": "2026-09-24T18:30:45.575101+00:00",
     "origin": "google_news"
   },
   {
@@ -4376,7 +4592,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T02:51:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.374124+00:00",
+    "collected_at": "2026-09-24T18:30:45.572984+00:00",
     "origin": "google_news"
   },
   {
@@ -4532,7 +4748,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-23T00:34:52+00:00",
-    "collected_at": "2026-09-24T17:26:16.372461+00:00",
+    "collected_at": "2026-09-24T18:30:45.571303+00:00",
     "origin": "google_news"
   },
   {
@@ -4556,7 +4772,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-23T00:17:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.488137+00:00",
+    "collected_at": "2026-09-24T18:30:44.657119+00:00",
     "origin": "google_news"
   },
   {
@@ -4568,7 +4784,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T00:10:07+00:00",
-    "collected_at": "2026-09-24T17:26:08.540109+00:00",
+    "collected_at": "2026-09-24T18:30:37.594510+00:00",
     "origin": "google_news"
   },
   {
@@ -4592,7 +4808,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T23:41:50+00:00",
-    "collected_at": "2026-09-24T17:26:16.370154+00:00",
+    "collected_at": "2026-09-24T18:30:45.569177+00:00",
     "origin": "google_news"
   },
   {
@@ -4628,7 +4844,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T23:28:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.173655+00:00",
+    "collected_at": "2026-09-24T18:30:41.402656+00:00",
     "origin": "google_news"
   },
   {
@@ -4688,7 +4904,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T23:04:15+00:00",
-    "collected_at": "2026-09-24T17:26:08.542868+00:00",
+    "collected_at": "2026-09-24T18:30:37.595586+00:00",
     "origin": "google_news"
   },
   {
@@ -4712,7 +4928,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T22:48:17+00:00",
-    "collected_at": "2026-09-24T17:26:08.535561+00:00",
+    "collected_at": "2026-09-24T18:30:37.587254+00:00",
     "origin": "google_news"
   },
   {
@@ -4724,19 +4940,19 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T22:42:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.174480+00:00",
+    "collected_at": "2026-09-24T18:30:41.403644+00:00",
     "origin": "google_news"
   },
   {
-    "id": "6ca69c1c4e24ab3760858832",
-    "title": "Anthropic, OpenAI call for Australia to relax ban on training of AI models - reuters.com",
+    "id": "f27987c7ff4d8922affe8494",
+    "title": "Anthropic, OpenAI call for Australia to relax ban on training of AI models - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaFRueW1Majc4QVM4VzE5R3BRYk1vOVZlWHZFSTNMZUwwSi1aUXdBYjA2ZHJqVnFyam40ZS1QbUttUkpIWW5wT2MwVHVMMjJSV1A4WUZjTUtRVzEzcGlzR1Nxc1V2VnpxZ3ZFSUN0WGxEcTlkb3I0RGFlekt3bTVRa1V5ZXR1QzFCM2o4Ym1BMXJrZjVQM25XYUttSmRDZ3JYcVZiQ2wySWJqRDZ2bXlneVVxdw?oc=5",
-    "summary": "Anthropic, OpenAI call for Australia to relax ban on training of AI models reuters.com",
-    "source": "reuters.com",
+    "summary": "Anthropic, OpenAI call for Australia to relax ban on training of AI models Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T22:35:14+00:00",
-    "collected_at": "2026-09-24T17:26:15.485731+00:00",
+    "collected_at": "2026-09-24T18:30:44.654863+00:00",
     "origin": "google_news"
   },
   {
@@ -4764,15 +4980,15 @@
     "origin": "rss"
   },
   {
-    "id": "a8ab8ef1843e1c04ac810803",
-    "title": "Trump says US Justice Department could rein in AI companies if needed - reuters.com",
+    "id": "a148a16484c0d7169dfe04ee",
+    "title": "Trump says US Justice Department could rein in AI companies if needed - Reuters",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYkFwcnFpOFFycEx0SEwwNUxZazVuTTh6aUNKZ0pUUHlPU2toMkk2WXAyc3RkYTdKWlVsTEVoTmR5VGJaZlhaU21OdHp2aXRWZ0VGNGtJdERKVGUtWXBiMWdKRm9JY04zTnZ3YXp5akdBU2RsS0tHZG9ESTVmR0hOWUYyaWpjYVNCcFF3c3RBVk53NC1SanNTaXpxOHdMei1SNUJPWnhLLTkzU2VOaUE?oc=5",
-    "summary": "Trump says US Justice Department could rein in AI companies if needed reuters.com",
-    "source": "reuters.com",
+    "summary": "Trump says US Justice Department could rein in AI companies if needed Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T22:32:04+00:00",
-    "collected_at": "2026-09-24T17:26:15.486527+00:00",
+    "collected_at": "2026-09-24T18:30:44.656255+00:00",
     "origin": "google_news"
   },
   {
@@ -4808,7 +5024,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T22:24:28+00:00",
-    "collected_at": "2026-09-24T17:26:07.274392+00:00",
+    "collected_at": "2026-09-24T18:30:36.186674+00:00",
     "origin": "google_news"
   },
   {
@@ -4892,7 +5108,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T21:59:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.370380+00:00",
+    "collected_at": "2026-09-24T18:30:45.568895+00:00",
     "origin": "google_news"
   },
   {
@@ -4916,7 +5132,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T21:50:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.541653+00:00",
+    "collected_at": "2026-09-24T18:30:37.594244+00:00",
     "origin": "google_news"
   },
   {
@@ -4988,7 +5204,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T21:31:01+00:00",
-    "collected_at": "2026-09-24T17:26:07.266976+00:00",
+    "collected_at": "2026-09-24T18:30:36.178710+00:00",
     "origin": "google_news"
   },
   {
@@ -5052,15 +5268,15 @@
     "origin": "google_news"
   },
   {
-    "id": "20be8687f384d433bbef028c",
-    "title": "Banned White House outlets cover Trump at UN as court hearing looms - reuters.com",
+    "id": "28bcb9c33fbf0f896ec09393",
+    "title": "Banned White House outlets cover Trump at UN as court hearing looms - Reuters",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUkpHTVpnWHI5c0RnRGgwalRFMGxSRUZRUTFIYnlXTXhnT29NQ0N2QVlxTXFVZzRRbzhUaHo5MmR3RzZBSmRzQ0h0TWN0R2JPRWhPRm1JQzdpSUpyUmhqa1VWRkNXeWVLZXp2VFhFZUNnWDVxcERYVE9aOG56ZG5QdHVSMEpOd01zMDBfNkJhcmdtc1RVbW52bHItbWxHQ05zQk1jS19hWVg1LWVVZjhyeFZLaEk?oc=5",
-    "summary": "Banned White House outlets cover Trump at UN as court hearing looms reuters.com",
-    "source": "reuters.com",
+    "summary": "Banned White House outlets cover Trump at UN as court hearing looms Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T21:12:14+00:00",
-    "collected_at": "2026-09-24T17:26:07.267546+00:00",
+    "collected_at": "2026-09-24T18:30:36.180460+00:00",
     "origin": "google_news"
   },
   {
@@ -5096,7 +5312,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-22T20:59:00+00:00",
-    "collected_at": "2026-09-24T17:26:06.461815+00:00",
+    "collected_at": "2026-09-24T18:30:35.396038+00:00",
     "origin": "rss"
   },
   {
@@ -5136,15 +5352,15 @@
     "origin": "google_news"
   },
   {
-    "id": "97707282b99bf67bce77497f",
-    "title": "Financial stocks fall with AI and flattening yield curve in focus - reuters.com",
+    "id": "bb5a7527d14edbb451d51bc7",
+    "title": "Financial stocks fall with AI and flattening yield curve in focus - Reuters",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPejZNajQteTk5RElWNTZRWHR4YV8tdF90N19DelgxWHI0X0RSTFgtRm9GVVQ2bWIzaWJ4SEFwdi1DUmZ6cXQ3dm5rYVRZdjJQaGRxMDRsZ0IyZ19mVDdHN0VlUXdObko1Y2R1Qkx1ekNDYXNnY05oN3lsUnVwYjRobXFXU2hrUEx6T3BES3Vad25fTDk5cHBjWjVFQTE4VWZCWHlkMS1TRkltc281QUVWRw?oc=5",
-    "summary": "Financial stocks fall with AI and flattening yield curve in focus reuters.com",
-    "source": "reuters.com",
+    "summary": "Financial stocks fall with AI and flattening yield curve in focus Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T20:52:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.493808+00:00",
+    "collected_at": "2026-09-24T18:30:44.665085+00:00",
     "origin": "google_news"
   },
   {
@@ -5180,7 +5396,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T20:25:45+00:00",
-    "collected_at": "2026-09-24T17:26:08.537035+00:00",
+    "collected_at": "2026-09-24T18:30:37.588838+00:00",
     "origin": "google_news"
   },
   {
@@ -5264,7 +5480,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T19:53:35+00:00",
-    "collected_at": "2026-09-24T17:26:16.371128+00:00",
+    "collected_at": "2026-09-24T18:30:45.570033+00:00",
     "origin": "google_news"
   },
   {
@@ -5336,7 +5552,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T19:38:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.544167+00:00",
+    "collected_at": "2026-09-24T18:30:37.597198+00:00",
     "origin": "google_news"
   },
   {
@@ -5384,7 +5600,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T19:30:31+00:00",
-    "collected_at": "2026-09-24T17:26:08.542633+00:00",
+    "collected_at": "2026-09-24T18:30:37.595050+00:00",
     "origin": "google_news"
   },
   {
@@ -5460,15 +5676,15 @@
     "origin": "google_news"
   },
   {
-    "id": "2c2488d1f03a45dbdc0abb28",
-    "title": "EEOC sues Blue Bell over firing employee who requested religious accommodation - houstonchronicle.com",
+    "id": "627b81b3f9c62dc985cc4c18",
+    "title": "EEOC sues Blue Bell over firing employee who requested religious accommodation - Houston Chronicle",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWHBBNmIxVnFpV3pkczJLbGhMT3BLcVAtMERUcEp3S2c1cHR0WFVPZDZPWDRMTmRnSmY1dlhETTVfblZzd3BIUkVTVTJNRm1hWmtjd1NfTkpfSnFiSG5NeHFSXzUxUDhGXzk1Q3J6Y0taS3JmM29CMmFpZThESVVTcEZXT2hvcDZvR1VaemVJTEJmYWtpSjhXTGpYbUF4YmxaSUdRVXZsOA?oc=5",
-    "summary": "EEOC sues Blue Bell over firing employee who requested religious accommodation houstonchronicle.com",
-    "source": "houstonchronicle.com",
+    "summary": "EEOC sues Blue Bell over firing employee who requested religious accommodation Houston Chronicle",
+    "source": "Houston Chronicle",
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T19:08:46+00:00",
-    "collected_at": "2026-09-24T17:26:12.173198+00:00",
+    "collected_at": "2026-09-24T18:30:41.402125+00:00",
     "origin": "google_news"
   },
   {
@@ -5504,7 +5720,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T19:01:18+00:00",
-    "collected_at": "2026-09-24T17:26:15.746629+00:00",
+    "collected_at": "2026-09-24T18:30:44.884753+00:00",
     "origin": "rss"
   },
   {
@@ -5528,7 +5744,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T19:00:51+00:00",
-    "collected_at": "2026-09-24T17:26:16.367946+00:00",
+    "collected_at": "2026-09-24T18:30:45.565817+00:00",
     "origin": "google_news"
   },
   {
@@ -5576,7 +5792,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T18:31:15+00:00",
-    "collected_at": "2026-09-24T17:26:12.167130+00:00",
+    "collected_at": "2026-09-24T18:30:41.395258+00:00",
     "origin": "google_news"
   },
   {
@@ -5588,7 +5804,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T18:29:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.268880+00:00",
+    "collected_at": "2026-09-24T18:30:36.181029+00:00",
     "origin": "google_news"
   },
   {
@@ -5604,15 +5820,15 @@
     "origin": "google_news"
   },
   {
-    "id": "d5b5a0a6fac3e3d07cd06086",
-    "title": "Corporate bond buyers get picky with flood of AI debt - reuters.com",
+    "id": "9d72e02535876c77bf432561",
+    "title": "Corporate bond buyers get picky with flood of AI debt - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYTBXQ0tEcFNaRTU4dV9GdmJTSmxPVUYzVVhNQmRyWkRHSEx5YTJNMjFLcjNIWFI2R05iSEhSdlF3b29abnEteEcyR3dtWHBCYmNDWmJXcTBqQkdwWUxmWi12Yk1sQWV6VWJPTjZWeG9FckdFT3FlMVhXRkk5SFZyWElxZXVMZ1J2SEpiMm1CZ19jQXVkSnFpUVB6Ujk4cmdyOXNESXhiZXprUQ?oc=5",
-    "summary": "Corporate bond buyers get picky with flood of AI debt reuters.com",
-    "source": "reuters.com",
+    "summary": "Corporate bond buyers get picky with flood of AI debt Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T18:21:10+00:00",
-    "collected_at": "2026-09-24T17:26:15.493335+00:00",
+    "collected_at": "2026-09-24T18:30:44.663472+00:00",
     "origin": "google_news"
   },
   {
@@ -5648,7 +5864,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T18:15:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.369908+00:00",
+    "collected_at": "2026-09-24T18:30:45.568613+00:00",
     "origin": "google_news"
   },
   {
@@ -5760,15 +5976,15 @@
     "origin": "google_news"
   },
   {
-    "id": "f6fd12464e4f36ea7cf2ed5c",
-    "title": "Ex-Google safety chief warns AI could harm children more than social media did - reuters.com",
+    "id": "cd9efd92b1572c7b2d0d87c6",
+    "title": "Ex-Google safety chief warns AI could harm children more than social media did - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS3M3dS1XSU9ra3NOc2lNdURNcl9ReGRaRWJXMy01NnJzWHNJNWdYU2FYd2psVjhUSEV2dTNOTjlJZlFJUllzMThDM3RUR1M2VGVBYWw5dVNoaE92SzE3WC12RC1JcWNWNjFkWVJQdGltd01tRl9yb1Z4dzRoMk1zWlRUUUJnczdBQWp0YVBCNThKejZOYUpDUS1YR1gwZlZsZXN5VEhNdFB2Y0JmVjE5RTg4Y1VYSE83RERoM3VxbzI0RE5ZYmtuMndURQ?oc=5",
-    "summary": "Ex-Google safety chief warns AI could harm children more than social media did reuters.com",
-    "source": "reuters.com",
+    "summary": "Ex-Google safety chief warns AI could harm children more than social media did Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T17:33:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.490191+00:00",
+    "collected_at": "2026-09-24T18:30:44.660093+00:00",
     "origin": "google_news"
   },
   {
@@ -5840,7 +6056,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T16:55:17+00:00",
-    "collected_at": "2026-09-24T17:26:16.367688+00:00",
+    "collected_at": "2026-09-24T18:30:45.566421+00:00",
     "origin": "google_news"
   },
   {
@@ -5912,7 +6128,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T16:41:32+00:00",
-    "collected_at": "2026-09-24T17:26:16.972973+00:00",
+    "collected_at": "2026-09-24T18:30:46.310000+00:00",
     "origin": "google_news"
   },
   {
@@ -5936,7 +6152,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T16:34:08+00:00",
-    "collected_at": "2026-09-24T17:26:15.488847+00:00",
+    "collected_at": "2026-09-24T18:30:44.658290+00:00",
     "origin": "google_news"
   },
   {
@@ -5996,7 +6212,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T16:25:31+00:00",
-    "collected_at": "2026-09-24T17:26:08.543344+00:00",
+    "collected_at": "2026-09-24T18:30:37.596164+00:00",
     "origin": "google_news"
   },
   {
@@ -6068,7 +6284,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T16:01:10+00:00",
-    "collected_at": "2026-09-24T17:26:15.486780+00:00",
+    "collected_at": "2026-09-24T18:30:44.655784+00:00",
     "origin": "google_news"
   },
   {
@@ -6080,7 +6296,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T16:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.540824+00:00",
+    "collected_at": "2026-09-24T18:30:37.593539+00:00",
     "origin": "google_news"
   },
   {
@@ -6104,7 +6320,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T15:58:19+00:00",
-    "collected_at": "2026-09-24T17:26:16.967421+00:00",
+    "collected_at": "2026-09-24T18:30:46.303024+00:00",
     "origin": "google_news"
   },
   {
@@ -6192,27 +6408,27 @@
     "origin": "google_news"
   },
   {
-    "id": "9bb41e7a4a3a41031d1197b7",
-    "title": "Three out of four Americans say AI firms not doing enough to prevent disaster, Reuters/Ipsos poll finds - reuters.com",
+    "id": "5cf32861b7b899fc23a73feb",
+    "title": "Three out of four Americans say AI firms not doing enough to prevent disaster, Reuters/Ipsos poll finds - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX2tkSmZCVGNBY3lkMjNnZHhBT0V0el9sZWdDakE1eHBubVJHdHV3UlVHT1dZT0l0QlVzWXQ5eWEzeVJoUUdhdW8wWS1JTWV2bXBIR0FHaFlpYS1lWjZQRldiOGlibUpOTDI2aTV2X2hRMUw0OEJpcUhZTGUzTUlLbU1kWXNpaTVSUGQxd2JiRE5rNEU0ZEY5WWVEVGtDakp6aEhPR1dsYzZxcW9aWkVuVVczcw?oc=5",
-    "summary": "Three out of four Americans say AI firms not doing enough to prevent disaster, Reuters/Ipsos poll finds reuters.com",
-    "source": "reuters.com",
+    "summary": "Three out of four Americans say AI firms not doing enough to prevent disaster, Reuters/Ipsos poll finds Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T15:21:51+00:00",
-    "collected_at": "2026-09-24T17:26:15.487409+00:00",
+    "collected_at": "2026-09-24T18:30:44.656834+00:00",
     "origin": "google_news"
   },
   {
-    "id": "bda5ddef9699e48fd2ffdddd",
-    "title": "Banks warn AI shopping bots raise scam, fraud and data-privacy risks - reuters.com",
+    "id": "62cc62d09edcf1c8d0e9cf4a",
+    "title": "Banks warn AI shopping bots raise scam, fraud and data-privacy risks - Reuters",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUDlYaXB6UFVtWndZUGJsNy1FQzRrM203TUc1RDA0VTZ5Y0FaZ0JHVnV0dzVKMHJkSGowOUFYVUs5N1Y2QWJibzhJZEJpbk8xUmxja1o2ME9tY0hfZjRCOGFGWjVVcmVza2F2VGdvNzJjRnVlY2tzeTdIWWUxREVrNkJYRWRPazhzcG00b0NNYzJDRjlQRmhFV3JlQWNZS2lJWFZfeV9VMmdrdmJiZ0xWNlVkblM2Qk0?oc=5",
-    "summary": "Banks warn AI shopping bots raise scam, fraud and data-privacy risks reuters.com",
-    "source": "reuters.com",
+    "summary": "Banks warn AI shopping bots raise scam, fraud and data-privacy risks Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T15:20:52+00:00",
-    "collected_at": "2026-09-24T17:26:15.489943+00:00",
+    "collected_at": "2026-09-24T18:30:44.658846+00:00",
     "origin": "google_news"
   },
   {
@@ -6224,7 +6440,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T15:20:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.370620+00:00",
+    "collected_at": "2026-09-24T18:30:45.569459+00:00",
     "origin": "google_news"
   },
   {
@@ -6344,7 +6560,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T14:35:13+00:00",
-    "collected_at": "2026-09-24T17:26:16.972038+00:00",
+    "collected_at": "2026-09-24T18:30:46.308942+00:00",
     "origin": "google_news"
   },
   {
@@ -6380,7 +6596,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T14:27:45+00:00",
-    "collected_at": "2026-09-24T17:26:16.965370+00:00",
+    "collected_at": "2026-09-24T18:30:46.300268+00:00",
     "origin": "google_news"
   },
   {
@@ -6392,7 +6608,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T14:27:45+00:00",
-    "collected_at": "2026-09-24T17:26:16.965623+00:00",
+    "collected_at": "2026-09-24T18:30:46.300849+00:00",
     "origin": "google_news"
   },
   {
@@ -6404,7 +6620,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T14:27:06+00:00",
-    "collected_at": "2026-09-24T17:26:16.372923+00:00",
+    "collected_at": "2026-09-24T18:30:45.571574+00:00",
     "origin": "google_news"
   },
   {
@@ -6528,15 +6744,15 @@
     "origin": "google_news"
   },
   {
-    "id": "f4df09464c26cf6e5c40e2af",
-    "title": "Palo Alto Networks unveils AI-powered cybersecurity service using Claude, GPT models - reuters.com",
+    "id": "51644a8dcaa376928c759dbb",
+    "title": "Palo Alto Networks unveils AI-powered cybersecurity service using Claude, GPT models - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVW5mc2xwMFhGeW1Dd3Y1bUY4dE9NVzFOa2FQSTI1a193YUk0aExLeFU2cm4xOXZVc0RqYjljNWVxMHpfWVRabVJMVkg5OE1aMWdXYUJKSG5RN2tYeUlycXh0VTcwck83TEdlcV9kOTRTdERZRXo5X3FUWkQ2WnlHb1hUZ3FDTzhwb3h0bWRlTWFOUmxBN2luR0QwQjRjeHhMWjRFRUN2M0V4U3FIaUZmRzk2QlN2SjRxSmZmUEhSQmo?oc=5",
-    "summary": "Palo Alto Networks unveils AI-powered cybersecurity service using Claude, GPT models reuters.com",
-    "source": "reuters.com",
+    "summary": "Palo Alto Networks unveils AI-powered cybersecurity service using Claude, GPT models Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T13:37:12+00:00",
-    "collected_at": "2026-09-24T17:26:15.493576+00:00",
+    "collected_at": "2026-09-24T18:30:44.664543+00:00",
     "origin": "google_news"
   },
   {
@@ -6572,7 +6788,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T13:28:19+00:00",
-    "collected_at": "2026-09-24T17:26:16.968140+00:00",
+    "collected_at": "2026-09-24T18:30:46.303816+00:00",
     "origin": "google_news"
   },
   {
@@ -6600,15 +6816,15 @@
     "origin": "google_news"
   },
   {
-    "id": "6e2ac342ad348761b998c01c",
-    "title": "With new Macs, Apple aims to take on Microsoft, Nvidia in a rush to lower AI costs - reuters.com",
+    "id": "f37d91076080c6ac1edad4b3",
+    "title": "With new Macs, Apple aims to take on Microsoft, Nvidia in a rush to lower AI costs - Reuters",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdW5hd1BKazlnZmctdWM5ZjA5QXFOZnVPYjE0dExZNXc0cDJiUWhjb0VzWUZ0QkdYb3dKaThfR20wMzlOVWRGaTc3SlZUYVdWOXB5bWV5NFE0ZGhsSC1xeG1NN2szdVpISklVdW1FcExXZ1Eya3JoekEwa0VJSHJzc2l5dW9PRWdLVzJ5MVYyNG15ZWFVRHMxNmdDRHpZd0xWY2ZaUGhLTWptZVJlSHBueWloeUFIcHhYTGhISC00c0pHQ2lBdVE?oc=5",
-    "summary": "With new Macs, Apple aims to take on Microsoft, Nvidia in a rush to lower AI costs reuters.com",
-    "source": "reuters.com",
+    "summary": "With new Macs, Apple aims to take on Microsoft, Nvidia in a rush to lower AI costs Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T13:01:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.486281+00:00",
+    "collected_at": "2026-09-24T18:30:44.655189+00:00",
     "origin": "google_news"
   },
   {
@@ -6668,7 +6884,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T12:22:03+00:00",
-    "collected_at": "2026-09-24T17:26:16.968597+00:00",
+    "collected_at": "2026-09-24T18:30:46.304377+00:00",
     "origin": "google_news"
   },
   {
@@ -6680,7 +6896,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T12:22:03+00:00",
-    "collected_at": "2026-09-24T17:26:16.968929+00:00",
+    "collected_at": "2026-09-24T18:30:46.305061+00:00",
     "origin": "google_news"
   },
   {
@@ -6752,7 +6968,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T11:45:01+00:00",
-    "collected_at": "2026-09-24T17:26:12.174718+00:00",
+    "collected_at": "2026-09-24T18:30:41.404201+00:00",
     "origin": "google_news"
   },
   {
@@ -6824,7 +7040,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T11:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.541180+00:00",
+    "collected_at": "2026-09-24T18:30:37.595866+00:00",
     "origin": "google_news"
   },
   {
@@ -6920,7 +7136,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T10:42:10+00:00",
-    "collected_at": "2026-09-24T17:26:16.971818+00:00",
+    "collected_at": "2026-09-24T18:30:46.308672+00:00",
     "origin": "google_news"
   },
   {
@@ -6956,7 +7172,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T10:30:00+00:00",
-    "collected_at": "2026-09-24T15:28:31.173559+00:00",
+    "collected_at": "2026-09-24T18:30:37.597508+00:00",
     "origin": "google_news"
   },
   {
@@ -6992,7 +7208,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T10:15:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.540587+00:00",
+    "collected_at": "2026-09-24T18:30:37.593257+00:00",
     "origin": "google_news"
   },
   {
@@ -7028,7 +7244,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T10:02:00+00:00",
-    "collected_at": "2026-09-24T16:29:15.390118+00:00",
+    "collected_at": "2026-09-24T18:30:36.190236+00:00",
     "origin": "google_news"
   },
   {
@@ -7044,15 +7260,15 @@
     "origin": "rss"
   },
   {
-    "id": "0ec9250e45a33c78eee82167",
-    "title": "From smart glasses to AI pins, privacy fears challenge tech's next big bet - reuters.com",
+    "id": "41eb14b6f8b9164a3c959636",
+    "title": "From smart glasses to AI pins, privacy fears challenge tech's next big bet - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOUgyOXZwdDA0cWZ2dk1tOU0tcHBBZG95TXFOLUwydXpqem4xZDRfYVJvMkhocFVldVp1cXNOX01zd1Z4YnJGZmxQYWFjY044VlQ2Z1V0UlNhUkU1bEVycUlMX3ZOVGhfMEh3SHRkNlVCTzkyc0w1MXR6RXF3bmJaak1tbXRTMEVNejBTWXFPeDVNQXNPWm1TdW5TTkhGakxMUHJWZURrdVoyanhQRENfc1pTdE5YMll4YjRqNzBNWG8?oc=5",
-    "summary": "From smart glasses to AI pins, privacy fears challenge tech's next big bet reuters.com",
-    "source": "reuters.com",
+    "summary": "From smart glasses to AI pins, privacy fears challenge tech's next big bet Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T10:01:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.489578+00:00",
+    "collected_at": "2026-09-24T18:30:44.659809+00:00",
     "origin": "google_news"
   },
   {
@@ -7076,7 +7292,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T10:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.543572+00:00",
+    "collected_at": "2026-09-24T18:30:37.596433+00:00",
     "origin": "google_news"
   },
   {
@@ -7112,7 +7328,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T09:46:15+00:00",
-    "collected_at": "2026-09-24T17:26:15.746789+00:00",
+    "collected_at": "2026-09-24T18:30:44.884957+00:00",
     "origin": "rss"
   },
   {
@@ -7124,19 +7340,19 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T09:45:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.543913+00:00",
+    "collected_at": "2026-09-24T18:30:37.596690+00:00",
     "origin": "google_news"
   },
   {
-    "id": "baeeac8b67c78f4be6a96302",
-    "title": "EXCLUSIVE: DeepSeek to brief UN Security Council on AI this week, sources say - reuters.com",
+    "id": "0aed83f1de1b69e89b47f15d",
+    "title": "EXCLUSIVE: DeepSeek to brief UN Security Council on AI this week, sources say - Reuters",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX2ZLc3FkMFBGdGM0Mno4QmV0ZFJtVWZ2X3RyLUp6SmFUX0tQQ0FPRHlLRmdJVmU5dy11SlE3SXFJUVlySDNQOXlmZTFkV3JNc19nSDlyUlhJZzgyMDY1d0VRaV9IT054T2stSTd5VWNOVVJNa0w3VHctTW9GdUJjYkRkQXdmSW1pOWllUVV4OVdOU003ckJBaWloZ0JKUmdtVTFiLVRhajY2N2pKUHhiYXV1Z3Y?oc=5",
-    "summary": "EXCLUSIVE: DeepSeek to brief UN Security Council on AI this week, sources say reuters.com",
-    "source": "reuters.com",
+    "summary": "EXCLUSIVE: DeepSeek to brief UN Security Council on AI this week, sources say Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T09:35:06+00:00",
-    "collected_at": "2026-09-24T17:26:15.491163+00:00",
+    "collected_at": "2026-09-24T18:30:44.660905+00:00",
     "origin": "google_news"
   },
   {
@@ -7148,7 +7364,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T09:35:00+00:00",
-    "collected_at": "2026-09-24T17:26:12.173982+00:00",
+    "collected_at": "2026-09-24T18:30:41.403070+00:00",
     "origin": "google_news"
   },
   {
@@ -7160,7 +7376,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T09:27:28+00:00",
-    "collected_at": "2026-09-24T17:26:15.746952+00:00",
+    "collected_at": "2026-09-24T18:30:44.885142+00:00",
     "origin": "rss"
   },
   {
@@ -7220,7 +7436,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-22T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.535812+00:00",
+    "collected_at": "2026-09-24T18:30:37.587840+00:00",
     "origin": "google_news"
   },
   {
@@ -7232,7 +7448,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.972748+00:00",
+    "collected_at": "2026-09-24T18:30:46.309722+00:00",
     "origin": "google_news"
   },
   {
@@ -7308,15 +7524,15 @@
     "origin": "rss"
   },
   {
-    "id": "2f64e5ad84c3c6a9db960b42",
-    "title": "As Trump and Xi meet, investors play both sides of AI divide - reuters.com",
+    "id": "aec5131fbc9dbe9ff0f98515",
+    "title": "As Trump and Xi meet, investors play both sides of AI divide - Reuters",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQW45WkNOV0lEcDRQOFUxcGJRanlYNURFV2ZuNVg1MUk2dk4wMEhmMUp4VVd3NjBWN1RuOHY4c0QtQ3hxcWVITnpOblZJWl9KSTBWUUVDQUgycjdlRk9lMUhvVDAxN25hVHZXM09HOGZYdE1qdDRUX19DeVpwWXlwV2JNcmdpRDROMGVlNm95NFEyaEpTN1FDYk1CazdaOXNXWkZIekRMN2lCOUN5ZXFZ?oc=5",
-    "summary": "As Trump and Xi meet, investors play both sides of AI divide reuters.com",
-    "source": "reuters.com",
+    "summary": "As Trump and Xi meet, investors play both sides of AI divide Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-22T08:56:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.494741+00:00",
+    "collected_at": "2026-09-24T18:30:44.665349+00:00",
     "origin": "google_news"
   },
   {
@@ -7340,7 +7556,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T08:46:54+00:00",
-    "collected_at": "2026-09-24T17:26:16.970556+00:00",
+    "collected_at": "2026-09-24T18:30:46.306664+00:00",
     "origin": "google_news"
   },
   {
@@ -7400,7 +7616,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T08:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.368701+00:00",
+    "collected_at": "2026-09-24T18:30:45.567039+00:00",
     "origin": "google_news"
   },
   {
@@ -7424,7 +7640,7 @@
     "category_hint": "Business & Economy",
     "priority": 7,
     "published_at": "2026-09-22T07:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:13.431554+00:00",
+    "collected_at": "2026-09-24T18:30:42.785076+00:00",
     "origin": "google_news"
   },
   {
@@ -7520,7 +7736,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T05:55:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.371947+00:00",
+    "collected_at": "2026-09-24T18:30:45.570596+00:00",
     "origin": "google_news"
   },
   {
@@ -7580,7 +7796,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T05:00:15+00:00",
-    "collected_at": "2026-09-24T17:26:16.971589+00:00",
+    "collected_at": "2026-09-24T18:30:46.308152+00:00",
     "origin": "google_news"
   },
   {
@@ -7592,7 +7808,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-22T05:00:15+00:00",
-    "collected_at": "2026-09-24T17:26:16.972516+00:00",
+    "collected_at": "2026-09-24T18:30:46.309463+00:00",
     "origin": "google_news"
   },
   {
@@ -7664,7 +7880,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T04:01:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.371370+00:00",
+    "collected_at": "2026-09-24T18:30:45.570316+00:00",
     "origin": "google_news"
   },
   {
@@ -7808,7 +8024,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T00:38:57+00:00",
-    "collected_at": "2026-09-24T17:26:12.175472+00:00",
+    "collected_at": "2026-09-24T18:30:41.405037+00:00",
     "origin": "google_news"
   },
   {
@@ -7824,15 +8040,15 @@
     "origin": "google_news"
   },
   {
-    "id": "717f1bd7bab167bcaf97d007",
-    "title": "Alleged Fake Support of DOL Alts Rule Spurs Congressional Request for Investigation - plansponsor.com",
+    "id": "01e643f9e058b504165cb441",
+    "title": "Alleged Fake Support of DOL Alts Rule Spurs Congressional Request for Investigation - plansponsor",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWGJFQVRQTnltNHVNZ1pZa1VDaXktZFFnM3l4bzZwUHRTWk41NnlwWTRiaEtNQUdYZGtEN3BQLUtDWEFpdlFSdFhVLW5jekVRbDNsTXZJem15dGpic3dHV3dMZGRDWXY2ZjF3NGFMMWg4YTVBX3IyNnpkeFp3YjBnUWVsdjZXTFRBTThVd0tCaW1aRzN1MGl2SmtyOVItWlltN2pLQVdPSVNWamdNR2RZaHJ3?oc=5",
-    "summary": "Alleged Fake Support of DOL Alts Rule Spurs Congressional Request for Investigation plansponsor.com",
-    "source": "plansponsor.com",
+    "summary": "Alleged Fake Support of DOL Alts Rule Spurs Congressional Request for Investigation plansponsor",
+    "source": "plansponsor",
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T00:24:29+00:00",
-    "collected_at": "2026-09-24T14:28:53.733229+00:00",
+    "collected_at": "2026-09-24T18:30:41.398582+00:00",
     "origin": "google_news"
   },
   {
@@ -7892,7 +8108,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T23:37:58+00:00",
-    "collected_at": "2026-09-24T17:26:07.272565+00:00",
+    "collected_at": "2026-09-24T18:30:36.190508+00:00",
     "origin": "google_news"
   },
   {
@@ -8084,7 +8300,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T21:22:04+00:00",
-    "collected_at": "2026-09-24T17:26:07.269633+00:00",
+    "collected_at": "2026-09-24T18:30:36.181912+00:00",
     "origin": "google_news"
   },
   {
@@ -8184,15 +8400,15 @@
     "origin": "google_news"
   },
   {
-    "id": "d6b6a7e58813a904d403a671",
-    "title": "AI could boost LatAm, Caribbean economy 5.1% over a decade but wages may fall, IDB says - reuters.com",
+    "id": "89d0967f404bcdf2ada76f2e",
+    "title": "AI could boost LatAm, Caribbean economy 5.1% over a decade but wages may fall, IDB says - Reuters",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVi05aHpLMlNmUWw4ekwzTlpCdVBzVzJQaFNCZkM1OTNfNWViRTh2SThXLUtDV0FTbXBWN0tNVkNhTkNoSE9rZlVoVDhtM1NlYk10czhvclNaa1Rzb2dpQVkyRk5UU0wxTzd1Q0FyS0NpdzhWVWN2SFgzOV9aeDlWWXVwaHRIckFJVzRVUGswMFlCa2k0aWVJbEdJNEROSGtGZE45T1BXSEVDRjA5bVBPOHlR?oc=5",
-    "summary": "AI could boost LatAm, Caribbean economy 5.1% over a decade but wages may fall, IDB says reuters.com",
-    "source": "reuters.com",
+    "summary": "AI could boost LatAm, Caribbean economy 5.1% over a decade but wages may fall, IDB says Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T20:44:26+00:00",
-    "collected_at": "2026-09-24T17:26:15.495568+00:00",
+    "collected_at": "2026-09-24T18:30:44.666044+00:00",
     "origin": "google_news"
   },
   {
@@ -8216,7 +8432,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-21T20:37:47+00:00",
-    "collected_at": "2026-09-24T17:26:12.170151+00:00",
+    "collected_at": "2026-09-24T18:30:41.399137+00:00",
     "origin": "google_news"
   },
   {
@@ -8324,7 +8540,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-21T20:03:25+00:00",
-    "collected_at": "2026-09-24T17:26:12.169898+00:00",
+    "collected_at": "2026-09-24T18:30:41.398843+00:00",
     "origin": "google_news"
   },
   {
@@ -8408,7 +8624,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-21T19:44:05+00:00",
-    "collected_at": "2026-09-24T17:26:12.172476+00:00",
+    "collected_at": "2026-09-24T18:30:41.401222+00:00",
     "origin": "google_news"
   },
   {
@@ -8420,7 +8636,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T19:30:58+00:00",
-    "collected_at": "2026-09-24T17:26:07.271171+00:00",
+    "collected_at": "2026-09-24T18:30:36.184032+00:00",
     "origin": "google_news"
   },
   {
@@ -8444,7 +8660,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-21T19:19:04+00:00",
-    "collected_at": "2026-09-24T17:26:17.634484+00:00",
+    "collected_at": "2026-09-24T18:30:47.006481+00:00",
     "origin": "google_news"
   },
   {
@@ -8880,15 +9096,15 @@
     "origin": "rss"
   },
   {
-    "id": "265114a562b1d2c07fb4fa6d",
-    "title": "OpenAI calls for US to take lead in global efforts to develop technical standards - reuters.com",
+    "id": "bda8f999b7b1749643a8a299",
+    "title": "OpenAI calls for US to take lead in global efforts to develop technical standards - Reuters",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY1F1UlF0ZWNKMTNmQkF4d3JKTGsyU3liQUt4YkhCaHRrNDdnNnFPbWNrbVpwS0U0REV6SnRIenZmU3hndndTTG1ia0lHemR1RDIwcWo5aXBmcGlIUzdIZkd5VGNrUnlqSHduTmlXUGlKb3JmRC1URWpOVXFyY0NlVF9sa0RSWms1TEZLQVlxclBqNV9PS2V0VnpMNmNoNUg3NXJmQmtaZHdGYlkyaGV0SEZvRmZnMzQzUlJzem13?oc=5",
-    "summary": "OpenAI calls for US to take lead in global efforts to develop technical standards reuters.com",
-    "source": "reuters.com",
+    "summary": "OpenAI calls for US to take lead in global efforts to develop technical standards Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T17:02:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.492077+00:00",
+    "collected_at": "2026-09-24T18:30:44.661688+00:00",
     "origin": "google_news"
   },
   {
@@ -9020,7 +9236,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T16:27:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.537513+00:00",
+    "collected_at": "2026-09-24T18:30:37.589673+00:00",
     "origin": "google_news"
   },
   {
@@ -9080,7 +9296,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-21T15:47:22+00:00",
-    "collected_at": "2026-09-24T17:26:12.168920+00:00",
+    "collected_at": "2026-09-24T18:30:41.397432+00:00",
     "origin": "google_news"
   },
   {
@@ -9212,7 +9428,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-21T15:13:12+00:00",
-    "collected_at": "2026-09-24T17:26:16.970096+00:00",
+    "collected_at": "2026-09-24T18:30:46.306132+00:00",
     "origin": "google_news"
   },
   {
@@ -9308,7 +9524,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-21T14:47:30+00:00",
-    "collected_at": "2026-09-24T17:26:12.171519+00:00",
+    "collected_at": "2026-09-24T18:30:41.400145+00:00",
     "origin": "google_news"
   },
   {
@@ -9512,7 +9728,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-21T13:48:44+00:00",
-    "collected_at": "2026-09-24T17:26:12.172719+00:00",
+    "collected_at": "2026-09-24T18:30:41.401503+00:00",
     "origin": "google_news"
   },
   {
@@ -9680,7 +9896,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-21T12:36:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.372691+00:00",
+    "collected_at": "2026-09-24T18:30:45.574517+00:00",
     "origin": "google_news"
   },
   {
@@ -9800,7 +10016,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-21T11:08:23+00:00",
-    "collected_at": "2026-09-24T17:26:08.536793+00:00",
+    "collected_at": "2026-09-24T18:30:37.589129+00:00",
     "origin": "google_news"
   },
   {
@@ -9920,7 +10136,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T10:27:10+00:00",
-    "collected_at": "2026-09-24T17:26:07.269873+00:00",
+    "collected_at": "2026-09-24T18:30:36.182212+00:00",
     "origin": "google_news"
   },
   {
@@ -9936,15 +10152,15 @@
     "origin": "google_news"
   },
   {
-    "id": "9fe6af2a4ad15676173b4db1",
-    "title": "CNN, MS NOW and Politico sue Trump, challenging White House ban - reuters.com",
+    "id": "00d0a2588a18a2e816815d01",
+    "title": "CNN, MS NOW and Politico sue Trump, challenging White House ban - Reuters",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN3FsUG96RnAzaEhYRG9WdFdhckY0NFFOT0hYWF9TSWx1XzlCTHJidFN5d3VvcHh0MUZmTjctZXl0QlA3M3dlbmRTaGR1WlZOUktIdVRGYXNTemczVFhnNExmSV9OOFRQdlRYU0xJYmMtWVhUU09vNTE0Nmc2Nm45MzIwa3ZtOVo5cHl6YWZXanNwallBQXhoalJ6Q2czRVVrRzZVbW84a09OdmhVdzRad3pyQnR5Z3NkeXdMXw?oc=5",
-    "summary": "CNN, MS NOW and Politico sue Trump, challenging White House ban reuters.com",
-    "source": "reuters.com",
+    "summary": "CNN, MS NOW and Politico sue Trump, challenging White House ban Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T10:16:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.269131+00:00",
+    "collected_at": "2026-09-24T18:30:36.181302+00:00",
     "origin": "google_news"
   },
   {
@@ -9968,7 +10184,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T10:14:34+00:00",
-    "collected_at": "2026-09-24T17:26:07.268392+00:00",
+    "collected_at": "2026-09-24T18:30:36.179714+00:00",
     "origin": "google_news"
   },
   {
@@ -10412,7 +10628,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T08:39:38+00:00",
-    "collected_at": "2026-09-24T17:26:07.271398+00:00",
+    "collected_at": "2026-09-24T18:30:36.184300+00:00",
     "origin": "google_news"
   },
   {
@@ -10488,15 +10704,15 @@
     "origin": "rss"
   },
   {
-    "id": "b91781309e2c379138564ce9",
-    "title": "Tech leaders, governments split over 'AI doom' fears - reuters.com",
+    "id": "43b742384406c45a033603d2",
+    "title": "Tech leaders, governments split over 'AI doom' fears - Reuters",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOci00d2VnNkNITS1oUkJ4U0ptbWdrdmh1LXJmMGd3RzE0dnlKMGpSRWM4MExrTENURHF1UWU5VTJqak5xellza0FNb2VGZXNzMllrS3kyZHFjS3R0QXoyLVRlRjVHYXNac2dMbUdRQm0xWTFqUFYza05OZDNyTjNzRGZiQUVnZEhuYXVqWktNbEF2c093YVpzN09vUDQ3a3duSmR3M0J0M293M0JCOHpKdlNR?oc=5",
-    "summary": "Tech leaders, governments split over 'AI doom' fears reuters.com",
-    "source": "reuters.com",
+    "summary": "Tech leaders, governments split over 'AI doom' fears Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-21T07:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.493108+00:00",
+    "collected_at": "2026-09-24T18:30:44.663212+00:00",
     "origin": "google_news"
   },
   {
@@ -10856,7 +11072,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-21T01:58:05+00:00",
-    "collected_at": "2026-09-24T17:26:17.634760+00:00",
+    "collected_at": "2026-09-24T18:30:47.006803+00:00",
     "origin": "google_news"
   },
   {
@@ -12152,7 +12368,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-20T09:31:14+00:00",
-    "collected_at": "2026-09-24T17:26:16.969405+00:00",
+    "collected_at": "2026-09-24T18:30:46.305317+00:00",
     "origin": "google_news"
   },
   {
@@ -12272,7 +12488,7 @@
     "category_hint": "Business & Economy",
     "priority": 7,
     "published_at": "2026-09-20T08:47:00+00:00",
-    "collected_at": "2026-09-24T17:26:13.431835+00:00",
+    "collected_at": "2026-09-24T18:30:42.785451+00:00",
     "origin": "google_news"
   },
   {
@@ -12416,7 +12632,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-20T06:02:48+00:00",
-    "collected_at": "2026-09-24T17:26:16.971269+00:00",
+    "collected_at": "2026-09-24T18:30:46.307197+00:00",
     "origin": "google_news"
   },
   {
@@ -12716,7 +12932,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-20T01:51:36+00:00",
-    "collected_at": "2026-09-24T17:26:12.169168+00:00",
+    "collected_at": "2026-09-24T18:30:41.397694+00:00",
     "origin": "google_news"
   },
   {
@@ -12860,7 +13076,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T23:32:05+00:00",
-    "collected_at": "2026-09-24T17:26:16.966712+00:00",
+    "collected_at": "2026-09-24T18:30:46.302211+00:00",
     "origin": "google_news"
   },
   {
@@ -12884,7 +13100,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T23:18:46+00:00",
-    "collected_at": "2026-09-24T17:26:16.966473+00:00",
+    "collected_at": "2026-09-24T18:30:46.301933+00:00",
     "origin": "google_news"
   },
   {
@@ -12896,7 +13112,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-19T23:18:34+00:00",
-    "collected_at": "2026-09-24T17:26:15.747267+00:00",
+    "collected_at": "2026-09-24T18:30:44.885479+00:00",
     "origin": "rss"
   },
   {
@@ -13388,7 +13604,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-19T15:26:31+00:00",
-    "collected_at": "2026-09-24T17:26:07.272804+00:00",
+    "collected_at": "2026-09-24T18:30:36.185399+00:00",
     "origin": "google_news"
   },
   {
@@ -13448,7 +13664,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T14:52:32+00:00",
-    "collected_at": "2026-09-24T17:26:16.966231+00:00",
+    "collected_at": "2026-09-24T18:30:46.301634+00:00",
     "origin": "google_news"
   },
   {
@@ -13664,7 +13880,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-19T12:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:08.540349+00:00",
+    "collected_at": "2026-09-24T18:30:37.592987+00:00",
     "origin": "google_news"
   },
   {
@@ -14036,7 +14252,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T07:07:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.971031+00:00",
+    "collected_at": "2026-09-24T18:30:46.307467+00:00",
     "origin": "google_news"
   },
   {
@@ -14168,7 +14384,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-19T05:27:45+00:00",
-    "collected_at": "2026-09-24T17:26:16.967184+00:00",
+    "collected_at": "2026-09-24T18:30:46.302741+00:00",
     "origin": "google_news"
   },
   {
@@ -14544,15 +14760,15 @@
     "origin": "google_news"
   },
   {
-    "id": "6bba0ba2569d6109b722d293",
-    "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - reuters.com",
+    "id": "4a961f25b9a58d0dea0f4287",
+    "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - Reuters",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUhNb1VBaVJWRXQwZGlnTGk1N1B2UjFyNkltbzJUOGhxZThUdXhNN1BWSGxwNkRsMWVmTjFqSlZ6eFpLY3dkZ0VVVHdIN2NTTFNURVBPd3JZM0lQS1FVQUJ3UUJ0c3RmZXNwamkzV1pkXzduU1pVSFN6bjdON1JoQlFRMzJlNFdKTndsS2tJdzhxVG12cTBfbGREUjkwQTdIdDlhYzE3czdEMU5xMHc?oc=5",
-    "summary": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say reuters.com",
-    "source": "reuters.com",
+    "summary": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-19T00:14:33+00:00",
-    "collected_at": "2026-09-24T17:26:15.487896+00:00",
+    "collected_at": "2026-09-24T18:30:44.657698+00:00",
     "origin": "google_news"
   },
   {
@@ -14672,7 +14888,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-18T23:07:00+00:00",
-    "collected_at": "2026-09-24T17:26:07.272096+00:00",
+    "collected_at": "2026-09-24T18:30:36.185141+00:00",
     "origin": "google_news"
   },
   {
@@ -14996,7 +15212,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-18T21:07:24+00:00",
-    "collected_at": "2026-09-24T17:26:15.487662+00:00",
+    "collected_at": "2026-09-24T18:30:44.657405+00:00",
     "origin": "google_news"
   },
   {
@@ -15300,15 +15516,15 @@
     "origin": "google_news"
   },
   {
-    "id": "fa02a352cc78b5aed3187eb2",
-    "title": "Trump says he is banning media outlets CNN, MS NOW, Politico from White House - reuters.com",
+    "id": "957ef2776865f46482743b60",
+    "title": "Trump says he is banning media outlets CNN, MS NOW, Politico from White House - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMlVWa0ZnX0VIQWsxTUVRTnRrSV9SLVFKd19wQ2FGRGx0QlNtSUZfd3JBbDRZZ2hNU2lXa1haT0dESVZoMWp4UnF5UDFTRllIQ19Ibno2QVVndW1yODN3VUdvV3RpN21Sd2R6dUZyLUFGSGtnd2hrS1FNVTNDajlVNG9TRDVxa0lyN2s3NTgtXzBTMktpU0dQcTFwdmlZX0dEcWc?oc=5",
-    "summary": "Trump says he is banning media outlets CNN, MS NOW, Politico from White House reuters.com",
-    "source": "reuters.com",
+    "summary": "Trump says he is banning media outlets CNN, MS NOW, Politico from White House Reuters",
+    "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-18T19:22:38+00:00",
-    "collected_at": "2026-09-24T17:26:07.268641+00:00",
+    "collected_at": "2026-09-24T18:30:36.180739+00:00",
     "origin": "google_news"
   },
   {
@@ -16244,7 +16460,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-18T12:58:55+00:00",
-    "collected_at": "2026-09-24T17:26:15.747114+00:00",
+    "collected_at": "2026-09-24T18:30:44.885308+00:00",
     "origin": "rss"
   },
   {
@@ -18692,7 +18908,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-17T17:35:40+00:00",
-    "collected_at": "2026-09-24T17:26:19.689345+00:00",
+    "collected_at": "2026-09-24T18:30:49.388733+00:00",
     "origin": "google_news"
   },
   {
@@ -18788,7 +19004,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-17T17:04:09+00:00",
-    "collected_at": "2026-09-24T17:26:08.541876+00:00",
+    "collected_at": "2026-09-24T18:30:37.594765+00:00",
     "origin": "google_news"
   },
   {
@@ -19436,7 +19652,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-17T13:41:06+00:00",
-    "collected_at": "2026-09-24T17:26:08.541424+00:00",
+    "collected_at": "2026-09-24T18:30:37.593961+00:00",
     "origin": "google_news"
   },
   {
@@ -19796,7 +20012,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-17T11:30:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.488602+00:00",
+    "collected_at": "2026-09-24T18:30:44.657986+00:00",
     "origin": "google_news"
   },
   {
@@ -20132,7 +20348,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-17T09:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.967666+00:00",
+    "collected_at": "2026-09-24T18:30:46.303299+00:00",
     "origin": "google_news"
   },
   {
@@ -21828,15 +22044,15 @@
     "origin": "google_news"
   },
   {
-    "id": "ef283df877946f229ca0b7b9",
-    "title": "US consumers and businesses are now facing a future of more expensive borrowing - The Conversation",
+    "id": "04d50a574beb6ef4ebbe219d",
+    "title": "US consumers and businesses are now facing a future of more expensive borrowing - theconversation.com",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVGNTLVZaY3k0eW5CYjlJaTJBc0o0SE1wZmx1cW4tN2NkeGEyaXZhekp1Z1lnbzJseDZzczllTXZUb2k2SVppcDJpX25jNzN2Z2l0Y3RrQjZFRXdXLWFHaWcwa1d2d0RieFRXYS1taVdLSVEycUhpNzJ3dms0di1QTDlzY3lKeXlETEtoNk9Eb3F6VG81bXl2aFZOWnpOVnZPbTc1eTdqVzhOaDRvVFM2b1NJRlY?oc=5",
-    "summary": "US consumers and businesses are now facing a future of more expensive borrowing The Conversation",
-    "source": "The Conversation",
+    "summary": "US consumers and businesses are now facing a future of more expensive borrowing theconversation.com",
+    "source": "theconversation.com",
     "category_hint": "Business & Economy",
     "priority": 7,
     "published_at": "2026-09-16T19:05:10+00:00",
-    "collected_at": "2026-09-24T17:26:13.432343+00:00",
+    "collected_at": "2026-09-24T18:30:42.786127+00:00",
     "origin": "google_news"
   },
   {
@@ -21968,7 +22184,7 @@
     "category_hint": "Federal Courts",
     "priority": 10,
     "published_at": "2026-09-16T18:19:49+00:00",
-    "collected_at": "2026-09-24T17:26:10.253555+00:00",
+    "collected_at": "2026-09-24T18:30:39.494603+00:00",
     "origin": "google_news"
   },
   {
@@ -23240,7 +23456,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-16T11:22:29+00:00",
-    "collected_at": "2026-09-24T17:26:17.638974+00:00",
+    "collected_at": "2026-09-24T18:30:47.011965+00:00",
     "origin": "google_news"
   },
   {
@@ -23696,7 +23912,7 @@
     "category_hint": "Business & Economy",
     "priority": 7,
     "published_at": "2026-09-16T09:03:10+00:00",
-    "collected_at": "2026-09-24T17:26:13.433924+00:00",
+    "collected_at": "2026-09-24T18:30:42.788095+00:00",
     "origin": "google_news"
   },
   {
@@ -23940,15 +24156,15 @@
     "origin": "google_news"
   },
   {
-    "id": "974cd594dc5927410538d3fe",
-    "title": "OpenAI to regularly disclose AI misbehavior, warns safety challenges remain - reuters.com",
+    "id": "605df6773f091dcb1935183d",
+    "title": "OpenAI to regularly disclose AI misbehavior, warns safety challenges remain - Reuters",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ09uWFd0WmUtWloyeENhUWp5NFJiNVF6REhDTUE2ZHZETW5DLUkyRG5QNDhfb0pvVWd5TkVLUEh0WnVja3dxMWJuU2ItSmRQLWM1bFJwN3RmdG03OWRhTXhzejQ2RHpBOTZ4d3hzQXdXOVNycjliMmlRSWhvOUF4NkpkVXVLcnZ2MThmTXpXMlJhQzVZQ0ZkWVAwX1Uwdw?oc=5",
-    "summary": "OpenAI to regularly disclose AI misbehavior, warns safety challenges remain reuters.com",
-    "source": "reuters.com",
+    "summary": "OpenAI to regularly disclose AI misbehavior, warns safety challenges remain Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-16T07:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.489104+00:00",
+    "collected_at": "2026-09-24T18:30:44.658574+00:00",
     "origin": "google_news"
   },
   {
@@ -24932,7 +25148,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-15T21:33:05+00:00",
-    "collected_at": "2026-09-24T17:26:19.042152+00:00",
+    "collected_at": "2026-09-24T18:30:48.413484+00:00",
     "origin": "google_news"
   },
   {
@@ -25953,6 +26169,18 @@
     "priority": 9,
     "published_at": "2026-09-15T16:52:02+00:00",
     "collected_at": "2026-09-16T04:27:57.900461+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "59905f03ed5858184563c714",
+    "title": "California Employment Bills Await Governor’s Signature - The National Law Review",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPb0x0MTg4OHlEb3Q0WkhPdnVoaWRiT0taZE02NHZnOGZoVWpjWld4ZF8xZTZ6blpreFdrakdRUFo1c0F0YnR0enduQVZwRk5valBlSkVGWVFRb2dXQS0yYUd5Z0hMcUpoMzQtZ0VQWnFmMDRkSy1nTHJBcUxRQlFMVVRHWkpaQ1FTNkxma05LZ9IBlAFBVV95cUxQby1rcS1FckdON2Rkd1I5UVBaQ05TVm5BYXhucGVWNmhnY0JEbmV2Y0xMWURpd2ZCRmRBMFlqalRNWVRxaWppb2lRRjVUR0ZDR1U3NE1QV1FQT3huSVdWeG5iRmpJcmU5NUpKNXN5dWIxUWo1ZHZ4a0RUY3J1UTBYbGV6aVplOVhhYkowdGJ0NlZvcU51?oc=5",
+    "summary": "California Employment Bills Await Governor’s Signature The National Law Review",
+    "source": "The National Law Review",
+    "category_hint": "California Law",
+    "priority": 10,
+    "published_at": "2026-09-15T16:48:52+00:00",
+    "collected_at": "2026-09-24T18:30:47.007792+00:00",
     "origin": "google_news"
   },
   {
@@ -27144,15 +27372,15 @@
     "origin": "google_news"
   },
   {
-    "id": "c4318991502dd29c21e4f355",
-    "title": "OpenAI is working with Anthropic, Google on AI safety, Bloomberg News reports - reuters.com",
+    "id": "6869246365bf73d5dec6fff3",
+    "title": "OpenAI is working with Anthropic, Google on AI safety, Bloomberg News reports - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaENkNHlJX1lkYlJtRzRtZ0NEaFpfbkxub0F1VkVUVHBvVTdMaHV1NjRDMnY5N09TTnIzRzFQZmFYcnY3ZkplMmxGQ1Y2OFRXT1kyTkNlWnZ0SjFsWHdHMWl6RklJeTFmMjVfYVN0ZTlidzhmR090TVdzRFRQd1ZmSFB2dXIyM1BLYVJDNlZMYy1PYnpTdTR0bHBYR2JwYWpMczAzSm5jU0JqYkJwb2V1SmhmMVJxSzRILXBZ?oc=5",
-    "summary": "OpenAI is working with Anthropic, Google on AI safety, Bloomberg News reports reuters.com",
-    "source": "reuters.com",
+    "summary": "OpenAI is working with Anthropic, Google on AI safety, Bloomberg News reports Reuters",
+    "source": "Reuters",
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-15T07:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:15.489347+00:00",
+    "collected_at": "2026-09-24T18:30:44.659145+00:00",
     "origin": "google_news"
   },
   {
@@ -27164,19 +27392,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-15T07:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:16.973884+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "59905f03ed5858184563c714",
-    "title": "California Employment Bills Await Governor’s Signature - The National Law Review",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPb0x0MTg4OHlEb3Q0WkhPdnVoaWRiT0taZE02NHZnOGZoVWpjWld4ZF8xZTZ6blpreFdrakdRUFo1c0F0YnR0enduQVZwRk5valBlSkVGWVFRb2dXQS0yYUd5Z0hMcUpoMzQtZ0VQWnFmMDRkSy1nTHJBcUxRQlFMVVRHWkpaQ1FTNkxma05LZ9IBlAFBVV95cUxQby1rcS1FckdON2Rkd1I5UVBaQ05TVm5BYXhucGVWNmhnY0JEbmV2Y0xMWURpd2ZCRmRBMFlqalRNWVRxaWppb2lRRjVUR0ZDR1U3NE1QV1FQT3huSVdWeG5iRmpJcmU5NUpKNXN5dWIxUWo1ZHZ4a0RUY3J1UTBYbGV6aVplOVhhYkowdGJ0NlZvcU51?oc=5",
-    "summary": "California Employment Bills Await Governor’s Signature The National Law Review",
-    "source": "The National Law Review",
-    "category_hint": "California Law",
-    "priority": 10,
-    "published_at": "2026-09-15T07:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:17.635567+00:00",
+    "collected_at": "2026-09-24T18:30:46.310929+00:00",
     "origin": "google_news"
   },
   {
@@ -27188,7 +27404,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-15T07:00:00+00:00",
-    "collected_at": "2026-09-24T17:26:17.637154+00:00",
+    "collected_at": "2026-09-24T18:30:47.009777+00:00",
     "origin": "google_news"
   },
   {
@@ -28712,7 +28928,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-14T20:56:13+00:00",
-    "collected_at": "2026-09-24T17:26:18.246784+00:00",
+    "collected_at": "2026-09-24T18:30:47.722239+00:00",
     "origin": "google_news"
   },
   {
@@ -29205,186 +29421,6 @@
     "priority": 7,
     "published_at": "2026-09-14T18:34:00+00:00",
     "collected_at": "2026-09-15T19:25:46.612198+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "371e185938ba902b8c8e604f",
-    "title": "Opinion | America spends big to help people with little - The Washington Post",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSEgwMFgxdDl2cDc1RVV2VjVPeVpKS0ZMQkxxR041ZjM1VlZTbFNTbTlNdGkwSWR4YUFrSjl0eHJ6cnFZWmFyNHpVRUdydmdrbzNBdWY5b2NDQ1U5Q3Rra09tS1duNlFReUl4b0JETkFwWUozLUwybFlXQmNlT0w0ZFdOT2NEeGFNbnZQdkZyZDUzVXVmcWhjQU00RHlBckNqR2p5d1RaOXhaOXk5eHgxV0RpOA?oc=5",
-    "summary": "Opinion | America spends big to help people with little The Washington Post",
-    "source": "The Washington Post",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-14T18:30:00+00:00",
-    "collected_at": "2026-09-16T15:27:00.023651+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "7e878dd3353594e6a3b01b62",
-    "title": "Israeli minister threatens to revoke filmmakers' citizenship over Gaza documentary",
-    "url": "https://www.bbc.co.uk/news/articles/c9vgy8d8256go?at_medium=RSS&at_campaign=rss",
-    "summary": "The film accuses the Israeli army of mass civilian killing in Gaza, and Israeli officials say it could be treasonous.",
-    "source": "BBC Entertainment & Arts",
-    "category_hint": "Entertainment & Culture",
-    "priority": 7,
-    "published_at": "2026-09-14T18:26:20+00:00",
-    "collected_at": "2026-09-16T13:29:14.854307+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "f66b55eed9e594d2d98ef3ba",
-    "title": "Kennedy Center says it's on the brink of bankruptcy, might close as early as Tuesday",
-    "url": "https://www.npr.org/2026/09/14/nx-s1-5968690/kennedy-center-financial-physical-state",
-    "summary": "In two board resolutions made public Monday, the arts institution says it is in a dire financial and physical state — and that only President Trump can \"rescue\" it.",
-    "source": "NPR Top Stories",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-14T18:25:04+00:00",
-    "collected_at": "2026-09-15T08:30:58.118333+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "2bb54eea418afe72a6362c48",
-    "title": "Changing classes and competition: Process for schools begins now - Star Tribune",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbGdjdkhoNW5nY085UV9RbUtHSGJuVkVoVnJXOEZiY3ZoOVU4WDhLS0RQTEtnTFdTOTZKMXJ4bEJPRjBkeE9fWVhrcGU5alpMTXdKQTJfUldTZ2xPdHZsQU5lYmlKckQzdUxDQTJydWxGZjY5dTN4Q0tEd0s0ZkFlWV9zcGFuLXJ0UjJwNkZWM01QMnBCTU9PSllMb2NDV09uMVg3X00yelhGanllaDZfUlFfN011MVBHY2FXQXpR?oc=5",
-    "summary": "Changing classes and competition: Process for schools begins now Star Tribune",
-    "source": "Star Tribune",
-    "category_hint": "Minnesota",
-    "priority": 9,
-    "published_at": "2026-09-14T18:15:13+00:00",
-    "collected_at": "2026-09-17T12:32:45.874347+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "025fdf5c8dafa743249d7462",
-    "title": "EEOC Chair Urges Workers To Report Anti-American Bias - Law360",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPelQ1NzVPVE9nLTVBYW8ySW1Ha05HT2dRa0lZZ2NlbDFkeVVBRE5nN2RYaWRUSk9rWVdLeDdZV0hfMnRhbUxTV3NWblBHR2NOMGY1Smc1TmJpRXhkQlpLcUdHUkU1T2RqNlA5Si1HaWUwZDBCcDVkXzdZalZiRkdkdXhfa2VGTFN4c0FYVkU1STN0ejdydWFXVGhPcEhvNHZNc2NQdHFDUlV2Q0xKWGI4cGZlRl9BR2tzT2M0T0hQUW96U3RPNmYxQdIBckFVX3lxTFBhT2M1YkZDbmlpQkRLUjN3QVZoMUt6eDdCUHprTFowUTZTdEdJUlNCM3VqMTYwa3J5ZFVLTXV5eGNZM3FqUm1xTkJKSERubS1KOU0zMmVUM0VNbVVoX21sRjZ2TmptbXBQUldjd0hoU3o4Zw?oc=5",
-    "summary": "EEOC Chair Urges Workers To Report Anti-American Bias Law360",
-    "source": "Law360",
-    "category_hint": "Employment Law",
-    "priority": 10,
-    "published_at": "2026-09-14T18:11:00+00:00",
-    "collected_at": "2026-09-14T22:27:46.420679+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "71931914b090079b05b8b58c",
-    "title": "EEOC Chair Urges Workers To Report Anti-American Bias - Law360",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRFpQVGx2cmhac0FSVHM2ZnBSX2dRMWRiYWZRVlAyTTNHYWRIY1d1Sm5aQlRuYXFLNE1CZDExUXZXTlRMY3VDT3Z6cVp2MXA2V0VENGhSQWdaZU9tb1ZmVTRkeGtIRnBJaTdMWVlCcmlwVGNpeDhISEZwcDFPLWxNNkVwMTlhVTZIQU00eXV2U0RtaGRBWXZOVNIBckFVX3lxTFBhT2M1YkZDbmlpQkRLUjN3QVZoMUt6eDdCUHprTFowUTZTdEdJUlNCM3VqMTYwa3J5ZFVLTXV5eGNZM3FqUm1xTkJKSERubS1KOU0zMmVUM0VNbVVoX21sRjZ2TmptbXBQUldjd0hoU3o4Zw?oc=5",
-    "summary": "EEOC Chair Urges Workers To Report Anti-American Bias Law360",
-    "source": "Law360",
-    "category_hint": "Employment Law",
-    "priority": 10,
-    "published_at": "2026-09-14T18:11:00+00:00",
-    "collected_at": "2026-09-14T18:31:10.758267+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "9765c59ffbbc1c9a8c4476cd",
-    "title": "States and Cities Sue Over Trump’s Policy to Restrict Green Cards - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSVQyX1JEd1RjZlYwYVQ1d0hObWpxS2dsTXZiSkM5aVlXMnU3b0ZFalhMYTd4WGFaQzBub3NCWXpEbXNPRDVLOFo3alItbEtZQjNMeVBldVc3NzdLeGxITDdHRDdwNFFDSjFEdm1FVDBkRkJpVFFBdnp4WkpSR2J0cllwNHZmTERvRUlF?oc=5",
-    "summary": "States and Cities Sue Over Trump’s Policy to Restrict Green Cards The New York Times",
-    "source": "The New York Times",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-14T18:08:25+00:00",
-    "collected_at": "2026-09-15T17:24:42.818874+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "6c434b603976c8dfae9a43c0",
-    "title": "60 Minutes Returns With Bombshell Hidden-Camera Exposé on ‘Pardon Brokers’ Taking Cash to Influence Trump - People.com",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd2szQ3psb1J6TWo2ZjZoMmhlY1M3aFFMa3MzdzlCbTBua3g1dk1tTWtndVJ5VWFSc19uV2hpRElPQ1pvNHpxT1drOU94enBQaVYxR3I1aUd6M1JkZlZEeF95ejVxUGJieDhzaVRYcjJHM24wNk9Yd3V6ZDVkd2JKYkpoNTRJQ0hkNlZYbnlQdVlTVzhrYkZibS1ZSQ?oc=5",
-    "summary": "60 Minutes Returns With Bombshell Hidden-Camera Exposé on ‘Pardon Brokers’ Taking Cash to Influence Trump People.com",
-    "source": "People.com",
-    "category_hint": "Entertainment & Culture",
-    "priority": 7,
-    "published_at": "2026-09-14T18:02:46+00:00",
-    "collected_at": "2026-09-15T15:26:53.166169+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "8c380de816115d88523a666a",
-    "title": "‘Adults’ Defies Sophomore Slump With Ratings Growth - The Hollywood Reporter",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPM0lCLXpWZDB6SHRXdEVyb0Q3WlFkWlU1M1lYVktSTTB3U05CdS1WSFgzbUlFUWMwY1NOUF9jQTQ2cXd4RmFNdHBEc015SlN5a0FfaEJkT1RSMEVHOEJBQ3kwRWF1UkdCUjR4X1RHenlsbm8tWmxZa0NhV2FGNll5OGE0Q2tlMzlna3Z1OFk1eTJrTTBt?oc=5",
-    "summary": "‘Adults’ Defies Sophomore Slump With Ratings Growth The Hollywood Reporter",
-    "source": "The Hollywood Reporter",
-    "category_hint": "Entertainment & Culture",
-    "priority": 7,
-    "published_at": "2026-09-14T18:00:51+00:00",
-    "collected_at": "2026-09-15T13:28:37.999544+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "384a0d3fb486fa58f5905d1b",
-    "title": "SPE Taps Jamie Kampel To Run Consumer Products & Licensing In Expanded Role - Deadline",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbE52WG8tOGRjUjBvR29KVXdLNE4tMXhVN1k2RzRJaEJPSFpDTWg3czdDXzZ5dl9zNThjdEJGZW9LOWRCZFBJRlRORU5PZEttVnFCV3kwVGpXU1Nwakl3OV81cE1iWmlLeFduU21hMWdoM0tOZ2w2VVcyQktob1UzZGEtdzF5a3lCMU1aYmpkQlRTczNjc3FRYTRodw?oc=5",
-    "summary": "SPE Taps Jamie Kampel To Run Consumer Products & Licensing In Expanded Role Deadline",
-    "source": "Deadline",
-    "category_hint": "Entertainment & Culture",
-    "priority": 7,
-    "published_at": "2026-09-14T18:00:00+00:00",
-    "collected_at": "2026-09-21T08:28:53.479208+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "4aa8fd6535a2287025d67ea9",
-    "title": "Sweden may wait long for a new government as the opposition has a narrow lead in a tight election - apnews.com",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSlZ1SWd6X2txTlBEck5wcW5TM19ic1Rrb0hLSDhHcXpCN29wa29hMGYzT0J6WUhlMjJVbXBIWTZVN0hSUVRMMzFHMjMyQV9IMXZDRUlnekk2LU1jSTEydV9ia0JSSjdZZ0RzSzJOX1dtMm9WeFEzd29QQ3pvUEhYalNxNkhuZG9OYXhTR1ZWcW1yeHFKUWhhU1ZtcHJwdVlHX1lsX2d4Z3pzeGg2?oc=5",
-    "summary": "Sweden may wait long for a new government as the opposition has a narrow lead in a tight election apnews.com",
-    "source": "apnews.com",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-14T18:00:00+00:00",
-    "collected_at": "2026-09-15T13:28:28.817234+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "1e863a180532b8886d1c8aea",
-    "title": "Police confirm 'targeted attack' after man named in suspected shooting - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wdjJKblJOa09qREg2amcwYnZaT0pjb2oyOFRoR1ZTMFhCbWllYTk1T1ZMd0FkcDhfVXZVSTFmb0QxMi1JXzNydC05YlhWVHk3SGtoY2dHb0ZkdVk?oc=5",
-    "summary": "Police confirm 'targeted attack' after man named in suspected shooting BBC",
-    "source": "BBC",
-    "category_hint": "Good News",
-    "priority": 7,
-    "published_at": "2026-09-14T17:46:56+00:00",
-    "collected_at": "2026-09-16T11:27:32.976838+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "ec63f4f01d7a7032cacd8b92",
-    "title": "Paul Wesley Admits He Still Wonders If He’s ‘Doing Enough’ to Honor William Shatner’s Captain Kirk (Exclusive) - People.com",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVURWbGZuQWoxSXdicG4xeVJqQVNwRFJrbGljZjhieUtVSmNiamhqUGxZMDBnWmQ2cjNVUnpkbVRkdV9BSWRQazdWcVFNRFhwSkF5ZE84ZmlLeWJVMFBVVEQ5YVN3WEhfOE9SazVSMXlheGZwU296U2ljRF90bFF4OGtoODdZNEJGWDVsbHR6Vjd2b3dtRTNxRERaNWw2SlMtOC1nYUpoRTk?oc=5",
-    "summary": "Paul Wesley Admits He Still Wonders If He’s ‘Doing Enough’ to Honor William Shatner’s Captain Kirk (Exclusive) People.com",
-    "source": "People.com",
-    "category_hint": "Entertainment & Culture",
-    "priority": 7,
-    "published_at": "2026-09-14T17:31:31+00:00",
-    "collected_at": "2026-09-15T02:29:18.562055+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "7c7fe037e70db22d2d99dcc2",
-    "title": "‘Industry’ Adds Ben Platt, Russell Tovey to Final Season Cast - The Hollywood Reporter",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeHFoYUt4TGRyak04SmpQRGpqYThHZXlfb1N0eGV5eENrQXp2cDBOMVJCYk9oVVF6STR3NUE4bFdBQXFZRkpwa1BFZTlrcUZMZk9xcHVWb0hwRl9GTGs5NFByeFh0TzFORDhDZ3V5Y2NfbzJMc1RBdWFZcURaM3JVMmxJNHNTc0lnTkJRT2dDU2kxaWh4eThZcmg1R2tycjN1ZUZoSw?oc=5",
-    "summary": "‘Industry’ Adds Ben Platt, Russell Tovey to Final Season Cast The Hollywood Reporter",
-    "source": "The Hollywood Reporter",
-    "category_hint": "Entertainment & Culture",
-    "priority": 7,
-    "published_at": "2026-09-14T17:30:41+00:00",
-    "collected_at": "2026-09-15T11:26:48.258169+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "aa95c06caceb0e2301abf56a",
-    "title": "Melissa Rivers Reveals Why She and Mom Joan Rivers Quit Red Carpets Years Ago (Exclusive) - People.com",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZS1VQy13NFVyNzNKWXBlaVN2dmVRbTVfR0tZalZZTXpkUDRWU0JkVHpseGUzczlsNms4S0NJQ2J0SFh3ZFpCOVhNc0xNMmFPVV9aenoyUmZrUmdNNGVZbnFjVlY5Rk9ZMlF5cXQ4bEl5aVBCdEJiaG8yLU5mekgwN3F5ZDUzanRwVlJaeUxRTVM1MTQ?oc=5",
-    "summary": "Melissa Rivers Reveals Why She and Mom Joan Rivers Quit Red Carpets Years Ago (Exclusive) People.com",
-    "source": "People.com",
-    "category_hint": "Entertainment & Culture",
-    "priority": 7,
-    "published_at": "2026-09-14T17:29:22+00:00",
-    "collected_at": "2026-09-15T00:35:46.140529+00:00",
     "origin": "google_news"
   }
 ]
