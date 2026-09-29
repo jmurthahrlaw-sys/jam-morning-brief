@@ -7,8 +7,92 @@
     "source": "BBC World",
     "category_hint": "Top News",
     "priority": 8,
-    "published_at": "2026-09-29T08:13:13+00:00",
-    "collected_at": "2026-09-29T08:31:17.543429+00:00",
+    "published_at": "2026-09-29T09:14:13+00:00",
+    "collected_at": "2026-09-29T09:31:22.393290+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "05178d7ff60d4dde284de3e1",
+    "title": "Sir Ranulph Fiennes' relatives tell BBC it's 'very painful' not being able to visit him",
+    "url": "https://www.bbc.co.uk/news/articles/cqy7zr6d2lj4o?at_medium=RSS&at_campaign=rss",
+    "summary": "It has been alleged that Sir Ranulph has been admitted to a number of care homes under assumed names.",
+    "source": "BBC Entertainment & Arts",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-29T09:13:43+00:00",
+    "collected_at": "2026-09-29T09:31:30.574325+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "b7798af8f0b46682a84fe9dc",
+    "title": "4 ways to avoid getting ripped off, according to a pricing expert",
+    "url": "https://www.npr.org/2026/09/29/nx-s1-5983457/4-ways-to-avoid-getting-ripped-off-according-to-a-pricing-expert",
+    "summary": "Companies have changed the way they price their products — and shoppers are getting deliberately overcharged. Here are steps you can take to ensure you are getting the best deal.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-29T09:01:00+00:00",
+    "collected_at": "2026-09-29T09:31:22.248804+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "2bc20059d795f35eaf650478",
+    "title": "As the U.S. signals a smaller Middle East footprint, Turkey is ready to step in",
+    "url": "https://www.npr.org/2026/09/29/nx-s1-5983685/turkey-influence",
+    "summary": "Turkey's bid for regional influence comes at a time when the Middle East has been hit by profound shocks that started with the Hamas-led 2023 attack on Israel, and continues with the stalemated, seven-month-old war on Iran.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-29T09:00:00+00:00",
+    "collected_at": "2026-09-29T09:31:22.249130+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "7788d7600354f2811e758deb",
+    "title": "Mistakes to avoid when buying Glastonbury tickets",
+    "url": "https://www.bbc.co.uk/news/articles/c1kxzlle1yzo?at_medium=RSS&at_campaign=rss",
+    "summary": "Tips and expert advice to ensure you have the best success when buying Glastonbury 2027 tickets.",
+    "source": "BBC Entertainment & Arts",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-29T08:59:47+00:00",
+    "collected_at": "2026-09-29T09:31:30.572376+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "e49cf2e31d97d5fcc92ab327",
+    "title": "People.com | Celebrity News, Exclusives, Photos and Videos - People.com",
+    "url": "https://news.google.com/rss/articles/CBMiNkFVX3lxTE5zbk9VRkI2Q1lnSmFTU3NOUHFXZmZTdFhLZEdJaW1makVmSEJFZUtSWGVsSldKUQ?oc=5",
+    "summary": "People.com | Celebrity News, Exclusives, Photos and Videos People.com",
+    "source": "People.com",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-29T08:58:40+00:00",
+    "collected_at": "2026-09-29T09:31:31.159149+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "c25252ec94508d83359ab673",
+    "title": "Evicted Spanish pensioner can move back home, lawyer says",
+    "url": "https://www.bbc.co.uk/news/articles/cmkg8qgy9d9lo?at_medium=RSS&at_campaign=rss",
+    "summary": "The eviction of Maricarmen Abascal, 87, prompted large-scale protests across Spain.",
+    "source": "BBC World",
+    "category_hint": "Top News",
+    "priority": 8,
+    "published_at": "2026-09-29T08:53:00+00:00",
+    "collected_at": "2026-09-29T09:31:22.393534+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "686261d24ec7415b944ad57f",
+    "title": "Morning news brief",
+    "url": "https://www.npr.org/2026/09/29/nx-s1-5979951/morning-news-brief",
+    "summary": "Five men arrested on terror charges near U.K. air base released on bail, Trump administration rolls back fuel efficiency standards for new vehicles, prosecutors reopen Cornell fraternity rape case.",
+    "source": "NPR Top Stories",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-29T08:47:43+00:00",
+    "collected_at": "2026-09-29T09:31:22.249455+00:00",
     "origin": "rss"
   },
   {
@@ -20,19 +104,31 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T08:13:11+00:00",
-    "collected_at": "2026-09-29T08:31:17.489935+00:00",
+    "collected_at": "2026-09-29T09:31:22.249708+00:00",
     "origin": "rss"
   },
   {
-    "id": "b610c895933994f267766abb",
-    "title": "How a rape rumour sent an Indian university into turmoil and emptied hostels",
+    "id": "2f0998eb4e3a5d59cd5970b9",
+    "title": "News organizations ask court to bar White House enforcement of access ban - NPR",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMlZkcnhyckw2WUhUTmp4UXVoRVR0WC1VWmZBRVUxN1Y3Zi1HQTlGemxtYWEtSkZoMkMtTWVWdjR1Qnd5YWhPVkZ6WEdSNWZJb0doZENRMEhFQ1pscHQtTy1hRW1WdFNEbnRBUTVmRWRHbFE5N19yZkVVZUhFdUJiWDJ5MXVpeklfVXJMU09n?oc=5",
+    "summary": "News organizations ask court to bar White House enforcement of access ban NPR",
+    "source": "NPR",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-29T08:13:11+00:00",
+    "collected_at": "2026-09-29T09:31:23.043474+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "95663d9926236e8b853f67ca",
+    "title": "How an alleged rape sent an Indian university into turmoil and emptied hostels",
     "url": "https://www.bbc.co.uk/news/articles/c6kg8dxrv54do?at_medium=RSS&at_campaign=rss",
     "summary": "Police are trying to verify whether a female student was raped at Lovely Professional University (LPU).",
     "source": "BBC World",
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T08:12:39+00:00",
-    "collected_at": "2026-09-29T08:31:17.547428+00:00",
+    "collected_at": "2026-09-29T09:31:22.397736+00:00",
     "origin": "rss"
   },
   {
@@ -44,7 +140,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-29T08:11:00+00:00",
-    "collected_at": "2026-09-29T08:31:22.879332+00:00",
+    "collected_at": "2026-09-29T09:31:27.620551+00:00",
     "origin": "google_news"
   },
   {
@@ -56,7 +152,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T08:05:09+00:00",
-    "collected_at": "2026-09-29T08:31:17.545088+00:00",
+    "collected_at": "2026-09-29T09:31:22.394993+00:00",
     "origin": "rss"
   },
   {
@@ -68,7 +164,31 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T08:01:24+00:00",
-    "collected_at": "2026-09-29T08:31:17.545535+00:00",
+    "collected_at": "2026-09-29T09:31:22.395671+00:00",
+    "origin": "rss"
+  },
+  {
+    "id": "62de72a3e09102734bfec7fe",
+    "title": "Trump denies offering Iran sanctions relief, Tehran says ready for talks - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPODNDSVp4Qi1GQVY3bEJ2d0dpZzVBbEU4NUpYQzBpV2QwaW9uVGdwdHJnQkstVFlUSTNRazRHaUVFOVFWOTJXRjhnS2dncDBNLVVsa0JiWC0zN3ktZXdvV0tWN3FrakF4aUZIX0w2RjMwVHJWc0lBZUpYU09SWmsyUmdQd3dJdXh1N3lTb1pDZ1ZEYkhOUTVPV0lhak9YM3ZxTm1vR1BmRnFnZjNUMWF0M1NabHhLblkxd05FM3dn?oc=5",
+    "summary": "Trump denies offering Iran sanctions relief, Tehran says ready for talks Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-29T07:33:00+00:00",
+    "collected_at": "2026-09-29T09:31:23.659592+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "e4d5b5872ced9d7a42522aa5",
+    "title": "I paid £30,000 for an 'influencer' degree. Here's why",
+    "url": "https://www.bbc.co.uk/news/articles/c61mvy1emr2zo?at_medium=RSS&at_campaign=rss",
+    "summary": "Content creation degrees aim to help people make money from social media, but are they worth the money?",
+    "source": "BBC Entertainment & Arts",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-29T07:02:07+00:00",
+    "collected_at": "2026-09-29T09:31:30.572603+00:00",
     "origin": "rss"
   },
   {
@@ -80,7 +200,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T06:34:43+00:00",
-    "collected_at": "2026-09-29T08:31:17.490266+00:00",
+    "collected_at": "2026-09-29T09:31:22.250018+00:00",
     "origin": "rss"
   },
   {
@@ -92,7 +212,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T06:15:25+00:00",
-    "collected_at": "2026-09-29T08:31:17.548320+00:00",
+    "collected_at": "2026-09-29T09:31:22.398244+00:00",
     "origin": "rss"
   },
   {
@@ -104,7 +224,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T06:06:20+00:00",
-    "collected_at": "2026-09-29T08:31:17.544858+00:00",
+    "collected_at": "2026-09-29T09:31:22.394734+00:00",
     "origin": "rss"
   },
   {
@@ -116,7 +236,19 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T06:05:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.815223+00:00",
+    "collected_at": "2026-09-29T09:31:23.659236+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "c89aebf4c8248d5936819c7f",
+    "title": "Watch: Luxury units uncovered inside an Indonesian prison - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwNUE5VmNDWWk1NzBSdnh6Tl9Temw0a2tQd3ZiS1JTWnhoMWtjeC1ySVUzdlZQb2c2dDY4cW1XMWlZVHJlUnVXRmcwUnVhNHVnbEhhdTNUYXg?oc=5",
+    "summary": "Watch: Luxury units uncovered inside an Indonesian prison BBC",
+    "source": "BBC",
+    "category_hint": "Good News",
+    "priority": 7,
+    "published_at": "2026-09-29T06:04:36+00:00",
+    "collected_at": "2026-09-29T09:31:31.815165+00:00",
     "origin": "google_news"
   },
   {
@@ -132,18 +264,6 @@
     "origin": "rss"
   },
   {
-    "id": "c89aebf4c8248d5936819c7f",
-    "title": "Watch: Luxury units uncovered inside an Indonesian prison - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwNUE5VmNDWWk1NzBSdnh6Tl9Temw0a2tQd3ZiS1JTWnhoMWtjeC1ySVUzdlZQb2c2dDY4cW1XMWlZVHJlUnVXRmcwUnVhNHVnbEhhdTNUYXg?oc=5",
-    "summary": "Watch: Luxury units uncovered inside an Indonesian prison BBC",
-    "source": "BBC",
-    "category_hint": "Good News",
-    "priority": 7,
-    "published_at": "2026-09-29T06:04:36+00:00",
-    "collected_at": "2026-09-29T08:31:27.131687+00:00",
-    "origin": "google_news"
-  },
-  {
     "id": "01bf243fc371ac43439648a7",
     "title": "Tennessee is set to execute a woman for the first time in 200 years",
     "url": "https://www.npr.org/2026/09/29/g-s1-145408/tennessee-woman-execution",
@@ -152,7 +272,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T05:59:18+00:00",
-    "collected_at": "2026-09-29T08:31:17.490598+00:00",
+    "collected_at": "2026-09-29T09:31:22.250264+00:00",
     "origin": "rss"
   },
   {
@@ -164,8 +284,20 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T05:31:37+00:00",
-    "collected_at": "2026-09-29T08:31:17.545790+00:00",
+    "collected_at": "2026-09-29T09:31:22.396003+00:00",
     "origin": "rss"
+  },
+  {
+    "id": "c2725b4e14e42a57f3f25890",
+    "title": "Shropshire married couple are both world champion pole climbers - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSVUVLOHB6bFJCamE5cmxkNVZ3clZOSUxvaXhuTm1yWkY4TTdCMjM0NkpzMEVkVVhtbW9GbzIwaDB1X29yN0RhMWs4cDVmUXRPZ2dCRnlvODROTTg?oc=5",
+    "summary": "Shropshire married couple are both world champion pole climbers BBC",
+    "source": "BBC",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-29T05:21:55+00:00",
+    "collected_at": "2026-09-29T09:31:23.664523+00:00",
+    "origin": "google_news"
   },
   {
     "id": "6dfc3ddbb027ca83d1b56833",
@@ -176,7 +308,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-29T05:18:28+00:00",
-    "collected_at": "2026-09-29T08:31:27.130695+00:00",
+    "collected_at": "2026-09-29T09:31:31.814153+00:00",
     "origin": "google_news"
   },
   {
@@ -188,7 +320,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-29T05:06:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.720515+00:00",
+    "collected_at": "2026-09-29T09:31:30.442391+00:00",
     "origin": "google_news"
   },
   {
@@ -204,6 +336,30 @@
     "origin": "google_news"
   },
   {
+    "id": "28b4a1c7cd96be615c94cfbb",
+    "title": "Wartime evacuee from Hemsby reunited with beloved Sunbeam car - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaUVk4UHUzaFhxaTI5NWI4cWJkTG5IeHZsODE0bXZYMy1vLUVwZTg3dHdjWjRlcmFBTDNDSFN2amh1aHpQUnJqR25HN2FHZzQyZy1heUQ3QXNkUFk?oc=5",
+    "summary": "Wartime evacuee from Hemsby reunited with beloved Sunbeam car BBC",
+    "source": "BBC",
+    "category_hint": "Good News",
+    "priority": 7,
+    "published_at": "2026-09-29T04:50:54+00:00",
+    "collected_at": "2026-09-29T09:31:31.807718+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "05e98b3ab317b2682c324978",
+    "title": "Battered bond market braces for a new era of interest rates - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
+    "summary": "Battered bond market braces for a new era of interest rates Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-29T04:47:00+00:00",
+    "collected_at": "2026-09-29T09:31:23.672721+00:00",
+    "origin": "google_news"
+  },
+  {
     "id": "979fb43b8ff56e00894ebed0",
     "title": "1 In 4 Employers See Leader-Worker Disconnects, Littler Finds - Law360",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSEk1a2tIRjBtSTlJdEZUZmh0MTJBbVJVQzRNMWFMZ3NaYnNrUWlMa2M4VUZnUmJJVDhMN1V2V3ZDdFVabGcyaWZLQWRsc1Q2cm1la1NSY05ERGhpWEVENFBtZzZhZ3MyLVF3OUN1MURSMU9VOVRNMHNSZmpWa0FkQ25uYzl2blBseE5NN3NfeDB2V0NPR3lYNk1HVnNBMV9aZlHSAXJBVV95cUxNUFZuZEpqUmxZdnk2VC1yYnM4bWVnWnZOMG5tb0ZfaEhycGRIa3FVY21LWHNXZXRNeXplZmdfbUNVWUlncGUwQTJiZ183WV9HTDVyVktvNDBVRC14ZmxBb0tESnN3akpDXzA5cFJRU3NBT0E?oc=5",
@@ -212,7 +368,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-29T04:31:20+00:00",
-    "collected_at": "2026-09-29T08:31:22.885930+00:00",
+    "collected_at": "2026-09-29T09:31:27.627523+00:00",
     "origin": "google_news"
   },
   {
@@ -236,7 +392,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-29T04:19:35+00:00",
-    "collected_at": "2026-09-29T08:31:22.884367+00:00",
+    "collected_at": "2026-09-29T09:31:27.626386+00:00",
     "origin": "google_news"
   },
   {
@@ -248,7 +404,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T04:10:33+00:00",
-    "collected_at": "2026-09-29T08:31:17.544383+00:00",
+    "collected_at": "2026-09-29T09:31:22.394289+00:00",
     "origin": "rss"
   },
   {
@@ -260,7 +416,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T04:10:33+00:00",
-    "collected_at": "2026-09-29T08:31:18.818183+00:00",
+    "collected_at": "2026-09-29T09:31:23.662786+00:00",
     "origin": "google_news"
   },
   {
@@ -272,7 +428,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T04:06:43+00:00",
-    "collected_at": "2026-09-29T08:31:17.544155+00:00",
+    "collected_at": "2026-09-29T09:31:22.394055+00:00",
     "origin": "rss"
   },
   {
@@ -284,7 +440,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T03:59:22+00:00",
-    "collected_at": "2026-09-29T08:31:18.223094+00:00",
+    "collected_at": "2026-09-29T09:31:23.046226+00:00",
     "origin": "google_news"
   },
   {
@@ -296,7 +452,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T03:52:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.821627+00:00",
+    "collected_at": "2026-09-29T09:31:23.667280+00:00",
     "origin": "google_news"
   },
   {
@@ -308,7 +464,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T03:50:40+00:00",
-    "collected_at": "2026-09-29T08:31:17.543933+00:00",
+    "collected_at": "2026-09-29T09:31:22.393809+00:00",
     "origin": "rss"
   },
   {
@@ -332,7 +488,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-29T03:41:56+00:00",
-    "collected_at": "2026-09-29T08:31:26.529589+00:00",
+    "collected_at": "2026-09-29T09:31:31.161590+00:00",
     "origin": "google_news"
   },
   {
@@ -344,8 +500,20 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T03:37:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.816312+00:00",
+    "collected_at": "2026-09-29T09:31:23.661111+00:00",
     "origin": "google_news"
+  },
+  {
+    "id": "b94fce27598c77fd29daadc7",
+    "title": "Blue Lights: The police drama hitting home in Northern Ireland",
+    "url": "https://www.bbc.co.uk/news/articles/c6grvpppvw5eo?at_medium=RSS&at_campaign=rss",
+    "summary": "As the award winning series returns, it highlights tensions between police and communities in Northern Ireland.",
+    "source": "BBC Entertainment & Arts",
+    "category_hint": "Entertainment & Culture",
+    "priority": 7,
+    "published_at": "2026-09-29T03:24:39+00:00",
+    "collected_at": "2026-09-29T09:31:30.571904+00:00",
+    "origin": "rss"
   },
   {
     "id": "e7755356dc6e67a3a5998ae4",
@@ -356,7 +524,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T03:15:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.828544+00:00",
+    "collected_at": "2026-09-29T09:31:23.660629+00:00",
     "origin": "google_news"
   },
   {
@@ -368,7 +536,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-29T03:15:00+00:00",
-    "collected_at": "2026-09-29T08:31:22.878960+00:00",
+    "collected_at": "2026-09-29T09:31:27.620961+00:00",
     "origin": "google_news"
   },
   {
@@ -392,7 +560,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-29T03:13:04+00:00",
-    "collected_at": "2026-09-29T08:31:22.883339+00:00",
+    "collected_at": "2026-09-29T09:31:27.624361+00:00",
     "origin": "google_news"
   },
   {
@@ -404,7 +572,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T03:10:54+00:00",
-    "collected_at": "2026-09-29T08:31:18.226585+00:00",
+    "collected_at": "2026-09-29T09:31:23.049849+00:00",
     "origin": "google_news"
   },
   {
@@ -416,7 +584,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T02:59:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.829340+00:00",
+    "collected_at": "2026-09-29T09:31:23.663123+00:00",
     "origin": "google_news"
   },
   {
@@ -427,8 +595,8 @@
     "source": "Lexology",
     "category_hint": "Employment Law",
     "priority": 10,
-    "published_at": "2026-09-29T02:37:30+00:00",
-    "collected_at": "2026-09-29T08:31:22.883679+00:00",
+    "published_at": "2026-09-29T02:42:40+00:00",
+    "collected_at": "2026-09-29T09:31:27.626053+00:00",
     "origin": "google_news"
   },
   {
@@ -440,7 +608,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T02:36:46+00:00",
-    "collected_at": "2026-09-29T08:31:17.545307+00:00",
+    "collected_at": "2026-09-29T09:31:22.395443+00:00",
     "origin": "rss"
   },
   {
@@ -452,19 +620,31 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T02:16:19+00:00",
-    "collected_at": "2026-09-29T08:31:17.490892+00:00",
+    "collected_at": "2026-09-29T09:31:22.250507+00:00",
     "origin": "rss"
   },
   {
-    "id": "b877af19867a3554e8678be8",
-    "title": "Rising bond yields put the brakes on stocks - Reuters",
+    "id": "f6387a166fac3ce3b171c987",
+    "title": "Elevated yields, higher oil prices test global stocks as rate fears persist - Reuters",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSVdQU2VNMWNudXUwMjk0YnFXekg0R3B3d1gxcHUtcmx1UU9pSEtXNGRZTjMwR29Qa0JhSFJmdmRIZUdpdzFJVXVrcEFyYWwzZ0xsV0J2QmlaLTZXb0FzY0Fpa2JqdGJrWG53Sk0zX3RYc1ZZYmZkWFZ4bHJkM0gtRWpkYw?oc=5",
-    "summary": "Rising bond yields put the brakes on stocks Reuters",
+    "summary": "Elevated yields, higher oil prices test global stocks as rate fears persist Reuters",
     "source": "Reuters",
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T02:08:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.823758+00:00",
+    "collected_at": "2026-09-29T09:31:23.666271+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "fee5c21235b735de22ecb8cf",
+    "title": "Dollar keeps climbing as oil, US yields stay high; jobs data looms - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcm1xMjE3YTBSdTBJRVI5blBWcFFOS1ZSQWZlcVhMZU1iWU1kZTkyaElQUXhyRzZ4My1UcmdUVW1MZldrdjMzblF5eEh5amIwb2tlWmozYjloa29GaEhoT2dMbFFteHRwLV9pem9OYkowV3RUaGhnTUhDUjcwLXozSG1rT0dOMmdsdERFUlVwM1p4TjBZQlFZZWx2aTc4VC03QURrOWM1c1IwVXc?oc=5",
+    "summary": "Dollar keeps climbing as oil, US yields stay high; jobs data looms Reuters",
+    "source": "Reuters",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-29T01:57:00+00:00",
+    "collected_at": "2026-09-29T09:31:23.670342+00:00",
     "origin": "google_news"
   },
   {
@@ -476,7 +656,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T01:38:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.819216+00:00",
+    "collected_at": "2026-09-29T09:31:23.665947+00:00",
     "origin": "google_news"
   },
   {
@@ -500,19 +680,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T01:33:29+00:00",
-    "collected_at": "2026-09-29T08:31:17.546103+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "c25252ec94508d83359ab673",
-    "title": "Evicted Spanish pensioner can move back home, lawyer says",
-    "url": "https://www.bbc.co.uk/news/articles/cmkg8qgy9d9lo?at_medium=RSS&at_campaign=rss",
-    "summary": "The eviction of Maricarmen Abascal, 87, prompted large-scale protests across Spain.",
-    "source": "BBC World",
-    "category_hint": "Top News",
-    "priority": 8,
-    "published_at": "2026-09-29T01:28:57+00:00",
-    "collected_at": "2026-09-29T08:31:17.543673+00:00",
+    "collected_at": "2026-09-29T09:31:22.396219+00:00",
     "origin": "rss"
   },
   {
@@ -524,7 +692,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T01:28:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.815585+00:00",
+    "collected_at": "2026-09-29T09:31:23.659960+00:00",
     "origin": "google_news"
   },
   {
@@ -548,7 +716,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T01:12:52+00:00",
-    "collected_at": "2026-09-29T08:31:17.547214+00:00",
+    "collected_at": "2026-09-29T09:31:22.397310+00:00",
     "origin": "rss"
   },
   {
@@ -560,7 +728,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T01:12:52+00:00",
-    "collected_at": "2026-09-29T08:31:18.816648+00:00",
+    "collected_at": "2026-09-29T09:31:23.661433+00:00",
     "origin": "google_news"
   },
   {
@@ -572,7 +740,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-29T01:12:47+00:00",
-    "collected_at": "2026-09-29T08:31:22.879683+00:00",
+    "collected_at": "2026-09-29T09:31:27.621311+00:00",
     "origin": "google_news"
   },
   {
@@ -584,7 +752,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-29T01:12:00+00:00",
-    "collected_at": "2026-09-29T08:31:22.880782+00:00",
+    "collected_at": "2026-09-29T09:31:27.622407+00:00",
     "origin": "google_news"
   },
   {
@@ -596,7 +764,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-29T00:53:22+00:00",
-    "collected_at": "2026-09-29T08:31:26.518930+00:00",
+    "collected_at": "2026-09-29T09:31:31.150907+00:00",
     "origin": "google_news"
   },
   {
@@ -608,7 +776,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T00:50:19+00:00",
-    "collected_at": "2026-09-29T08:31:17.547643+00:00",
+    "collected_at": "2026-09-29T09:31:22.398020+00:00",
     "origin": "rss"
   },
   {
@@ -620,7 +788,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-29T00:38:23+00:00",
-    "collected_at": "2026-09-29T08:31:17.544604+00:00",
+    "collected_at": "2026-09-29T09:31:22.394512+00:00",
     "origin": "rss"
   },
   {
@@ -632,7 +800,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-29T00:30:15+00:00",
-    "collected_at": "2026-09-29T08:31:22.885420+00:00",
+    "collected_at": "2026-09-29T09:31:27.627080+00:00",
     "origin": "google_news"
   },
   {
@@ -644,7 +812,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-29T00:19:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.815963+00:00",
+    "collected_at": "2026-09-29T09:31:23.660300+00:00",
     "origin": "google_news"
   },
   {
@@ -656,7 +824,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-29T00:17:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.730139+00:00",
+    "collected_at": "2026-09-29T09:31:30.452562+00:00",
     "origin": "google_news"
   },
   {
@@ -668,7 +836,7 @@
     "category_hint": "California Law",
     "priority": 9,
     "published_at": "2026-09-29T00:12:14+00:00",
-    "collected_at": "2026-09-29T08:31:31.837358+00:00",
+    "collected_at": "2026-09-29T09:31:36.248790+00:00",
     "origin": "google_news"
   },
   {
@@ -680,7 +848,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T23:52:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.727987+00:00",
+    "collected_at": "2026-09-29T09:31:30.451065+00:00",
     "origin": "google_news"
   },
   {
@@ -692,7 +860,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-28T23:44:49+00:00",
-    "collected_at": "2026-09-29T08:31:17.547882+00:00",
+    "collected_at": "2026-09-29T09:31:22.395220+00:00",
     "origin": "rss"
   },
   {
@@ -704,7 +872,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T23:44:09+00:00",
-    "collected_at": "2026-09-29T08:31:18.827223+00:00",
+    "collected_at": "2026-09-29T09:31:23.672297+00:00",
     "origin": "google_news"
   },
   {
@@ -716,7 +884,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T23:41:08+00:00",
-    "collected_at": "2026-09-29T08:31:18.824419+00:00",
+    "collected_at": "2026-09-29T09:31:23.669682+00:00",
     "origin": "google_news"
   },
   {
@@ -728,7 +896,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T23:35:13+00:00",
-    "collected_at": "2026-09-29T08:31:18.822692+00:00",
+    "collected_at": "2026-09-29T09:31:23.668263+00:00",
     "origin": "google_news"
   },
   {
@@ -740,7 +908,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T23:18:36+00:00",
-    "collected_at": "2026-09-29T08:31:18.817465+00:00",
+    "collected_at": "2026-09-29T09:31:23.661788+00:00",
     "origin": "google_news"
   },
   {
@@ -752,7 +920,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T23:17:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.727633+00:00",
+    "collected_at": "2026-09-29T09:31:30.450070+00:00",
     "origin": "google_news"
   },
   {
@@ -764,7 +932,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T22:49:06+00:00",
-    "collected_at": "2026-09-29T08:31:18.826896+00:00",
+    "collected_at": "2026-09-29T09:31:23.671318+00:00",
     "origin": "google_news"
   },
   {
@@ -788,7 +956,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T22:36:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.224919+00:00",
+    "collected_at": "2026-09-29T09:31:23.662440+00:00",
     "origin": "google_news"
   },
   {
@@ -800,7 +968,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T22:34:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.722765+00:00",
+    "collected_at": "2026-09-29T09:31:30.445294+00:00",
     "origin": "google_news"
   },
   {
@@ -824,7 +992,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T22:30:28+00:00",
-    "collected_at": "2026-09-29T08:31:26.522261+00:00",
+    "collected_at": "2026-09-29T09:31:31.153824+00:00",
     "origin": "google_news"
   },
   {
@@ -836,7 +1004,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T22:25:57+00:00",
-    "collected_at": "2026-09-29T08:31:26.517064+00:00",
+    "collected_at": "2026-09-29T09:31:31.149020+00:00",
     "origin": "google_news"
   },
   {
@@ -848,19 +1016,19 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T22:18:01+00:00",
-    "collected_at": "2026-09-29T08:31:26.527408+00:00",
+    "collected_at": "2026-09-29T09:31:31.158828+00:00",
     "origin": "google_news"
   },
   {
-    "id": "bdc93c702cfef44f9b9025d6",
-    "title": "Federal agency sues Ohio-based Catholic health system over alleged antisemitism - osvnews.com",
+    "id": "838bd557794bd223a850366e",
+    "title": "Federal agency sues Ohio-based Catholic health system over alleged antisemitism - OSV News",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS1BDRWZvWERXSkNta19GWjE4TGtyenViSEhYRy16Vk83R3EySmhLMGZjZWlFSVMwNE1LZkVON1FLX3oxaUpDSjI5eWRkbU9nVktfdlB0eWwzWnlmcXhWZ05FWkxDSlloeWxkcHNwRU9KOXg1Yi1IYnRad2tadTdqWUZKZU1zblVTWW9RemRScUNVeTluNHpvUTlDWVVkOUJsZVZWdnA1TQ?oc=5",
-    "summary": "Federal agency sues Ohio-based Catholic health system over alleged antisemitism osvnews.com",
-    "source": "osvnews.com",
+    "summary": "Federal agency sues Ohio-based Catholic health system over alleged antisemitism OSV News",
+    "source": "OSV News",
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T22:15:00+00:00",
-    "collected_at": "2026-09-29T08:31:22.883009+00:00",
+    "collected_at": "2026-09-29T09:31:27.625029+00:00",
     "origin": "google_news"
   },
   {
@@ -876,15 +1044,15 @@
     "origin": "google_news"
   },
   {
-    "id": "fe285fa13e66a1fbd9e18568",
-    "title": "TV Ratings: VMAs Hit 11-Year High With Madonna, Taylor Swift Front and Center - hollywoodreporter.com",
+    "id": "c4141d7c14829c816a765baa",
+    "title": "TV Ratings: VMAs Hit 11-Year High With Madonna, Taylor Swift Front and Center - The Hollywood Reporter",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRWdPVFB1b0pFcDhmNFZOdk00bTRpR1BaT2I1eEhrb3JmYklXUUYwTVR2WXhBXy1kOWNZYUNqemtFN2JFMUhOUlZHVVJndURfMUZzVnlnVlV6U2VxeXdudnNRVHpabllSN2xYbHhYY1h1YnRfcndWNVEzUjJ5VV9wZVpDeW5ybUhI?oc=5",
-    "summary": "TV Ratings: VMAs Hit 11-Year High With Madonna, Taylor Swift Front and Center hollywoodreporter.com",
-    "source": "hollywoodreporter.com",
+    "summary": "TV Ratings: VMAs Hit 11-Year High With Madonna, Taylor Swift Front and Center The Hollywood Reporter",
+    "source": "The Hollywood Reporter",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T22:03:29+00:00",
-    "collected_at": "2026-09-29T05:28:21.981748+00:00",
+    "collected_at": "2026-09-29T09:31:31.160575+00:00",
     "origin": "google_news"
   },
   {
@@ -896,7 +1064,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T22:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:26.521930+00:00",
+    "collected_at": "2026-09-29T09:31:31.153475+00:00",
     "origin": "google_news"
   },
   {
@@ -932,7 +1100,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-28T21:46:53+00:00",
-    "collected_at": "2026-09-29T08:31:17.546325+00:00",
+    "collected_at": "2026-09-29T09:31:22.396432+00:00",
     "origin": "rss"
   },
   {
@@ -944,7 +1112,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T21:42:18+00:00",
-    "collected_at": "2026-09-29T08:31:27.131045+00:00",
+    "collected_at": "2026-09-29T09:31:31.814464+00:00",
     "origin": "google_news"
   },
   {
@@ -956,7 +1124,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T21:30:27+00:00",
-    "collected_at": "2026-09-29T08:31:22.886269+00:00",
+    "collected_at": "2026-09-29T09:31:27.624038+00:00",
     "origin": "google_news"
   },
   {
@@ -980,7 +1148,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T21:17:49+00:00",
-    "collected_at": "2026-09-29T08:31:22.881484+00:00",
+    "collected_at": "2026-09-29T09:31:27.623117+00:00",
     "origin": "google_news"
   },
   {
@@ -992,7 +1160,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T21:16:56+00:00",
-    "collected_at": "2026-09-29T08:31:22.881133+00:00",
+    "collected_at": "2026-09-29T09:31:27.622738+00:00",
     "origin": "google_news"
   },
   {
@@ -1004,7 +1172,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T21:16:32+00:00",
-    "collected_at": "2026-09-29T08:31:18.823072+00:00",
+    "collected_at": "2026-09-29T09:31:23.668603+00:00",
     "origin": "google_news"
   },
   {
@@ -1016,7 +1184,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T21:12:17+00:00",
-    "collected_at": "2026-09-29T08:31:26.530298+00:00",
+    "collected_at": "2026-09-29T09:31:31.161948+00:00",
     "origin": "google_news"
   },
   {
@@ -1028,7 +1196,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T21:09:40+00:00",
-    "collected_at": "2026-09-29T08:31:22.880419+00:00",
+    "collected_at": "2026-09-29T09:31:27.622056+00:00",
     "origin": "google_news"
   },
   {
@@ -1052,7 +1220,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-28T21:00:16+00:00",
-    "collected_at": "2026-09-29T08:31:28.865627+00:00",
+    "collected_at": "2026-09-29T09:31:33.412172+00:00",
     "origin": "google_news"
   },
   {
@@ -1064,7 +1232,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T20:59:03+00:00",
-    "collected_at": "2026-09-29T08:31:19.426009+00:00",
+    "collected_at": "2026-09-29T09:31:24.263330+00:00",
     "origin": "google_news"
   },
   {
@@ -1076,7 +1244,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T20:52:17+00:00",
-    "collected_at": "2026-09-29T08:31:26.528091+00:00",
+    "collected_at": "2026-09-29T09:31:31.160255+00:00",
     "origin": "google_news"
   },
   {
@@ -1088,7 +1256,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T20:44:24+00:00",
-    "collected_at": "2026-09-29T08:31:26.517837+00:00",
+    "collected_at": "2026-09-29T09:31:31.149419+00:00",
     "origin": "google_news"
   },
   {
@@ -1100,7 +1268,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T20:41:50+00:00",
-    "collected_at": "2026-09-29T08:31:18.216100+00:00",
+    "collected_at": "2026-09-29T09:31:23.038927+00:00",
     "origin": "google_news"
   },
   {
@@ -1112,7 +1280,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T20:38:04+00:00",
-    "collected_at": "2026-09-29T08:31:19.426763+00:00",
+    "collected_at": "2026-09-29T09:31:24.263705+00:00",
     "origin": "google_news"
   },
   {
@@ -1124,7 +1292,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T20:29:36+00:00",
-    "collected_at": "2026-09-29T08:31:18.818519+00:00",
+    "collected_at": "2026-09-29T09:31:23.663492+00:00",
     "origin": "google_news"
   },
   {
@@ -1148,7 +1316,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T20:26:47+00:00",
-    "collected_at": "2026-09-29T08:31:19.432688+00:00",
+    "collected_at": "2026-09-29T09:31:24.269612+00:00",
     "origin": "google_news"
   },
   {
@@ -1160,7 +1328,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T20:26:33+00:00",
-    "collected_at": "2026-09-29T08:31:18.221064+00:00",
+    "collected_at": "2026-09-29T09:31:23.045146+00:00",
     "origin": "google_news"
   },
   {
@@ -1172,7 +1340,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-28T20:23:12+00:00",
-    "collected_at": "2026-09-29T08:31:17.546786+00:00",
+    "collected_at": "2026-09-29T09:31:22.396889+00:00",
     "origin": "rss"
   },
   {
@@ -1184,7 +1352,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T20:20:49+00:00",
-    "collected_at": "2026-09-29T08:31:22.880063+00:00",
+    "collected_at": "2026-09-29T09:31:27.621670+00:00",
     "origin": "google_news"
   },
   {
@@ -1208,7 +1376,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T20:20:28+00:00",
-    "collected_at": "2026-09-29T08:31:19.431555+00:00",
+    "collected_at": "2026-09-29T09:31:24.268397+00:00",
     "origin": "google_news"
   },
   {
@@ -1220,7 +1388,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T20:20:21+00:00",
-    "collected_at": "2026-09-29T08:31:26.517441+00:00",
+    "collected_at": "2026-09-29T09:31:31.150173+00:00",
     "origin": "google_news"
   },
   {
@@ -1232,7 +1400,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T20:16:00+00:00",
-    "collected_at": "2026-09-29T08:31:22.887281+00:00",
+    "collected_at": "2026-09-29T09:31:27.628556+00:00",
     "origin": "google_news"
   },
   {
@@ -1244,7 +1412,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T20:14:51+00:00",
-    "collected_at": "2026-09-29T08:31:22.884715+00:00",
+    "collected_at": "2026-09-29T09:31:27.626719+00:00",
     "origin": "google_news"
   },
   {
@@ -1256,7 +1424,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T20:06:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.728634+00:00",
+    "collected_at": "2026-09-29T09:31:30.450717+00:00",
     "origin": "google_news"
   },
   {
@@ -1280,7 +1448,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T20:01:29+00:00",
-    "collected_at": "2026-09-29T08:31:22.884038+00:00",
+    "collected_at": "2026-09-29T09:31:27.625675+00:00",
     "origin": "google_news"
   },
   {
@@ -1292,7 +1460,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T20:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:22.886963+00:00",
+    "collected_at": "2026-09-29T09:31:27.628236+00:00",
     "origin": "google_news"
   },
   {
@@ -1328,7 +1496,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T19:48:02+00:00",
-    "collected_at": "2026-09-29T08:31:18.223542+00:00",
+    "collected_at": "2026-09-29T09:31:23.047071+00:00",
     "origin": "google_news"
   },
   {
@@ -1340,7 +1508,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-28T19:28:22+00:00",
-    "collected_at": "2026-09-29T08:31:28.865256+00:00",
+    "collected_at": "2026-09-29T09:31:33.411807+00:00",
     "origin": "google_news"
   },
   {
@@ -1376,7 +1544,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T19:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.427537+00:00",
+    "collected_at": "2026-09-29T09:31:24.264790+00:00",
     "origin": "google_news"
   },
   {
@@ -1388,7 +1556,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T18:57:31+00:00",
-    "collected_at": "2026-09-29T08:31:19.434076+00:00",
+    "collected_at": "2026-09-29T09:31:24.271013+00:00",
     "origin": "google_news"
   },
   {
@@ -1400,7 +1568,7 @@
     "category_hint": "Business & Economy",
     "priority": 7,
     "published_at": "2026-09-28T18:50:46+00:00",
-    "collected_at": "2026-09-29T08:31:23.978137+00:00",
+    "collected_at": "2026-09-29T09:31:28.719881+00:00",
     "origin": "google_news"
   },
   {
@@ -1412,7 +1580,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T18:45:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.719812+00:00",
+    "collected_at": "2026-09-29T09:31:30.441550+00:00",
     "origin": "google_news"
   },
   {
@@ -1436,7 +1604,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T18:40:45+00:00",
-    "collected_at": "2026-09-29T08:31:19.437228+00:00",
+    "collected_at": "2026-09-29T09:31:24.274143+00:00",
     "origin": "google_news"
   },
   {
@@ -1448,7 +1616,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-28T18:37:15+00:00",
-    "collected_at": "2026-09-29T08:31:17.547002+00:00",
+    "collected_at": "2026-09-29T09:31:22.397101+00:00",
     "origin": "rss"
   },
   {
@@ -1460,7 +1628,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T18:35:46+00:00",
-    "collected_at": "2026-09-29T08:31:19.432371+00:00",
+    "collected_at": "2026-09-29T09:31:24.268722+00:00",
     "origin": "google_news"
   },
   {
@@ -1472,7 +1640,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T18:30:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.225261+00:00",
+    "collected_at": "2026-09-29T09:31:23.048460+00:00",
     "origin": "google_news"
   },
   {
@@ -1484,7 +1652,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T18:30:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.433060+00:00",
+    "collected_at": "2026-09-29T09:31:24.269976+00:00",
     "origin": "google_news"
   },
   {
@@ -1496,19 +1664,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T18:30:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.724492+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "54c778b15650e974120cff92",
-    "title": "Trump Sharply Scales Back Fuel Economy Rules for New Cars - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOUNMTTEzOS1UbV9SVEZNeXVRZ0tUZ2tCR21xQWhYLW9nN1U3OGgtOFJFNUNoZ3ZNaWRtLXJvUmVKZkdmcHBpb24yV3NmdFNhclFUYUNTajZ4ZmhWLTR2N25ZVWpvb01SVDh4OWVMRzRGRE9tVG9xLWZEZ19oclYyNUhXanY5a3c?oc=5",
-    "summary": "Trump Sharply Scales Back Fuel Economy Rules for New Cars The New York Times",
-    "source": "The New York Times",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-28T18:29:46+00:00",
-    "collected_at": "2026-09-29T08:31:18.222406+00:00",
+    "collected_at": "2026-09-29T09:31:30.446385+00:00",
     "origin": "google_news"
   },
   {
@@ -1520,7 +1676,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T18:19:21+00:00",
-    "collected_at": "2026-09-29T08:31:18.819544+00:00",
+    "collected_at": "2026-09-29T09:31:23.664200+00:00",
     "origin": "google_news"
   },
   {
@@ -1532,7 +1688,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T18:16:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.428703+00:00",
+    "collected_at": "2026-09-29T09:31:24.265581+00:00",
     "origin": "google_news"
   },
   {
@@ -1544,7 +1700,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T18:12:48+00:00",
-    "collected_at": "2026-09-29T08:31:22.887611+00:00",
+    "collected_at": "2026-09-29T09:31:27.628901+00:00",
     "origin": "google_news"
   },
   {
@@ -1568,7 +1724,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T18:00:49+00:00",
-    "collected_at": "2026-09-29T08:31:26.529250+00:00",
+    "collected_at": "2026-09-29T09:31:31.162971+00:00",
     "origin": "google_news"
   },
   {
@@ -1592,7 +1748,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T17:57:08+00:00",
-    "collected_at": "2026-09-29T08:31:26.518201+00:00",
+    "collected_at": "2026-09-29T09:31:31.149812+00:00",
     "origin": "google_news"
   },
   {
@@ -1616,7 +1772,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T17:47:13+00:00",
-    "collected_at": "2026-09-29T08:31:26.525676+00:00",
+    "collected_at": "2026-09-29T09:31:31.158141+00:00",
     "origin": "google_news"
   },
   {
@@ -1640,7 +1796,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T17:45:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.820578+00:00",
+    "collected_at": "2026-09-29T09:31:23.666962+00:00",
     "origin": "google_news"
   },
   {
@@ -1652,7 +1808,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T17:44:41+00:00",
-    "collected_at": "2026-09-29T08:31:18.826227+00:00",
+    "collected_at": "2026-09-29T09:31:23.671632+00:00",
     "origin": "google_news"
   },
   {
@@ -1664,7 +1820,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T17:44:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.426380+00:00",
+    "collected_at": "2026-09-29T09:31:24.264084+00:00",
     "origin": "google_news"
   },
   {
@@ -1688,7 +1844,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-28T17:26:21+00:00",
-    "collected_at": "2026-09-29T07:30:12.713063+00:00",
+    "collected_at": "2026-09-29T09:31:22.397525+00:00",
     "origin": "rss"
   },
   {
@@ -1712,7 +1868,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T17:16:36+00:00",
-    "collected_at": "2026-09-29T08:31:19.435095+00:00",
+    "collected_at": "2026-09-29T09:31:24.271679+00:00",
     "origin": "google_news"
   },
   {
@@ -1736,7 +1892,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T17:14:25+00:00",
-    "collected_at": "2026-09-29T08:31:17.491144+00:00",
+    "collected_at": "2026-09-29T09:31:22.250804+00:00",
     "origin": "rss"
   },
   {
@@ -1748,7 +1904,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T17:13:17+00:00",
-    "collected_at": "2026-09-29T08:31:25.725199+00:00",
+    "collected_at": "2026-09-29T09:31:30.447461+00:00",
     "origin": "google_news"
   },
   {
@@ -1760,7 +1916,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-28T17:04:14+00:00",
-    "collected_at": "2026-09-29T08:31:17.548788+00:00",
+    "collected_at": "2026-09-29T09:31:22.398678+00:00",
     "origin": "rss"
   },
   {
@@ -1772,7 +1928,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T17:00:44+00:00",
-    "collected_at": "2026-09-29T08:31:25.722415+00:00",
+    "collected_at": "2026-09-29T09:31:30.444603+00:00",
     "origin": "google_news"
   },
   {
@@ -1784,7 +1940,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T17:00:29+00:00",
-    "collected_at": "2026-09-29T08:31:18.821286+00:00",
+    "collected_at": "2026-09-29T09:31:23.666588+00:00",
     "origin": "google_news"
   },
   {
@@ -1796,7 +1952,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T17:00:29+00:00",
-    "collected_at": "2026-09-29T08:31:25.969940+00:00",
+    "collected_at": "2026-09-29T09:31:30.572152+00:00",
     "origin": "rss"
   },
   {
@@ -1808,7 +1964,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T17:00:23+00:00",
-    "collected_at": "2026-09-28T22:27:02.689985+00:00",
+    "collected_at": "2026-09-29T09:31:30.456055+00:00",
     "origin": "google_news"
   },
   {
@@ -1820,19 +1976,19 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T17:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.723096+00:00",
+    "collected_at": "2026-09-29T09:31:30.444968+00:00",
     "origin": "google_news"
   },
   {
-    "id": "e7961686fb7176e2587c9545",
-    "title": "Ben Hardy To Lead Prime Video’s ‘Stillwater’ As Daniel West - deadline.com",
+    "id": "0a747a6ec92f82292f93c97b",
+    "title": "Ben Hardy To Lead Prime Video’s ‘Stillwater’ As Daniel West - Deadline",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNREtiT3V2dGhkUTg1ZGRlVmdPQmhocDZqZllHeE03by04b3E1a2Z2aldXazVnSWZubU5HSTJpMHp3SmlWRm5PTjFJLXBFc3o5bFJqcUU1RTNRWUpzUWVqUExJbi1yWUZ6VXVteExZZGxLb0pOT3ZkZHR6MUdfNi1acUpTb0t0TVk?oc=5",
-    "summary": "Ben Hardy To Lead Prime Video’s ‘Stillwater’ As Daniel West deadline.com",
-    "source": "deadline.com",
+    "summary": "Ben Hardy To Lead Prime Video’s ‘Stillwater’ As Daniel West Deadline",
+    "source": "Deadline",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T17:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:26.524996+00:00",
+    "collected_at": "2026-09-29T09:31:31.157124+00:00",
     "origin": "google_news"
   },
   {
@@ -1844,7 +2000,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T16:55:11+00:00",
-    "collected_at": "2026-09-29T08:31:19.432044+00:00",
+    "collected_at": "2026-09-29T09:31:24.269193+00:00",
     "origin": "google_news"
   },
   {
@@ -1856,19 +2012,19 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T16:43:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.430512+00:00",
+    "collected_at": "2026-09-29T09:31:24.265937+00:00",
     "origin": "google_news"
   },
   {
-    "id": "36dbedc477fb124a6c93ec60",
-    "title": "Shawn Levy Moves To Disney’s 20th Television With Overall Deal After Long Tenure At Netflix - deadline.com",
+    "id": "78b362a40e9bfc7b13c34116",
+    "title": "Shawn Levy Moves To Disney’s 20th Television With Overall Deal After Long Tenure At Netflix - Deadline",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMjdXUVc0UFBVZlZCaF96R0VIalR5XzBrd3I2VHlFZjNmVmNTVVlvNURSMU5FMndiOXVVSmtjcndmVWJwbUcwX29EVlJPemZESkQ5TTJrWjQ1OS1HSElYellBTnljLXI4a2NZY1JLT1Nwd2hmVVZmWFVQY1A0dHV4QzRQbVFSVktHX1U0QzV3eTZtY1lRS2JWa0NJOA?oc=5",
-    "summary": "Shawn Levy Moves To Disney’s 20th Television With Overall Deal After Long Tenure At Netflix deadline.com",
-    "source": "deadline.com",
+    "summary": "Shawn Levy Moves To Disney’s 20th Television With Overall Deal After Long Tenure At Netflix Deadline",
+    "source": "Deadline",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T16:32:00+00:00",
-    "collected_at": "2026-09-29T08:31:26.526380+00:00",
+    "collected_at": "2026-09-29T09:31:31.158477+00:00",
     "origin": "google_news"
   },
   {
@@ -1880,7 +2036,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T16:30:51+00:00",
-    "collected_at": "2026-09-29T08:31:18.820237+00:00",
+    "collected_at": "2026-09-29T09:31:23.665594+00:00",
     "origin": "google_news"
   },
   {
@@ -1892,7 +2048,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T16:27:30+00:00",
-    "collected_at": "2026-09-29T08:31:17.491394+00:00",
+    "collected_at": "2026-09-29T09:31:22.251052+00:00",
     "origin": "rss"
   },
   {
@@ -1920,6 +2076,18 @@
     "origin": "rss"
   },
   {
+    "id": "54c778b15650e974120cff92",
+    "title": "Trump Sharply Scales Back Fuel Economy Rules for New Cars - The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOUNMTTEzOS1UbV9SVEZNeXVRZ0tUZ2tCR21xQWhYLW9nN1U3OGgtOFJFNUNoZ3ZNaWRtLXJvUmVKZkdmcHBpb24yV3NmdFNhclFUYUNTajZ4ZmhWLTR2N25ZVWpvb01SVDh4OWVMRzRGRE9tVG9xLWZEZ19oclYyNUhXanY5a3c?oc=5",
+    "summary": "Trump Sharply Scales Back Fuel Economy Rules for New Cars The New York Times",
+    "source": "The New York Times",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-28T16:19:44+00:00",
+    "collected_at": "2026-09-29T09:31:23.044453+00:00",
+    "origin": "google_news"
+  },
+  {
     "id": "1187b3ba83470571365db000",
     "title": "Tom Brady Made Failed Last-Ditch Effort to Save Gisele Bündchen Marriage, New Book Claims - People.com",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRmdXUkVTN2xTYjZrcXY3WnlEWjVTWFRrM2xfUXZFRzlRTTE2V0dxWXh2dXZfWXgtdThRa2VDYjVqQWdJR2lEUjhhYTlzU1ZSc2FQbjN4YnRMd0ZQMUZwQmFUNlJiYUxFaE95aDdObUxZbUo4WWdBb3NzdkVIb0xKekJDQThhQVAxUWNJMktLV2dBbGlMQVhJZUdEWDgzTUFuOUVIYlNmUHBMX1pTMldaMFRPaC15ZWt2?oc=5",
@@ -1928,7 +2096,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T16:19:41+00:00",
-    "collected_at": "2026-09-29T08:31:26.519291+00:00",
+    "collected_at": "2026-09-29T09:31:31.151257+00:00",
     "origin": "google_news"
   },
   {
@@ -1940,7 +2108,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T16:19:15+00:00",
-    "collected_at": "2026-09-29T08:31:27.123920+00:00",
+    "collected_at": "2026-09-29T09:31:31.807398+00:00",
     "origin": "google_news"
   },
   {
@@ -1964,7 +2132,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-28T16:15:57+00:00",
-    "collected_at": "2026-09-29T08:31:17.549012+00:00",
+    "collected_at": "2026-09-29T09:31:22.398929+00:00",
     "origin": "rss"
   },
   {
@@ -1988,7 +2156,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T16:13:44+00:00",
-    "collected_at": "2026-09-29T08:31:27.122507+00:00",
+    "collected_at": "2026-09-29T09:31:31.806095+00:00",
     "origin": "google_news"
   },
   {
@@ -2004,15 +2172,15 @@
     "origin": "rss"
   },
   {
-    "id": "574baf374eb92b338cd19360",
-    "title": "FLSA Opinion Letter: Employee Volunteering - Texas Association of School Boards (TASB)",
+    "id": "d46083dc15533f04a9092e72",
+    "title": "FLSA Opinion Letter: Employee Volunteering - tasb.org",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2QxZ1Uyb0JMeXFPWTNWU1pWYWZUbDcyUjJLc0pDX1RKMy1pSUpfNFNSVEdVaG9OUF9GSm10QkRxQ2NCNEF6LTRaZXJVTWh3WnM1VWU4N0cwajZQZjlyVWxLNzMxMEpfZnBxMl9kR05tQVZEOHEyLUxGdDdEaWRPR1Z3?oc=5",
-    "summary": "FLSA Opinion Letter: Employee Volunteering Texas Association of School Boards (TASB)",
-    "source": "Texas Association of School Boards (TASB)",
+    "summary": "FLSA Opinion Letter: Employee Volunteering tasb.org",
+    "source": "tasb.org",
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T16:07:35+00:00",
-    "collected_at": "2026-09-29T08:31:22.881984+00:00",
+    "collected_at": "2026-09-29T09:31:27.623656+00:00",
     "origin": "google_news"
   },
   {
@@ -2024,7 +2192,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T16:07:15+00:00",
-    "collected_at": "2026-09-29T08:31:17.491641+00:00",
+    "collected_at": "2026-09-29T09:31:22.251282+00:00",
     "origin": "rss"
   },
   {
@@ -2036,7 +2204,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T16:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.224249+00:00",
+    "collected_at": "2026-09-29T09:31:23.047432+00:00",
     "origin": "google_news"
   },
   {
@@ -2060,7 +2228,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T15:54:58+00:00",
-    "collected_at": "2026-09-29T08:31:25.724138+00:00",
+    "collected_at": "2026-09-29T09:31:30.446740+00:00",
     "origin": "google_news"
   },
   {
@@ -2072,7 +2240,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T15:49:39+00:00",
-    "collected_at": "2026-09-29T08:31:27.126637+00:00",
+    "collected_at": "2026-09-29T09:31:31.810824+00:00",
     "origin": "google_news"
   },
   {
@@ -2084,7 +2252,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T15:39:19+00:00",
-    "collected_at": "2026-09-29T08:31:18.823409+00:00",
+    "collected_at": "2026-09-29T09:31:23.669055+00:00",
     "origin": "google_news"
   },
   {
@@ -2108,7 +2276,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T15:35:44+00:00",
-    "collected_at": "2026-09-29T08:31:18.822359+00:00",
+    "collected_at": "2026-09-29T09:31:23.667940+00:00",
     "origin": "google_news"
   },
   {
@@ -2120,7 +2288,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T15:28:12+00:00",
-    "collected_at": "2026-09-29T08:31:25.720888+00:00",
+    "collected_at": "2026-09-29T09:31:30.442800+00:00",
     "origin": "google_news"
   },
   {
@@ -2132,7 +2300,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T15:22:30+00:00",
-    "collected_at": "2026-09-29T08:31:22.892954+00:00",
+    "collected_at": "2026-09-29T09:31:27.634205+00:00",
     "origin": "google_news"
   },
   {
@@ -2144,7 +2312,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T15:15:21+00:00",
-    "collected_at": "2026-09-29T08:31:26.522992+00:00",
+    "collected_at": "2026-09-29T09:31:31.154534+00:00",
     "origin": "google_news"
   },
   {
@@ -2156,7 +2324,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T15:13:08+00:00",
-    "collected_at": "2026-09-29T08:31:19.428370+00:00",
+    "collected_at": "2026-09-29T09:31:24.265250+00:00",
     "origin": "google_news"
   },
   {
@@ -2180,7 +2348,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-28T14:57:31+00:00",
-    "collected_at": "2026-09-29T08:31:17.546540+00:00",
+    "collected_at": "2026-09-29T09:31:22.396642+00:00",
     "origin": "rss"
   },
   {
@@ -2192,7 +2360,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T14:57:31+00:00",
-    "collected_at": "2026-09-29T08:31:18.822025+00:00",
+    "collected_at": "2026-09-29T09:31:23.667593+00:00",
     "origin": "google_news"
   },
   {
@@ -2204,7 +2372,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T14:47:44+00:00",
-    "collected_at": "2026-09-29T08:31:25.733586+00:00",
+    "collected_at": "2026-09-29T09:31:30.455678+00:00",
     "origin": "google_news"
   },
   {
@@ -2216,19 +2384,19 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T14:46:16+00:00",
-    "collected_at": "2026-09-29T08:31:25.722085+00:00",
+    "collected_at": "2026-09-29T09:31:30.444230+00:00",
     "origin": "google_news"
   },
   {
-    "id": "2b09221e8fb86870ae62ea18",
-    "title": "Labor Department Offers Guidance for Workplace Opioid Emergencies - Cleaning & Maintenance Management",
+    "id": "f2b65a45fa0260fbe38c720c",
+    "title": "Labor Department Offers Guidance for Workplace Opioid Emergencies - cmmonline.com",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbl9vM0YwVUw3MWtZQzdqQmtzVUt5U1BUbDRETW1WOGZhd2NLMjhHUjZYaTNBN19KcFJ4YzUyWko5aFJsR2lrdUN5ZDRtdmRxclRtTWIwdG9hYXBjRkRMZTB3Wk11TjJ5cDBraS1RQjB1aXhPZ3VVcUNSSWN2V281SG54Y2c5ZUxxQllHdlR0WWZxTXFVQjdr?oc=5",
-    "summary": "Labor Department Offers Guidance for Workplace Opioid Emergencies Cleaning & Maintenance Management",
-    "source": "Cleaning & Maintenance Management",
+    "summary": "Labor Department Offers Guidance for Workplace Opioid Emergencies cmmonline.com",
+    "source": "cmmonline.com",
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T14:45:49+00:00",
-    "collected_at": "2026-09-29T08:31:22.891586+00:00",
+    "collected_at": "2026-09-29T09:31:27.632500+00:00",
     "origin": "google_news"
   },
   {
@@ -2240,7 +2408,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-28T14:22:27+00:00",
-    "collected_at": "2026-09-29T08:31:28.866013+00:00",
+    "collected_at": "2026-09-29T09:31:33.412520+00:00",
     "origin": "google_news"
   },
   {
@@ -2252,7 +2420,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T14:19:42+00:00",
-    "collected_at": "2026-09-29T08:31:25.731470+00:00",
+    "collected_at": "2026-09-29T09:31:30.453559+00:00",
     "origin": "google_news"
   },
   {
@@ -2264,7 +2432,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T14:02:00+00:00",
-    "collected_at": "2026-09-29T08:31:26.520370+00:00",
+    "collected_at": "2026-09-29T09:31:31.152447+00:00",
     "origin": "google_news"
   },
   {
@@ -2276,7 +2444,7 @@
     "category_hint": "Top News",
     "priority": 8,
     "published_at": "2026-09-28T13:59:06+00:00",
-    "collected_at": "2026-09-29T08:31:17.548540+00:00",
+    "collected_at": "2026-09-29T09:31:22.398456+00:00",
     "origin": "rss"
   },
   {
@@ -2288,7 +2456,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T13:56:56+00:00",
-    "collected_at": "2026-09-29T08:31:18.824766+00:00",
+    "collected_at": "2026-09-29T09:31:23.671005+00:00",
     "origin": "google_news"
   },
   {
@@ -2300,7 +2468,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T13:56:39+00:00",
-    "collected_at": "2026-09-29T08:31:26.518548+00:00",
+    "collected_at": "2026-09-29T09:31:31.150531+00:00",
     "origin": "google_news"
   },
   {
@@ -2324,7 +2492,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T13:50:00+00:00",
-    "collected_at": "2026-09-29T08:31:26.520018+00:00",
+    "collected_at": "2026-09-29T09:31:31.151783+00:00",
     "origin": "google_news"
   },
   {
@@ -2336,7 +2504,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T13:42:05+00:00",
-    "collected_at": "2026-09-29T08:31:25.728985+00:00",
+    "collected_at": "2026-09-29T09:31:30.451394+00:00",
     "origin": "google_news"
   },
   {
@@ -2348,7 +2516,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T13:39:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.818879+00:00",
+    "collected_at": "2026-09-29T09:31:23.663867+00:00",
     "origin": "google_news"
   },
   {
@@ -2360,7 +2528,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T13:36:06+00:00",
-    "collected_at": "2026-09-29T08:31:25.732817+00:00",
+    "collected_at": "2026-09-29T09:31:30.454914+00:00",
     "origin": "google_news"
   },
   {
@@ -2372,7 +2540,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T13:33:23+00:00",
-    "collected_at": "2026-09-29T08:31:27.132814+00:00",
+    "collected_at": "2026-09-29T09:31:31.816260+00:00",
     "origin": "google_news"
   },
   {
@@ -2396,7 +2564,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T13:31:26+00:00",
-    "collected_at": "2026-09-29T08:31:26.523695+00:00",
+    "collected_at": "2026-09-29T09:31:31.154976+00:00",
     "origin": "google_news"
   },
   {
@@ -2408,7 +2576,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T13:25:13+00:00",
-    "collected_at": "2026-09-29T08:31:22.882321+00:00",
+    "collected_at": "2026-09-29T09:31:27.625350+00:00",
     "origin": "google_news"
   },
   {
@@ -2444,7 +2612,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T13:06:48+00:00",
-    "collected_at": "2026-09-29T08:31:25.730820+00:00",
+    "collected_at": "2026-09-29T09:31:30.453240+00:00",
     "origin": "google_news"
   },
   {
@@ -2468,7 +2636,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T13:01:30+00:00",
-    "collected_at": "2026-09-29T08:31:27.121859+00:00",
+    "collected_at": "2026-09-29T09:31:31.805405+00:00",
     "origin": "google_news"
   },
   {
@@ -2480,7 +2648,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T12:51:00+00:00",
-    "collected_at": "2026-09-29T08:31:26.523353+00:00",
+    "collected_at": "2026-09-29T09:31:31.155355+00:00",
     "origin": "google_news"
   },
   {
@@ -2492,7 +2660,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T12:47:09+00:00",
-    "collected_at": "2026-09-29T08:31:27.124243+00:00",
+    "collected_at": "2026-09-29T09:31:31.808062+00:00",
     "origin": "google_news"
   },
   {
@@ -2516,7 +2684,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T12:41:10+00:00",
-    "collected_at": "2026-09-29T08:31:22.887966+00:00",
+    "collected_at": "2026-09-29T09:31:27.629536+00:00",
     "origin": "google_news"
   },
   {
@@ -2540,7 +2708,19 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T12:20:55+00:00",
-    "collected_at": "2026-09-29T08:31:27.123568+00:00",
+    "collected_at": "2026-09-29T09:31:31.807075+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "547be94ed4fe779a82b75e6e",
+    "title": "What we know about the suspected U.K. terror plot. And, why the Gulf remains in limbo - NPR",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNE0tNVQ5Yk1yNjJVWlh2eFJ0RjY1SUR6ZTVIRHc2M2dqMnNkSmdXVElEZE9jWS12RFJrdWg5UDRfZGtUMmdxSjVqNER5Qk5zUkk5NFN3WmhyTVlFY2Y1MTJMdUlWTUR0dVNRc3ozQUxhUHZlamJXeUNCZDNUZXJrVXJjMWIwM3NqcS1pYjY5UHMzWWVOYnVoWkctV0lTd2duNmpQNGU2MkZPdV9vOTJyR3Bvd2M3TERhYjM4TA?oc=5",
+    "summary": "What we know about the suspected U.K. terror plot. And, why the Gulf remains in limbo NPR",
+    "source": "NPR",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-28T12:15:05+00:00",
+    "collected_at": "2026-09-29T09:31:23.670027+00:00",
     "origin": "google_news"
   },
   {
@@ -2556,18 +2736,6 @@
     "origin": "rss"
   },
   {
-    "id": "547be94ed4fe779a82b75e6e",
-    "title": "What we know about the suspected U.K. terror plot. And, why the Gulf remains in limbo - NPR",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNE0tNVQ5Yk1yNjJVWlh2eFJ0RjY1SUR6ZTVIRHc2M2dqMnNkSmdXVElEZE9jWS12RFJrdWg5UDRfZGtUMmdxSjVqNER5Qk5zUkk5NFN3WmhyTVlFY2Y1MTJMdUlWTUR0dVNRc3ozQUxhUHZlamJXeUNCZDNUZXJrVXJjMWIwM3NqcS1pYjY5UHMzWWVOYnVoWkctV0lTd2duNmpQNGU2MkZPdV9vOTJyR3Bvd2M3TERhYjM4TA?oc=5",
-    "summary": "What we know about the suspected U.K. terror plot. And, why the Gulf remains in limbo NPR",
-    "source": "NPR",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-28T12:15:05+00:00",
-    "collected_at": "2026-09-29T08:31:18.825898+00:00",
-    "origin": "google_news"
-  },
-  {
     "id": "0b59365fe078549407ff1525",
     "title": "‘Rose’ Trailer: Watch a First Look at Sandra Hüller’s Next Must-See Performance (Exclusive) - The Hollywood Reporter",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdjhwVGgzTk9oUnM1cWtMdVlCZk9BRTBLTnhPTzdmSWhHd0ZKQjBySFp5eUZZaXI5UDJvWEUySGJmTmtGak1zM0pQSHk0MEZENF94SUZUSlg2bUdkZHVmX1UzTlhqWVZlR3NUcUtQQkpjUjZ0Rmc5VGZpdEFJUnZwYjFfWVlLMnFfMEVFZ3J5a0E1U09aaWg0emNWYmJNNU9vd1E?oc=5",
@@ -2576,7 +2744,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T12:00:24+00:00",
-    "collected_at": "2026-09-29T08:31:26.529958+00:00",
+    "collected_at": "2026-09-29T09:31:31.161257+00:00",
     "origin": "google_news"
   },
   {
@@ -2592,6 +2760,18 @@
     "origin": "google_news"
   },
   {
+    "id": "53a7d369f907cdc3543d6e71",
+    "title": "Trump aims to leave a physical legacy in D.C., bulldozing norms along the way - NPR",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeEI2UzVnSEZwdVNSVXZJY1BoaE01eTF0eXNEY2hZSGVnV2FQOUxWdUg3VjV1M2E3WkZVNElXUTh6MEZVRktOYUVjM2p5Vl81MFlhQ3ExemZYLVZRaVZvNmo4THh4UVpVSHhtV2ZxcXZqT3dSVkdrenVvUnRndXdNeFRXRFVoUQ?oc=5",
+    "summary": "Trump aims to leave a physical legacy in D.C., bulldozing norms along the way NPR",
+    "source": "NPR",
+    "category_hint": "Top News",
+    "priority": 9,
+    "published_at": "2026-09-28T11:41:48+00:00",
+    "collected_at": "2026-09-29T09:31:23.041622+00:00",
+    "origin": "google_news"
+  },
+  {
     "id": "7a6e7236a2a0ad8cb1c2f404",
     "title": "Trump aims to leave a physical legacy in D.C., bulldozing norms along the way",
     "url": "https://www.npr.org/2026/09/28/nx-s1-5930441/trump-construction-projects-legacy",
@@ -2602,18 +2782,6 @@
     "published_at": "2026-09-28T11:41:48+00:00",
     "collected_at": "2026-09-29T08:31:17.492446+00:00",
     "origin": "rss"
-  },
-  {
-    "id": "53a7d369f907cdc3543d6e71",
-    "title": "Trump aims to leave a physical legacy in D.C., bulldozing norms along the way - NPR",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeEI2UzVnSEZwdVNSVXZJY1BoaE01eTF0eXNEY2hZSGVnV2FQOUxWdUg3VjV1M2E3WkZVNElXUTh6MEZVRktOYUVjM2p5Vl81MFlhQ3ExemZYLVZRaVZvNmo4THh4UVpVSHhtV2ZxcXZqT3dSVkdrenVvUnRndXdNeFRXRFVoUQ?oc=5",
-    "summary": "Trump aims to leave a physical legacy in D.C., bulldozing norms along the way NPR",
-    "source": "NPR",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-28T11:41:48+00:00",
-    "collected_at": "2026-09-29T08:31:18.220394+00:00",
-    "origin": "google_news"
   },
   {
     "id": "6ae0e5be4238121d448da0e1",
@@ -2648,7 +2816,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T11:17:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.819904+00:00",
+    "collected_at": "2026-09-29T09:31:23.665272+00:00",
     "origin": "google_news"
   },
   {
@@ -2672,7 +2840,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T11:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.429414+00:00",
+    "collected_at": "2026-09-29T09:31:24.267027+00:00",
     "origin": "google_news"
   },
   {
@@ -2684,7 +2852,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T11:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.430173+00:00",
+    "collected_at": "2026-09-29T09:31:24.267374+00:00",
     "origin": "google_news"
   },
   {
@@ -2744,7 +2912,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T10:30:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.430874+00:00",
+    "collected_at": "2026-09-29T09:31:24.267707+00:00",
     "origin": "google_news"
   },
   {
@@ -2756,7 +2924,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T10:20:49+00:00",
-    "collected_at": "2026-09-29T08:31:19.429076+00:00",
+    "collected_at": "2026-09-29T09:31:24.266281+00:00",
     "origin": "google_news"
   },
   {
@@ -2768,7 +2936,19 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T10:15:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.439243+00:00",
+    "collected_at": "2026-09-29T09:31:24.276129+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "56ac91e2835deba9b54c5d3f",
+    "title": "Monday forecast: Gray skies as daylight continues to dwindle - Star Tribune",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTVpSYXczcUVzdkZTTGo4Z29VNmFTaUIxTXdaSVFmUER1Vi1DTU9mYllhcXpQTDJJMkxzMjR6TGdpdjZMNUktanhRM3VhR1pyRDNqQk1VcEI0UW1Cd0ZFWGFpaEJhM2VOemhqUi1BNWhMb0tYb1BHeXU3cFR5T1RNS0VBUEFpTXp3LThNelU0eWpHT0luZGNMN1NqZGxTUQ?oc=5",
+    "summary": "Monday forecast: Gray skies as daylight continues to dwindle Star Tribune",
+    "source": "Star Tribune",
+    "category_hint": "Minnesota",
+    "priority": 9,
+    "published_at": "2026-09-28T10:00:00+00:00",
+    "collected_at": "2026-09-29T09:31:24.272670+00:00",
     "origin": "google_news"
   },
   {
@@ -2784,18 +2964,6 @@
     "origin": "google_news"
   },
   {
-    "id": "56ac91e2835deba9b54c5d3f",
-    "title": "Monday forecast: Gray skies as daylight continues to dwindle - Star Tribune",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTVpSYXczcUVzdkZTTGo4Z29VNmFTaUIxTXdaSVFmUER1Vi1DTU9mYllhcXpQTDJJMkxzMjR6TGdpdjZMNUktanhRM3VhR1pyRDNqQk1VcEI0UW1Cd0ZFWGFpaEJhM2VOemhqUi1BNWhMb0tYb1BHeXU3cFR5T1RNS0VBUEFpTXp3LThNelU0eWpHT0luZGNMN1NqZGxTUQ?oc=5",
-    "summary": "Monday forecast: Gray skies as daylight continues to dwindle Star Tribune",
-    "source": "Star Tribune",
-    "category_hint": "Minnesota",
-    "priority": 9,
-    "published_at": "2026-09-28T10:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.435422+00:00",
-    "origin": "google_news"
-  },
-  {
     "id": "16e1fe825dc7de554aac4a8a",
     "title": "Ukrainian forces advance in key eastern battlefield, senior commander says - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU09KcG5rRmI0eVVGNzRlRXlxVktzcmtmZ3NfSzRKVlc3emxMQWpqT0JiV1M5OVRyVFZlOS1JZVZWYjVWYzNxR2FtLVJENUszT1lMOXROd2tKLTlhRldPRTFBQkdVU3lWUFoxOXA5YWdVVGJ2Ti1ZRjRlSmpGREptSWNRTHpDZXJKUzdld1dvOG1zOXozYXFqRnVtTFprcWh1clpaSzBXRlh4cnFIMGROcDNndlRuTVRwZUl3?oc=5",
@@ -2804,7 +2972,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T09:54:45+00:00",
-    "collected_at": "2026-09-29T08:31:18.824096+00:00",
+    "collected_at": "2026-09-29T09:31:23.669368+00:00",
     "origin": "google_news"
   },
   {
@@ -2852,7 +3020,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T09:10:29+00:00",
-    "collected_at": "2026-09-29T08:31:22.888618+00:00",
+    "collected_at": "2026-09-29T09:31:27.630575+00:00",
     "origin": "google_news"
   },
   {
@@ -2864,7 +3032,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-28T09:05:44+00:00",
-    "collected_at": "2026-09-29T08:31:25.726992+00:00",
+    "collected_at": "2026-09-29T09:31:30.449391+00:00",
     "origin": "google_news"
   },
   {
@@ -2876,7 +3044,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T09:00:51+00:00",
-    "collected_at": "2026-09-29T08:31:18.214499+00:00",
+    "collected_at": "2026-09-29T09:31:23.037668+00:00",
     "origin": "google_news"
   },
   {
@@ -2888,7 +3056,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T09:00:42+00:00",
-    "collected_at": "2026-09-29T08:31:18.226255+00:00",
+    "collected_at": "2026-09-29T09:31:23.049481+00:00",
     "origin": "google_news"
   },
   {
@@ -2900,7 +3068,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T09:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.427176+00:00",
+    "collected_at": "2026-09-29T09:31:24.264421+00:00",
     "origin": "google_news"
   },
   {
@@ -2912,7 +3080,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T09:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.433391+00:00",
+    "collected_at": "2026-09-29T09:31:24.270298+00:00",
     "origin": "google_news"
   },
   {
@@ -3008,7 +3176,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T08:34:00+00:00",
-    "collected_at": "2026-09-29T08:31:26.522618+00:00",
+    "collected_at": "2026-09-29T09:31:31.154192+00:00",
     "origin": "google_news"
   },
   {
@@ -3020,7 +3188,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T08:08:30+00:00",
-    "collected_at": "2026-09-29T08:31:27.130069+00:00",
+    "collected_at": "2026-09-29T09:31:31.813187+00:00",
     "origin": "google_news"
   },
   {
@@ -3032,7 +3200,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T08:05:20+00:00",
-    "collected_at": "2026-09-29T08:31:25.970412+00:00",
+    "collected_at": "2026-09-29T09:31:30.573074+00:00",
     "origin": "rss"
   },
   {
@@ -3092,7 +3260,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T07:40:05+00:00",
-    "collected_at": "2026-09-29T08:31:25.970184+00:00",
+    "collected_at": "2026-09-29T09:31:30.572849+00:00",
     "origin": "rss"
   },
   {
@@ -3104,7 +3272,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T07:21:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.828224+00:00",
+    "collected_at": "2026-09-29T09:31:23.673063+00:00",
     "origin": "google_news"
   },
   {
@@ -3140,7 +3308,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T06:22:52+00:00",
-    "collected_at": "2026-09-29T08:31:25.970889+00:00",
+    "collected_at": "2026-09-29T09:31:30.573519+00:00",
     "origin": "rss"
   },
   {
@@ -3164,7 +3332,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T06:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:22.888292+00:00",
+    "collected_at": "2026-09-29T09:31:27.629223+00:00",
     "origin": "google_news"
   },
   {
@@ -3224,7 +3392,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T05:26:29+00:00",
-    "collected_at": "2026-09-29T08:31:27.123250+00:00",
+    "collected_at": "2026-09-29T09:31:31.806734+00:00",
     "origin": "google_news"
   },
   {
@@ -3236,7 +3404,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T05:18:57+00:00",
-    "collected_at": "2026-09-29T08:31:27.129087+00:00",
+    "collected_at": "2026-09-29T09:31:31.812538+00:00",
     "origin": "google_news"
   },
   {
@@ -3248,7 +3416,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T05:15:57+00:00",
-    "collected_at": "2026-09-29T08:31:27.125339+00:00",
+    "collected_at": "2026-09-29T09:31:31.809478+00:00",
     "origin": "google_news"
   },
   {
@@ -3260,7 +3428,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T05:15:22+00:00",
-    "collected_at": "2026-09-29T08:31:27.127619+00:00",
+    "collected_at": "2026-09-29T09:31:31.811456+00:00",
     "origin": "google_news"
   },
   {
@@ -3284,7 +3452,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-28T05:01:06+00:00",
-    "collected_at": "2026-09-29T08:31:27.132479+00:00",
+    "collected_at": "2026-09-29T09:31:31.815944+00:00",
     "origin": "google_news"
   },
   {
@@ -3296,7 +3464,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T04:59:43+00:00",
-    "collected_at": "2026-09-29T08:31:19.429804+00:00",
+    "collected_at": "2026-09-29T09:31:24.266622+00:00",
     "origin": "google_news"
   },
   {
@@ -3308,7 +3476,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T04:56:32+00:00",
-    "collected_at": "2026-09-29T08:31:25.971324+00:00",
+    "collected_at": "2026-09-29T09:31:30.573978+00:00",
     "origin": "rss"
   },
   {
@@ -3368,7 +3536,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T03:24:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.825214+00:00",
+    "collected_at": "2026-09-29T09:31:23.670661+00:00",
     "origin": "google_news"
   },
   {
@@ -3392,7 +3560,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-28T03:14:08+00:00",
-    "collected_at": "2026-09-29T08:31:22.891940+00:00",
+    "collected_at": "2026-09-29T09:31:27.632179+00:00",
     "origin": "google_news"
   },
   {
@@ -3404,7 +3572,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T03:07:37+00:00",
-    "collected_at": "2026-09-29T08:31:26.519628+00:00",
+    "collected_at": "2026-09-29T09:31:31.152119+00:00",
     "origin": "google_news"
   },
   {
@@ -3416,7 +3584,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T03:07:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.218177+00:00",
+    "collected_at": "2026-09-29T09:31:23.040975+00:00",
     "origin": "google_news"
   },
   {
@@ -3464,7 +3632,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T01:34:34+00:00",
-    "collected_at": "2026-09-29T08:31:26.520864+00:00",
+    "collected_at": "2026-09-29T09:31:31.152796+00:00",
     "origin": "google_news"
   },
   {
@@ -3488,7 +3656,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T01:02:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.826549+00:00",
+    "collected_at": "2026-09-29T09:31:23.671974+00:00",
     "origin": "google_news"
   },
   {
@@ -3512,7 +3680,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-28T00:52:38+00:00",
-    "collected_at": "2026-09-29T08:31:19.435893+00:00",
+    "collected_at": "2026-09-29T09:31:24.272355+00:00",
     "origin": "google_news"
   },
   {
@@ -3560,7 +3728,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-28T00:26:54+00:00",
-    "collected_at": "2026-09-29T08:31:18.218900+00:00",
+    "collected_at": "2026-09-29T09:31:23.042001+00:00",
     "origin": "google_news"
   },
   {
@@ -3572,7 +3740,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T00:15:18+00:00",
-    "collected_at": "2026-09-29T08:31:26.521206+00:00",
+    "collected_at": "2026-09-29T09:31:31.153139+00:00",
     "origin": "google_news"
   },
   {
@@ -3584,7 +3752,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-28T00:08:24+00:00",
-    "collected_at": "2026-09-29T08:31:26.524049+00:00",
+    "collected_at": "2026-09-29T09:31:31.156079+00:00",
     "origin": "google_news"
   },
   {
@@ -3644,7 +3812,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-27T23:27:22+00:00",
-    "collected_at": "2026-09-29T08:31:25.971112+00:00",
+    "collected_at": "2026-09-29T09:31:30.573737+00:00",
     "origin": "rss"
   },
   {
@@ -3680,7 +3848,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-27T22:52:12+00:00",
-    "collected_at": "2026-09-29T07:30:13.410891+00:00",
+    "collected_at": "2026-09-29T09:31:23.043154+00:00",
     "origin": "google_news"
   },
   {
@@ -3728,7 +3896,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-27T22:18:27+00:00",
-    "collected_at": "2026-09-29T08:31:19.436544+00:00",
+    "collected_at": "2026-09-29T09:31:24.273464+00:00",
     "origin": "google_news"
   },
   {
@@ -3752,7 +3920,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-27T21:40:23+00:00",
-    "collected_at": "2026-09-29T07:30:14.673882+00:00",
+    "collected_at": "2026-09-29T09:31:24.276927+00:00",
     "origin": "google_news"
   },
   {
@@ -3764,7 +3932,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-27T21:22:35+00:00",
-    "collected_at": "2026-09-29T08:31:18.222753+00:00",
+    "collected_at": "2026-09-29T09:31:23.046712+00:00",
     "origin": "google_news"
   },
   {
@@ -3860,7 +4028,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-27T20:46:36+00:00",
-    "collected_at": "2026-09-29T08:31:25.731150+00:00",
+    "collected_at": "2026-09-29T09:31:30.453919+00:00",
     "origin": "google_news"
   },
   {
@@ -3884,7 +4052,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-27T20:43:49+00:00",
-    "collected_at": "2026-09-29T06:34:38.212425+00:00",
+    "collected_at": "2026-09-29T09:31:31.162291+00:00",
     "origin": "google_news"
   },
   {
@@ -3920,7 +4088,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-27T20:22:57+00:00",
-    "collected_at": "2026-09-29T08:31:19.434768+00:00",
+    "collected_at": "2026-09-29T09:31:24.272036+00:00",
     "origin": "google_news"
   },
   {
@@ -3932,7 +4100,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-27T20:15:07+00:00",
-    "collected_at": "2026-09-29T08:31:18.225585+00:00",
+    "collected_at": "2026-09-29T09:31:23.049147+00:00",
     "origin": "google_news"
   },
   {
@@ -4004,7 +4172,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-27T19:30:11+00:00",
-    "collected_at": "2026-09-29T08:31:18.215267+00:00",
+    "collected_at": "2026-09-29T09:31:23.036496+00:00",
     "origin": "google_news"
   },
   {
@@ -4028,7 +4196,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-27T19:12:51+00:00",
-    "collected_at": "2026-09-29T08:31:26.527758+00:00",
+    "collected_at": "2026-09-29T09:31:31.159926+00:00",
     "origin": "google_news"
   },
   {
@@ -4124,7 +4292,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-27T17:21:07+00:00",
-    "collected_at": "2026-09-29T08:31:25.723789+00:00",
+    "collected_at": "2026-09-29T09:31:30.445645+00:00",
     "origin": "google_news"
   },
   {
@@ -4148,7 +4316,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-27T17:09:47+00:00",
-    "collected_at": "2026-09-29T08:31:26.528904+00:00",
+    "collected_at": "2026-09-29T09:31:31.163305+00:00",
     "origin": "google_news"
   },
   {
@@ -4244,7 +4412,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-27T16:21:48+00:00",
-    "collected_at": "2026-09-29T08:31:27.126991+00:00",
+    "collected_at": "2026-09-29T09:31:31.808490+00:00",
     "origin": "google_news"
   },
   {
@@ -4268,7 +4436,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-27T16:08:47+00:00",
-    "collected_at": "2026-09-29T08:31:27.124559+00:00",
+    "collected_at": "2026-09-29T09:31:31.808830+00:00",
     "origin": "google_news"
   },
   {
@@ -4400,7 +4568,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-27T15:46:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.723426+00:00",
+    "collected_at": "2026-09-29T09:31:30.446025+00:00",
     "origin": "google_news"
   },
   {
@@ -4448,7 +4616,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-27T15:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:26.525341+00:00",
+    "collected_at": "2026-09-29T09:31:31.157456+00:00",
     "origin": "google_news"
   },
   {
@@ -4460,7 +4628,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-27T14:31:36+00:00",
-    "collected_at": "2026-09-29T08:31:27.132048+00:00",
+    "collected_at": "2026-09-29T09:31:31.815489+00:00",
     "origin": "google_news"
   },
   {
@@ -4616,7 +4784,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-27T12:06:21+00:00",
-    "collected_at": "2026-09-29T08:31:27.122190+00:00",
+    "collected_at": "2026-09-29T09:31:31.805742+00:00",
     "origin": "google_news"
   },
   {
@@ -4640,7 +4808,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-27T12:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.438232+00:00",
+    "collected_at": "2026-09-29T09:31:24.275136+00:00",
     "origin": "google_news"
   },
   {
@@ -4652,7 +4820,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-27T12:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.438551+00:00",
+    "collected_at": "2026-09-29T09:31:24.275449+00:00",
     "origin": "google_news"
   },
   {
@@ -4748,7 +4916,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-27T11:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.436222+00:00",
+    "collected_at": "2026-09-29T09:31:24.273138+00:00",
     "origin": "google_news"
   },
   {
@@ -4760,7 +4928,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-27T11:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.436898+00:00",
+    "collected_at": "2026-09-29T09:31:24.273818+00:00",
     "origin": "google_news"
   },
   {
@@ -4796,7 +4964,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-27T10:58:26+00:00",
-    "collected_at": "2026-09-29T08:31:25.972789+00:00",
+    "collected_at": "2026-09-29T09:31:30.575630+00:00",
     "origin": "rss"
   },
   {
@@ -4824,15 +4992,15 @@
     "origin": "google_news"
   },
   {
-    "id": "0260e2714c49b071f568d8d4",
-    "title": "John Turturro on Joining the Oscar Race — and ‘Severance’ Season 3 - hollywoodreporter.com",
+    "id": "a5ccd2dc46008e9c2eb4de2e",
+    "title": "John Turturro on Joining the Oscar Race — and ‘Severance’ Season 3 - The Hollywood Reporter",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOGxOTVpRUXdEOTV5blU5YTFib0lkSWJ4cllmVUFrYmpTUkZpajcxbW9ETVVhSHlTbktiV3JwY29KWVRoeS04VXl1MnYzN3J1QS1Zb29EX1VYa0lrbXBFUzl2Z1pEVlYwcHZnNGFYNHU1bzZtOXk1MVVSRUUtVG9BSVdqMnNFRHVCcVBKQTBIVkp5NGQxZ0lOd1BWbmRGZ1dOZGdreENXM1NVazY1eGVNOVowR21vY1ZaMW41RQ?oc=5",
-    "summary": "John Turturro on Joining the Oscar Race — and ‘Severance’ Season 3 hollywoodreporter.com",
-    "source": "hollywoodreporter.com",
+    "summary": "John Turturro on Joining the Oscar Race — and ‘Severance’ Season 3 The Hollywood Reporter",
+    "source": "The Hollywood Reporter",
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-27T10:39:33+00:00",
-    "collected_at": "2026-09-29T01:26:46.732870+00:00",
+    "collected_at": "2026-09-29T09:31:31.156430+00:00",
     "origin": "google_news"
   },
   {
@@ -4880,7 +5048,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-27T10:00:14+00:00",
-    "collected_at": "2026-09-29T08:31:18.216430+00:00",
+    "collected_at": "2026-09-29T09:31:23.039258+00:00",
     "origin": "google_news"
   },
   {
@@ -4892,7 +5060,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-27T10:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.440026+00:00",
+    "collected_at": "2026-09-29T09:31:24.277259+00:00",
     "origin": "google_news"
   },
   {
@@ -4940,7 +5108,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-27T09:01:12+00:00",
-    "collected_at": "2026-09-29T08:31:18.222074+00:00",
+    "collected_at": "2026-09-29T09:31:23.045864+00:00",
     "origin": "google_news"
   },
   {
@@ -4976,7 +5144,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-27T08:32:19+00:00",
-    "collected_at": "2026-09-29T08:31:27.130384+00:00",
+    "collected_at": "2026-09-29T09:31:31.813839+00:00",
     "origin": "google_news"
   },
   {
@@ -5048,19 +5216,19 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-27T07:04:06+00:00",
-    "collected_at": "2026-09-29T08:31:27.129401+00:00",
+    "collected_at": "2026-09-29T09:31:31.812875+00:00",
     "origin": "google_news"
   },
   {
-    "id": "6438961632f5e1eb6489381a",
-    "title": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUEtbWlTaWtWX0dYU2dvc0dCT3c4TW8wQS1nOWFVUWp4NU1nNFVxZXMybmhIWTlLVWlUalRVVk5JUVNrdVRfQVVRTlVtNWtwTndFTWlpOEZ1WW9OZi1peUNJNFZMRHdVWXQ1VkhNNkxkS1dVNjFNWGtPenNtYjJyVkdnZzF1ZXNzUWsxbjlPbm5EcDNTVkdaYkN6ckdlTkRrTmJqWUFQOXUtVTJTWGVTYnZlUzM?oc=5",
-    "summary": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges Reuters",
-    "source": "Reuters",
-    "category_hint": "Tech & AI",
-    "priority": 8,
+    "id": "3d0f8a4627b4516f2cbfbe30",
+    "title": "Trump-Xi Summit Ends With Tea and Tour but Little Visible Policy Progress - The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQ1JseHJjVV82TGVSMllJWncyVS1ESTBUTy1IakdDZ2tMX3RtbUM2RS1nYVJIN25RZ1daT3dXNmlhaWx6a2twRDJnbkYwU3gzSXh3OXhYM2VVd0V4WTJiRlJpSUR5NHlDQmNQN0pRNmx3eDJpVWM0MHlyejh4Z0Ywdw?oc=5",
+    "summary": "Trump-Xi Summit Ends With Tea and Tour but Little Visible Policy Progress The New York Times",
+    "source": "The New York Times",
+    "category_hint": "Top News",
+    "priority": 9,
     "published_at": "2026-09-27T07:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.721707+00:00",
+    "collected_at": "2026-09-29T09:31:23.048125+00:00",
     "origin": "google_news"
   },
   {
@@ -5096,7 +5264,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-27T06:19:47+00:00",
-    "collected_at": "2026-09-29T08:31:25.971781+00:00",
+    "collected_at": "2026-09-29T09:31:30.574748+00:00",
     "origin": "rss"
   },
   {
@@ -5120,7 +5288,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-27T06:13:39+00:00",
-    "collected_at": "2026-09-29T08:31:27.122903+00:00",
+    "collected_at": "2026-09-29T09:31:31.806415+00:00",
     "origin": "google_news"
   },
   {
@@ -5132,7 +5300,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-27T06:12:48+00:00",
-    "collected_at": "2026-09-29T08:31:27.121505+00:00",
+    "collected_at": "2026-09-29T09:31:31.805081+00:00",
     "origin": "google_news"
   },
   {
@@ -5144,7 +5312,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-27T06:09:27+00:00",
-    "collected_at": "2026-09-29T08:31:27.129740+00:00",
+    "collected_at": "2026-09-29T09:31:31.813502+00:00",
     "origin": "google_news"
   },
   {
@@ -5180,7 +5348,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-27T05:33:37+00:00",
-    "collected_at": "2026-09-29T08:31:27.127968+00:00",
+    "collected_at": "2026-09-29T09:31:31.811786+00:00",
     "origin": "google_news"
   },
   {
@@ -5216,7 +5384,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-27T04:27:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.720177+00:00",
+    "collected_at": "2026-09-29T09:31:30.442007+00:00",
     "origin": "google_news"
   },
   {
@@ -5252,7 +5420,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-27T02:26:34+00:00",
-    "collected_at": "2026-09-29T08:31:18.217479+00:00",
+    "collected_at": "2026-09-29T09:31:23.040293+00:00",
     "origin": "google_news"
   },
   {
@@ -5336,7 +5504,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-26T23:47:55+00:00",
-    "collected_at": "2026-09-29T08:31:18.221391+00:00",
+    "collected_at": "2026-09-29T09:31:23.044798+00:00",
     "origin": "google_news"
   },
   {
@@ -5408,7 +5576,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-26T23:02:47+00:00",
-    "collected_at": "2026-09-29T08:31:27.131367+00:00",
+    "collected_at": "2026-09-29T09:31:31.814815+00:00",
     "origin": "google_news"
   },
   {
@@ -5420,7 +5588,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-26T23:01:47+00:00",
-    "collected_at": "2026-09-29T08:31:25.970640+00:00",
+    "collected_at": "2026-09-29T09:31:30.573296+00:00",
     "origin": "rss"
   },
   {
@@ -5432,7 +5600,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-26T22:36:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.217834+00:00",
+    "collected_at": "2026-09-29T09:31:23.040619+00:00",
     "origin": "google_news"
   },
   {
@@ -5516,7 +5684,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-26T21:36:42+00:00",
-    "collected_at": "2026-09-29T08:31:27.125020+00:00",
+    "collected_at": "2026-09-29T09:31:31.809161+00:00",
     "origin": "google_news"
   },
   {
@@ -5696,7 +5864,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-26T20:08:28+00:00",
-    "collected_at": "2026-09-29T08:31:18.213741+00:00",
+    "collected_at": "2026-09-29T09:31:23.036898+00:00",
     "origin": "google_news"
   },
   {
@@ -5720,7 +5888,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-26T19:59:32+00:00",
-    "collected_at": "2026-09-29T08:31:18.214126+00:00",
+    "collected_at": "2026-09-29T09:31:23.037291+00:00",
     "origin": "google_news"
   },
   {
@@ -5816,7 +5984,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-26T19:09:44+00:00",
-    "collected_at": "2026-09-29T08:31:25.973011+00:00",
+    "collected_at": "2026-09-29T09:31:30.575868+00:00",
     "origin": "rss"
   },
   {
@@ -5828,7 +5996,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-26T18:46:51+00:00",
-    "collected_at": "2026-09-29T08:31:26.526038+00:00",
+    "collected_at": "2026-09-29T09:31:31.157808+00:00",
     "origin": "google_news"
   },
   {
@@ -5912,7 +6080,7 @@
     "category_hint": "Politics & Government",
     "priority": 7,
     "published_at": "2026-09-26T17:20:24+00:00",
-    "collected_at": "2026-09-29T08:31:23.478074+00:00",
+    "collected_at": "2026-09-29T09:31:28.156400+00:00",
     "origin": "google_news"
   },
   {
@@ -5984,7 +6152,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-26T16:34:59+00:00",
-    "collected_at": "2026-09-29T08:31:25.730473+00:00",
+    "collected_at": "2026-09-29T09:31:30.452921+00:00",
     "origin": "google_news"
   },
   {
@@ -6092,7 +6260,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-26T15:00:49+00:00",
-    "collected_at": "2026-09-29T07:30:22.140403+00:00",
+    "collected_at": "2026-09-29T09:31:31.162607+00:00",
     "origin": "google_news"
   },
   {
@@ -6116,7 +6284,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-26T14:57:44+00:00",
-    "collected_at": "2026-09-29T08:31:27.127306+00:00",
+    "collected_at": "2026-09-29T09:31:31.811142+00:00",
     "origin": "google_news"
   },
   {
@@ -6128,7 +6296,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-26T14:41:44+00:00",
-    "collected_at": "2026-09-29T08:31:27.128757+00:00",
+    "collected_at": "2026-09-29T09:31:31.812222+00:00",
     "origin": "google_news"
   },
   {
@@ -6164,7 +6332,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-26T14:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.727315+00:00",
+    "collected_at": "2026-09-29T09:31:30.449711+00:00",
     "origin": "google_news"
   },
   {
@@ -6224,7 +6392,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-26T13:21:27+00:00",
-    "collected_at": "2026-09-29T08:31:25.973227+00:00",
+    "collected_at": "2026-09-29T09:31:30.576081+00:00",
     "origin": "rss"
   },
   {
@@ -6308,7 +6476,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-26T11:38:03+00:00",
-    "collected_at": "2026-09-29T08:31:18.225932+00:00",
+    "collected_at": "2026-09-29T09:31:23.048811+00:00",
     "origin": "google_news"
   },
   {
@@ -6560,7 +6728,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-26T09:02:06+00:00",
-    "collected_at": "2026-09-29T08:31:18.216778+00:00",
+    "collected_at": "2026-09-29T09:31:23.039587+00:00",
     "origin": "google_news"
   },
   {
@@ -6572,7 +6740,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-26T09:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:27.120018+00:00",
+    "collected_at": "2026-09-29T09:31:31.803575+00:00",
     "origin": "google_news"
   },
   {
@@ -6668,7 +6836,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-26T07:29:51+00:00",
-    "collected_at": "2026-09-29T08:31:27.119267+00:00",
+    "collected_at": "2026-09-29T09:31:31.802872+00:00",
     "origin": "google_news"
   },
   {
@@ -6740,7 +6908,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-26T06:21:53+00:00",
-    "collected_at": "2026-09-29T08:31:27.126318+00:00",
+    "collected_at": "2026-09-29T09:31:31.810476+00:00",
     "origin": "google_news"
   },
   {
@@ -6812,7 +6980,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-26T04:42:17+00:00",
-    "collected_at": "2026-09-29T08:31:18.219704+00:00",
+    "collected_at": "2026-09-29T09:31:23.042810+00:00",
     "origin": "google_news"
   },
   {
@@ -6836,7 +7004,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-26T04:04:00+00:00",
-    "collected_at": "2026-09-29T08:31:27.121173+00:00",
+    "collected_at": "2026-09-29T09:31:31.804721+00:00",
     "origin": "google_news"
   },
   {
@@ -6896,7 +7064,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-26T03:18:17+00:00",
-    "collected_at": "2026-09-29T08:31:22.885086+00:00",
+    "collected_at": "2026-09-29T09:31:27.627906+00:00",
     "origin": "google_news"
   },
   {
@@ -6956,7 +7124,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-26T02:43:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.729805+00:00",
+    "collected_at": "2026-09-29T09:31:30.452239+00:00",
     "origin": "google_news"
   },
   {
@@ -6980,7 +7148,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-26T02:31:16+00:00",
-    "collected_at": "2026-09-29T08:31:18.220716+00:00",
+    "collected_at": "2026-09-29T09:31:23.043814+00:00",
     "origin": "google_news"
   },
   {
@@ -6992,7 +7160,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-26T02:01:06+00:00",
-    "collected_at": "2026-09-29T08:31:22.892601+00:00",
+    "collected_at": "2026-09-29T09:31:27.633186+00:00",
     "origin": "google_news"
   },
   {
@@ -7568,7 +7736,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-25T20:37:39+00:00",
-    "collected_at": "2026-09-28T23:26:50.154882+00:00",
+    "collected_at": "2026-09-29T09:31:27.633875+00:00",
     "origin": "google_news"
   },
   {
@@ -7581,6 +7749,18 @@
     "priority": 10,
     "published_at": "2026-09-25T20:37:23+00:00",
     "collected_at": "2026-09-26T19:24:21.216315+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "6438961632f5e1eb6489381a",
+    "title": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUEtbWlTaWtWX0dYU2dvc0dCT3c4TW8wQS1nOWFVUWp4NU1nNFVxZXMybmhIWTlLVWlUalRVVk5JUVNrdVRfQVVRTlVtNWtwTndFTWlpOEZ1WW9OZi1peUNJNFZMRHdVWXQ1VkhNNkxkS1dVNjFNWGtPenNtYjJyVkdnZzF1ZXNzUWsxbjlPbm5EcDNTVkdaYkN6ckdlTkRrTmJqWUFQOXUtVTJTWGVTYnZlUzM?oc=5",
+    "summary": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges Reuters",
+    "source": "Reuters",
+    "category_hint": "Tech & AI",
+    "priority": 8,
+    "published_at": "2026-09-25T20:37:00+00:00",
+    "collected_at": "2026-09-29T09:31:30.443233+00:00",
     "origin": "google_news"
   },
   {
@@ -7640,7 +7820,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-25T20:22:22+00:00",
-    "collected_at": "2026-09-29T00:35:08.572903+00:00",
+    "collected_at": "2026-09-29T09:31:27.633519+00:00",
     "origin": "google_news"
   },
   {
@@ -7724,7 +7904,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-25T20:02:00+00:00",
-    "collected_at": "2026-09-29T08:31:27.609426+00:00",
+    "collected_at": "2026-09-29T09:31:32.346865+00:00",
     "origin": "google_news"
   },
   {
@@ -7940,7 +8120,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-25T18:55:20+00:00",
-    "collected_at": "2026-09-29T08:31:25.726325+00:00",
+    "collected_at": "2026-09-29T09:31:30.448718+00:00",
     "origin": "google_news"
   },
   {
@@ -7952,7 +8132,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-25T18:51:57+00:00",
-    "collected_at": "2026-09-29T08:31:26.528423+00:00",
+    "collected_at": "2026-09-29T09:31:31.160921+00:00",
     "origin": "google_news"
   },
   {
@@ -7964,7 +8144,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-25T18:49:37+00:00",
-    "collected_at": "2026-09-29T08:31:27.608669+00:00",
+    "collected_at": "2026-09-29T09:31:32.346096+00:00",
     "origin": "google_news"
   },
   {
@@ -8036,7 +8216,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-25T18:36:09+00:00",
-    "collected_at": "2026-09-29T08:31:27.125655+00:00",
+    "collected_at": "2026-09-29T09:31:31.809825+00:00",
     "origin": "google_news"
   },
   {
@@ -8192,7 +8372,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-25T17:45:30+00:00",
-    "collected_at": "2026-09-29T08:31:18.219241+00:00",
+    "collected_at": "2026-09-29T09:31:23.042330+00:00",
     "origin": "google_news"
   },
   {
@@ -8276,7 +8456,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-25T16:52:10+00:00",
-    "collected_at": "2026-09-29T08:31:25.971542+00:00",
+    "collected_at": "2026-09-29T09:31:30.574540+00:00",
     "origin": "rss"
   },
   {
@@ -8420,7 +8600,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-25T16:17:20+00:00",
-    "collected_at": "2026-09-29T08:31:25.973441+00:00",
+    "collected_at": "2026-09-29T09:31:30.576317+00:00",
     "origin": "rss"
   },
   {
@@ -8552,7 +8732,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-25T15:51:52+00:00",
-    "collected_at": "2026-09-29T08:31:25.972334+00:00",
+    "collected_at": "2026-09-29T09:31:30.575200+00:00",
     "origin": "rss"
   },
   {
@@ -8624,7 +8804,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-25T15:39:48+00:00",
-    "collected_at": "2026-09-29T08:31:25.721239+00:00",
+    "collected_at": "2026-09-29T09:31:30.443826+00:00",
     "origin": "google_news"
   },
   {
@@ -8648,7 +8828,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-25T15:30:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.220071+00:00",
+    "collected_at": "2026-09-29T09:31:23.044139+00:00",
     "origin": "google_news"
   },
   {
@@ -8816,7 +8996,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-25T14:42:00+00:00",
-    "collected_at": "2026-09-29T08:31:22.892279+00:00",
+    "collected_at": "2026-09-29T09:31:27.632859+00:00",
     "origin": "google_news"
   },
   {
@@ -9068,7 +9248,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-25T12:30:46+00:00",
-    "collected_at": "2026-09-29T08:31:27.120695+00:00",
+    "collected_at": "2026-09-29T09:31:31.804275+00:00",
     "origin": "google_news"
   },
   {
@@ -9140,7 +9320,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-25T12:00:11+00:00",
-    "collected_at": "2026-09-29T08:31:25.972004+00:00",
+    "collected_at": "2026-09-29T09:31:30.574988+00:00",
     "origin": "rss"
   },
   {
@@ -9368,7 +9548,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-25T10:51:28+00:00",
-    "collected_at": "2026-09-29T08:31:25.972555+00:00",
+    "collected_at": "2026-09-29T09:31:30.575418+00:00",
     "origin": "rss"
   },
   {
@@ -9476,7 +9656,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-25T09:48:00+00:00",
-    "collected_at": "2026-09-29T08:31:25.725651+00:00",
+    "collected_at": "2026-09-29T09:31:30.448053+00:00",
     "origin": "google_news"
   },
   {
@@ -9512,7 +9692,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-25T09:08:48+00:00",
-    "collected_at": "2026-09-29T08:31:18.212978+00:00",
+    "collected_at": "2026-09-29T09:31:23.036099+00:00",
     "origin": "google_news"
   },
   {
@@ -9572,7 +9752,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-25T09:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.431220+00:00",
+    "collected_at": "2026-09-29T09:31:24.268062+00:00",
     "origin": "google_news"
   },
   {
@@ -9584,7 +9764,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-25T09:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.433739+00:00",
+    "collected_at": "2026-09-29T09:31:24.270621+00:00",
     "origin": "google_news"
   },
   {
@@ -9836,7 +10016,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-25T05:43:32+00:00",
-    "collected_at": "2026-09-29T08:31:25.973651+00:00",
+    "collected_at": "2026-09-29T09:31:30.576527+00:00",
     "origin": "rss"
   },
   {
@@ -10184,7 +10364,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-25T00:40:36+00:00",
-    "collected_at": "2026-09-29T08:31:18.214904+00:00",
+    "collected_at": "2026-09-29T09:31:23.038084+00:00",
     "origin": "google_news"
   },
   {
@@ -10292,7 +10472,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T23:41:10+00:00",
-    "collected_at": "2026-09-29T08:31:25.973891+00:00",
+    "collected_at": "2026-09-29T09:31:30.576742+00:00",
     "origin": "rss"
   },
   {
@@ -10344,15 +10524,15 @@
     "origin": "google_news"
   },
   {
-    "id": "3df4b4fd6530e5a2ae4f8647",
-    "title": "What's new at the NLRB — First precedent shift as Republican majority revives Wright Line framework for employee discipline - reedsmith.com",
+    "id": "ff0bc560a2e3573ff5dad68f",
+    "title": "What's new at the NLRB — First precedent shift as Republican majority revives Wright Line framework for employee discipline - Reed Smith LLP",
     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQcWI1dnhmaERwcXBSbkdQZUFnNEg2ZC1uSG15cDFiMG93czg0WFk1WkZRNG1mVi03VlN6OXVpTkxwTklBRDc2aXlqNGpjc0NnXzBpZmR2N0w5SVAtSFJfYWkyWmJOZkppS3ZsQ1k0by1wLUxNN21LWFAtd0ktREZ6U3g5S2x0STBtaE9tNEdWT3dRdUNyOVBhMDRvZlYzemVrdmM2TEV2U0pZTjRRY1pYVlVOVVQ1OEZxWmdTMzhfVjItLTBVemVvOGRTRFVMMTR4Y2ZhR21mS3ZnakhFYy1ZR2otTmpBRVlz?oc=5",
-    "summary": "What's new at the NLRB — First precedent shift as Republican majority revives Wright Line framework for employee discipline reedsmith.com",
-    "source": "reedsmith.com",
+    "summary": "What's new at the NLRB — First precedent shift as Republican majority revives Wright Line framework for employee discipline Reed Smith LLP",
+    "source": "Reed Smith LLP",
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-24T23:15:31+00:00",
-    "collected_at": "2026-09-29T08:31:22.889326+00:00",
+    "collected_at": "2026-09-29T09:31:27.630249+00:00",
     "origin": "google_news"
   },
   {
@@ -10508,7 +10688,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-24T21:47:53+00:00",
-    "collected_at": "2026-09-29T08:31:19.437549+00:00",
+    "collected_at": "2026-09-29T09:31:24.274462+00:00",
     "origin": "google_news"
   },
   {
@@ -10772,7 +10952,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T20:15:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.221717+00:00",
+    "collected_at": "2026-09-29T09:31:23.045482+00:00",
     "origin": "google_news"
   },
   {
@@ -11108,7 +11288,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-24T18:59:00+00:00",
-    "collected_at": "2026-09-29T08:31:22.891246+00:00",
+    "collected_at": "2026-09-29T09:31:27.631836+00:00",
     "origin": "google_news"
   },
   {
@@ -11132,7 +11312,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-24T18:52:21+00:00",
-    "collected_at": "2026-09-29T08:31:22.882651+00:00",
+    "collected_at": "2026-09-29T09:31:27.624682+00:00",
     "origin": "google_news"
   },
   {
@@ -11180,7 +11360,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-24T18:42:00+00:00",
-    "collected_at": "2026-09-29T08:31:22.889863+00:00",
+    "collected_at": "2026-09-29T09:31:27.630999+00:00",
     "origin": "google_news"
   },
   {
@@ -11192,7 +11372,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-24T18:41:00+00:00",
-    "collected_at": "2026-09-29T08:31:27.126003+00:00",
+    "collected_at": "2026-09-29T09:31:31.810160+00:00",
     "origin": "google_news"
   },
   {
@@ -11624,7 +11804,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-24T16:36:33+00:00",
-    "collected_at": "2026-09-29T08:31:25.974102+00:00",
+    "collected_at": "2026-09-29T09:31:30.576980+00:00",
     "origin": "rss"
   },
   {
@@ -12140,7 +12320,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-24T14:01:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.218520+00:00",
+    "collected_at": "2026-09-29T09:31:23.041297+00:00",
     "origin": "google_news"
   },
   {
@@ -12368,7 +12548,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-24T11:52:32+00:00",
-    "collected_at": "2026-09-29T08:31:25.732138+00:00",
+    "collected_at": "2026-09-29T09:31:30.454239+00:00",
     "origin": "google_news"
   },
   {
@@ -12596,7 +12776,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-24T10:11:15+00:00",
-    "collected_at": "2026-09-29T08:31:27.119643+00:00",
+    "collected_at": "2026-09-29T09:31:31.803235+00:00",
     "origin": "google_news"
   },
   {
@@ -12644,7 +12824,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-24T10:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.438912+00:00",
+    "collected_at": "2026-09-29T09:31:24.275806+00:00",
     "origin": "google_news"
   },
   {
@@ -12764,7 +12944,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-24T09:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.437911+00:00",
+    "collected_at": "2026-09-29T09:31:24.274818+00:00",
     "origin": "google_news"
   },
   {
@@ -13368,15 +13548,15 @@
     "origin": "rss"
   },
   {
-    "id": "267ca40936f9d92f0853ca73",
-    "title": "NLRB puts Genesys nurses' union removal petition on hold - abc12.com",
+    "id": "39d155a3f040a83c20df51ee",
+    "title": "NLRB puts Genesys nurses' union removal petition on hold - WJRT ABC12",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSWptVmFtZk1Qc0xfbnI3cmJ2QlFTS2ZkNm1BVkFMMC0tSGF0MGpteVF1MW1pUnFFQWVZUlhWMXFMdFczdHJiM1JxV0VUOGN3Vjg2STJnZndYTkNtcFF1dURyNUNqWGZWMS1DblNMd2RWMERwUjFLTGZnbkFGYjFWSmRBSW9FNVBhcUgzblQyNWtERVdFUTdEWUd2c2J0aFpPYUNlX2hTelViX1U1YkVYZUtxWEZfZklpckd1c2FjYVJqdWJPTnlONUxqQWljMmdya2NUell3?oc=5",
-    "summary": "NLRB puts Genesys nurses' union removal petition on hold abc12.com",
-    "source": "abc12.com",
+    "summary": "NLRB puts Genesys nurses' union removal petition on hold WJRT ABC12",
+    "source": "WJRT ABC12",
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-24T03:17:00+00:00",
-    "collected_at": "2026-09-28T22:26:59.897948+00:00",
+    "collected_at": "2026-09-29T09:31:27.634524+00:00",
     "origin": "google_news"
   },
   {
@@ -13880,7 +14060,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T22:26:55+00:00",
-    "collected_at": "2026-09-29T08:31:19.439676+00:00",
+    "collected_at": "2026-09-29T09:31:24.276452+00:00",
     "origin": "google_news"
   },
   {
@@ -14156,7 +14336,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-23T20:57:01+00:00",
-    "collected_at": "2026-09-29T08:31:18.217131+00:00",
+    "collected_at": "2026-09-29T09:31:23.039952+00:00",
     "origin": "google_news"
   },
   {
@@ -14840,7 +15020,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-23T17:36:26+00:00",
-    "collected_at": "2026-09-29T08:31:31.187372+00:00",
+    "collected_at": "2026-09-29T09:31:35.728257+00:00",
     "origin": "google_news"
   },
   {
@@ -15788,7 +15968,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-23T11:02:39+00:00",
-    "collected_at": "2026-09-29T08:31:25.726004+00:00",
+    "collected_at": "2026-09-29T09:31:30.448391+00:00",
     "origin": "google_news"
   },
   {
@@ -15968,7 +16148,7 @@
     "category_hint": "Good News",
     "priority": 7,
     "published_at": "2026-09-23T10:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:27.120362+00:00",
+    "collected_at": "2026-09-29T09:31:31.803941+00:00",
     "origin": "google_news"
   },
   {
@@ -16148,7 +16328,7 @@
     "category_hint": "Minnesota",
     "priority": 9,
     "published_at": "2026-09-23T09:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:19.434421+00:00",
+    "collected_at": "2026-09-29T09:31:24.271361+00:00",
     "origin": "google_news"
   },
   {
@@ -16892,7 +17072,7 @@
     "category_hint": "Tech & AI",
     "priority": 8,
     "published_at": "2026-09-23T00:17:17+00:00",
-    "collected_at": "2026-09-29T08:31:25.733263+00:00",
+    "collected_at": "2026-09-29T09:31:30.455238+00:00",
     "origin": "google_news"
   },
   {
@@ -17324,7 +17504,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-22T21:31:01+00:00",
-    "collected_at": "2026-09-29T08:31:18.224576+00:00",
+    "collected_at": "2026-09-29T09:31:23.047790+00:00",
     "origin": "google_news"
   },
   {
@@ -17876,7 +18056,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T19:01:18+00:00",
-    "collected_at": "2026-09-29T08:31:25.974313+00:00",
+    "collected_at": "2026-09-29T09:31:30.577191+00:00",
     "origin": "rss"
   },
   {
@@ -17948,7 +18128,7 @@
     "category_hint": "Employment Law",
     "priority": 10,
     "published_at": "2026-09-22T18:31:15+00:00",
-    "collected_at": "2026-09-29T08:31:22.888973+00:00",
+    "collected_at": "2026-09-29T09:31:27.629894+00:00",
     "origin": "google_news"
   },
   {
@@ -19472,7 +19652,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T09:46:15+00:00",
-    "collected_at": "2026-09-29T08:31:25.974527+00:00",
+    "collected_at": "2026-09-29T09:31:30.577403+00:00",
     "origin": "rss"
   },
   {
@@ -19520,7 +19700,7 @@
     "category_hint": "Entertainment & Culture",
     "priority": 7,
     "published_at": "2026-09-22T09:27:28+00:00",
-    "collected_at": "2026-09-29T08:31:25.974758+00:00",
+    "collected_at": "2026-09-29T09:31:30.577610+00:00",
     "origin": "rss"
   },
   {
@@ -19760,7 +19940,7 @@
     "category_hint": "Business & Economy",
     "priority": 7,
     "published_at": "2026-09-22T07:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:23.978508+00:00",
+    "collected_at": "2026-09-29T09:31:28.720284+00:00",
     "origin": "google_news"
   },
   {
@@ -20192,7 +20372,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-22T00:31:03+00:00",
-    "collected_at": "2026-09-29T08:31:30.039871+00:00",
+    "collected_at": "2026-09-29T09:31:34.544118+00:00",
     "origin": "google_news"
   },
   {
@@ -20252,7 +20432,7 @@
     "category_hint": "Top News",
     "priority": 9,
     "published_at": "2026-09-21T23:47:00+00:00",
-    "collected_at": "2026-09-29T08:31:18.215757+00:00",
+    "collected_at": "2026-09-29T09:31:23.038427+00:00",
     "origin": "google_news"
   },
   {
@@ -20468,7 +20648,7 @@
     "category_hint": "California Law",
     "priority": 9,
     "published_at": "2026-09-21T21:14:50+00:00",
-    "collected_at": "2026-09-29T08:31:31.825697+00:00",
+    "collected_at": "2026-09-29T09:31:36.236940+00:00",
     "origin": "google_news"
   },
   {
@@ -20792,7 +20972,7 @@
     "category_hint": "California Law",
     "priority": 10,
     "published_at": "2026-09-21T19:19:04+00:00",
-    "collected_at": "2026-09-29T08:31:27.609068+00:00",
+    "collected_at": "2026-09-29T09:31:32.346487+00:00",
     "origin": "google_news"
   },
   {
@@ -21584,7 +21764,7 @@
     "category_hint": "Health & Science",
     "priority": 6,
     "published_at": "2026-09-21T15:05:24+00:00",
-    "collected_at": "2026-09-29T08:31:24.577626+00:00",
+    "collected_at": "2026-09-29T09:31:29.243945+00:00",
     "origin": "google_news"
   },
   {
@@ -24692,7 +24872,19 @@
     "category_hint": "Business & Economy",
     "priority": 7,
     "published_at": "2026-09-20T07:00:00+00:00",
-    "collected_at": "2026-09-29T08:31:23.979254+00:00",
+    "collected_at": "2026-09-29T09:31:28.721037+00:00",
+    "origin": "google_news"
+  },
+  {
+    "id": "0f44d15ab60de62d67358aed",
+    "title": "The 'robot relations' department may become reality in workplace of the future - CNBC",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxbWw5STB4ek1ONERmeTJTVGV3Vmh6QnNVenUtTzQyUFhkSXJNUTk4M1g2VG52V0lqWVhhd3lydTg0alRJNzJYQTEzVzhWOGlnbjZYYzNzbGM0aEw4ZjhTem9MVG9rb3hK0gFuQVVfeXFMUGlPcC1OMXFHVlNYNnN3VnduUTkyclBJQ0RLSGxxWTh0M2dPQU0wZzR2bTVoajFvdDBxOXN4VDYyWDRpWllVZjdBWlRrNWZLUUlDeXp4VGZCdGlmZWVETmxYVWJ5QmozUW9ybUJuMmc?oc=5",
+    "summary": "The 'robot relations' department may become reality in workplace of the future CNBC",
+    "source": "CNBC",
+    "category_hint": "California Law",
+    "priority": 10,
+    "published_at": "2026-09-20T07:00:00+00:00",
+    "collected_at": "2026-09-29T09:31:33.952131+00:00",
     "origin": "google_news"
   },
   {
@@ -26313,66 +26505,6 @@
     "priority": 9,
     "published_at": "2026-09-19T09:59:00+00:00",
     "collected_at": "2026-09-21T11:27:29.509427+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "b130867c43aca9f4f891c9ff",
-    "title": "Archaeologists are racing to save precious artifacts in Alaska after last year's storm",
-    "url": "https://www.npr.org/2026/09/19/nx-s1-5966568/ex-typhoon-halong-nunallaq-artifacts-archaeological-dig-site-alaska-quinhagak",
-    "summary": "Last year, remnants of a typhoon damaged homes, infrastructure and an archaeological dig site. Now, archaeologists are trying to get as many objects out as possible before the next storm.",
-    "source": "NPR Top Stories",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-19T09:01:00+00:00",
-    "collected_at": "2026-09-20T08:26:44.981940+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "3e83a6c440768b487889c2a8",
-    "title": "Russia Warns New U.S. Sanctions Law Would Harm Trump’s Peace Efforts - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMGFVVjBESXNDS3pqTXUwbll6TlgyMzctMUpMSjY2c2tnTG1TRUN2UjM4dWE4MHZMWENTX1pXeHQ1MEpCUFNuQXFhVTZXNzMwQkJ1S29WMTFyOGw3NDRhVnp0V2dLSHRWY1ZLSHRGXzNydFZjbkVhN1VDWmJnSm5pSEViYzU?oc=5",
-    "summary": "Russia Warns New U.S. Sanctions Law Would Harm Trump’s Peace Efforts The New York Times",
-    "source": "The New York Times",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-19T09:00:11+00:00",
-    "collected_at": "2026-09-22T14:27:51.702354+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "d2fa7d1fbf8fb711ed4d0ea9",
-    "title": "Fillmore County resident tests positive for measles; first case in Minnesota since April - MPR News",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOWZWcFFYQTNKdFlsU2N2eFBYQ1JTZEl3TlAtcFRvTWhOSVFRdW02ajZjNS1uaWNvTGx1MUNQX014amVFbkw2aTVLbGVmbHNPNU5fNnBhRTNMZUV6aElzOTR4TFRkM2JUcDFTWmtucGxqQlkwTDlWSmFVYVdyVnVWQ3dnSldvSGhSdzRSdEs0dU1tbThyRFJJTzZGdzdZa2xVY2dpT2Y3ZU0tc3JlZFJ3RkZYMEFFSWItejBwRk5DUnBJTzAxM3ZB?oc=5",
-    "summary": "Fillmore County resident tests positive for measles; first case in Minnesota since April MPR News",
-    "source": "MPR News",
-    "category_hint": "Minnesota",
-    "priority": 9,
-    "published_at": "2026-09-19T09:00:00+00:00",
-    "collected_at": "2026-09-21T13:26:49.831770+00:00",
-    "origin": "google_news"
-  },
-  {
-    "id": "a6668f88b2116dab39d49f03",
-    "title": "Ever wonder how the Fed's interest rate actually works? We've got answers",
-    "url": "https://www.npr.org/2026/09/19/nx-s1-5969816/federal-reserve-interest-rate-inflation-economy",
-    "summary": "The Federal Reserve just raised interest rates this week for the first time this year. So how does it actually work? And what does it mean for the economy — and the rest of us? Here are some answers.",
-    "source": "NPR Top Stories",
-    "category_hint": "Top News",
-    "priority": 9,
-    "published_at": "2026-09-19T09:00:00+00:00",
-    "collected_at": "2026-09-20T08:26:44.982217+00:00",
-    "origin": "rss"
-  },
-  {
-    "id": "151f1487cab5728f5544c941",
-    "title": "'I trained hearing dogs for years - then needed my own' - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lZ09HZ20yYU1jX0RoM0RpeXNUTjB5bkFzX2VxckYwMVM4TnJhTTFTSkJYY1JMODBzZ1pBZXlRQXlvdWE0VW1JXy1TUDBGZGo2YjFJZEZzRHJ0b1U?oc=5",
-    "summary": "'I trained hearing dogs for years - then needed my own' BBC",
-    "source": "BBC",
-    "category_hint": "Good News",
-    "priority": 7,
-    "published_at": "2026-09-19T08:47:23+00:00",
-    "collected_at": "2026-09-21T18:29:49.166758+00:00",
     "origin": "google_news"
   }
 ]
